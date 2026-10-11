@@ -1,0 +1,1 @@
+早期受控Auth响应只有现代code，缺X-Supabase-Api-Version:2024-01-01；installed @supabase/auth-js/src/lib/fetch.ts 在无该头时读取legacy error_code，故403会成为无code通用拒绝。早期browser-otp-403-before-fix不能单独证明已知code优先级缺陷。优先级缺陷确证来自修前真实编译产物的error-normalization-before.json（3个403+已知code实际误permissionDenied）。修后browser-otp-errors-final.json补版本头，验证实际SDK503/429/403映射；替身协议修正与实现修复分开。

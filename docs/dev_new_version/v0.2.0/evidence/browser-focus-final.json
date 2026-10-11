@@ -1,0 +1,152 @@
+{
+  "layer": "L3真实Chromium/官方SDK/IndexedDB + 受控GoTrue和PGlite RPC；非Supabase实云",
+  "startedAt": "2026-10-11T07:33:26.164Z",
+  "checks": [
+    {
+      "id": "U06-keyboard-dialog-focus-cancel-safe",
+      "status": "pass",
+      "detail": {
+        "initialTitleFocus": true,
+        "focusTrap": true,
+        "backgroundInert": true,
+        "escapeNoWrite": true,
+        "returnFocus": true
+      }
+    },
+    {
+      "id": "U06-focus-adjacent-import-restore-conflict-refresh-failure",
+      "status": "pass",
+      "detail": [
+        {
+          "case": "guest-import-cancel",
+          "returnedTo": "import-trigger"
+        },
+        {
+          "case": "account-import-cancel",
+          "returnedTo": "import-trigger"
+        },
+        {
+          "case": "preview-network-failure",
+          "returnedTo": "migration-trigger"
+        },
+        {
+          "case": "refresh-preview-rekey",
+          "oldReturnDidNotStealTitle": true
+        },
+        {
+          "case": "restore-cancel",
+          "returnedTo": "restore-account-c61bd69b-0d29-4a12-adbf-eec078a7f4a7"
+        },
+        {
+          "case": "conflict-close",
+          "returnedToRealTrigger": true
+        }
+      ]
+    }
+  ],
+  "pageErrors": [],
+  "resourceErrors": [],
+  "authCalls": [
+    {
+      "method": "POST",
+      "path": "/auth/v1/otp",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/verify",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/otp",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/verify",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/otp",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/verify",
+      "grant": null
+    }
+  ],
+  "rpcCalls": [
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "apply_shrine_progress",
+      "owner": "A",
+      "batch": 136
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "apply_shrine_progress",
+      "owner": "A",
+      "batch": 1
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    }
+  ],
+  "browser": "149.0.7827.55",
+  "status": "pass",
+  "completedAt": "2026-10-11T07:33:31.658Z"
+}

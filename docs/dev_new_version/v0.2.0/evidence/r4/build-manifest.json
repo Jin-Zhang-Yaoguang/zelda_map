@@ -1,0 +1,79 @@
+{
+  "startedAt": "2026-10-11T12:50:29.385Z",
+  "node": "v24.18.0",
+  "scope": "r4只构建root/Pages；合成未配置访客envFile:false，不读.env.local",
+  "sourceHashes": {
+    "package.json": "8d8817901cd5e2c19ef96d867191a6d13af32b9d9ec01248fdbe9433ad052bd3",
+    "package-lock.json": "e73a0dcd7e291c84a3c4152f148c313f977024485d1d80b0bade6cb9f1ad3de1",
+    "src/App.tsx": "a80ab096414bf8561741152d50ce6763cc256ce78ccbb454954ba75366b1524d",
+    "src/components/AccountDialog.tsx": "87b6dd05402d36b9f0fb58637944e6ef4c64a65b6dbccd193d185d3fc040081b",
+    "src/components/AccountPanel.tsx": "2ede9dd9fe625524c4ddcec5e107c90621020d2c5ed8d96d26f088d41621461b",
+    "src/components/ConflictDialog.tsx": "abc0d2a79ce3a9cb36159149d3c3883901330c70859f4c118a8364924b93f88e",
+    "src/components/Icon.tsx": "1fb277363d562df850dda3db1828a452a624654efff661aeddbc3bf8cd519eff",
+    "src/components/ImportDialog.tsx": "70b7fcc5ea42edf04deb355fd28db0b00cb274c04e84b6356666c02236fef8a7",
+    "src/components/MapCanvas.tsx": "8f912e57fe534261d1bdf9d59c875f35f86a72d2170e39434766ceb6d80aa61c",
+    "src/components/SafePreview.tsx": "470d61bcc115533d1cc383770db7be4187def067ac5789a341470be78d1b9030",
+    "src/components/Settings.tsx": "437ac11f93d36acffb5fad1d25ff1ce3c81a1f6cbc87e947884252d495fec344",
+    "src/components/ShrineDetails.tsx": "0945785ea0253ddfee7676b25c1e2cc0886ccf2e421496a69d4331a3b49698e7",
+    "src/components/SyncStatus.tsx": "61f8e995fab5472a9dee6ede701202898084b888c86192472f4768f7a8d78480",
+    "src/components/Text.tsx": "4cc29b7e303754221fb100b70d407146617770427e24d7f314be87d3cd77e8b5",
+    "src/components/TransferDialog.tsx": "a93249a9adbcb6d4a61e6ee9074cbdf020ba9be22330f16fad6eced9b3737a46",
+    "src/i18n.ts": "0dc86d1cb88a8f372785db46810fd30bc2967316f28bc11d9cc1a4a32917e676",
+    "src/lib/cloud/auth.ts": "f6d32427e79bd3c6dfed9274b5443ab93f244d0f59f5e3c3748cf4e9ffaf6cbd",
+    "src/lib/cloud/client.ts": "73bd1004ffe1da25036a8052df4113effad9a9dfaaf5ad3af4ac7c119584462e",
+    "src/lib/cloud/errors.ts": "4e72920bf2e364de4c141cb097f6324497e1a284ce2936bca659bbadcae20ea7",
+    "src/lib/cloud/repository.ts": "f352bb1e595edb097159c790a1a37049afdafd452108d1f407e82ad3158f0f16",
+    "src/lib/data.ts": "caa9d120c73c527adc930322cb11e96c3abd16cf01a23fb04b150092d90f0c66",
+    "src/lib/map.ts": "31942b26a812feb44e208fc0e2d00aab44b7a34abca40784c6d80cdb6926cabd",
+    "src/lib/mapTiles.ts": "24d463c90103db4ed631b75f6932461f6eec415893f0093ea92ca2203d63723a",
+    "src/lib/progress.ts": "bb79643bbb61d1e5e83d7c6982edfa5fa15868da0f1f760101151f24900246a8",
+    "src/lib/smoothWheelZoom.ts": "7f9d093715eb690edb84e046b722e39f2bb7e4fc814218d8e1c0ee7127e521cc",
+    "src/lib/sync/controller.ts": "c73e76d6077a2661dca154c98e49e75222f3fd78484d717d8f324540c0bbe268",
+    "src/lib/sync/storage.ts": "ea290950aeca6ffbc4760348642c5044d326321a248f738fbba8fc4d13f1ebf8",
+    "src/lib/sync/types.ts": "7964b2aa488d243b6b5328cc959823867268b87892fd013b46a3aa03c18f7df3",
+    "src/main.tsx": "e7d86d0c7194d7ae7740747e6a63e00644c8abd58a30cb704c4eadc23025900c",
+    "src/styles.css": "8774d8c73fd96be000df7bf0915a81fdf88d91e273b02726dd734bb37ab0fe82",
+    "src/types.ts": "d337085d9fa37ea15b6d804c0fb607153362182455518821a8d22cec40559eed",
+    "src/vite-env.d.ts": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5",
+    "supabase/migrations/202610110001_account_progress.sql": "3f30a3251c13ae579c9c7b78d6de185cfc8b2cf61d3ee3482dc8b8fdf0225c5a",
+    "public/data/shrines.json": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde",
+    "public/assets/hyrule-base.webp": "5847a9e5f5d4ed44bc20b61d2b5c24999c33b796d8a42354946f42c631b4ec10",
+    "data/sources/map-tiles-manifest.json": "df8f0449311c3809adcb79f3180ea44a78ce572ad43cb93e5a23837a57cf5356"
+  },
+  "builds": [
+    {
+      "name": "root",
+      "base": "/",
+      "envFile": false,
+      "copiedTiles": 9945,
+      "tileHashChain": "6c227da15811d36b162a6ac0689934f8e38316f0d229618dc08f025d6882972e",
+      "artifacts": {
+        "THIRD_PARTY_NOTICES.txt": "07d159df62ecbb782790fa41059b3864424d3d8016c7c5da8f551c51af74f25d",
+        "assets/hyrule-base.webp": "5847a9e5f5d4ed44bc20b61d2b5c24999c33b796d8a42354946f42c631b4ec10",
+        "assets/index-B-LnUp9B.js": "689820f9a5021260c7e776fa63993213c7a6f2d53cd809a2b117dfb33cdcda13",
+        "assets/index-D7t4FtHP.css": "0e60f6508d9b7c0469b7e40659cf5f0b8222638f0a557a17d80529c51ccaf686",
+        "data/shrines.json": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde",
+        "index.html": "c9ed9b950074d5359608df55d7615ac49de3d5ff78fa0714ab47465c9c5bc0f4"
+      }
+    },
+    {
+      "name": "pages",
+      "base": "/zelda_map/",
+      "envFile": false,
+      "copiedTiles": 9945,
+      "tileHashChain": "6c227da15811d36b162a6ac0689934f8e38316f0d229618dc08f025d6882972e",
+      "artifacts": {
+        "THIRD_PARTY_NOTICES.txt": "07d159df62ecbb782790fa41059b3864424d3d8016c7c5da8f551c51af74f25d",
+        "assets/hyrule-base.webp": "5847a9e5f5d4ed44bc20b61d2b5c24999c33b796d8a42354946f42c631b4ec10",
+        "assets/index-CbJGbAtE.js": "397f31552a5cd61b7f92fa7065595015104a54972c55e7fe863707f70c1f1fe4",
+        "assets/index-D7t4FtHP.css": "0e60f6508d9b7c0469b7e40659cf5f0b8222638f0a557a17d80529c51ccaf686",
+        "data/shrines.json": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde",
+        "index.html": "6dfde438033ba59e6c904f153face4b51612479777f3b0e1d36ef5189411fa5a"
+      }
+    }
+  ],
+  "typecheckExit": 0,
+  "harnessHash": "8bd409eb733e8ea930d4f9fe3c432c069d5a3885d54c9b962d6a757629553dec",
+  "sourceStable": true,
+  "completedAt": "2026-10-11T12:50:40.828Z"
+}

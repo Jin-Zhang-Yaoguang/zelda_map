@@ -1,0 +1,35 @@
+{
+  "layer": "L3真实Chromium/官方SDK/IndexedDB + 受控GoTrue和PGlite RPC；非Supabase实云",
+  "startedAt": "2026-10-11T10:02:03.841Z",
+  "checks": [
+    {
+      "id": "P03-sdk-invalid-signin-user-only",
+      "status": "pass",
+      "detail": {
+        "sdkRejectsMalformedSignin": true,
+        "safeMessage": "请求未完成，请检查连接后重试。",
+        "noAccountOrCloudWrite": true,
+        "guestPreserved": true,
+        "oneRequest": true
+      }
+    }
+  ],
+  "pageErrors": [],
+  "resourceErrors": [],
+  "authCalls": [
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "password"
+    }
+  ],
+  "rpcCalls": [],
+  "browser": "149.0.7827.55",
+  "status": "pass",
+  "completedAt": "2026-10-11T10:02:05.082Z",
+  "cleanup": {
+    "browserClosed": true,
+    "httpClosed": true,
+    "pgliteClosed": true
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "layer": "L3真实Chromium/官方SDK/IndexedDB + 受控GoTrue和PGlite RPC；非Supabase实云",
+  "startedAt": "2026-10-11T07:09:34.072Z",
+  "checks": [
+    {
+      "id": "A05-context-corrupt-expired-ignored",
+      "status": "pass",
+      "detail": [
+        {
+          "base": "http://127.0.0.1:5174/",
+          "kind": "corrupt",
+          "ignored": true,
+          "loginStillWorked": true,
+          "guestUntouched": true
+        },
+        {
+          "base": "http://127.0.0.1:5174/zelda_map/",
+          "kind": "expired",
+          "ignored": true,
+          "loginStillWorked": true,
+          "guestUntouched": true
+        }
+      ]
+    }
+  ],
+  "pageErrors": [],
+  "resourceErrors": [],
+  "authCalls": [
+    {
+      "method": "GET",
+      "path": "/auth/v1/authorize",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "pkce"
+    },
+    {
+      "method": "GET",
+      "path": "/auth/v1/authorize",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "pkce"
+    }
+  ],
+  "rpcCalls": [
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    }
+  ],
+  "browser": "149.0.7827.55",
+  "status": "pass",
+  "completedAt": "2026-10-11T07:09:35.963Z"
+}

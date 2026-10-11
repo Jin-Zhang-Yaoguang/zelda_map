@@ -1,0 +1,104 @@
+{
+  "layer": "L3真实Chromium/官方SDK/IndexedDB + 受控GoTrue和PGlite RPC；非Supabase实云",
+  "startedAt": "2026-10-11T06:57:21.969Z",
+  "checks": [
+    {
+      "id": "U04-E09-conflict-second-change-clears-choice-local-cloud",
+      "status": "pass",
+      "detail": [
+        {
+          "choice": "local",
+          "oldRadioCleared": true,
+          "oldChoiceNoWrite": true,
+          "newChoiceConfirmed": true
+        },
+        {
+          "choice": "cloud",
+          "oldRadioCleared": true,
+          "oldChoiceNoWrite": true,
+          "newChoiceConfirmed": true
+        }
+      ]
+    }
+  ],
+  "pageErrors": [],
+  "resourceErrors": [],
+  "authCalls": [
+    {
+      "method": "POST",
+      "path": "/auth/v1/otp",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/verify",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/otp",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/verify",
+      "grant": null
+    }
+  ],
+  "rpcCalls": [
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "apply_shrine_progress",
+      "owner": "A",
+      "batch": 1
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "apply_shrine_progress",
+      "owner": "A",
+      "batch": 1
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "apply_shrine_progress",
+      "owner": "A",
+      "batch": 1
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    }
+  ],
+  "browser": "149.0.7827.55",
+  "status": "pass",
+  "completedAt": "2026-10-11T06:57:24.666Z"
+}

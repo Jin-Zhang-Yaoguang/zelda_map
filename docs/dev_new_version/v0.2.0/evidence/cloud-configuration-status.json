@@ -1,0 +1,32 @@
+{
+  "scope": "r3 email-only configuration; limited real API verified, browser user acceptance pending",
+  "project_ref": "tvbpcfsjcwoelfkfjxaw",
+  "migration": {
+    "path": "supabase/migrations/202610110001_account_progress.sql",
+    "sha256": "3f30a3251c13ae579c9c7b78d6de185cfc8b2cf61d3ee3482dc8b8fdf0225c5a",
+    "execution": "Edge SQL Editor transaction; GUI Success. No rows returned",
+    "metadata_verified": true
+  },
+  "anonymous_rpc": "get_shrine_progress(p_game_id=botw) and apply_shrine_progress(empty mutations) both HTTP401/42501 permission denied; no session or progress changes",
+  "email_provider_enabled": true,
+  "github_provider_enabled": false,
+  "smtp_ready": false,
+  "auth_redirects_verified": true,
+  "live_user_sync_verified": true,
+  "production_v020_deployed": false,
+  "email_auth_requirement": "r3 email/password only; GitHub canceled, OTP/SMTP paused",
+  "auth_redirect_verification_scope": "Dashboard save/readback retained; OAuth no longer in scope",
+  "site_url": "https://jin-zhang-yaoguang.github.io/zelda_map/",
+  "redirect_urls": [
+    "http://127.0.0.1:5173/",
+    "http://localhost:5173/",
+    "https://jin-zhang-yaoguang.github.io/zelda_map/"
+  ],
+  "confirm_email_enabled": false,
+  "password_min_length_verified": 8,
+  "password_min_length_submission": 8,
+  "smtp_in_current_scope": false,
+  "live_user_sync_verification_scope": "Two synthetic QA users; independent SDK clients and current controller real RPC; not user original data or physical devices",
+  "github_configuration_required": false,
+  "r3_public_readback": "r3/auth-public-settings.json"
+}

@@ -1,0 +1,253 @@
+{
+  "layer": "L3真实Chromium/官方SDK/IndexedDB + 受控GoTrue和PGlite RPC；非Supabase实云",
+  "startedAt": "2026-10-11T06:51:39.630Z",
+  "checks": [
+    {
+      "id": "U01-A01-unconfigured-guest-and-storage-failure",
+      "status": "pass",
+      "detail": {
+        "unconfiguredGuest": true,
+        "failureNotSuccess": true
+      }
+    },
+    {
+      "id": "U02-A02-A03-OTP-error-then-account-no-auto-migration",
+      "status": "pass",
+      "detail": {
+        "OTPRequestedNotLoggedIn": true,
+        "invalidRecoverable": true,
+        "accountCount": 2,
+        "guestPreserved": true
+      }
+    },
+    {
+      "id": "U03-R4-account-false-refresh-DLC-and-signout-guest",
+      "status": "pass",
+      "detail": {
+        "accountFalsePersisted": true,
+        "dlc120": true,
+        "guestRestored": true
+      }
+    },
+    {
+      "id": "U05-U06-E11-migration-preview-cancel-backup-replace",
+      "status": "fail",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ []\n- [\n-   '2',\n-   '2',\n-   '—'\n- ]\n\n    at /Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/qa_browser.cjs:53:242\n    at async check (/Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/qa_browser.cjs:45:161)\n    at async /Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/qa_browser.cjs:53:2"
+    },
+    {
+      "id": "G02-account-unknown-Tower-backup-rejected",
+      "status": "pass",
+      "detail": {
+        "TowerRejected": true
+      }
+    },
+    {
+      "id": "E02-U03-first-cloud-read-failure-read-only",
+      "status": "fail",
+      "error": "page.waitForFunction: Timeout 12000ms exceeded.\n    at /Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/qa_browser.cjs:55:407\n    at async check (/Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/qa_browser.cjs:45:161)\n    at async /Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/qa_browser.cjs:55:2"
+    },
+    {
+      "id": "E05-U03-browser-network-failure-refresh-retry",
+      "status": "pass",
+      "detail": {
+        "actualBrowserQueueSurvivedReload": true,
+        "network503Controlled": true,
+        "retrySynced": true
+      }
+    },
+    {
+      "id": "V01-V02-V03-three-languages-map-status-layout",
+      "status": "pass",
+      "detail": {
+        "locales": [
+          "zh",
+          "en",
+          "ja"
+        ],
+        "widths": [
+          1440,
+          608,
+          390,
+          360
+        ],
+        "tooltipWidth": 220
+      }
+    },
+    {
+      "id": "A05-OAuth-full-navigation-view-root",
+      "status": "fail",
+      "error": "AssertionError [ERR_ASSERTION]: x OAuth map drift\n    at /Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/qa_browser.cjs:58:1627\n    at async check (/Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/qa_browser.cjs:45:161)\n    at async /Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/qa_browser.cjs:58:107"
+    },
+    {
+      "id": "A05-OAuth-full-navigation-view-pages",
+      "status": "fail",
+      "error": "AssertionError [ERR_ASSERTION]: x OAuth map drift\n    at /Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/qa_browser.cjs:58:1627\n    at async check (/Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/qa_browser.cjs:45:161)\n    at async /Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/qa_browser.cjs:58:107"
+    }
+  ],
+  "pageErrors": [],
+  "resourceErrors": [],
+  "authCalls": [
+    {
+      "method": "POST",
+      "path": "/auth/v1/otp",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/verify",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/verify",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/otp",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/verify",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/logout",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/otp",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/verify",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/otp",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/verify",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/otp",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/verify",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/otp",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/verify",
+      "grant": null
+    },
+    {
+      "method": "GET",
+      "path": "/auth/v1/authorize",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "pkce"
+    },
+    {
+      "method": "GET",
+      "path": "/auth/v1/authorize",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "pkce"
+    }
+  ],
+  "rpcCalls": [
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "apply_shrine_progress",
+      "owner": "A",
+      "batch": 1
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "apply_shrine_progress",
+      "owner": "A",
+      "batch": 1
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "B"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "B"
+    },
+    {
+      "name": "apply_shrine_progress",
+      "owner": "B",
+      "batch": 1
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "B"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    }
+  ],
+  "browser": "149.0.7827.55",
+  "status": "fail",
+  "completedAt": "2026-10-11T06:51:59.764Z"
+}

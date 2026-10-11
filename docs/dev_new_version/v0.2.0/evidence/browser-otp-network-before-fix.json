@@ -1,0 +1,29 @@
+{
+  "layer": "L3真实Chromium/官方SDK/IndexedDB + 受控GoTrue和PGlite RPC；非Supabase实云",
+  "startedAt": "2026-10-11T06:57:52.516Z",
+  "checks": [
+    {
+      "id": "A03-OTP-verification-network-error-accurate",
+      "status": "fail",
+      "error": "AssertionError [ERR_ASSERTION]: 网络错误被误报为验证码错误：验证码无效或已过期，请检查或重新发送。\n    at /Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/qa_browser.cjs:61:592\n    at async check (/Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/qa_browser.cjs:45:161)\n    at async /Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/qa_browser.cjs:61:2"
+    }
+  ],
+  "pageErrors": [],
+  "resourceErrors": [],
+  "authCalls": [
+    {
+      "method": "POST",
+      "path": "/auth/v1/otp",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/verify",
+      "grant": null
+    }
+  ],
+  "rpcCalls": [],
+  "browser": "149.0.7827.55",
+  "status": "fail",
+  "completedAt": "2026-10-11T06:57:53.822Z"
+}

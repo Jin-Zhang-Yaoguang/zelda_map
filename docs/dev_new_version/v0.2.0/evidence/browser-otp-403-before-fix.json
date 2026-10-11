@@ -1,0 +1,29 @@
+{
+  "layer": "L3真实Chromium/官方SDK/IndexedDB + 受控GoTrue和PGlite RPC；非Supabase实云",
+  "startedAt": "2026-10-11T07:05:50.257Z",
+  "checks": [
+    {
+      "id": "A03-OTP-verification-network-error-accurate",
+      "status": "fail",
+      "error": "AssertionError [ERR_ASSERTION]: 403 otp_expired被错误映射：登录未完成，请重试。\n    at /Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/qa_browser.cjs:61:610\n    at async check (/Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/qa_browser.cjs:45:161)\n    at async /Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/qa_browser.cjs:61:2"
+    }
+  ],
+  "pageErrors": [],
+  "resourceErrors": [],
+  "authCalls": [
+    {
+      "method": "POST",
+      "path": "/auth/v1/otp",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/verify",
+      "grant": null
+    }
+  ],
+  "rpcCalls": [],
+  "browser": "149.0.7827.55",
+  "status": "fail",
+  "completedAt": "2026-10-11T07:05:51.561Z"
+}

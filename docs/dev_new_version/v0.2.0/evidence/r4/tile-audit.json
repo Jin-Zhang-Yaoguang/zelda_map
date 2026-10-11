@@ -1,0 +1,55 @@
+{
+  "scope": "独立本地原PNG/manifest一致性与几何；未重新请求远端源",
+  "startedAt": "2026-10-11T12:50:29.283Z",
+  "manifestHash": "df8f0449311c3809adcb79f3180ea44a78ce572ad43cb93e5a23837a57cf5356",
+  "levels": {
+    "2": {
+      "count": 9,
+      "columns": 3,
+      "rows": 3,
+      "logicalTileSpan": 1024
+    },
+    "3": {
+      "count": 30,
+      "columns": 6,
+      "rows": 5,
+      "logicalTileSpan": 512
+    },
+    "4": {
+      "count": 120,
+      "columns": 12,
+      "rows": 10,
+      "logicalTileSpan": 256
+    },
+    "5": {
+      "count": 480,
+      "columns": 24,
+      "rows": 20,
+      "logicalTileSpan": 128
+    },
+    "6": {
+      "count": 1880,
+      "columns": 47,
+      "rows": 40,
+      "logicalTileSpan": 64
+    },
+    "7": {
+      "count": 7426,
+      "columns": 94,
+      "rows": 79,
+      "logicalTileSpan": 32
+    }
+  },
+  "count": 9945,
+  "bytes": 252130058,
+  "sourceDimensions": [
+    24000,
+    20000
+  ],
+  "worldDimensions": [
+    3000,
+    2500
+  ],
+  "status": "pass",
+  "completedAt": "2026-10-11T12:50:31.880Z"
+}

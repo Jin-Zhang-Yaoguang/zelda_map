@@ -1,0 +1,76 @@
+{
+  "layer": "L3真实Chromium/官方SDK/IndexedDB + 受控GoTrue和PGlite RPC；非Supabase实云",
+  "startedAt": "2026-10-11T06:53:35.927Z",
+  "checks": [
+    {
+      "id": "U05-U06-E11-migration-preview-cancel-backup-replace",
+      "status": "pass",
+      "detail": {
+        "previewCounts": [
+          2,
+          2
+        ],
+        "cancelNoWrite": true,
+        "failedBackupNoCloudWrite": true,
+        "successBatch136": true,
+        "guestRawPreserved": true
+      }
+    }
+  ],
+  "pageErrors": [],
+  "resourceErrors": [],
+  "authCalls": [
+    {
+      "method": "POST",
+      "path": "/auth/v1/otp",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/verify",
+      "grant": null
+    }
+  ],
+  "rpcCalls": [
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "apply_shrine_progress",
+      "owner": "A",
+      "batch": 136
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    }
+  ],
+  "browser": "149.0.7827.55",
+  "status": "pass",
+  "completedAt": "2026-10-11T06:53:39.515Z"
+}

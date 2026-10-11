@@ -1,0 +1,71 @@
+{
+  "time_utc": "2026-10-11T09:37:26.834739+00:00",
+  "source": "Edge Supabase SQL Editor read-only catalog queries",
+  "scope": "Schema/catalog only; no user rows, session tokens or secrets read",
+  "tables": [
+    {
+      "schema": "private",
+      "name": "progress_receipts",
+      "rls_enabled": true,
+      "anon_read": false,
+      "authenticated_read": false,
+      "authenticated_insert": false,
+      "authenticated_update": false,
+      "authenticated_delete": false
+    },
+    {
+      "schema": "private",
+      "name": "shrine_progress",
+      "rls_enabled": true,
+      "anon_read": false,
+      "authenticated_read": false,
+      "authenticated_insert": false,
+      "authenticated_update": false,
+      "authenticated_delete": false
+    }
+  ],
+  "functions": [
+    {
+      "name": "apply_shrine_progress",
+      "arguments": "p_game_id text, p_request_id uuid, p_mutations jsonb",
+      "security_definer": true,
+      "search_path": "",
+      "anon_execute": false,
+      "authenticated_execute": true
+    },
+    {
+      "name": "get_shrine_progress",
+      "arguments": "p_game_id text",
+      "security_definer": true,
+      "search_path": "",
+      "anon_execute": false,
+      "authenticated_execute": true
+    }
+  ],
+  "policies": [
+    {
+      "table": "progress_receipts",
+      "name": "owner_receipts",
+      "roles": [
+        "authenticated"
+      ],
+      "command": "ALL",
+      "using_and_with_check": "auth.uid() IS NOT NULL AND auth.uid() = user_id"
+    },
+    {
+      "table": "shrine_progress",
+      "name": "owner_progress",
+      "roles": [
+        "authenticated"
+      ],
+      "command": "ALL",
+      "using_and_with_check": "auth.uid() IS NOT NULL AND auth.uid() = user_id"
+    }
+  ],
+  "private_screenshots": [
+    ".runtime/cloud-policies.png",
+    ".runtime/cloud-table-permissions.png",
+    ".runtime/cloud-rpc-permissions.png"
+  ],
+  "limits": "Catalog verification does not demonstrate authenticated A/B API isolation or successful cloud progress synchronization"
+}

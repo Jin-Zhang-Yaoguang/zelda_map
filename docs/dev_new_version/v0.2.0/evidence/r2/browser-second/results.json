@@ -1,0 +1,607 @@
+{
+  "layer": "L3真实Chromium/官方SDK/IndexedDB + 受控GoTrue和PGlite RPC；非Supabase实云",
+  "startedAt": "2026-10-11T09:58:41.752Z",
+  "checks": [
+    {
+      "id": "U01-A01-unconfigured-guest-and-storage-failure",
+      "status": "pass",
+      "detail": {
+        "unconfiguredGuest": true,
+        "failureNotSuccess": true
+      }
+    },
+    {
+      "id": "U03-R4-account-false-refresh-DLC-and-signout-guest",
+      "status": "pass",
+      "detail": {
+        "accountFalsePersisted": true,
+        "dlc120": true,
+        "guestRestored": true
+      }
+    },
+    {
+      "id": "U05-U06-E11-migration-preview-cancel-backup-replace",
+      "status": "pass",
+      "detail": {
+        "previewCounts": [
+          2,
+          2
+        ],
+        "cancelNoWrite": true,
+        "failedBackupNoCloudWrite": true,
+        "successBatch136": true,
+        "guestRawPreserved": true
+      }
+    },
+    {
+      "id": "G02-account-unknown-Tower-backup-rejected",
+      "status": "pass",
+      "detail": {
+        "TowerRejected": true
+      }
+    },
+    {
+      "id": "E02-U03-first-cloud-read-failure-read-only",
+      "status": "pass",
+      "detail": {
+        "cloudReadFailureNotEmpty": true,
+        "editAndImportDisabled": true
+      }
+    },
+    {
+      "id": "E05-U03-browser-network-failure-refresh-retry",
+      "status": "pass",
+      "detail": {
+        "actualBrowserQueueSurvivedReload": true,
+        "network503Controlled": true,
+        "retrySynced": true
+      }
+    },
+    {
+      "id": "V01-V02-V03-three-languages-map-status-layout",
+      "status": "pass",
+      "detail": {
+        "locales": [
+          "zh",
+          "en",
+          "ja"
+        ],
+        "widths": [
+          1440,
+          608,
+          390,
+          360
+        ],
+        "tooltipWidth": 220
+      }
+    },
+    {
+      "id": "A05-OAuth-full-navigation-view-root",
+      "status": "fail",
+      "error": "locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#select-Dungeon052') to be visible\u001b[22m\n\n    at /Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/r2_browser.cjs:69:1162\n    at async check (/Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/r2_browser.cjs:57:222)\n    at async /Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/r2_browser.cjs:69:107"
+    },
+    {
+      "id": "A05-OAuth-full-navigation-view-pages",
+      "status": "fail",
+      "error": "locator.waitFor: Timeout 12000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#select-Dungeon052') to be visible\u001b[22m\n\n    at /Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/r2_browser.cjs:69:1162\n    at async check (/Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/r2_browser.cjs:57:222)\n    at async /Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/r2_browser.cjs:69:107"
+    },
+    {
+      "id": "U04-E09-conflict-second-change-clears-choice-local-cloud",
+      "status": "pass",
+      "detail": [
+        {
+          "choice": "local",
+          "oldRadioCleared": true,
+          "oldChoiceNoWrite": true,
+          "newChoiceConfirmed": true
+        },
+        {
+          "choice": "cloud",
+          "oldRadioCleared": true,
+          "oldChoiceNoWrite": true,
+          "newChoiceConfirmed": true
+        }
+      ]
+    },
+    {
+      "id": "A05-context-corrupt-expired-ignored",
+      "status": "pass",
+      "detail": [
+        {
+          "base": "http://127.0.0.1:5176/",
+          "kind": "corrupt",
+          "ignored": true,
+          "loginStillWorked": true,
+          "guestUntouched": true
+        },
+        {
+          "base": "http://127.0.0.1:5176/zelda_map/",
+          "kind": "expired",
+          "ignored": true,
+          "loginStillWorked": true,
+          "guestUntouched": true
+        }
+      ]
+    },
+    {
+      "id": "U06-keyboard-dialog-focus-cancel-safe",
+      "status": "pass",
+      "detail": {
+        "initialTitleFocus": true,
+        "focusTrap": true,
+        "backgroundInert": true,
+        "escapeNoWrite": true,
+        "returnFocus": true
+      }
+    },
+    {
+      "id": "U06-focus-adjacent-import-restore-conflict-refresh-failure",
+      "status": "pass",
+      "detail": [
+        {
+          "case": "guest-import-cancel",
+          "returnedTo": "import-trigger"
+        },
+        {
+          "case": "account-import-cancel",
+          "returnedTo": "import-trigger"
+        },
+        {
+          "case": "preview-network-failure",
+          "returnedTo": "migration-trigger"
+        },
+        {
+          "case": "refresh-preview-rekey",
+          "oldReturnDidNotStealTitle": true
+        },
+        {
+          "case": "restore-cancel",
+          "returnedTo": "restore-account-61647bc0-4c6b-4650-b8a5-d8c638f803ba"
+        },
+        {
+          "case": "conflict-close",
+          "returnedToRealTrigger": true
+        }
+      ]
+    },
+    {
+      "id": "P01-P05-form-validation-mode-raw-password",
+      "status": "pass",
+      "detail": {
+        "validationZeroRequest": true,
+        "modeClearsPassword": true,
+        "registrationConfirmation": true,
+        "rawPassword": true,
+        "busyOneRequest": true,
+        "sessionLoadsCloud": true
+      }
+    },
+    {
+      "id": "P03-P06-sdk-errors-no-session-honest",
+      "status": "fail",
+      "error": "AssertionError [ERR_ASSERTION]: no-session unsafe message 请求未完成，请检查连接后重试。\n    at /Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/r2_browser.cjs:83:634\n    at async check (/Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/r2_browser.cjs:57:222)\n    at async /Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/r2_browser.cjs:83:2"
+    },
+    {
+      "id": "P05-P07-password-cleanup-storage-console",
+      "status": "pass",
+      "detail": {
+        "modeUnmountSuccessSignoutCleared": true,
+        "localSessionIDBNoPassword": true,
+        "appConsoleNoPassword": true
+      }
+    },
+    {
+      "id": "P08-email-A-guest-B-UID-isolation",
+      "status": "fail",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n'true' !== 'false'\n\n    at /Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/r2_browser.cjs:85:786\n    at async check (/Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/r2_browser.cjs:57:222)\n    at async /Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/r2_browser.cjs:85:2"
+    },
+    {
+      "id": "P09-three-language-registration-narrow-keyboard",
+      "status": "pass",
+      "detail": {
+        "locales": [
+          "zh",
+          "en",
+          "ja"
+        ],
+        "widths": [
+          390,
+          360
+        ],
+        "registrationFieldsAccessible": true,
+        "enterShortPasswordLogin": true
+      }
+    }
+  ],
+  "pageErrors": [],
+  "resourceErrors": [],
+  "authCalls": [
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "password"
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/logout",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "password"
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "password"
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "password"
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "password"
+    },
+    {
+      "method": "GET",
+      "path": "/auth/v1/authorize",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "pkce"
+    },
+    {
+      "method": "GET",
+      "path": "/auth/v1/authorize",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "pkce"
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "password"
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "password"
+    },
+    {
+      "method": "GET",
+      "path": "/auth/v1/authorize",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "pkce"
+    },
+    {
+      "method": "GET",
+      "path": "/auth/v1/authorize",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "pkce"
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "password"
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "password"
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "password"
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/signup",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "password"
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "password"
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "password"
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/logout",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "password"
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/logout",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "password"
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "password"
+    }
+  ],
+  "rpcCalls": [
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "apply_shrine_progress",
+      "owner": "A",
+      "batch": 1
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "apply_shrine_progress",
+      "owner": "A",
+      "batch": 1
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "apply_shrine_progress",
+      "owner": "A",
+      "batch": 136
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "B"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "B"
+    },
+    {
+      "name": "apply_shrine_progress",
+      "owner": "B",
+      "batch": 1
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "B"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "apply_shrine_progress",
+      "owner": "A",
+      "batch": 1
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "apply_shrine_progress",
+      "owner": "A",
+      "batch": 1
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "apply_shrine_progress",
+      "owner": "A",
+      "batch": 1
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "apply_shrine_progress",
+      "owner": "A",
+      "batch": 136
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "apply_shrine_progress",
+      "owner": "A",
+      "batch": 1
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "B"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    }
+  ],
+  "browser": "149.0.7827.55",
+  "status": "fail",
+  "completedAt": "2026-10-11T09:59:25.626Z",
+  "cleanup": {
+    "browserClosed": true,
+    "httpClosed": true,
+    "pgliteClosed": true
+  }
+}

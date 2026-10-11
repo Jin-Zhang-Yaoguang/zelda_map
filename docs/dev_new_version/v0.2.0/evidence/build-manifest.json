@@ -1,0 +1,83 @@
+{
+  "startedAt": "2026-10-11T07:28:48.320Z",
+  "node": "v24.18.0",
+  "config": "仅合成公开key；guest清空配置，不读写.env.local",
+  "sourceHashes": {
+    "package.json": "8d8817901cd5e2c19ef96d867191a6d13af32b9d9ec01248fdbe9433ad052bd3",
+    "package-lock.json": "e73a0dcd7e291c84a3c4152f148c313f977024485d1d80b0bade6cb9f1ad3de1",
+    "src/App.tsx": "449037022fdb14ab6b90fdfac595b7caee70dbc4f81a46e7d01543f985e295a9",
+    "src/components/AccountDialog.tsx": "87b6dd05402d36b9f0fb58637944e6ef4c64a65b6dbccd193d185d3fc040081b",
+    "src/components/AccountPanel.tsx": "ab7e37848ec4ae592f184ecb600cdd821859da4addd700e238dc9e76f5fbdff4",
+    "src/components/ConflictDialog.tsx": "abc0d2a79ce3a9cb36159149d3c3883901330c70859f4c118a8364924b93f88e",
+    "src/components/Icon.tsx": "1fb277363d562df850dda3db1828a452a624654efff661aeddbc3bf8cd519eff",
+    "src/components/ImportDialog.tsx": "70b7fcc5ea42edf04deb355fd28db0b00cb274c04e84b6356666c02236fef8a7",
+    "src/components/MapCanvas.tsx": "f8c0812b2f3cfab0e3e90c25b00e3965059f637d83055843c214723197000504",
+    "src/components/SafePreview.tsx": "470d61bcc115533d1cc383770db7be4187def067ac5789a341470be78d1b9030",
+    "src/components/Settings.tsx": "8a0b4484c78b54899ac1de63a177902d232e6411160bcaaf487e580ea4232948",
+    "src/components/ShrineDetails.tsx": "0945785ea0253ddfee7676b25c1e2cc0886ccf2e421496a69d4331a3b49698e7",
+    "src/components/SyncStatus.tsx": "0e9d1d39ab2229ba730f762905d5ab7a597e0e07f197d78d3a6d640a73783d6f",
+    "src/components/Text.tsx": "4cc29b7e303754221fb100b70d407146617770427e24d7f314be87d3cd77e8b5",
+    "src/components/TransferDialog.tsx": "a93249a9adbcb6d4a61e6ee9074cbdf020ba9be22330f16fad6eced9b3737a46",
+    "src/i18n.ts": "a3d848bd547f6236a32c17f2dc229b878569d1514a654fb08dedd80eab69c1d6",
+    "src/lib/cloud/auth.ts": "9fcfa0882140b531729fbf0f195909367e76365fb3e6a3590924733e5aa55c7d",
+    "src/lib/cloud/client.ts": "73bd1004ffe1da25036a8052df4113effad9a9dfaaf5ad3af4ac7c119584462e",
+    "src/lib/cloud/errors.ts": "7a34720ad47874cdcb10a6262c735c267329534db454c1543fbe9da6072bb3b3",
+    "src/lib/cloud/repository.ts": "f352bb1e595edb097159c790a1a37049afdafd452108d1f407e82ad3158f0f16",
+    "src/lib/data.ts": "caa9d120c73c527adc930322cb11e96c3abd16cf01a23fb04b150092d90f0c66",
+    "src/lib/map.ts": "31942b26a812feb44e208fc0e2d00aab44b7a34abca40784c6d80cdb6926cabd",
+    "src/lib/progress.ts": "d32cfa8cbc6c8de880aec80cb0c4a82a66fd4312ffaad04effe7f963dd42b9ee",
+    "src/lib/sync/controller.ts": "0ece323083d043bf1ee23477323cb2a3bf1039ca6b8d14798d99f9aab8d71580",
+    "src/lib/sync/storage.ts": "ea290950aeca6ffbc4760348642c5044d326321a248f738fbba8fc4d13f1ebf8",
+    "src/lib/sync/types.ts": "5e746769db9421d7766bfd84c90355b6911fbe84a3715afd3dc01250fe2bc5ab",
+    "src/main.tsx": "e7d86d0c7194d7ae7740747e6a63e00644c8abd58a30cb704c4eadc23025900c",
+    "src/styles.css": "fa0108abc9869d62b123554f0149c84e05f2733fd797c9e7230592e4a68da8da",
+    "src/types.ts": "d337085d9fa37ea15b6d804c0fb607153362182455518821a8d22cec40559eed",
+    "src/vite-env.d.ts": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5",
+    "supabase/migrations/202610110001_account_progress.sql": "3f30a3251c13ae579c9c7b78d6de185cfc8b2cf61d3ee3482dc8b8fdf0225c5a",
+    "public/data/shrines.json": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde",
+    "public/assets/hyrule-base.webp": "5847a9e5f5d4ed44bc20b61d2b5c24999c33b796d8a42354946f42c631b4ec10"
+  },
+  "builds": [
+    {
+      "name": "root",
+      "base": "/",
+      "command": "npm run build -- --base / --outDir .runtime/qa-v020/root",
+      "exitCode": 0,
+      "artifacts": {
+        "assets/hyrule-base.webp": "5847a9e5f5d4ed44bc20b61d2b5c24999c33b796d8a42354946f42c631b4ec10",
+        "assets/index-BOkju6aV.css": "3aac052b5bb9d737a1a43d03b35c97f30400192dc8a41578d6cea68ad3efef5a",
+        "assets/index-BhrnKpU8.js": "cd71f8f6d6aa4bb10e4ecea54fa0a33f58ce7e87403ed23a045fd0ae45e33a40",
+        "index.html": "157e360344337a19fbe42504af280495692e5a75a7cb5b6e56a9426da851638c",
+        "data/shrines.json": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde"
+      }
+    },
+    {
+      "name": "pages",
+      "base": "/zelda_map/",
+      "command": "npm run build -- --base /zelda_map/ --outDir .runtime/qa-v020/pages",
+      "exitCode": 0,
+      "artifacts": {
+        "assets/hyrule-base.webp": "5847a9e5f5d4ed44bc20b61d2b5c24999c33b796d8a42354946f42c631b4ec10",
+        "assets/index-BOkju6aV.css": "3aac052b5bb9d737a1a43d03b35c97f30400192dc8a41578d6cea68ad3efef5a",
+        "assets/index-ILk8TOx0.js": "bc42d4e84f1c798555d5b41b917c7a635077223ddbed10c8f6b20557cd39f961",
+        "index.html": "294fc98e5044965b4179aa5ecec6c7195b0942cd5d4ab56110510f1c780a7e91",
+        "data/shrines.json": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde"
+      }
+    },
+    {
+      "name": "guest",
+      "base": "/guest/",
+      "command": "npm run build -- --base /guest/ --outDir .runtime/qa-v020/guest",
+      "exitCode": 0,
+      "artifacts": {
+        "assets/hyrule-base.webp": "5847a9e5f5d4ed44bc20b61d2b5c24999c33b796d8a42354946f42c631b4ec10",
+        "assets/index-BOkju6aV.css": "3aac052b5bb9d737a1a43d03b35c97f30400192dc8a41578d6cea68ad3efef5a",
+        "assets/index-DlEUjxw_.js": "32bfea9dbc614de312888354f640ce1b4b3fc87027fae13a37fdcd7c2212c8f6",
+        "index.html": "70e4aae6364f3cdfe477dd0d6d594e3334f0fd547fa1a74a924286f697f59cee",
+        "data/shrines.json": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde"
+      }
+    }
+  ],
+  "finishedAt": "2026-10-11T07:28:55.065Z",
+  "unchangedDuringBuild": true
+}

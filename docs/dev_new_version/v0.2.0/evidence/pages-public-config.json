@@ -1,0 +1,17 @@
+{
+  "time_utc": "2026-10-11T07:06:08.318383+00:00",
+  "repository": "Jin-Zhang-Yaoguang/zelda_map",
+  "scope": "Pages public build variables only; no code push, workflow dispatch or deployment",
+  "checks": [
+    {
+      "name": "VITE_SUPABASE_URL",
+      "present": true,
+      "matches_local_public_configuration": true
+    },
+    {
+      "name": "VITE_SUPABASE_PUBLISHABLE_KEY",
+      "present": true,
+      "matches_local_public_configuration": true
+    }
+  ]
+}

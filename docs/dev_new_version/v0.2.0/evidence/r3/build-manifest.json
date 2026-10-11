@@ -1,0 +1,95 @@
+{
+  "scope": "r3邮箱专用；冻结后执行，不重跑实云/SQL",
+  "startedAt": "2026-10-11T11:31:15.614Z",
+  "node": "v24.18.0",
+  "sourceHashes": {
+    "package.json": "8d8817901cd5e2c19ef96d867191a6d13af32b9d9ec01248fdbe9433ad052bd3",
+    "package-lock.json": "e73a0dcd7e291c84a3c4152f148c313f977024485d1d80b0bade6cb9f1ad3de1",
+    "src/App.tsx": "ca244580681203cdc8ecc689f04b41281099ef5cafff3d1bab0a3145eedf1042",
+    "src/components/AccountDialog.tsx": "87b6dd05402d36b9f0fb58637944e6ef4c64a65b6dbccd193d185d3fc040081b",
+    "src/components/AccountPanel.tsx": "2ede9dd9fe625524c4ddcec5e107c90621020d2c5ed8d96d26f088d41621461b",
+    "src/components/ConflictDialog.tsx": "abc0d2a79ce3a9cb36159149d3c3883901330c70859f4c118a8364924b93f88e",
+    "src/components/Icon.tsx": "1fb277363d562df850dda3db1828a452a624654efff661aeddbc3bf8cd519eff",
+    "src/components/ImportDialog.tsx": "70b7fcc5ea42edf04deb355fd28db0b00cb274c04e84b6356666c02236fef8a7",
+    "src/components/MapCanvas.tsx": "f8c0812b2f3cfab0e3e90c25b00e3965059f637d83055843c214723197000504",
+    "src/components/SafePreview.tsx": "470d61bcc115533d1cc383770db7be4187def067ac5789a341470be78d1b9030",
+    "src/components/Settings.tsx": "8a0b4484c78b54899ac1de63a177902d232e6411160bcaaf487e580ea4232948",
+    "src/components/ShrineDetails.tsx": "0945785ea0253ddfee7676b25c1e2cc0886ccf2e421496a69d4331a3b49698e7",
+    "src/components/SyncStatus.tsx": "61f8e995fab5472a9dee6ede701202898084b888c86192472f4768f7a8d78480",
+    "src/components/Text.tsx": "4cc29b7e303754221fb100b70d407146617770427e24d7f314be87d3cd77e8b5",
+    "src/components/TransferDialog.tsx": "a93249a9adbcb6d4a61e6ee9074cbdf020ba9be22330f16fad6eced9b3737a46",
+    "src/i18n.ts": "adc2e7757bd103568bbfe553b236c34ea1610c15a47e2b68dcd86d247193853c",
+    "src/lib/cloud/auth.ts": "f6d32427e79bd3c6dfed9274b5443ab93f244d0f59f5e3c3748cf4e9ffaf6cbd",
+    "src/lib/cloud/client.ts": "73bd1004ffe1da25036a8052df4113effad9a9dfaaf5ad3af4ac7c119584462e",
+    "src/lib/cloud/errors.ts": "4e72920bf2e364de4c141cb097f6324497e1a284ce2936bca659bbadcae20ea7",
+    "src/lib/cloud/repository.ts": "f352bb1e595edb097159c790a1a37049afdafd452108d1f407e82ad3158f0f16",
+    "src/lib/data.ts": "caa9d120c73c527adc930322cb11e96c3abd16cf01a23fb04b150092d90f0c66",
+    "src/lib/map.ts": "31942b26a812feb44e208fc0e2d00aab44b7a34abca40784c6d80cdb6926cabd",
+    "src/lib/progress.ts": "d32cfa8cbc6c8de880aec80cb0c4a82a66fd4312ffaad04effe7f963dd42b9ee",
+    "src/lib/sync/controller.ts": "c73e76d6077a2661dca154c98e49e75222f3fd78484d717d8f324540c0bbe268",
+    "src/lib/sync/storage.ts": "ea290950aeca6ffbc4760348642c5044d326321a248f738fbba8fc4d13f1ebf8",
+    "src/lib/sync/types.ts": "7964b2aa488d243b6b5328cc959823867268b87892fd013b46a3aa03c18f7df3",
+    "src/main.tsx": "e7d86d0c7194d7ae7740747e6a63e00644c8abd58a30cb704c4eadc23025900c",
+    "src/styles.css": "f5e5142ad12291f3701de310f375ba23403a37ed1caecbcaead9a2a2da5e7dc3",
+    "src/types.ts": "d337085d9fa37ea15b6d804c0fb607153362182455518821a8d22cec40559eed",
+    "src/vite-env.d.ts": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5",
+    "supabase/migrations/202610110001_account_progress.sql": "3f30a3251c13ae579c9c7b78d6de185cfc8b2cf61d3ee3482dc8b8fdf0225c5a",
+    "public/data/shrines.json": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde",
+    "public/assets/hyrule-base.webp": "5847a9e5f5d4ed44bc20b61d2b5c24999c33b796d8a42354946f42c631b4ec10"
+  },
+  "builds": [
+    {
+      "name": "root",
+      "base": "/",
+      "envFile": false,
+      "artifacts": {
+        "THIRD_PARTY_NOTICES.txt": "fd5f16dd8038ea3f594386158dcc684f609c61279b536c646c29fbc49c17109d",
+        "assets/hyrule-base.webp": "5847a9e5f5d4ed44bc20b61d2b5c24999c33b796d8a42354946f42c631b4ec10",
+        "assets/index-DfRVf3HF.js": "6748697a7031024a4ab9d9ac5c663ff727d482780d86a2df517fd6133426ca98",
+        "assets/index-VxA7D2sM.css": "7b42b6a3b9daadaad340c629484cdb872b8f54167e7614cbf2a1398cd6c70514",
+        "data/shrines.json": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde",
+        "index.html": "e98c34b0ae19aaa686a16cf70ffffcfd0f719f00b463287778ce649ab86e4d69"
+      }
+    },
+    {
+      "name": "pages",
+      "base": "/zelda_map/",
+      "envFile": false,
+      "artifacts": {
+        "THIRD_PARTY_NOTICES.txt": "fd5f16dd8038ea3f594386158dcc684f609c61279b536c646c29fbc49c17109d",
+        "assets/hyrule-base.webp": "5847a9e5f5d4ed44bc20b61d2b5c24999c33b796d8a42354946f42c631b4ec10",
+        "assets/index-CV8_hkzu.js": "d32e30fd7563250b4f36c320b224e9a03e8a0ccdc18dc0fca5dba00f4dee4247",
+        "assets/index-VxA7D2sM.css": "7b42b6a3b9daadaad340c629484cdb872b8f54167e7614cbf2a1398cd6c70514",
+        "data/shrines.json": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde",
+        "index.html": "627f2790b6db2fe08812ac26a963c6b1d709c29072dd32f3652cb91fc36f38d1"
+      }
+    },
+    {
+      "name": "guest",
+      "base": "/guest/",
+      "envFile": false,
+      "artifacts": {
+        "THIRD_PARTY_NOTICES.txt": "fd5f16dd8038ea3f594386158dcc684f609c61279b536c646c29fbc49c17109d",
+        "assets/hyrule-base.webp": "5847a9e5f5d4ed44bc20b61d2b5c24999c33b796d8a42354946f42c631b4ec10",
+        "assets/index-2LXiKW9A.js": "045d5f424df5ba4da85d8745338fda85dd78063a9e9293d9f934f6d38e631af3",
+        "assets/index-VxA7D2sM.css": "7b42b6a3b9daadaad340c629484cdb872b8f54167e7614cbf2a1398cd6c70514",
+        "data/shrines.json": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde",
+        "index.html": "0d6c23c34c5ae7d0c0a971b25c7e7520b8554a66a672e8c16a0011f6ba6e28fb"
+      }
+    }
+  ],
+  "removedGithubBindings": true,
+  "typecheckExit": 0,
+  "removedAuthMethod": true,
+  "sourceStable": true,
+  "changedFromR2": [
+    "src/App.tsx",
+    "src/components/AccountPanel.tsx",
+    "src/i18n.ts",
+    "src/lib/cloud/auth.ts",
+    "src/lib/sync/controller.ts",
+    "src/lib/sync/types.ts"
+  ],
+  "engineHash": "b461e621dfeb9391f9701d6204d31fc6f6f80b2620a4c45e5223a988035132dc",
+  "completedAt": "2026-10-11T11:31:19.012Z"
+}

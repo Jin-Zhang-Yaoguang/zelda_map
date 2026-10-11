@@ -1,0 +1,69 @@
+{
+  "startedAt": "2026-10-11T07:07:42.647Z",
+  "node": "v24.18.0",
+  "config": "仅合成公开key；guest清空配置，不读写.env.local",
+  "sourceHashes": {
+    "package.json": "8d8817901cd5e2c19ef96d867191a6d13af32b9d9ec01248fdbe9433ad052bd3",
+    "package-lock.json": "e73a0dcd7e291c84a3c4152f148c313f977024485d1d80b0bade6cb9f1ad3de1",
+    "src/App.tsx": "847a28fda2de844c19b17ba1f35e26202b90ad44096292545c23eff5de31cbe8",
+    "src/components/MapCanvas.tsx": "f8c0812b2f3cfab0e3e90c25b00e3965059f637d83055843c214723197000504",
+    "src/components/AccountPanel.tsx": "6f02955ab49f363c1f47298a4d2491db34f563ca3e503ce82193b3621fd02dc0",
+    "src/components/ConflictDialog.tsx": "a23f0e17be21766bf20e4d2c37427248981062d845e9f6379464198af1a7a083",
+    "src/components/TransferDialog.tsx": "9df04525dea7f18cd5deb142d6859069f70477c43fcb3cbc6f4f2f9b47a0a472",
+    "src/components/SyncStatus.tsx": "0e9d1d39ab2229ba730f762905d5ab7a597e0e07f197d78d3a6d640a73783d6f",
+    "src/i18n.ts": "a3d848bd547f6236a32c17f2dc229b878569d1514a654fb08dedd80eab69c1d6",
+    "src/lib/sync/controller.ts": "0ece323083d043bf1ee23477323cb2a3bf1039ca6b8d14798d99f9aab8d71580",
+    "src/lib/sync/storage.ts": "ea290950aeca6ffbc4760348642c5044d326321a248f738fbba8fc4d13f1ebf8",
+    "src/lib/sync/types.ts": "5e746769db9421d7766bfd84c90355b6911fbe84a3715afd3dc01250fe2bc5ab",
+    "src/lib/cloud/auth.ts": "9fcfa0882140b531729fbf0f195909367e76365fb3e6a3590924733e5aa55c7d",
+    "src/lib/cloud/client.ts": "73bd1004ffe1da25036a8052df4113effad9a9dfaaf5ad3af4ac7c119584462e",
+    "src/lib/cloud/repository.ts": "f352bb1e595edb097159c790a1a37049afdafd452108d1f407e82ad3158f0f16",
+    "src/lib/cloud/errors.ts": "7a34720ad47874cdcb10a6262c735c267329534db454c1543fbe9da6072bb3b3",
+    "supabase/migrations/202610110001_account_progress.sql": "3f30a3251c13ae579c9c7b78d6de185cfc8b2cf61d3ee3482dc8b8fdf0225c5a",
+    "public/data/shrines.json": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde",
+    "public/assets/hyrule-base.webp": "5847a9e5f5d4ed44bc20b61d2b5c24999c33b796d8a42354946f42c631b4ec10"
+  },
+  "builds": [
+    {
+      "name": "root",
+      "base": "/",
+      "command": "npm run build -- --base / --outDir .runtime/qa-v020/root",
+      "exitCode": 0,
+      "artifacts": {
+        "assets/hyrule-base.webp": "5847a9e5f5d4ed44bc20b61d2b5c24999c33b796d8a42354946f42c631b4ec10",
+        "assets/index-BOkju6aV.css": "3aac052b5bb9d737a1a43d03b35c97f30400192dc8a41578d6cea68ad3efef5a",
+        "assets/index-Xy4Zhew6.js": "0aa4556f048ea72ed893369257afe92239ab9ff7035032bab1407a6876e8ceaf",
+        "index.html": "b11cdeef34986a71542456a529badccc25241b2252f4d50635d80557c3de78f0",
+        "data/shrines.json": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde"
+      }
+    },
+    {
+      "name": "pages",
+      "base": "/zelda_map/",
+      "command": "npm run build -- --base /zelda_map/ --outDir .runtime/qa-v020/pages",
+      "exitCode": 0,
+      "artifacts": {
+        "assets/hyrule-base.webp": "5847a9e5f5d4ed44bc20b61d2b5c24999c33b796d8a42354946f42c631b4ec10",
+        "assets/index-BLq8bfUC.js": "bb0710dd43dfbc420deeb180d3e7c2c7135d028a0bdb00346af7ecc483dc7636",
+        "assets/index-BOkju6aV.css": "3aac052b5bb9d737a1a43d03b35c97f30400192dc8a41578d6cea68ad3efef5a",
+        "index.html": "3192875986262070abff7df029736d41d258762935f7e9891520d0c95d3b7316",
+        "data/shrines.json": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde"
+      }
+    },
+    {
+      "name": "guest",
+      "base": "/guest/",
+      "command": "npm run build -- --base /guest/ --outDir .runtime/qa-v020/guest",
+      "exitCode": 0,
+      "artifacts": {
+        "assets/hyrule-base.webp": "5847a9e5f5d4ed44bc20b61d2b5c24999c33b796d8a42354946f42c631b4ec10",
+        "assets/index-BOkju6aV.css": "3aac052b5bb9d737a1a43d03b35c97f30400192dc8a41578d6cea68ad3efef5a",
+        "assets/index-CA7vtAxI.js": "1420c1dd135c2c6a690deb9af204e6fe11b34dcb68afab1b352eab162c13105a",
+        "index.html": "64826565140518b21e8a78db01e21546048d05d90062a55997f2bf7449ab8d06",
+        "data/shrines.json": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde"
+      }
+    }
+  ],
+  "finishedAt": "2026-10-11T07:07:49.381Z",
+  "unchangedDuringBuild": true
+}

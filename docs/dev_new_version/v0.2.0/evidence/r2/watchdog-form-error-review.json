@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-10-11T10:22:53.400Z",
+  "path": "src/components/AccountPanel.tsx",
+  "previousHash": "73149c7473a198ab1e2539b875d0af66b1d070d6dee4ed726cccf2a880692c2e",
+  "currentHash": "20eb312d2bdfc6c7e192e095f7cd655fb725c2c6b34fcfe854b1e7211d44331a",
+  "reconstructedPreviousHash": "73149c7473a198ab1e2539b875d0af66b1d070d6dee4ed726cccf2a880692c2e",
+  "onlyExpectedDifference": true,
+  "expectedChanges": [
+    "FORM_ERROR_KEYS allowlist",
+    "clearEditedError helper",
+    "three input onChange callbacks"
+  ],
+  "guardReview": {
+    "snapshotNotMutated": true,
+    "authOperationRequiredToIgnoreSnapshotError": true,
+    "cloudUnconfiguredNotInAllowlist": true,
+    "sessionExpiredIdentityAndReadonlyNoticeUnchanged": true,
+    "syncStorageTransferMessageKeysNotInAllowlist": true,
+    "validationAndBusyAndCredentialLifecycleUnchanged": true
+  },
+  "limits": "定向静审，不替代独立QA真实DOM复测",
+  "changedBuildInputsFromPrevious": [
+    "src/components/AccountPanel.tsx"
+  ],
+  "onlyAccountPanelChanged": true
+}

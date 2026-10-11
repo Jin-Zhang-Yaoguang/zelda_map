@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "version": "v0.2.0",
+  "stage": "development_testing",
+  "status": "waiting_external_configuration",
+  "docs": {
+    "01_需求文档.md": "complete",
+    "02_PRD.md": "complete",
+    "03_UIUX设计.md": "complete",
+    "04_技术方案.md": "complete",
+    "05_测试方案.md": "complete",
+    "06_开发记录.md": "complete_for_local_scope",
+    "07_测试报告.md": "complete_for_local_scope_with_explicit_cloud_limits",
+    "08_用户验收.md": "not_ready_for_full_cloud_acceptance",
+    "09_仓库巡检报告.md": "preinspection_complete_with_focus_retest",
+    "10_上线记录.md": "cloud_preparation_only",
+    "11_版本开发总结.md": "interim"
+  },
+  "approval": [],
+  "base_commit": "2686aa1c026bd046ba703381ee246fdd0f3bf628",
+  "created_at": "2026-10-11T06:07:17.118017+00:00",
+  "revision": "r1",
+  "branch": "dev/v0.2.0",
+  "supabase": {
+    "project_ref": "tvbpcfsjcwoelfkfjxaw",
+    "url": "https://tvbpcfsjcwoelfkfjxaw.supabase.co",
+    "organization": "Zelda Map",
+    "plan": "Free",
+    "region": "ap-northeast-2",
+    "status": "project_created; migration executed successfully; metadata readback and auth configuration pending"
+  },
+  "external_requirements": [
+    "Mac manual unlock for dashboard configuration",
+    "GitHub OAuth App/client secret and provider/redirect configuration",
+    "SMTP and email OTP templates",
+    "live authenticated A/B and cross-device integration",
+    "v0.2.0 human acceptance"
+  ],
+  "unresolved_engineering_blockers": [],
+  "public_build_variables": "configured and API-readback matched; no deployment",
+  "local_candidate_inputs": "evidence/local-candidate-inputs.json",
+  "test_scope": "Local SQL/controlled auth/engine/isolated browser verified; real auth and cross-device cloud integration pending",
+  "qa_candidate_manifest": "evidence/candidate-manifest.json"
+}

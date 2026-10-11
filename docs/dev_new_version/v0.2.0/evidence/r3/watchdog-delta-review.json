@@ -1,0 +1,43 @@
+{
+  "checkedAt": "2026-10-11T11:28:06.352Z",
+  "controllerOnlyGithubCallRemoved": true,
+  "mailMethodsUnchanged": true,
+  "controllerBefore": "c4e0be7304848b0cf07f2de70c7b7f01751632223da6874eaba27666148ea827",
+  "controllerAfter": "c73e76d6077a2661dca154c98e49e75222f3fd78484d717d8f324540c0bbe268",
+  "authAfter": "f6d32427e79bd3c6dfed9274b5443ab93f244d0f59f5e3c3748cf4e9ffaf6cbd",
+  "clientUnchanged": true,
+  "review": "App删除专属OAuth状态/TTL/恢复/接线；普通初始化、身份key/readonly/迁移/焦点守护无变化；MapCanvas保留API空onView，无自动删旧storage或云数据",
+  "r2ArchiveChecks": [
+    {
+      "path": "src/App.tsx",
+      "archiveMatchesR2Watchdog": true,
+      "archiveMatchesFrontendBaseline": true
+    },
+    {
+      "path": "src/components/AccountPanel.tsx",
+      "archiveMatchesR2Watchdog": true,
+      "archiveMatchesFrontendBaseline": true
+    },
+    {
+      "path": "src/lib/cloud/auth.ts",
+      "archiveMatchesR2Watchdog": true,
+      "archiveMatchesFrontendBaseline": true
+    },
+    {
+      "path": "src/lib/sync/types.ts",
+      "archiveMatchesR2Watchdog": true,
+      "archiveMatchesFrontendBaseline": true
+    },
+    {
+      "path": "src/lib/sync/controller.ts",
+      "archiveMatchesR2Watchdog": true,
+      "archiveMatchesFrontendBaseline": true
+    },
+    {
+      "path": "src/i18n.ts",
+      "archiveMatchesR2Watchdog": true,
+      "archiveMatchesFrontendBaseline": true
+    }
+  ],
+  "r2ArchiveAllMatch": true
+}

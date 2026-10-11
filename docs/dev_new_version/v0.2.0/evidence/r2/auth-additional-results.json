@@ -1,0 +1,17 @@
+{
+  "engineHash": "3f0b27c92252c9eb8cc04d761b33a212e1f9edc50378bf07aeb73576fdcd3ab9",
+  "layer": "L2实际认证wrapper/controller + 受控client/fakeIDB；非实云",
+  "startedAt": "2026-10-11T10:01:25.004Z",
+  "checks": [
+    {
+      "id": "P02-registration-minimum-and-login-warning",
+      "status": "pass",
+      "detail": {
+        "directSignupMinimumZeroRequest": true,
+        "successfulLoginWarningDoesNotFail": true
+      }
+    }
+  ],
+  "status": "pass",
+  "completedAt": "2026-10-11T10:01:25.006Z"
+}

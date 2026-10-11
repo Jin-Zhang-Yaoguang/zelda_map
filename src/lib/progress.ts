@@ -2,12 +2,22 @@ import type { Locale } from '../i18n';
 import { isShrineId } from './data';
 export const STORAGE = { progress:'zelda-map:botw:v1:progress', settings:'zelda-map:botw:v1:settings', previous:'zelda-map:botw:v1:pre-import' };
 export type StoreStatus = 'ready' | 'corrupt' | 'unavailable' | 'pending';
-export interface Preferences { schemaVersion:1; locale:Locale; showDlc:boolean }
+export interface Preferences { schemaVersion:1; locale:Locale; showDlc:boolean; showShrines:boolean }
 export interface ProgressBackup { format:'zelda-map-progress'; schemaVersion:1; game:'botw'; dataVersion:string; exportedAt:string; completedIds:string[] }
 export type PreviewResult = {ok:true; backup:ProgressBackup; duplicates:number; differentVersion:boolean} | {ok:false; reason:'importInvalid'|'importUnknown'|'importTooLarge'; unknownIds?:string[]};
 const object = (v:unknown):v is Record<string,unknown> => v!==null && typeof v==='object' && !Array.isArray(v);
 const date = (v:unknown) => typeof v==='string' && Number.isFinite(Date.parse(v));
-export function readPreferences(): {value:Preferences; status:StoreStatus; raw:string|null} { const fallback:Preferences={schemaVersion:1,locale:'zh',showDlc:true}; let raw:string|null=null; try { raw=localStorage.getItem(STORAGE.settings); if (raw===null) return {value:fallback,status:'ready',raw}; const v=JSON.parse(raw); if (!object(v) || v.schemaVersion!==1 || !['zh','en','ja'].includes(String(v.locale)) || typeof v.showDlc!=='boolean') return {value:fallback,status:'corrupt',raw}; return {value:v as unknown as Preferences,status:'ready',raw}; } catch { return {value:fallback,status:raw===null?'unavailable':'corrupt',raw}; } }
+export function readPreferences(): {value:Preferences; status:StoreStatus; raw:string|null} {
+  const fallback:Preferences={schemaVersion:1,locale:'zh',showDlc:true,showShrines:true};
+  let raw:string|null=null;
+  try {
+    raw=localStorage.getItem(STORAGE.settings);
+    if(raw===null)return {value:fallback,status:'ready',raw};
+    const value=JSON.parse(raw);
+    if(!object(value)||value.schemaVersion!==1||!['zh','en','ja'].includes(String(value.locale))||typeof value.showDlc!=='boolean'||value.showShrines!==undefined&&typeof value.showShrines!=='boolean')return {value:fallback,status:'corrupt',raw};
+    return {value:{schemaVersion:1,locale:value.locale as Locale,showDlc:value.showDlc,showShrines:value.showShrines===undefined?true:value.showShrines},status:'ready',raw};
+  }catch{return {value:fallback,status:raw===null?'unavailable':'corrupt',raw};}
+}
 export function readProgress(): {ids:Set<string>; status:StoreStatus; raw:string|null} { let raw:string|null=null; try {raw=localStorage.getItem(STORAGE.progress); if (raw===null) return {ids:new Set(),status:'ready',raw}; const v=JSON.parse(raw); if (!object(v) || v.schemaVersion!==1 || v.game!=='botw' || typeof v.dataVersion!=='string' || !date(v.updatedAt) || !Array.isArray(v.completedIds) || !v.completedIds.every(isShrineId)) return {ids:new Set(),status:'corrupt',raw}; return {ids:new Set(v.completedIds),status:'ready',raw};} catch {return {ids:new Set(),status:raw===null?'unavailable':'corrupt',raw};} }
 export function saveVerified(key:string,value:unknown): boolean { try {const raw=JSON.stringify(value); localStorage.setItem(key,raw); return localStorage.getItem(key)===raw;} catch {return false;} }
 export function progressRecord(ids:Set<string>,dataVersion:string) {return {schemaVersion:1,game:'botw',dataVersion,completedIds:[...ids].sort(),updatedAt:new Date().toISOString()};}

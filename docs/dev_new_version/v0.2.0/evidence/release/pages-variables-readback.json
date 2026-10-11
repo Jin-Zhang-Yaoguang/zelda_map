@@ -1,0 +1,7 @@
+{
+  "scope": "Compare only two public VITE values; values not output",
+  "matches": {
+    "VITE_SUPABASE_URL": true,
+    "VITE_SUPABASE_PUBLISHABLE_KEY": true
+  }
+}

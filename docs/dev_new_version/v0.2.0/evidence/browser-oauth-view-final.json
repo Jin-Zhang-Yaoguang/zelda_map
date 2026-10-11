@@ -1,0 +1,63 @@
+{
+  "layer": "L3真实Chromium/官方SDK/IndexedDB + 受控GoTrue和PGlite RPC；非Supabase实云",
+  "startedAt": "2026-10-11T06:56:55.612Z",
+  "checks": [
+    {
+      "id": "A05-OAuth-full-navigation-view-root",
+      "status": "pass",
+      "detail": {
+        "root": "http://127.0.0.1:5174/",
+        "PKCEChallenge": true,
+        "queryRegionFilterSelectionViewRestored": true,
+        "guestRawUnchanged": true
+      }
+    },
+    {
+      "id": "A05-OAuth-full-navigation-view-pages",
+      "status": "pass",
+      "detail": {
+        "root": "http://127.0.0.1:5174/zelda_map/",
+        "PKCEChallenge": true,
+        "queryRegionFilterSelectionViewRestored": true,
+        "guestRawUnchanged": true
+      }
+    }
+  ],
+  "pageErrors": [],
+  "resourceErrors": [],
+  "authCalls": [
+    {
+      "method": "GET",
+      "path": "/auth/v1/authorize",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "pkce"
+    },
+    {
+      "method": "GET",
+      "path": "/auth/v1/authorize",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "pkce"
+    }
+  ],
+  "rpcCalls": [
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    }
+  ],
+  "browser": "149.0.7827.55",
+  "status": "pass",
+  "completedAt": "2026-10-11T06:56:59.082Z"
+}

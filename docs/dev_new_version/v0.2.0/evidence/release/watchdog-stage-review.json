@@ -1,0 +1,322 @@
+{
+  "checkedAt": "2026-10-11T13:49:50.107Z",
+  "scope": "正式上线前当前index只读核验；原9945 PNG使用既有完整SHA/CRC+最新漂移元数据证据，不重复250MB",
+  "stagedCount": 10311,
+  "declaredCount": 10311,
+  "scopeMatchesDeclared": true,
+  "stageRecordsHash": "153eae4703737093e1acbbe0d64238547d63d430db99c44010b9c51c0c58db6e",
+  "forbidden": [],
+  "unmerged": [],
+  "qaChecks": [
+    {
+      "path": "package.json",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "package-lock.json",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "src/App.tsx",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "src/components/AccountDialog.tsx",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "src/components/AccountPanel.tsx",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "src/components/ConflictDialog.tsx",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "src/components/Icon.tsx",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "src/components/ImportDialog.tsx",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "src/components/MapCanvas.tsx",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "src/components/SafePreview.tsx",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "src/components/Settings.tsx",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "src/components/ShrineDetails.tsx",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "src/components/SyncStatus.tsx",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "src/components/Text.tsx",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "src/components/TransferDialog.tsx",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "src/i18n.ts",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "src/lib/cloud/auth.ts",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "src/lib/cloud/client.ts",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "src/lib/cloud/errors.ts",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "src/lib/cloud/repository.ts",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "src/lib/data.ts",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "src/lib/map.ts",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "src/lib/mapTiles.ts",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "src/lib/progress.ts",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "src/lib/smoothWheelZoom.ts",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "src/lib/sync/controller.ts",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "src/lib/sync/storage.ts",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "src/lib/sync/types.ts",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "src/main.tsx",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "src/styles.css",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "src/types.ts",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "src/vite-env.d.ts",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "supabase/migrations/202610110001_account_progress.sql",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "public/data/shrines.json",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "public/assets/hyrule-base.webp",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "data/sources/map-tiles-manifest.json",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "tests/v020/r4_build.mjs",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "tests/v020/r4_hd_browser.cjs",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "tests/v020/r4_marker_visibility.cjs",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "tests/v020/r4_tile_audit.mjs",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "tests/v020/r4_zoom_compare.cjs",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "docs/dev_new_version/v0.2.0/05_测试方案.md",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "docs/dev_new_version/v0.2.0/07_测试报告.md",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "docs/dev_new_version/v0.2.0/map_qa_handoff.md",
+      "workingMatches": true,
+      "indexMatches": true
+    }
+  ],
+  "qa44WorkingAndIndexMatch": true,
+  "source36IndexMatch": true,
+  "documentChecks": [
+    {
+      "path": "01_需求文档.md",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "02_PRD.md",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "03_UIUX设计.md",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "04_技术方案.md",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "05_测试方案.md",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "06_开发记录.md",
+      "workingMatches": true,
+      "indexMatches": true
+    },
+    {
+      "path": "07_测试报告.md",
+      "workingMatches": true,
+      "indexMatches": true
+    }
+  ],
+  "acceptedDocumentsMatch": true,
+  "acceptedCodeCount": 10182,
+  "acceptedNonAssetCodeMatches": true,
+  "acceptedAssetMetadataMatches": true,
+  "indexedNativeCount": 9945,
+  "worktreeNativeChanges": [],
+  "assetManifestMatchesFullScan": true,
+  "receiptChecks": {
+    "sourceUser": true,
+    "decisionAccepted": true,
+    "quoteMatchesRootInstruction": true,
+    "sameOriginalReceipt": true,
+    "authorizedActionsMatch": true,
+    "rebindContextExplicit": true,
+    "bindingHash": "21d6d43d787fd18199aa73e22fdc9c434e6c071f13256f684e7c2b2bc834c949",
+    "verificationScope": "fields_and_content_binding_only",
+    "humanSourceVerifiedByTool": false,
+    "note": "workflow字段/内容绑定不认证消息作者；原真人来源由Root基于当前直接消息核实，本角色不生成批准"
+  },
+  "archiveChecks": {
+    "archiveIndexed": true,
+    "originalNotIndexed": true,
+    "localOriginalRetained": true,
+    "localOriginalIgnored": true,
+    "compressedHashMatches": true,
+    "compressedSizeMatches": true,
+    "decodedHashMatches": true,
+    "decodedSizeMatches": true,
+    "localOriginalSame": true,
+    "decodedExactSecretMatches": 0
+  },
+  "incrementalSecrets": {
+    "stagedNonTileFilesScanned": 366,
+    "decodedHistoricalGzipScanned": true,
+    "exactMatches": 0,
+    "leaks": [],
+    "genericMatches": [
+      {
+        "path": "supabase/tests/adapters.test.mjs",
+        "line": 22,
+        "category": "supabase_secret"
+      },
+      {
+        "path": "tests/v020/qa_adapters.mjs",
+        "line": 13,
+        "category": "supabase_secret"
+      }
+    ]
+  },
+  "docsPendingRestage": [],
+  "status": "pass"
+}

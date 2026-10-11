@@ -1,0 +1,44 @@
+{
+  "layer": "L3真实Chromium/官方SDK/IndexedDB + 受控GoTrue和PGlite RPC；非Supabase实云",
+  "startedAt": "2026-10-11T07:12:25.958Z",
+  "checks": [
+    {
+      "id": "A03-OTP-verification-network-error-accurate",
+      "status": "pass",
+      "detail": {
+        "message": "暂时无法连接，请稍后重试。",
+        "rateLimitMessage": "请求过于频繁，请稍后再试。",
+        "invalidOtpMessage": "验证码无效或已过期，请检查或重新发送。",
+        "networkFailureControlled": true
+      }
+    }
+  ],
+  "pageErrors": [],
+  "resourceErrors": [],
+  "authCalls": [
+    {
+      "method": "POST",
+      "path": "/auth/v1/otp",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/verify",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/verify",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/verify",
+      "grant": null
+    }
+  ],
+  "rpcCalls": [],
+  "browser": "149.0.7827.55",
+  "status": "pass",
+  "completedAt": "2026-10-11T07:12:27.314Z"
+}

@@ -1,0 +1,398 @@
+{
+  "boundAt": "2026-10-11T13:13:48.243Z",
+  "scope": "r4最后文档冻结后精确QA/source/document绑定及非瓦片增量密码匹配；不重扫9945原PNG或重建",
+  "inputChecks": [
+    {
+      "path": "package.json",
+      "match": true
+    },
+    {
+      "path": "package-lock.json",
+      "match": true
+    },
+    {
+      "path": "src/App.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/AccountDialog.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/AccountPanel.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/ConflictDialog.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/Icon.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/ImportDialog.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/MapCanvas.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/SafePreview.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/Settings.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/ShrineDetails.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/SyncStatus.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/Text.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/TransferDialog.tsx",
+      "match": true
+    },
+    {
+      "path": "src/i18n.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/cloud/auth.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/cloud/client.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/cloud/errors.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/cloud/repository.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/data.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/map.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/mapTiles.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/progress.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/smoothWheelZoom.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/sync/controller.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/sync/storage.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/sync/types.ts",
+      "match": true
+    },
+    {
+      "path": "src/main.tsx",
+      "match": true
+    },
+    {
+      "path": "src/styles.css",
+      "match": true
+    },
+    {
+      "path": "src/types.ts",
+      "match": true
+    },
+    {
+      "path": "src/vite-env.d.ts",
+      "match": true
+    },
+    {
+      "path": "supabase/migrations/202610110001_account_progress.sql",
+      "match": true
+    },
+    {
+      "path": "public/data/shrines.json",
+      "match": true
+    },
+    {
+      "path": "public/assets/hyrule-base.webp",
+      "match": true
+    },
+    {
+      "path": "data/sources/map-tiles-manifest.json",
+      "match": true
+    },
+    {
+      "path": "tests/v020/r4_build.mjs",
+      "match": true
+    },
+    {
+      "path": "tests/v020/r4_hd_browser.cjs",
+      "match": true
+    },
+    {
+      "path": "tests/v020/r4_marker_visibility.cjs",
+      "match": true
+    },
+    {
+      "path": "tests/v020/r4_tile_audit.mjs",
+      "match": true
+    },
+    {
+      "path": "tests/v020/r4_zoom_compare.cjs",
+      "match": true
+    },
+    {
+      "path": "docs/dev_new_version/v0.2.0/05_测试方案.md",
+      "match": true
+    },
+    {
+      "path": "docs/dev_new_version/v0.2.0/07_测试报告.md",
+      "match": true
+    },
+    {
+      "path": "docs/dev_new_version/v0.2.0/map_qa_handoff.md",
+      "match": true
+    }
+  ],
+  "inputCount": 44,
+  "qaFinalInputsAllMatch": true,
+  "sourceChecks": [
+    {
+      "path": "package.json",
+      "match": true
+    },
+    {
+      "path": "package-lock.json",
+      "match": true
+    },
+    {
+      "path": "src/App.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/AccountDialog.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/AccountPanel.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/ConflictDialog.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/Icon.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/ImportDialog.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/MapCanvas.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/SafePreview.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/Settings.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/ShrineDetails.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/SyncStatus.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/Text.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/TransferDialog.tsx",
+      "match": true
+    },
+    {
+      "path": "src/i18n.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/cloud/auth.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/cloud/client.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/cloud/errors.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/cloud/repository.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/data.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/map.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/mapTiles.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/progress.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/smoothWheelZoom.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/sync/controller.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/sync/storage.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/sync/types.ts",
+      "match": true
+    },
+    {
+      "path": "src/main.tsx",
+      "match": true
+    },
+    {
+      "path": "src/styles.css",
+      "match": true
+    },
+    {
+      "path": "src/types.ts",
+      "match": true
+    },
+    {
+      "path": "src/vite-env.d.ts",
+      "match": true
+    },
+    {
+      "path": "supabase/migrations/202610110001_account_progress.sql",
+      "match": true
+    },
+    {
+      "path": "public/data/shrines.json",
+      "match": true
+    },
+    {
+      "path": "public/assets/hyrule-base.webp",
+      "match": true
+    },
+    {
+      "path": "data/sources/map-tiles-manifest.json",
+      "match": true
+    }
+  ],
+  "sourceMatchesQABuild": true,
+  "assetManifestUnchanged": true,
+  "evidenceHashes": {
+    "watchdog-assets-and-secret.json": "3ec24bd97b2e7b24a3d8537b2a9dc1c86bfc48cf987510bdc02c3012a1bc7826",
+    "watchdog-delta-review.json": "c8c6f1c748c6634883a6395826b383ac4ffe9191c3096a47de82915532e9215b",
+    "build-manifest.json": "8b8cb5d67652ca38b1914de403fb439ba007c3bab7682fbc801ac0843b976ead",
+    "candidate-manifest.json": "1f4262616fb5d0fdbf2555f913b54e43c2e7e2c7d3baa6a602a07f45ca54842d",
+    "marker-visibility-results.json": "321b8a48d5aeb70e11ec4ccae6671c6e35c599d9ae1d9f575708821369684fb2",
+    "hd-first/results.json": "21579cc0c62893b739205975772b6ec1f5d8958b21f7d583f803cc61b1905131",
+    "hd-targeted/results.json": "a835105d5cd33a6855256785a88d40de3004110624aea3f839961989151f15ec",
+    "zoom-first.json": "1d1a180e3c1754a49b84b41b1014b34377c49b565cca39b5c6d63e58fcd36acf"
+  },
+  "documentHashes": {
+    "01_需求文档.md": "3e920ed7a7faaba7b2f1e505a0ee9c5778c4f28d4f6723f3fceb48483da09be9",
+    "02_PRD.md": "044a84b3d7619c31a5ef64d5e8a3cebed05b0e4888863a6aaf3512dad30a5a43",
+    "03_UIUX设计.md": "becb39ce459e8a71d99e942de2f4f7c332988d226c79759664522a6de04f90ae",
+    "04_技术方案.md": "0ece7843bfe9d0806d45b8c8fc9e12a58561091b86f51fc0f18dd606d331a169",
+    "05_测试方案.md": "56f690045a8082292808618d9489349c6bfd317728e5adaeaca43a8acd8721ff",
+    "06_开发记录.md": "827f95943bf268668d6c4229c8702c3e14a58bcffc1533a32bcb5f8626ceae42",
+    "07_测试报告.md": "baaa810f416037552f3d17550bb33db9e012e0cd6f41242125a46f17ab1c6374",
+    "08_用户验收.md": "9f363af048d79b6baddc24c2a6b2025d5b29ee34b33f83aebd1047a3625e8e47",
+    "10_上线记录.md": "71e5a71dd6947d3cc1539d7a96533b4acd66c76716ca40d0b76f6c827f47ea73",
+    "11_版本开发总结.md": "0c55400568c4972dc48fd4a085acfb4bdabb875bba3e9a1f53c62c0cce8005ca",
+    "map_fix_report.md": "2f51a7f0f8a4588bc1f101924600b721f703bc4247f1e2a8dd883449baf019c4",
+    "supabase_setup.md": "99d4a887cb49b80c4e4ad301d591d4e36318738a3927f39a3cf82ea035a5cbc4",
+    "README.md": "6753b8c9dcf549b7488b1572f87ec83276816e80652cbda78c67871869551e4d",
+    "docs/data_sources.md": "d675dfdff35541d9b59030137d7648a3f1b323c654af37f2d0463ae09e400693",
+    "public/THIRD_PARTY_NOTICES.txt": "07d159df62ecbb782790fa41059b3864424d3d8016c7c5da8f551c51af74f25d"
+  },
+  "incrementalSecretScan": {
+    "changedNonTileFilesScanned": 29,
+    "changedFiles": [
+      "docs/dev_new_version/v0.2.0/00_状态.json",
+      "docs/dev_new_version/v0.2.0/05_测试方案.md",
+      "docs/dev_new_version/v0.2.0/06_开发记录.md",
+      "docs/dev_new_version/v0.2.0/07_测试报告.md",
+      "docs/dev_new_version/v0.2.0/08_用户验收.md",
+      "docs/dev_new_version/v0.2.0/09_仓库巡检报告.md",
+      "docs/dev_new_version/v0.2.0/10_上线记录.md",
+      "docs/dev_new_version/v0.2.0/11_版本开发总结.md",
+      "docs/dev_new_version/v0.2.0/evidence/r4/candidate-manifest.json",
+      "docs/dev_new_version/v0.2.0/evidence/r4/hd-small-touch/results.json",
+      "docs/dev_new_version/v0.2.0/evidence/r4/hd-small-touch/terrain-native-reference.png",
+      "docs/dev_new_version/v0.2.0/evidence/r4/hd-small-touch/terrain-overview-reference.png",
+      "docs/dev_new_version/v0.2.0/evidence/r4/local-preview-native.json",
+      "docs/dev_new_version/v0.2.0/evidence/r4/watchdog-assets-and-secret.json",
+      "docs/dev_new_version/v0.2.0/evidence/r4/watchdog-delta-review.json",
+      "docs/dev_new_version/v0.2.0/evidence/r4/watchdog_final_binding.mjs",
+      "docs/dev_new_version/v0.2.0/map_qa_handoff.md",
+      "tests/v020/r4_hd_browser.cjs",
+      "docs/agent_memory/roles/backend_engineer.md",
+      "docs/agent_memory/roles/frontend_engineer.md",
+      "docs/agent_memory/roles/product_manager.md",
+      "docs/agent_memory/roles/qa_engineer.md",
+      "docs/agent_memory/roles/technical_expert.md",
+      "docs/agent_memory/roles/ui_ux.md",
+      "docs/agent_memory/roles/watchdog.md",
+      "docs/agent_memory/shared/debug_history.md",
+      "docs/agent_memory/shared/decisions.md",
+      "docs/agent_memory/shared/development_history.md",
+      "docs/dev_new_version/index.md"
+    ],
+    "exactMatches": 0,
+    "leaks": [],
+    "scope": "仅全量检查后的新增/变化非瓦片文件；不输出密码值/密码hash"
+  },
+  "candidateFingerprint": "f6a793a00a8af277b61c7199eb69aeb7b1afdfbd7b836a0c9de2a8f73cb9e971",
+  "status": "pass"
+}

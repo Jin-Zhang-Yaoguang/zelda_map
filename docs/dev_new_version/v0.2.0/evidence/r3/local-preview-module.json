@@ -1,0 +1,7 @@
+{
+  "verified_at": "2026-10-11T11:29:18.544332+00:00",
+  "scope": "只读本机5173 Vite模块响应，不读取用户存储/会话，不代替UI验收",
+  "live_hmr_panel_response": true,
+  "contains_github_button": false,
+  "email_password_present": true
+}

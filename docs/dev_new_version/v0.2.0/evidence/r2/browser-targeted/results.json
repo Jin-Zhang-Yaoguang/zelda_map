@@ -1,0 +1,194 @@
+{
+  "layer": "L3真实Chromium/官方SDK/IndexedDB + 受控GoTrue和PGlite RPC；非Supabase实云",
+  "startedAt": "2026-10-11T10:00:30.960Z",
+  "checks": [
+    {
+      "id": "A05-OAuth-full-navigation-view-root",
+      "status": "pass",
+      "detail": {
+        "root": "http://127.0.0.1:5176/",
+        "PKCEChallenge": true,
+        "queryRegionFilterSelectionViewRestored": true,
+        "guestRawUnchanged": true
+      }
+    },
+    {
+      "id": "A05-OAuth-full-navigation-view-pages",
+      "status": "pass",
+      "detail": {
+        "root": "http://127.0.0.1:5176/zelda_map/",
+        "PKCEChallenge": true,
+        "queryRegionFilterSelectionViewRestored": true,
+        "guestRawUnchanged": true
+      }
+    },
+    {
+      "id": "P03-P06-sdk-errors-no-session-honest",
+      "status": "pass",
+      "detail": [
+        {
+          "mode": "no-session",
+          "message": "尚未建立登录会话。可以重试或继续使用访客模式。",
+          "guestPreserved": true,
+          "oneRequest": true
+        },
+        {
+          "mode": "invalid",
+          "message": "邮箱或密码不正确，请检查后重试。",
+          "guestPreserved": true,
+          "oneRequest": true
+        },
+        {
+          "mode": "unconfirmed",
+          "message": "邮箱确认尚未完成，当前无法直接使用邮箱密码注册或登录。",
+          "guestPreserved": true,
+          "oneRequest": true
+        },
+        {
+          "mode": "weak",
+          "message": "密码不符合安全要求，请使用至少 8 个字符并尝试更强的密码。",
+          "guestPreserved": true,
+          "oneRequest": true
+        },
+        {
+          "mode": "duplicate",
+          "message": "此账号已注册，请切换到登录。",
+          "guestPreserved": true,
+          "oneRequest": true
+        },
+        {
+          "mode": "rate",
+          "message": "请求过于频繁，请稍后再试。",
+          "guestPreserved": true,
+          "oneRequest": true
+        },
+        {
+          "mode": "network",
+          "message": "请求未完成，请检查连接后重试。",
+          "guestPreserved": true,
+          "oneRequest": true
+        },
+        {
+          "mode": "unknown",
+          "message": "登录未完成，请重试。",
+          "guestPreserved": true,
+          "oneRequest": true
+        }
+      ]
+    },
+    {
+      "id": "P08-email-A-guest-B-UID-isolation",
+      "status": "pass",
+      "detail": {
+        "AThenGuestThenB": true,
+        "guestPreserved": true,
+        "BDoesNotShowA": true
+      }
+    }
+  ],
+  "pageErrors": [],
+  "resourceErrors": [],
+  "authCalls": [
+    {
+      "method": "GET",
+      "path": "/auth/v1/authorize",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "pkce"
+    },
+    {
+      "method": "GET",
+      "path": "/auth/v1/authorize",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "pkce"
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/signup",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "password"
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "password"
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "password"
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "password"
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "password"
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "password"
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "password"
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "password"
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/logout",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "password"
+    }
+  ],
+  "rpcCalls": [
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "B"
+    }
+  ],
+  "browser": "149.0.7827.55",
+  "status": "pass",
+  "completedAt": "2026-10-11T10:00:38.250Z",
+  "cleanup": {
+    "browserClosed": true,
+    "httpClosed": true,
+    "pgliteClosed": true
+  }
+}

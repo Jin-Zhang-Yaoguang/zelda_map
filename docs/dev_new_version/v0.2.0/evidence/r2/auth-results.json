@@ -1,0 +1,48 @@
+{
+  "engineHash": "3f0b27c92252c9eb8cc04d761b33a212e1f9edc50378bf07aeb73576fdcd3ab9",
+  "layer": "L2实际认证wrapper/controller + 受控client/fakeIDB；非实云",
+  "startedAt": "2026-10-11T09:58:06.048Z",
+  "checks": [
+    {
+      "id": "P01-P02-raw-password-and-validation",
+      "status": "pass",
+      "detail": {
+        "emailTrimmed": true,
+        "passwordUnmodified": true,
+        "shortLoginAllowed": true,
+        "invalidZeroRequest": true
+      }
+    },
+    {
+      "id": "P03-valid-session-only-and-no-session",
+      "status": "pass",
+      "detail": {
+        "invalidSessions": 8,
+        "identityTakenFromSession": true
+      }
+    },
+    {
+      "id": "P06-error-matrix-code-before-status",
+      "status": "pass",
+      "detail": {
+        "cases": 18,
+        "guestCredentialsNotExpiry": true,
+        "syncSemanticsPreserved": true
+      }
+    },
+    {
+      "id": "P03-errors-before-identity",
+      "status": "pass",
+      "detail": {
+        "errorBlocksValidLookingSession": true
+      }
+    },
+    {
+      "id": "P04-P08-controller-guest-expired-account-switch",
+      "status": "fail",
+      "error": "AccountFailure: invalidShrineCatalog\n    at failure (file:///Users/a1-6/Desktop/PycharmProjects/zelda_map/.runtime/qa-v020-r2/engine.mjs?1791712686027:13917:10)\n    at createAccountProgressController (file:///Users/a1-6/Desktop/PycharmProjects/zelda_map/.runtime/qa-v020-r2/engine.mjs?1791712686027:22419:103)\n    at file:///Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/r2_auth.mjs:17:782\n    at test (file:///Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/r2_auth.mjs:9:83)\n    at file:///Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/r2_auth.mjs:17:7"
+    }
+  ],
+  "status": "fail",
+  "completedAt": "2026-10-11T09:58:06.052Z"
+}

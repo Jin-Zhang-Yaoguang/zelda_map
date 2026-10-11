@@ -1,0 +1,26 @@
+{
+  "recorded_at_utc": "2026-10-11T11:07:08.663634+00:00",
+  "project_ref": "tvbpcfsjcwoelfkfjxaw",
+  "human_action_permission": {
+    "source": "current user question reply",
+    "question_id": "call_oADJD7x8bdtCH9sNLhQFdybK",
+    "quote": "允许关闭，注册后直接使用",
+    "scope": "Disable and save Confirm email for this map project only",
+    "not_version_acceptance": true
+  },
+  "configuration": {
+    "confirm_email_enabled": false,
+    "mailer_autoconfirm_public_readback": true,
+    "signups_enabled": true,
+    "minimum_password_length": 8,
+    "minimum_verification": "After save, reopen Email provider: number input 8 and Save disabled; real API also rejected length7",
+    "password_required_characters_ui": "No option selected",
+    "github_enabled": false
+  },
+  "evidence": [
+    "live-auth-configuration-after-confirm-off.json",
+    "live-api-results.json"
+  ],
+  "private_screenshot": ".runtime/password-policy-readback.png",
+  "limits": "GitHub, real browser end-to-end/physical devices and human version acceptance pending; no administrator secrets included"
+}

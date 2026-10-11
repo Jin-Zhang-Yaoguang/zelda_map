@@ -1,0 +1,141 @@
+{
+  "layer": "L3真实Chromium/官方SDK/IndexedDB + 受控GoTrue和PGlite RPC；非Supabase实云",
+  "startedAt": "2026-10-11T11:31:37.997Z",
+  "checks": [
+    {
+      "id": "R3-three-languages-email-only-controls",
+      "status": "pass",
+      "detail": {
+        "threeLocalesNoGithub": true,
+        "loginAndRegisterAvailable": true,
+        "noUnexpectedAuthRequest": true,
+        "viewport360": true
+      }
+    },
+    {
+      "id": "R3-email-error-signup-refresh-login-signout",
+      "status": "pass",
+      "detail": {
+        "invalidCredentialsHonest": true,
+        "noSessionNotSuccess": true,
+        "signupAndRefreshSession": true,
+        "signoutPasswordClear": true,
+        "passwordLoginEnter": true,
+        "guestPreserved": true
+      }
+    },
+    {
+      "id": "R3-guest-migration-dialog-entry-focus",
+      "status": "pass",
+      "detail": {
+        "migrationEntryStillWorks": true,
+        "initialTitleAndReturnFocus": true,
+        "cancelNoGuestChange": true
+      }
+    },
+    {
+      "id": "R3-pages-email-login-route-refresh",
+      "status": "pass",
+      "detail": {
+        "pagesSessionRefresh": true,
+        "settingsMapRouteStillWorks": true,
+        "noGithubEntry": true,
+        "guestPreserved": true
+      }
+    },
+    {
+      "id": "R3-legacy-oauth-context-not-executed",
+      "status": "pass",
+      "detail": {
+        "retiredOAuthContextNoExchangeOrRedirect": true,
+        "guestUsable": true,
+        "noSyntheticLogin": true
+      }
+    },
+    {
+      "id": "R3-unconfigured-guest-progress-refresh",
+      "status": "pass",
+      "detail": {
+        "unconfiguredGuestStillWorks": true,
+        "cancelPersistsRefresh": true
+      }
+    }
+  ],
+  "pageErrors": [],
+  "resourceErrors": [],
+  "authCalls": [
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "password"
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/signup",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/signup",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/logout",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "password"
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "password"
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "password"
+    }
+  ],
+  "rpcCalls": [
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    }
+  ],
+  "browser": "149.0.7827.55",
+  "status": "pass",
+  "completedAt": "2026-10-11T11:31:41.771Z",
+  "cleanup": {
+    "browserClosed": true,
+    "httpClosed": true,
+    "pgliteClosed": true
+  }
+}

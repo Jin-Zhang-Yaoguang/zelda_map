@@ -1,0 +1,13 @@
+{
+  "source": "user",
+  "message": "v0.2.0 验收通过，继续收尾，推送到 GitHub 并更新 GitHub Pages。",
+  "received_at": "2026-10-11T21:32:20.491908+08:00",
+  "decision": "accepted",
+  "authorized_actions": [
+    "Finalize v0.2.0 release documentation",
+    "Commit and push the accepted v0.2.0 to Jin-Zhang-Yaoguang/zelda_map",
+    "Publish the accepted v0.2.0 to the existing GitHub Pages site and verify it"
+  ],
+  "target": "https://github.com/Jin-Zhang-Yaoguang/zelda_map ; https://jin-zhang-yaoguang.github.io/zelda_map/",
+  "confirmation_context": "Current direct human message; approval covers accepted r4 product. Received_at records local processing receipt in Asia/Taipei, exact client message timestamp/ID unavailable. README changes before binding only correct existing feature/release documentation; product code and candidate inputs unchanged. Final release verification scripts were added under the authorized release task after the first record; they only read artifacts and isolated guest UI. Rebinding this same original human approval covers completed verification tooling; all 44 accepted product/test inputs and product code remain byte-identical. No new human decision is invented."
+}

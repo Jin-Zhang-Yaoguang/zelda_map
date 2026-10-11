@@ -1,0 +1,32 @@
+{
+  "layer": "L3真实Chromium/官方SDK/IndexedDB + 受控GoTrue和PGlite RPC；非Supabase实云",
+  "startedAt": "2026-10-11T06:54:09.421Z",
+  "checks": [
+    {
+      "id": "E02-U03-first-cloud-read-failure-read-only",
+      "status": "pass",
+      "detail": {
+        "cloudReadFailureNotEmpty": true,
+        "editAndImportDisabled": true
+      }
+    }
+  ],
+  "pageErrors": [],
+  "resourceErrors": [],
+  "authCalls": [
+    {
+      "method": "POST",
+      "path": "/auth/v1/otp",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/verify",
+      "grant": null
+    }
+  ],
+  "rpcCalls": [],
+  "browser": "149.0.7827.55",
+  "status": "pass",
+  "completedAt": "2026-10-11T06:54:10.879Z"
+}

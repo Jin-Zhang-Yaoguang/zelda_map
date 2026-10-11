@@ -1,0 +1,34 @@
+{
+  "scope": "真实地图/DOM/PNG/本地静态资源；harness只供几何可观测，非用户GPU或实机触摸",
+  "startedAt": "2026-10-11T13:04:24.505Z",
+  "checks": [
+    {
+      "id": "W05-small-wheel-residual-no-pan-and-visual-reference",
+      "status": "pass",
+      "detail": {
+        "belowSnapDoesNotPan": true,
+        "residualEventuallyCrossesSnap": true,
+        "sameCameraOverviewAndNativeCaptured": true
+      }
+    },
+    {
+      "id": "W05-emulated-two-finger-pinch",
+      "status": "pass",
+      "detail": {
+        "browserEmulatedTouch": true,
+        "zoomBefore": -3.3000000000000003,
+        "zoomAfter": -2.1,
+        "physicalPhoneNotClaimed": true
+      }
+    }
+  ],
+  "pageErrors": [],
+  "unexpectedResources": [],
+  "status": "pass",
+  "cleanup": {
+    "browserClosed": true,
+    "httpClosed": true,
+    "userServicesUntouched": true
+  },
+  "completedAt": "2026-10-11T13:04:26.353Z"
+}

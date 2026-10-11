@@ -1,0 +1,106 @@
+{
+  "scope": "r4真实DOM/静态包/合成guest；无Auth/实云测试",
+  "startedAt": "2026-10-11T12:56:11.665Z",
+  "checks": [
+    {
+      "id": "M01-M04-default-anyzoom-map-only-and-refresh",
+      "status": "pass",
+      "detail": {
+        "defaultTrue": true,
+        "far151Near136": true,
+        "offFar15Near0": true,
+        "persisted": true,
+        "listAndProgressUnchanged": true,
+        "switchAboveDlc": true
+      }
+    },
+    {
+      "id": "M01-DLC-independent-and-36-symbol-44-hit",
+      "status": "pass",
+      "detail": {
+        "DlcAndVisibilityIndependent": true,
+        "hiddenDlcProgressPreserved": true,
+        "sizes": {
+          "symbol": [
+            36,
+            36
+          ],
+          "hit": [
+            44,
+            44
+          ]
+        },
+        "towerUnchanged": [
+          22,
+          26
+        ]
+      }
+    },
+    {
+      "id": "M02-M04-nearest-overlap-and-node-reuse",
+      "status": "pass",
+      "detail": {
+        "hit": {
+          "x": 1126,
+          "y": 475,
+          "nearest": "Dungeon005",
+          "nativeTop": "Dungeon101"
+        },
+        "unmodifiedDomNodesReused": 136,
+        "selectedAndCompleteCorrect": true
+      }
+    },
+    {
+      "id": "M04-old-invalid-and-explicit-false-preferences",
+      "status": "pass",
+      "detail": [
+        {
+          "name": "old",
+          "shown": true,
+          "settingsRawUnchanged": true,
+          "progressUnchanged": true
+        },
+        {
+          "name": "explicit-false",
+          "shown": false,
+          "settingsRawUnchanged": true,
+          "progressUnchanged": true
+        },
+        {
+          "name": "invalid",
+          "shown": true,
+          "settingsRawUnchanged": true,
+          "progressUnchanged": true
+        }
+      ]
+    },
+    {
+      "id": "M03-three-language-hover-narrow-close-layer",
+      "status": "pass",
+      "detail": {
+        "threeLocalizedTitles": true,
+        "width220": true,
+        "narrowClamped": true,
+        "hideShrinesClosesTooltip": true
+      }
+    },
+    {
+      "id": "M04-hide-during-pointer-down-no-phantom-target",
+      "status": "pass",
+      "detail": {
+        "controlledHideBetweenNativeDownUp": true,
+        "noPhantomSelectionOrTowerFocus": true,
+        "hiddenShrineExcluded": true
+      }
+    }
+  ],
+  "pageErrors": [],
+  "resourceErrors": [],
+  "status": "pass",
+  "cleanup": {
+    "browserClosed": true,
+    "httpClosed": true,
+    "userServicesUntouched": true
+  },
+  "completedAt": "2026-10-11T12:56:16.902Z"
+}

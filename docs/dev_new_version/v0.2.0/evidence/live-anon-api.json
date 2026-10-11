@@ -1,0 +1,41 @@
+{
+  "time_utc": "2026-10-11T07:40:16.695355+00:00",
+  "scope": "public API read-only; no authenticated user or progress mutation",
+  "results": [
+    {
+      "endpoint": "/auth/v1/settings",
+      "http_status": 200,
+      "email_enabled": true,
+      "github_enabled": false,
+      "signup_disabled": false
+    },
+    {
+      "endpoint": "/rest/v1/rpc/get_shrine_progress",
+      "http_status": 404,
+      "code": "PGRST202",
+      "message": "Could not find the function public.get_shrine_progress(p_game) in the schema cache"
+    },
+    {
+      "endpoint": "/rest/v1/rpc/get_shrine_progress",
+      "arguments": {
+        "p_game_id": "botw"
+      },
+      "http_status": 401,
+      "code": "42501",
+      "message": "permission denied for function get_shrine_progress"
+    },
+    {
+      "endpoint": "/rest/v1/rpc/apply_shrine_progress",
+      "arguments": {
+        "p_game_id": "botw",
+        "p_request_id": "00000000-0000-4000-8000-000000000001",
+        "p_mutations": []
+      },
+      "http_status": 401,
+      "code": "42501",
+      "message": "permission denied for function apply_shrine_progress",
+      "scope": "anonymous request with zero mutations; no user session or progress write"
+    }
+  ],
+  "initial_probe_note": "Initial RPC probe used incorrect p_game argument; its 404 is not an authorization test."
+}

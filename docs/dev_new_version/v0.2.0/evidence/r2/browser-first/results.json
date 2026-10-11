@@ -1,0 +1,17 @@
+{
+  "layer": "L3真实Chromium/官方SDK/IndexedDB + 受控GoTrue和PGlite RPC；非Supabase实云",
+  "startedAt": "2026-10-11T09:58:06.270Z",
+  "checks": [],
+  "pageErrors": [],
+  "resourceErrors": [],
+  "authCalls": [],
+  "rpcCalls": [],
+  "status": "fail",
+  "error": "Error: listen EPERM: operation not permitted 127.0.0.1:5176\n    at Server.setupListenHandle [as _listen2] (node:net:1987:21)\n    at listenInCluster (node:net:2066:12)\n    at node:net:2275:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)",
+  "completedAt": "2026-10-11T09:58:07.140Z",
+  "cleanup": {
+    "browserClosed": true,
+    "httpClosed": true,
+    "pgliteClosed": true
+  }
+}

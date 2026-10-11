@@ -1,0 +1,110 @@
+{
+  "scope": "真实地图/DOM/PNG/本地静态资源；harness只供几何可观测，非用户GPU或实机触摸",
+  "startedAt": "2026-10-11T12:56:11.829Z",
+  "checks": [
+    {
+      "id": "T02-T03-DPR1-native-level-and-world-geometry",
+      "status": "fail",
+      "error": "locator.waitFor: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.map-detail-tile.leaflet-tile-loaded[src*=\"/map-tiles/6/\"]').first() to be visible\u001b[22m\n"
+    },
+    {
+      "id": "T02-T03-DPR2-native-level-and-world-geometry",
+      "status": "fail",
+      "error": "locator.waitFor: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.map-detail-tile.leaflet-tile-loaded[src*=\"/map-tiles/7/\"]').first() to be visible\u001b[22m\n"
+    },
+    {
+      "id": "W02-W03-W04-anchor-snap-boundary-overlay-keyboard",
+      "status": "pass",
+      "detail": {
+        "anchorError": [
+          0,
+          0
+        ],
+        "smallWheelApplied": true,
+        "overlayIgnored": true,
+        "keyboardWorks": true,
+        "minMaxAndReverse": true
+      }
+    },
+    {
+      "id": "T03-stable-tile-dom-during-fractional-wheel",
+      "status": "pass",
+      "detail": {
+        "samples": [
+          {
+            "total": 1,
+            "reused": 1,
+            "zoom": -0.8
+          },
+          {
+            "total": 1,
+            "reused": 1,
+            "zoom": -0.8
+          },
+          {
+            "total": 1,
+            "reused": 1,
+            "zoom": -0.7000000000000001
+          },
+          {
+            "total": 1,
+            "reused": 1,
+            "zoom": -0.7000000000000001
+          },
+          {
+            "total": 1,
+            "reused": 1,
+            "zoom": -0.7000000000000001
+          },
+          {
+            "total": 1,
+            "reused": 1,
+            "zoom": -0.7000000000000001
+          },
+          {
+            "total": 1,
+            "reused": 1,
+            "zoom": -0.7000000000000001
+          },
+          {
+            "total": 1,
+            "reused": 1,
+            "zoom": -0.7000000000000001
+          }
+        ],
+        "notClearedEveryFractionalFrame": true
+      }
+    },
+    {
+      "id": "T04-missing-tile-overview-retained-and-retry",
+      "status": "pass",
+      "detail": {
+        "single404CompactNotice": true,
+        "noCentralErrorWithOverview": true,
+        "failedOverviewRetryKeepsOld": true,
+        "recoveredRetryReplacesOverview": true,
+        "realTilesRecovered": true
+      }
+    },
+    {
+      "id": "T03-T04-pages-all-layer-failure-recover",
+      "status": "pass",
+      "detail": {
+        "centralErrorOnlyWhenAllUnavailable": true,
+        "mapControlsWork": true,
+        "pagesLocalTiles": true,
+        "recoveryLoadedRealPng": true,
+        "pathsSample": []
+      }
+    }
+  ],
+  "pageErrors": [],
+  "unexpectedResources": [],
+  "status": "fail",
+  "cleanup": {
+    "browserClosed": true,
+    "httpClosed": true,
+    "userServicesUntouched": true
+  },
+  "completedAt": "2026-10-11T12:56:46.895Z"
+}

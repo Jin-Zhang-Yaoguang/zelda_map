@@ -1,0 +1,8 @@
+{
+  "src/App.tsx": "449037022fdb14ab6b90fdfac595b7caee70dbc4f81a46e7d01543f985e295a9",
+  "src/components/AccountPanel.tsx": "20eb312d2bdfc6c7e192e095f7cd655fb725c2c6b34fcfe854b1e7211d44331a",
+  "src/lib/cloud/auth.ts": "469d6cedb97dfe92678327f32f50265004d333024ffe7508873f97784eb43dbc",
+  "src/lib/sync/types.ts": "e526141b8a421b24178210df5b9a1cd8dc0f902524e5fc87e5d5f616796a6877",
+  "src/lib/sync/controller.ts": "c4e0be7304848b0cf07f2de70c7b7f01751632223da6874eaba27666148ea827",
+  "src/i18n.ts": "9ba98bc0f617a60016a10bbadfa60c1fff78ad09966f9faf81e3c89fec0f238c"
+}

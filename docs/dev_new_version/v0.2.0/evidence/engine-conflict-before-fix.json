@@ -1,0 +1,66 @@
+{
+  "layer": "L2 fake-indexeddb+实际SQL RPC；受控auth/网络，非实云",
+  "startedAt": "2026-10-11T06:46:30.502Z",
+  "hashes": {
+    "src/lib/sync/controller.ts": "161bab111ba0935543c0d3faa03de16f88ef1dd137d86e26f81b5090c8e25956",
+    "src/lib/sync/storage.ts": "ea290950aeca6ffbc4760348642c5044d326321a248f738fbba8fc4d13f1ebf8",
+    "src/lib/sync/types.ts": "5e746769db9421d7766bfd84c90355b6911fbe84a3715afd3dc01250fe2bc5ab",
+    "src/lib/cloud/repository.ts": "f352bb1e595edb097159c790a1a37049afdafd452108d1f407e82ad3158f0f16",
+    "supabase/migrations/202610110001_account_progress.sql": "3f30a3251c13ae579c9c7b78d6de185cfc8b2cf61d3ee3482dc8b8fdf0225c5a"
+  },
+  "checks": [
+    {
+      "id": "E09-second-cloud-change-requires-new-choice",
+      "status": "fail",
+      "error": "Error: 云端已变版本，旧选择被自动应用\n    at file:///Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/qa_engine.mjs:39:588\n    at async test (file:///Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/qa_engine.mjs:30:132)\n    at async file:///Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/qa_engine.mjs:39:2",
+      "detail": {
+        "oldVisibleRevision": 1,
+        "newCloudBeforeChoice": 3,
+        "afterChoice": [
+          {
+            "shrineId": "Dungeon052",
+            "completed": true,
+            "revision": 4,
+            "updatedAt": "2026-10-11T14:46:31.302+08:00"
+          }
+        ],
+        "callsBefore": 1,
+        "callsAfter": 2,
+        "snapshot": {
+          "authPhase": "account",
+          "identity": {
+            "uid": "d59298e9-bd30-4c46-ab96-430f1354de0d",
+            "email": "qa@example.invalid",
+            "provider": "github",
+            "displayName": "QA synthetic"
+          },
+          "ready": true,
+          "completedIds": [
+            "Dungeon052"
+          ],
+          "saveState": "cloudSynced",
+          "pendingCount": 0,
+          "conflicts": [],
+          "error": null,
+          "backups": [
+            {
+              "id": "08f99ce3-a7f3-4f31-84ab-a565c625f8ff",
+              "uid": "d59298e9-bd30-4c46-ab96-430f1354de0d",
+              "game": "botw",
+              "dataVersion": "qa-v020",
+              "createdAt": "2026-10-11T06:46:31.258Z",
+              "sourceKind": "restore",
+              "sourceCompletedIds": [
+                "Dungeon052"
+              ],
+              "sourceRaw": null,
+              "accountCompletedIds": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "status": "fail",
+  "completedAt": "2026-10-11T06:46:31.735Z"
+}

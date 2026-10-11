@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-10-11T13:07:36.435Z",
+  "changedFromR3": [
+    "src/App.tsx",
+    "src/components/MapCanvas.tsx",
+    "src/components/Settings.tsx",
+    "src/i18n.ts",
+    "src/lib/mapTiles.ts",
+    "src/lib/progress.ts",
+    "src/lib/smoothWheelZoom.ts",
+    "src/styles.css",
+    "data/sources/map-tiles-manifest.json"
+  ],
+  "dependenciesUnchanged": true,
+  "authAndSyncUnchanged": true,
+  "overviewAndGameJsonUnchanged": true,
+  "noticeOnlyNativeAttributionAdded": true,
+  "oldNoticeHash": "fd5f16dd8038ea3f594386158dcc684f609c61279b536c646c29fbc49c17109d",
+  "currentNoticeHash": "07d159df62ecbb782790fa41059b3864424d3d8016c7c5da8f551c51af74f25d"
+}

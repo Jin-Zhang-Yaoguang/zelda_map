@@ -1,0 +1,62 @@
+{
+  "layer": "L2 官方SDK wrapper受控client；无真实Auth",
+  "startedAt": "2026-10-11T06:47:25.703Z",
+  "checks": [
+    {
+      "id": "S06-adapter-strict-shape-and-false",
+      "status": "pass",
+      "detail": {
+        "badApplyCases": 7,
+        "badRowCases": 5,
+        "falseAccepted": true
+      }
+    },
+    {
+      "id": "S03-RPC-payload-no-UID-and-token-bound",
+      "status": "pass",
+      "detail": {
+        "uidMismatchBlockedBeforeRPC": true,
+        "noOwnerParameter": true
+      }
+    },
+    {
+      "id": "S06-conflict-response-contract",
+      "status": "pass",
+      "detail": {
+        "absentFalseRevision0Accepted": true,
+        "invalidConflicts": 4
+      }
+    },
+    {
+      "id": "A01-public-config-validation",
+      "status": "pass",
+      "detail": {
+        "syntheticOnly": true,
+        "invalidCases": 4
+      }
+    },
+    {
+      "id": "A05-PKCE-query-cleanup-controlled-hash",
+      "status": "pass",
+      "detail": {
+        "singleExchange": true,
+        "hashPreserved": true,
+        "rootAndSubpath": true,
+        "claimsSimulated": true
+      }
+    },
+    {
+      "id": "A02-A03-A06-OTP-and-local-signout-parameters",
+      "status": "pass",
+      "detail": {
+        "shouldCreateUser": true,
+        "verifyType": "email",
+        "signoutScope": "local",
+        "githubRoot": true,
+        "unsubscribed": 2
+      }
+    }
+  ],
+  "status": "pass",
+  "completedAt": "2026-10-11T06:47:25.706Z"
+}

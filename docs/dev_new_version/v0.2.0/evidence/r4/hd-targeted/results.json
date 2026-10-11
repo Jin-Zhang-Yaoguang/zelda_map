@@ -1,0 +1,116 @@
+{
+  "scope": "真实地图/DOM/PNG/本地静态资源；harness只供几何可观测，非用户GPU或实机触摸",
+  "startedAt": "2026-10-11T12:58:02.564Z",
+  "checks": [
+    {
+      "id": "T02-T03-DPR1-native-level-and-world-geometry",
+      "status": "pass",
+      "detail": {
+        "sourceLevel": 6,
+        "natural": [
+          256,
+          256
+        ],
+        "css": [
+          256,
+          256
+        ],
+        "alignmentError": [
+          0,
+          0
+        ],
+        "expectedCss": 256,
+        "options": {
+          "tileSize": 256,
+          "zoomOffset": 4,
+          "minNativeZoom": -2,
+          "maxNativeZoom": 3
+        }
+      }
+    },
+    {
+      "id": "T02-T03-DPR2-native-level-and-world-geometry",
+      "status": "pass",
+      "detail": {
+        "sourceLevel": 7,
+        "natural": [
+          256,
+          256
+        ],
+        "css": [
+          128,
+          128
+        ],
+        "alignmentError": [
+          0,
+          0
+        ],
+        "expectedCss": 128,
+        "options": {
+          "tileSize": 128,
+          "zoomOffset": 5,
+          "minNativeZoom": -3,
+          "maxNativeZoom": 2
+        }
+      }
+    },
+    {
+      "id": "T03-stable-tile-dom-during-fractional-wheel",
+      "status": "pass",
+      "detail": {
+        "samples": [
+          {
+            "total": 30,
+            "reused": 30,
+            "zoom": -0.2
+          },
+          {
+            "total": 30,
+            "reused": 30,
+            "zoom": -0.2
+          },
+          {
+            "total": 30,
+            "reused": 30,
+            "zoom": -0.2
+          },
+          {
+            "total": 24,
+            "reused": 24,
+            "zoom": -0.1
+          },
+          {
+            "total": 24,
+            "reused": 24,
+            "zoom": -0.1
+          },
+          {
+            "total": 24,
+            "reused": 24,
+            "zoom": -0.1
+          },
+          {
+            "total": 24,
+            "reused": 24,
+            "zoom": -0.1
+          },
+          {
+            "total": 24,
+            "reused": 24,
+            "zoom": -0.1
+          }
+        ],
+        "notClearedEveryFractionalFrame": true
+      }
+    }
+  ],
+  "pageErrors": [],
+  "unexpectedResources": [],
+  "status": "pass",
+  "cleanup": {
+    "browserClosed": true,
+    "httpClosed": true,
+    "userServicesUntouched": true
+  },
+  "completedAt": "2026-10-11T12:58:04.884Z"
+}

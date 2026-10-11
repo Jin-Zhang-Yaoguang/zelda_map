@@ -1,0 +1,139 @@
+{
+  "layer": "L1 PGlite实际Postgres；Auth claims模拟，非Supabase实云",
+  "startedAt": "2026-10-11T06:43:29.593Z",
+  "sqlHash": "3f30a3251c13ae579c9c7b78d6de185cfc8b2cf61d3ee3482dc8b8fdf0225c5a",
+  "checks": [
+    {
+      "id": "S01-production-permissions",
+      "status": "pass",
+      "detail": {
+        "sqlstates": [
+          "42501",
+          "28000"
+        ],
+        "definitions": [
+          {
+            "proname": "apply_shrine_progress",
+            "prosecdef": true,
+            "proconfig": [
+              "search_path=\"\""
+            ]
+          },
+          {
+            "proname": "get_shrine_progress",
+            "prosecdef": true,
+            "proconfig": [
+              "search_path=\"\""
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "S03-RPC-owner-and-receipt-isolation",
+      "status": "pass",
+      "detail": {
+        "A": [
+          "Dungeon052"
+        ],
+        "B": [
+          "Dungeon007"
+        ],
+        "sameRequestDifferentOwners": true
+      }
+    },
+    {
+      "id": "S04-false-tombstone-stale-CAS",
+      "status": "pass",
+      "detail": {
+        "current": {
+          "revision": 2,
+          "completed": false,
+          "shrine_id": "Dungeon052",
+          "updated_at": "2026-10-11T14:43:30.403+08:00"
+        },
+        "conflict": {
+          "status": "conflict",
+          "conflicts": [
+            {
+              "current": {
+                "revision": 2,
+                "completed": false,
+                "shrine_id": "Dungeon052",
+                "updated_at": "2026-10-11T14:43:30.403+08:00"
+              },
+              "shrine_id": "Dungeon052",
+              "expected_revision": 1
+            }
+          ],
+          "request_id": "5172deea-5bb2-4c41-ae77-eb590a5e75e4"
+        }
+      }
+    },
+    {
+      "id": "S05-idempotency-same-versus-different-payload",
+      "status": "pass",
+      "detail": {
+        "revision": 2,
+        "replayed": true
+      }
+    },
+    {
+      "id": "S05-136-atomic-conflict-and-success",
+      "status": "pass",
+      "detail": {
+        "conflictWrites": 0,
+        "successRows": 136,
+        "completed": [
+          "Dungeon120"
+        ]
+      }
+    },
+    {
+      "id": "S05-rollback-includes-receipt",
+      "status": "pass",
+      "detail": {
+        "progressAndReceiptRolledBack": true
+      }
+    },
+    {
+      "id": "S06-reject-invalid-batches",
+      "status": "pass",
+      "detail": {
+        "invalidCases": 12,
+        "codes": [
+          "22023",
+          "22023",
+          "22023",
+          "22023",
+          "22023",
+          "22023",
+          "22023",
+          "22003",
+          "22023",
+          "22023",
+          "22023",
+          "22023"
+        ]
+      }
+    },
+    {
+      "id": "S02-RLS-own-positive-cross-owner-negative",
+      "status": "pass",
+      "detail": {
+        "role": {
+          "current_user": "authenticated",
+          "rolsuper": false,
+          "rolbypassrls": false
+        },
+        "ownReadWritePositive": true,
+        "crossOwnerReadUpdateInsertOwnerChangeBlocked": true,
+        "receiptsIsolated": true,
+        "temporaryGrantOnlyIsolatedDb": true
+      }
+    }
+  ],
+  "postgres": "PostgreSQL 18.3 (PGlite 0.5.8) on wasm32-unknown-emscripten, compiled by emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 3.1.74 (1092ec30a3fb1d46b1782ff1b4db5094d3d06ae5), 32-bit",
+  "completedAt": "2026-10-11T06:43:30.443Z",
+  "status": "pass"
+}

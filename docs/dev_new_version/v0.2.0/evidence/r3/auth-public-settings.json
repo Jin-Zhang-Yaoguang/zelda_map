@@ -1,0 +1,9 @@
+{
+  "verified_at": "2026-10-11T11:23:40.515986+00:00",
+  "scope": "公开Auth settings，只读，无用户会话或管理密钥",
+  "http_status": 200,
+  "email_enabled": true,
+  "github_enabled": false,
+  "mailer_autoconfirm": true,
+  "disable_signup": false
+}

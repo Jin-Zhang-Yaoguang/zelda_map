@@ -1,0 +1,65 @@
+{
+  "schema": 1,
+  "version": "v0.2.0",
+  "stage": "user_acceptance",
+  "status": "awaiting_user",
+  "docs": {
+    "01_需求文档.md": "r3_complete",
+    "02_PRD.md": "r3_complete",
+    "03_UIUX设计.md": "r3_complete",
+    "04_技术方案.md": "r3_complete",
+    "05_测试方案.md": "r3_complete",
+    "06_开发记录.md": "r3_complete_for_current_stage",
+    "07_测试报告.md": "r3_focused_tests_pass",
+    "08_用户验收.md": "r3_awaiting_user",
+    "09_仓库巡检报告.md": "r3_preinspection_complete",
+    "10_上线记录.md": "cloud_preparation_only_not_deployed",
+    "11_版本开发总结.md": "r3_pre_acceptance_summary"
+  },
+  "approval": [],
+  "base_commit": "2686aa1c026bd046ba703381ee246fdd0f3bf628",
+  "created_at": "2026-10-11T06:07:17.118017+00:00",
+  "revision": "r3",
+  "branch": "dev/v0.2.0",
+  "supabase": {
+    "project_ref": "tvbpcfsjcwoelfkfjxaw",
+    "url": "https://tvbpcfsjcwoelfkfjxaw.supabase.co",
+    "organization": "Zelda Map",
+    "plan": "Free",
+    "region": "ap-northeast-2",
+    "status": "email/password and limited cloud API verified; GitHub canceled and provider disabled",
+    "metadata_verified": true,
+    "confirm_email": "off; human action-time permission received and public API verified",
+    "minimum_password_length": 8,
+    "auth_redirects": "Site URL and three exact roots saved; no wildcards",
+    "github_provider": "disabled; user canceled integration"
+  },
+  "external_requirements": [
+    "v0.2.0 human acceptance including real browser/physical-device experience"
+  ],
+  "unresolved_engineering_blockers": [],
+  "public_build_variables": "configured and API-readback matched; no deployment",
+  "local_candidate_inputs": "evidence/r3/candidate-manifest.json",
+  "test_scope": "r3 typecheck/3 builds/6 focused browser groups pass; r2 limited real API 10 groups retained with original scope; no human acceptance",
+  "qa_candidate_manifest": "evidence/r3/candidate-manifest.json",
+  "minor_followups": [],
+  "action_permissions": [
+    {
+      "source": "current user question reply",
+      "question_id": "call_oADJD7x8bdtCH9sNLhQFdybK",
+      "quote": "允许关闭，注册后直接使用",
+      "scope": "Disable and save Confirm email for this map project only",
+      "not_version_acceptance": true
+    }
+  ],
+  "requirement_changes": [
+    {
+      "source": "current user message",
+      "quote": "如果需要这么麻烦就撤回github登录的配置，只支持邮箱就可以。",
+      "revision": "r3",
+      "scope": "Remove GitHub login and setup; retain email/password, guest and synchronization",
+      "not_version_acceptance": true
+    }
+  ],
+  "watchdog_evidence": "evidence/r3/watchdog-results.json"
+}

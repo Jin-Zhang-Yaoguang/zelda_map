@@ -1,0 +1,354 @@
+{
+  "checkedAt": "2026-10-11T13:32:21.649Z",
+  "scope": "真人验收后正式上线前增量漂移检查；不生成approval、不push、不重复全资产CRC/秘密扫描",
+  "branch": "dev/v0.2.0",
+  "head": "2686aa1c026bd046ba703381ee246fdd0f3bf628",
+  "r4CandidateFileHash": "1f4262616fb5d0fdbf2555f913b54e43c2e7e2c7d3baa6a602a07f45ca54842d",
+  "previousBindingFileHash": "1f22b10a130eef591ae2ed2550cd83c6ef9ab446d992c42494bbf3ca99034b70",
+  "previousCandidateFingerprint": "f6a793a00a8af277b61c7199eb69aeb7b1afdfbd7b836a0c9de2a8f73cb9e971",
+  "inputChecks": [
+    {
+      "path": "package.json",
+      "match": true
+    },
+    {
+      "path": "package-lock.json",
+      "match": true
+    },
+    {
+      "path": "src/App.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/AccountDialog.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/AccountPanel.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/ConflictDialog.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/Icon.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/ImportDialog.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/MapCanvas.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/SafePreview.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/Settings.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/ShrineDetails.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/SyncStatus.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/Text.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/TransferDialog.tsx",
+      "match": true
+    },
+    {
+      "path": "src/i18n.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/cloud/auth.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/cloud/client.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/cloud/errors.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/cloud/repository.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/data.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/map.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/mapTiles.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/progress.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/smoothWheelZoom.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/sync/controller.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/sync/storage.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/sync/types.ts",
+      "match": true
+    },
+    {
+      "path": "src/main.tsx",
+      "match": true
+    },
+    {
+      "path": "src/styles.css",
+      "match": true
+    },
+    {
+      "path": "src/types.ts",
+      "match": true
+    },
+    {
+      "path": "src/vite-env.d.ts",
+      "match": true
+    },
+    {
+      "path": "supabase/migrations/202610110001_account_progress.sql",
+      "match": true
+    },
+    {
+      "path": "public/data/shrines.json",
+      "match": true
+    },
+    {
+      "path": "public/assets/hyrule-base.webp",
+      "match": true
+    },
+    {
+      "path": "data/sources/map-tiles-manifest.json",
+      "match": true
+    },
+    {
+      "path": "tests/v020/r4_build.mjs",
+      "match": true
+    },
+    {
+      "path": "tests/v020/r4_hd_browser.cjs",
+      "match": true
+    },
+    {
+      "path": "tests/v020/r4_marker_visibility.cjs",
+      "match": true
+    },
+    {
+      "path": "tests/v020/r4_tile_audit.mjs",
+      "match": true
+    },
+    {
+      "path": "tests/v020/r4_zoom_compare.cjs",
+      "match": true
+    },
+    {
+      "path": "docs/dev_new_version/v0.2.0/05_测试方案.md",
+      "match": true
+    },
+    {
+      "path": "docs/dev_new_version/v0.2.0/07_测试报告.md",
+      "match": true
+    },
+    {
+      "path": "docs/dev_new_version/v0.2.0/map_qa_handoff.md",
+      "match": true
+    }
+  ],
+  "inputCount": 44,
+  "inputsAllMatch": true,
+  "sourceChecks": [
+    {
+      "path": "package.json",
+      "match": true
+    },
+    {
+      "path": "package-lock.json",
+      "match": true
+    },
+    {
+      "path": "src/App.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/AccountDialog.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/AccountPanel.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/ConflictDialog.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/Icon.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/ImportDialog.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/MapCanvas.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/SafePreview.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/Settings.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/ShrineDetails.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/SyncStatus.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/Text.tsx",
+      "match": true
+    },
+    {
+      "path": "src/components/TransferDialog.tsx",
+      "match": true
+    },
+    {
+      "path": "src/i18n.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/cloud/auth.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/cloud/client.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/cloud/errors.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/cloud/repository.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/data.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/map.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/mapTiles.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/progress.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/smoothWheelZoom.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/sync/controller.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/sync/storage.ts",
+      "match": true
+    },
+    {
+      "path": "src/lib/sync/types.ts",
+      "match": true
+    },
+    {
+      "path": "src/main.tsx",
+      "match": true
+    },
+    {
+      "path": "src/styles.css",
+      "match": true
+    },
+    {
+      "path": "src/types.ts",
+      "match": true
+    },
+    {
+      "path": "src/vite-env.d.ts",
+      "match": true
+    },
+    {
+      "path": "supabase/migrations/202610110001_account_progress.sql",
+      "match": true
+    },
+    {
+      "path": "public/data/shrines.json",
+      "match": true
+    },
+    {
+      "path": "public/assets/hyrule-base.webp",
+      "match": true
+    },
+    {
+      "path": "data/sources/map-tiles-manifest.json",
+      "match": true
+    }
+  ],
+  "sourceCount": 36,
+  "sourceAllMatch": true,
+  "assets": {
+    "sourceManifestUnchanged": true,
+    "count": 9945,
+    "declaredCount": 9945,
+    "exactSetMatch": true,
+    "size": 252130058,
+    "declaredBytes": 252130058,
+    "chain": "6c227da15811d36b162a6ac0689934f8e38316f0d229618dc08f025d6882972e",
+    "chainMatchesPrior": true,
+    "metadataDriftCount": 0,
+    "metadataDrift": [],
+    "targetedHashes": [],
+    "priorFullScanReused": true,
+    "basis": "每片当前路径/size/mtime相对前次完整检查；仅metadata变化片重读hash，不声称本次重跑9945 CRC或全量秘密扫描",
+    "limits": "未逐片重读未变化mtime的PNG；依赖本次冻结后的正常文件系统元数据与既有完整哈希证据，不面向伪造mtime的对抗性场景"
+  },
+  "status": "pass"
+}

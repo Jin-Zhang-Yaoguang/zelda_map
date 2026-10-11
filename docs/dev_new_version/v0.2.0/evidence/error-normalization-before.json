@@ -1,0 +1,517 @@
+{
+  "phase": "before",
+  "layer": "本地错误映射；全部输入为合成对象，无真实 Supabase、JWT、邮件、OAuth 或 HTTP 请求",
+  "startedAt": "2026-10-11T07:08:02.786Z",
+  "provenance": "修前既有真实构建产物，仅追加导出",
+  "sourcePath": ".runtime/qa-v020/engine.mjs",
+  "sourceHash": "b94745bffc211de10756024ea732792e9443ab7a6157cf1ff66769bc622ab5d4",
+  "compiledHash": "3c726222dc738fd93c4c802067c65994700cbfc81550bf9eaaf013c766684641",
+  "originalTsSourceHash": null,
+  "checks": [
+    {
+      "id": "auth-403-otp-expired",
+      "operation": "auth",
+      "input": {
+        "status": 403,
+        "code": "otp_expired"
+      },
+      "expected": {
+        "operation": "auth",
+        "code": "invalidOtp",
+        "retryable": false
+      },
+      "actual": {
+        "operation": "auth",
+        "code": "permissionDenied",
+        "retryable": false
+      },
+      "status": "fail",
+      "error": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   code: 'permissionDenied',\n-   code: 'invalidOtp',\n    operation: 'auth',\n    retryable: false\n  }\n"
+    },
+    {
+      "id": "auth-403-validation-failed",
+      "operation": "auth",
+      "input": {
+        "status": 403,
+        "code": "validation_failed"
+      },
+      "expected": {
+        "operation": "auth",
+        "code": "invalidOtp",
+        "retryable": false
+      },
+      "actual": {
+        "operation": "auth",
+        "code": "permissionDenied",
+        "retryable": false
+      },
+      "status": "fail",
+      "error": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   code: 'permissionDenied',\n-   code: 'invalidOtp',\n    operation: 'auth',\n    retryable: false\n  }\n"
+    },
+    {
+      "id": "auth-403-otp-disabled",
+      "operation": "auth",
+      "input": {
+        "status": 403,
+        "code": "otp_disabled"
+      },
+      "expected": {
+        "operation": "auth",
+        "code": "invalidOtp",
+        "retryable": false
+      },
+      "actual": {
+        "operation": "auth",
+        "code": "permissionDenied",
+        "retryable": false
+      },
+      "status": "fail",
+      "error": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   code: 'permissionDenied',\n-   code: 'invalidOtp',\n    operation: 'auth',\n    retryable: false\n  }\n"
+    },
+    {
+      "id": "auth-otp-expired-no-status",
+      "operation": "auth",
+      "input": {
+        "code": "otp_expired"
+      },
+      "expected": {
+        "operation": "auth",
+        "code": "invalidOtp",
+        "retryable": false
+      },
+      "actual": {
+        "operation": "auth",
+        "code": "invalidOtp",
+        "retryable": false
+      },
+      "status": "pass"
+    },
+    {
+      "id": "auth-validation-422",
+      "operation": "auth",
+      "input": {
+        "status": 422,
+        "code": "validation_failed"
+      },
+      "expected": {
+        "operation": "auth",
+        "code": "invalidOtp",
+        "retryable": false
+      },
+      "actual": {
+        "operation": "auth",
+        "code": "invalidOtp",
+        "retryable": false
+      },
+      "status": "pass"
+    },
+    {
+      "id": "auth-network-503",
+      "operation": "auth",
+      "input": {
+        "status": 503,
+        "message": "Synthetic service unavailable"
+      },
+      "expected": {
+        "operation": "auth",
+        "code": "networkFailure",
+        "retryable": true
+      },
+      "actual": {
+        "operation": "auth",
+        "code": "networkFailure",
+        "retryable": true
+      },
+      "status": "pass"
+    },
+    {
+      "id": "auth-network-typeerror",
+      "operation": "auth",
+      "input": {
+        "name": "TypeError",
+        "message": "Synthetic connection failure"
+      },
+      "expected": {
+        "operation": "auth",
+        "code": "networkFailure",
+        "retryable": true
+      },
+      "actual": {
+        "operation": "auth",
+        "code": "networkFailure",
+        "retryable": true
+      },
+      "status": "pass"
+    },
+    {
+      "id": "auth-network-status0",
+      "operation": "auth",
+      "input": {
+        "status": 0
+      },
+      "expected": {
+        "operation": "auth",
+        "code": "networkFailure",
+        "retryable": true
+      },
+      "actual": {
+        "operation": "auth",
+        "code": "networkFailure",
+        "retryable": true
+      },
+      "status": "pass"
+    },
+    {
+      "id": "auth-network-fetch-message",
+      "operation": "auth",
+      "input": {
+        "message": "Failed to fetch"
+      },
+      "expected": {
+        "operation": "auth",
+        "code": "networkFailure",
+        "retryable": true
+      },
+      "actual": {
+        "operation": "auth",
+        "code": "networkFailure",
+        "retryable": true
+      },
+      "status": "pass"
+    },
+    {
+      "id": "auth-429",
+      "operation": "auth",
+      "input": {
+        "status": 429
+      },
+      "expected": {
+        "operation": "auth",
+        "code": "rateLimited",
+        "retryable": true
+      },
+      "actual": {
+        "operation": "auth",
+        "code": "rateLimited",
+        "retryable": true
+      },
+      "status": "pass"
+    },
+    {
+      "id": "auth-over-request-rate-limit",
+      "operation": "auth",
+      "input": {
+        "code": "over_request_rate_limit"
+      },
+      "expected": {
+        "operation": "auth",
+        "code": "rateLimited",
+        "retryable": true
+      },
+      "actual": {
+        "operation": "auth",
+        "code": "rateLimited",
+        "retryable": true
+      },
+      "status": "pass"
+    },
+    {
+      "id": "auth-over-email-send-rate-limit",
+      "operation": "auth",
+      "input": {
+        "code": "over_email_send_rate_limit"
+      },
+      "expected": {
+        "operation": "auth",
+        "code": "rateLimited",
+        "retryable": true
+      },
+      "actual": {
+        "operation": "auth",
+        "code": "rateLimited",
+        "retryable": true
+      },
+      "status": "pass"
+    },
+    {
+      "id": "sync-403-42501",
+      "operation": "sync",
+      "input": {
+        "status": 403,
+        "code": "42501"
+      },
+      "expected": {
+        "operation": "sync",
+        "code": "permissionDenied",
+        "retryable": false
+      },
+      "actual": {
+        "operation": "sync",
+        "code": "permissionDenied",
+        "retryable": false
+      },
+      "status": "pass"
+    },
+    {
+      "id": "sync-403-no-code",
+      "operation": "sync",
+      "input": {
+        "status": 403
+      },
+      "expected": {
+        "operation": "sync",
+        "code": "permissionDenied",
+        "retryable": false
+      },
+      "actual": {
+        "operation": "sync",
+        "code": "permissionDenied",
+        "retryable": false
+      },
+      "status": "pass"
+    },
+    {
+      "id": "sync-42501-no-status",
+      "operation": "sync",
+      "input": {
+        "code": "42501"
+      },
+      "expected": {
+        "operation": "sync",
+        "code": "permissionDenied",
+        "retryable": false
+      },
+      "actual": {
+        "operation": "sync",
+        "code": "permissionDenied",
+        "retryable": false
+      },
+      "status": "pass"
+    },
+    {
+      "id": "sync-403-with-auth-code",
+      "operation": "sync",
+      "input": {
+        "status": 403,
+        "code": "otp_expired"
+      },
+      "expected": {
+        "operation": "sync",
+        "code": "permissionDenied",
+        "retryable": false
+      },
+      "actual": {
+        "operation": "sync",
+        "code": "permissionDenied",
+        "retryable": false
+      },
+      "status": "pass"
+    },
+    {
+      "id": "transfer-403",
+      "operation": "transfer",
+      "input": {
+        "status": 403
+      },
+      "expected": {
+        "operation": "transfer",
+        "code": "permissionDenied",
+        "retryable": false
+      },
+      "actual": {
+        "operation": "transfer",
+        "code": "permissionDenied",
+        "retryable": false
+      },
+      "status": "pass"
+    },
+    {
+      "id": "sync-401",
+      "operation": "sync",
+      "input": {
+        "status": 401
+      },
+      "expected": {
+        "operation": "sync",
+        "code": "sessionExpired",
+        "retryable": false
+      },
+      "actual": {
+        "operation": "sync",
+        "code": "sessionExpired",
+        "retryable": false
+      },
+      "status": "pass"
+    },
+    {
+      "id": "auth-401",
+      "operation": "auth",
+      "input": {
+        "status": 401
+      },
+      "expected": {
+        "operation": "auth",
+        "code": "sessionExpired",
+        "retryable": false
+      },
+      "actual": {
+        "operation": "auth",
+        "code": "sessionExpired",
+        "retryable": false
+      },
+      "status": "pass"
+    },
+    {
+      "id": "sync-PGRST301",
+      "operation": "sync",
+      "input": {
+        "code": "PGRST301"
+      },
+      "expected": {
+        "operation": "sync",
+        "code": "sessionExpired",
+        "retryable": false
+      },
+      "actual": {
+        "operation": "sync",
+        "code": "sessionExpired",
+        "retryable": false
+      },
+      "status": "pass"
+    },
+    {
+      "id": "auth-refresh-token-not-found",
+      "operation": "auth",
+      "input": {
+        "code": "refresh_token_not_found"
+      },
+      "expected": {
+        "operation": "auth",
+        "code": "sessionExpired",
+        "retryable": false
+      },
+      "actual": {
+        "operation": "auth",
+        "code": "sessionExpired",
+        "retryable": false
+      },
+      "status": "pass"
+    },
+    {
+      "id": "auth-refresh-token-already-used",
+      "operation": "auth",
+      "input": {
+        "code": "refresh_token_already_used"
+      },
+      "expected": {
+        "operation": "auth",
+        "code": "sessionExpired",
+        "retryable": false
+      },
+      "actual": {
+        "operation": "auth",
+        "code": "sessionExpired",
+        "retryable": false
+      },
+      "status": "pass"
+    },
+    {
+      "id": "auth-generic",
+      "operation": "auth",
+      "input": {
+        "status": 400,
+        "code": "synthetic_unknown"
+      },
+      "expected": {
+        "operation": "auth",
+        "code": "authFailed",
+        "retryable": false
+      },
+      "actual": {
+        "operation": "auth",
+        "code": "authFailed",
+        "retryable": false
+      },
+      "status": "pass"
+    },
+    {
+      "id": "sync-generic",
+      "operation": "sync",
+      "input": {
+        "status": 400,
+        "code": "synthetic_unknown"
+      },
+      "expected": {
+        "operation": "sync",
+        "code": "requestFailed",
+        "retryable": false
+      },
+      "actual": {
+        "operation": "sync",
+        "code": "requestFailed",
+        "retryable": false
+      },
+      "status": "pass"
+    },
+    {
+      "id": "storage-corrupt",
+      "operation": "storage",
+      "input": {
+        "name": "DataError"
+      },
+      "expected": {
+        "operation": "storage",
+        "code": "corruptCache",
+        "retryable": true
+      },
+      "actual": {
+        "operation": "storage",
+        "code": "corruptCache",
+        "retryable": true
+      },
+      "status": "pass"
+    },
+    {
+      "id": "storage-unavailable",
+      "operation": "storage",
+      "input": {
+        "name": "QuotaExceededError"
+      },
+      "expected": {
+        "operation": "storage",
+        "code": "storageUnavailable",
+        "retryable": true
+      },
+      "actual": {
+        "operation": "storage",
+        "code": "storageUnavailable",
+        "retryable": true
+      },
+      "status": "pass"
+    },
+    {
+      "id": "existing-AccountFailure-preserved",
+      "expected": {
+        "sameInstance": true,
+        "detail": {
+          "operation": "storage",
+          "code": "syntheticSpecific",
+          "retryable": true
+        }
+      },
+      "actual": {
+        "sameInstance": true,
+        "detail": {
+          "operation": "storage",
+          "code": "syntheticSpecific",
+          "retryable": true
+        }
+      },
+      "status": "pass"
+    }
+  ],
+  "passed": 24,
+  "failed": 3,
+  "status": "fail",
+  "completedAt": "2026-10-11T07:08:02.791Z"
+}

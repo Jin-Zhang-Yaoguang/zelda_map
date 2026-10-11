@@ -1,0 +1,53 @@
+{
+  "layer": "L3真实Chromium/官方SDK/IndexedDB + 受控GoTrue和PGlite RPC；非Supabase实云",
+  "startedAt": "2026-10-11T06:54:35.128Z",
+  "checks": [
+    {
+      "id": "A05-OAuth-full-navigation-view-root",
+      "status": "fail",
+      "error": "AssertionError [ERR_ASSERTION]: x OAuth map drift {\"before\":{\"x\":248,\"y\":56,\"width\":2121,\"height\":1768},\"after\":{\"x\":800,\"y\":474,\"width\":2121,\"height\":1768},\"zoom\":\"-0.5\"}\n    at /Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/qa_browser.cjs:58:1701\n    at async check (/Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/qa_browser.cjs:45:161)\n    at async /Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/qa_browser.cjs:58:107"
+    },
+    {
+      "id": "A05-OAuth-full-navigation-view-pages",
+      "status": "fail",
+      "error": "AssertionError [ERR_ASSERTION]: x OAuth map drift {\"before\":{\"x\":248,\"y\":56,\"width\":2121,\"height\":1768},\"after\":{\"x\":800,\"y\":474,\"width\":2121,\"height\":1768},\"zoom\":\"-0.5\"}\n    at /Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/qa_browser.cjs:58:1701\n    at async check (/Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/qa_browser.cjs:45:161)\n    at async /Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/qa_browser.cjs:58:107"
+    }
+  ],
+  "pageErrors": [],
+  "resourceErrors": [],
+  "authCalls": [
+    {
+      "method": "GET",
+      "path": "/auth/v1/authorize",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "pkce"
+    },
+    {
+      "method": "GET",
+      "path": "/auth/v1/authorize",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "pkce"
+    }
+  ],
+  "rpcCalls": [
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    }
+  ],
+  "browser": "149.0.7827.55",
+  "status": "fail",
+  "completedAt": "2026-10-11T06:54:38.229Z"
+}

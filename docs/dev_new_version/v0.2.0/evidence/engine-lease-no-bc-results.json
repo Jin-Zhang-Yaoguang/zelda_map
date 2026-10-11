@@ -1,0 +1,26 @@
+{
+  "layer": "L2 fake-indexeddb+实际SQL RPC；受控auth/网络，非实云",
+  "startedAt": "2026-10-11T07:00:17.905Z",
+  "hashes": {
+    "src/lib/sync/controller.ts": "0ece323083d043bf1ee23477323cb2a3bf1039ca6b8d14798d99f9aab8d71580",
+    "src/lib/sync/storage.ts": "ea290950aeca6ffbc4760348642c5044d326321a248f738fbba8fc4d13f1ebf8",
+    "src/lib/sync/types.ts": "5e746769db9421d7766bfd84c90355b6911fbe84a3715afd3dc01250fe2bc5ab",
+    "src/lib/cloud/repository.ts": "f352bb1e595edb097159c790a1a37049afdafd452108d1f407e82ad3158f0f16",
+    "supabase/migrations/202610110001_account_progress.sql": "3f30a3251c13ae579c9c7b78d6de185cfc8b2cf61d3ee3482dc8b8fdf0225c5a"
+  },
+  "checks": [
+    {
+      "id": "E06-lease-expiry-takeover-no-BroadcastChannel",
+      "status": "pass",
+      "detail": {
+        "noBC": true,
+        "noWebLocks": true,
+        "expiredLeaseTakeover": true,
+        "sameRequestReplayed": true,
+        "revision": 1
+      }
+    }
+  ],
+  "status": "pass",
+  "completedAt": "2026-10-11T07:00:18.850Z"
+}

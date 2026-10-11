@@ -1,0 +1,204 @@
+{
+  "r1Manifest": "revisions/r1/candidate-manifest.json",
+  "r2LatestBuild": "evidence/r2/edit-build-manifest.json",
+  "checks": [
+    {
+      "path": "package.json",
+      "r1": "8d8817901cd5e2c19ef96d867191a6d13af32b9d9ec01248fdbe9433ad052bd3",
+      "r2": "8d8817901cd5e2c19ef96d867191a6d13af32b9d9ec01248fdbe9433ad052bd3",
+      "unchanged": true
+    },
+    {
+      "path": "package-lock.json",
+      "r1": "e73a0dcd7e291c84a3c4152f148c313f977024485d1d80b0bade6cb9f1ad3de1",
+      "r2": "e73a0dcd7e291c84a3c4152f148c313f977024485d1d80b0bade6cb9f1ad3de1",
+      "unchanged": true
+    },
+    {
+      "path": "src/App.tsx",
+      "r1": "449037022fdb14ab6b90fdfac595b7caee70dbc4f81a46e7d01543f985e295a9",
+      "r2": "449037022fdb14ab6b90fdfac595b7caee70dbc4f81a46e7d01543f985e295a9",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/AccountDialog.tsx",
+      "r1": "87b6dd05402d36b9f0fb58637944e6ef4c64a65b6dbccd193d185d3fc040081b",
+      "r2": "87b6dd05402d36b9f0fb58637944e6ef4c64a65b6dbccd193d185d3fc040081b",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/AccountPanel.tsx",
+      "r1": "ab7e37848ec4ae592f184ecb600cdd821859da4addd700e238dc9e76f5fbdff4",
+      "r2": "20eb312d2bdfc6c7e192e095f7cd655fb725c2c6b34fcfe854b1e7211d44331a",
+      "unchanged": false
+    },
+    {
+      "path": "src/components/ConflictDialog.tsx",
+      "r1": "abc0d2a79ce3a9cb36159149d3c3883901330c70859f4c118a8364924b93f88e",
+      "r2": "abc0d2a79ce3a9cb36159149d3c3883901330c70859f4c118a8364924b93f88e",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/Icon.tsx",
+      "r1": "1fb277363d562df850dda3db1828a452a624654efff661aeddbc3bf8cd519eff",
+      "r2": "1fb277363d562df850dda3db1828a452a624654efff661aeddbc3bf8cd519eff",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/ImportDialog.tsx",
+      "r1": "70b7fcc5ea42edf04deb355fd28db0b00cb274c04e84b6356666c02236fef8a7",
+      "r2": "70b7fcc5ea42edf04deb355fd28db0b00cb274c04e84b6356666c02236fef8a7",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/MapCanvas.tsx",
+      "r1": "f8c0812b2f3cfab0e3e90c25b00e3965059f637d83055843c214723197000504",
+      "r2": "f8c0812b2f3cfab0e3e90c25b00e3965059f637d83055843c214723197000504",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/SafePreview.tsx",
+      "r1": "470d61bcc115533d1cc383770db7be4187def067ac5789a341470be78d1b9030",
+      "r2": "470d61bcc115533d1cc383770db7be4187def067ac5789a341470be78d1b9030",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/Settings.tsx",
+      "r1": "8a0b4484c78b54899ac1de63a177902d232e6411160bcaaf487e580ea4232948",
+      "r2": "8a0b4484c78b54899ac1de63a177902d232e6411160bcaaf487e580ea4232948",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/ShrineDetails.tsx",
+      "r1": "0945785ea0253ddfee7676b25c1e2cc0886ccf2e421496a69d4331a3b49698e7",
+      "r2": "0945785ea0253ddfee7676b25c1e2cc0886ccf2e421496a69d4331a3b49698e7",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/SyncStatus.tsx",
+      "r1": "0e9d1d39ab2229ba730f762905d5ab7a597e0e07f197d78d3a6d640a73783d6f",
+      "r2": "61f8e995fab5472a9dee6ede701202898084b888c86192472f4768f7a8d78480",
+      "unchanged": false
+    },
+    {
+      "path": "src/components/Text.tsx",
+      "r1": "4cc29b7e303754221fb100b70d407146617770427e24d7f314be87d3cd77e8b5",
+      "r2": "4cc29b7e303754221fb100b70d407146617770427e24d7f314be87d3cd77e8b5",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/TransferDialog.tsx",
+      "r1": "a93249a9adbcb6d4a61e6ee9074cbdf020ba9be22330f16fad6eced9b3737a46",
+      "r2": "a93249a9adbcb6d4a61e6ee9074cbdf020ba9be22330f16fad6eced9b3737a46",
+      "unchanged": true
+    },
+    {
+      "path": "src/i18n.ts",
+      "r1": "a3d848bd547f6236a32c17f2dc229b878569d1514a654fb08dedd80eab69c1d6",
+      "r2": "9ba98bc0f617a60016a10bbadfa60c1fff78ad09966f9faf81e3c89fec0f238c",
+      "unchanged": false
+    },
+    {
+      "path": "src/lib/cloud/auth.ts",
+      "r1": "9fcfa0882140b531729fbf0f195909367e76365fb3e6a3590924733e5aa55c7d",
+      "r2": "469d6cedb97dfe92678327f32f50265004d333024ffe7508873f97784eb43dbc",
+      "unchanged": false
+    },
+    {
+      "path": "src/lib/cloud/client.ts",
+      "r1": "73bd1004ffe1da25036a8052df4113effad9a9dfaaf5ad3af4ac7c119584462e",
+      "r2": "73bd1004ffe1da25036a8052df4113effad9a9dfaaf5ad3af4ac7c119584462e",
+      "unchanged": true
+    },
+    {
+      "path": "src/lib/cloud/errors.ts",
+      "r1": "7a34720ad47874cdcb10a6262c735c267329534db454c1543fbe9da6072bb3b3",
+      "r2": "4e72920bf2e364de4c141cb097f6324497e1a284ce2936bca659bbadcae20ea7",
+      "unchanged": false
+    },
+    {
+      "path": "src/lib/cloud/repository.ts",
+      "r1": "f352bb1e595edb097159c790a1a37049afdafd452108d1f407e82ad3158f0f16",
+      "r2": "f352bb1e595edb097159c790a1a37049afdafd452108d1f407e82ad3158f0f16",
+      "unchanged": true
+    },
+    {
+      "path": "src/lib/data.ts",
+      "r1": "caa9d120c73c527adc930322cb11e96c3abd16cf01a23fb04b150092d90f0c66",
+      "r2": "caa9d120c73c527adc930322cb11e96c3abd16cf01a23fb04b150092d90f0c66",
+      "unchanged": true
+    },
+    {
+      "path": "src/lib/map.ts",
+      "r1": "31942b26a812feb44e208fc0e2d00aab44b7a34abca40784c6d80cdb6926cabd",
+      "r2": "31942b26a812feb44e208fc0e2d00aab44b7a34abca40784c6d80cdb6926cabd",
+      "unchanged": true
+    },
+    {
+      "path": "src/lib/progress.ts",
+      "r1": "d32cfa8cbc6c8de880aec80cb0c4a82a66fd4312ffaad04effe7f963dd42b9ee",
+      "r2": "d32cfa8cbc6c8de880aec80cb0c4a82a66fd4312ffaad04effe7f963dd42b9ee",
+      "unchanged": true
+    },
+    {
+      "path": "src/lib/sync/controller.ts",
+      "r1": "0ece323083d043bf1ee23477323cb2a3bf1039ca6b8d14798d99f9aab8d71580",
+      "r2": "c4e0be7304848b0cf07f2de70c7b7f01751632223da6874eaba27666148ea827",
+      "unchanged": false
+    },
+    {
+      "path": "src/lib/sync/storage.ts",
+      "r1": "ea290950aeca6ffbc4760348642c5044d326321a248f738fbba8fc4d13f1ebf8",
+      "r2": "ea290950aeca6ffbc4760348642c5044d326321a248f738fbba8fc4d13f1ebf8",
+      "unchanged": true
+    },
+    {
+      "path": "src/lib/sync/types.ts",
+      "r1": "5e746769db9421d7766bfd84c90355b6911fbe84a3715afd3dc01250fe2bc5ab",
+      "r2": "e526141b8a421b24178210df5b9a1cd8dc0f902524e5fc87e5d5f616796a6877",
+      "unchanged": false
+    },
+    {
+      "path": "src/main.tsx",
+      "r1": "e7d86d0c7194d7ae7740747e6a63e00644c8abd58a30cb704c4eadc23025900c",
+      "r2": "e7d86d0c7194d7ae7740747e6a63e00644c8abd58a30cb704c4eadc23025900c",
+      "unchanged": true
+    },
+    {
+      "path": "src/styles.css",
+      "r1": "fa0108abc9869d62b123554f0149c84e05f2733fd797c9e7230592e4a68da8da",
+      "r2": "f5e5142ad12291f3701de310f375ba23403a37ed1caecbcaead9a2a2da5e7dc3",
+      "unchanged": false
+    },
+    {
+      "path": "src/types.ts",
+      "r1": "d337085d9fa37ea15b6d804c0fb607153362182455518821a8d22cec40559eed",
+      "r2": "d337085d9fa37ea15b6d804c0fb607153362182455518821a8d22cec40559eed",
+      "unchanged": true
+    },
+    {
+      "path": "src/vite-env.d.ts",
+      "r1": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5",
+      "r2": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5",
+      "unchanged": true
+    },
+    {
+      "path": "supabase/migrations/202610110001_account_progress.sql",
+      "r1": "3f30a3251c13ae579c9c7b78d6de185cfc8b2cf61d3ee3482dc8b8fdf0225c5a",
+      "r2": "3f30a3251c13ae579c9c7b78d6de185cfc8b2cf61d3ee3482dc8b8fdf0225c5a",
+      "unchanged": true
+    },
+    {
+      "path": "public/data/shrines.json",
+      "r1": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde",
+      "r2": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde",
+      "unchanged": true
+    },
+    {
+      "path": "public/assets/hyrule-base.webp",
+      "r1": "5847a9e5f5d4ed44bc20b61d2b5c24999c33b796d8a42354946f42c631b4ec10",
+      "r2": "5847a9e5f5d4ed44bc20b61d2b5c24999c33b796d8a42354946f42c631b4ec10",
+      "unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "format": "zelda-map-progress",
+  "schemaVersion": 1,
+  "game": "botw",
+  "dataVersion": "v0.1.0-20261011-r2",
+  "exportedAt": "2026-10-11T06:53:37.409Z",
+  "completedIds": [
+    "Dungeon051",
+    "Dungeon120"
+  ]
+}

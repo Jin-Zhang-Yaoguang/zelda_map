@@ -1,0 +1,394 @@
+{
+  "startedAt": "2026-10-11T10:56:26.452Z",
+  "scope": "L4真实HTTPS API + 独立SDK客户端；controller使用独立fakeIDB，不是实体跨设备/UI验收",
+  "flowType": "pkce",
+  "sourceHashes": {
+    "src/lib/cloud/auth.ts": "469d6cedb97dfe92678327f32f50265004d333024ffe7508873f97784eb43dbc",
+    "src/lib/cloud/errors.ts": "4e72920bf2e364de4c141cb097f6324497e1a284ce2936bca659bbadcae20ea7",
+    "src/lib/cloud/repository.ts": "f352bb1e595edb097159c790a1a37049afdafd452108d1f407e82ad3158f0f16",
+    "src/lib/sync/controller.ts": "c4e0be7304848b0cf07f2de70c7b7f01751632223da6874eaba27666148ea827",
+    "src/lib/sync/storage.ts": "ea290950aeca6ffbc4760348642c5044d326321a248f738fbba8fc4d13f1ebf8",
+    "src/lib/sync/types.ts": "e526141b8a421b24178210df5b9a1cd8dc0f902524e5fc87e5d5f616796a6877",
+    "public/data/shrines.json": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde"
+  },
+  "checks": [
+    {
+      "id": "L4-config-before-A",
+      "status": "pass",
+      "detail": {
+        "http": 200,
+        "mailer_autoconfirm": true,
+        "disable_signup": false,
+        "emailEnabled": true,
+        "githubEnabled": false
+      }
+    },
+    {
+      "id": "L4-server-minimum-eight-rejects-seven",
+      "status": "pass",
+      "detail": {
+        "serverCode": "weak_password",
+        "minimumEightBoundaryRejected": true,
+        "noSession": true
+      }
+    },
+    {
+      "id": "L4-signup-A-pkce-immediate-session",
+      "status": "pass",
+      "detail": {
+        "createdAccountAlias": "A",
+        "validSession": true,
+        "uidPresent": true,
+        "pkceConfigured": true
+      }
+    },
+    {
+      "id": "L4-password-login-and-wrong-credentials",
+      "status": "pass",
+      "detail": {
+        "localSignoutCleared": true,
+        "loginSameUid": true,
+        "wrongPasswordCode": "invalidCredentials",
+        "wrongPasswordNoSession": true
+      }
+    },
+    {
+      "id": "L4-config-before-B",
+      "status": "pass",
+      "detail": {
+        "http": 200,
+        "mailer_autoconfirm": true,
+        "disable_signup": false,
+        "emailEnabled": true,
+        "githubEnabled": false
+      }
+    },
+    {
+      "id": "L4-signup-B-and-independent-A2",
+      "status": "pass",
+      "detail": {
+        "BIndependentUid": true,
+        "A2SameUid": true,
+        "newAccountsEmpty": true
+      }
+    },
+    {
+      "id": "L4-A-complete-A2-read-cancel-A-read-false",
+      "status": "pass",
+      "detail": {
+        "replayRevisionUnchanged": true,
+        "A2ReadTrueRevision": 1,
+        "AReadFalseRevision": 2,
+        "independentClients": true
+      }
+    },
+    {
+      "id": "L4-stale-CAS-and-B-isolation",
+      "status": "pass",
+      "detail": {
+        "staleConflict": true,
+        "falsePreserved": true,
+        "BDoesNotReadA": true,
+        "ADoesNotReadB": true,
+        "receiptSameUuidIsolated": true
+      }
+    },
+    {
+      "id": "L4-tampered-own-JWT-rejected",
+      "status": "pass",
+      "detail": {
+        "http": 401,
+        "errorCode": "PGRST301",
+        "rejected": true,
+        "onlyOwnQaTokenUsed": true
+      }
+    },
+    {
+      "id": "L4-controller-synthetic-guest-merge-backup",
+      "status": "pass",
+      "detail": {
+        "controllerCurrentSource": true,
+        "realRpcBatch136": true,
+        "independentAReadback": true,
+        "syntheticGuestRawPreserved": true,
+        "backupPersistedInFakeIDB": true,
+        "realBrowserDiskNotClaimed": true
+      }
+    }
+  ],
+  "requests": [
+    {
+      "label": "L4-config-before-A",
+      "method": "GET",
+      "path": "/auth/v1/settings",
+      "grant": null,
+      "pkceChallengePresent": false,
+      "http": 200
+    },
+    {
+      "label": "L4-server-minimum-eight-rejects-seven",
+      "method": "GET",
+      "path": "/auth/v1/settings",
+      "grant": null,
+      "pkceChallengePresent": false,
+      "http": 200
+    },
+    {
+      "label": "L4-server-minimum-eight-rejects-seven",
+      "method": "POST",
+      "path": "/auth/v1/signup",
+      "grant": null,
+      "pkceChallengePresent": true,
+      "http": 422
+    },
+    {
+      "label": "L4-signup-A-pkce-immediate-session",
+      "method": "GET",
+      "path": "/auth/v1/settings",
+      "grant": null,
+      "pkceChallengePresent": false,
+      "http": 200
+    },
+    {
+      "label": "L4-signup-A-pkce-immediate-session",
+      "method": "POST",
+      "path": "/auth/v1/signup",
+      "grant": null,
+      "pkceChallengePresent": true,
+      "http": 200
+    },
+    {
+      "label": "L4-password-login-and-wrong-credentials",
+      "method": "POST",
+      "path": "/auth/v1/logout",
+      "grant": null,
+      "pkceChallengePresent": false,
+      "http": 204
+    },
+    {
+      "label": "L4-password-login-and-wrong-credentials",
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "password",
+      "pkceChallengePresent": false,
+      "http": 200
+    },
+    {
+      "label": "L4-password-login-and-wrong-credentials",
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "password",
+      "pkceChallengePresent": false,
+      "http": 400
+    },
+    {
+      "label": "L4-config-before-B",
+      "method": "GET",
+      "path": "/auth/v1/settings",
+      "grant": null,
+      "pkceChallengePresent": false,
+      "http": 200
+    },
+    {
+      "label": "L4-signup-B-and-independent-A2",
+      "method": "GET",
+      "path": "/auth/v1/settings",
+      "grant": null,
+      "pkceChallengePresent": false,
+      "http": 200
+    },
+    {
+      "label": "L4-signup-B-and-independent-A2",
+      "method": "POST",
+      "path": "/auth/v1/signup",
+      "grant": null,
+      "pkceChallengePresent": true,
+      "http": 200
+    },
+    {
+      "label": "L4-signup-B-and-independent-A2",
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "password",
+      "pkceChallengePresent": false,
+      "http": 200
+    },
+    {
+      "label": "L4-signup-B-and-independent-A2",
+      "method": "POST",
+      "path": "/rest/v1/rpc/get_shrine_progress",
+      "grant": null,
+      "pkceChallengePresent": false,
+      "http": 200
+    },
+    {
+      "label": "L4-signup-B-and-independent-A2",
+      "method": "POST",
+      "path": "/rest/v1/rpc/get_shrine_progress",
+      "grant": null,
+      "pkceChallengePresent": false,
+      "http": 200
+    },
+    {
+      "label": "L4-A-complete-A2-read-cancel-A-read-false",
+      "method": "POST",
+      "path": "/rest/v1/rpc/apply_shrine_progress",
+      "grant": null,
+      "pkceChallengePresent": false,
+      "http": 200
+    },
+    {
+      "label": "L4-A-complete-A2-read-cancel-A-read-false",
+      "method": "POST",
+      "path": "/rest/v1/rpc/apply_shrine_progress",
+      "grant": null,
+      "pkceChallengePresent": false,
+      "http": 200
+    },
+    {
+      "label": "L4-A-complete-A2-read-cancel-A-read-false",
+      "method": "POST",
+      "path": "/rest/v1/rpc/get_shrine_progress",
+      "grant": null,
+      "pkceChallengePresent": false,
+      "http": 200
+    },
+    {
+      "label": "L4-A-complete-A2-read-cancel-A-read-false",
+      "method": "POST",
+      "path": "/rest/v1/rpc/apply_shrine_progress",
+      "grant": null,
+      "pkceChallengePresent": false,
+      "http": 200
+    },
+    {
+      "label": "L4-A-complete-A2-read-cancel-A-read-false",
+      "method": "POST",
+      "path": "/rest/v1/rpc/get_shrine_progress",
+      "grant": null,
+      "pkceChallengePresent": false,
+      "http": 200
+    },
+    {
+      "label": "L4-stale-CAS-and-B-isolation",
+      "method": "POST",
+      "path": "/rest/v1/rpc/apply_shrine_progress",
+      "grant": null,
+      "pkceChallengePresent": false,
+      "http": 200
+    },
+    {
+      "label": "L4-stale-CAS-and-B-isolation",
+      "method": "POST",
+      "path": "/rest/v1/rpc/get_shrine_progress",
+      "grant": null,
+      "pkceChallengePresent": false,
+      "http": 200
+    },
+    {
+      "label": "L4-stale-CAS-and-B-isolation",
+      "method": "POST",
+      "path": "/rest/v1/rpc/apply_shrine_progress",
+      "grant": null,
+      "pkceChallengePresent": false,
+      "http": 200
+    },
+    {
+      "label": "L4-stale-CAS-and-B-isolation",
+      "method": "POST",
+      "path": "/rest/v1/rpc/get_shrine_progress",
+      "grant": null,
+      "pkceChallengePresent": false,
+      "http": 200
+    },
+    {
+      "label": "L4-stale-CAS-and-B-isolation",
+      "method": "POST",
+      "path": "/rest/v1/rpc/get_shrine_progress",
+      "grant": null,
+      "pkceChallengePresent": false,
+      "http": 200
+    },
+    {
+      "label": "L4-tampered-own-JWT-rejected",
+      "method": "POST",
+      "path": "/rest/v1/rpc/get_shrine_progress",
+      "grant": null,
+      "pkceChallengePresent": false,
+      "http": 401
+    },
+    {
+      "label": "L4-controller-synthetic-guest-merge-backup",
+      "method": "POST",
+      "path": "/rest/v1/rpc/get_shrine_progress",
+      "grant": null,
+      "pkceChallengePresent": false,
+      "http": 200
+    },
+    {
+      "label": "L4-controller-synthetic-guest-merge-backup",
+      "method": "POST",
+      "path": "/rest/v1/rpc/get_shrine_progress",
+      "grant": null,
+      "pkceChallengePresent": false,
+      "http": 200
+    },
+    {
+      "label": "L4-controller-synthetic-guest-merge-backup",
+      "method": "POST",
+      "path": "/rest/v1/rpc/get_shrine_progress",
+      "grant": null,
+      "pkceChallengePresent": false,
+      "http": 200
+    },
+    {
+      "label": "L4-controller-synthetic-guest-merge-backup",
+      "method": "POST",
+      "path": "/rest/v1/rpc/apply_shrine_progress",
+      "grant": null,
+      "pkceChallengePresent": false,
+      "http": 200
+    },
+    {
+      "label": "L4-controller-synthetic-guest-merge-backup",
+      "method": "POST",
+      "path": "/rest/v1/rpc/get_shrine_progress",
+      "grant": null,
+      "pkceChallengePresent": false,
+      "http": 200
+    },
+    {
+      "label": "L4-controller-synthetic-guest-merge-backup",
+      "method": "POST",
+      "path": "/rest/v1/rpc/get_shrine_progress",
+      "grant": null,
+      "pkceChallengePresent": false,
+      "http": 200
+    }
+  ],
+  "createdAccounts": [
+    {
+      "alias": "A",
+      "uidPresent": true
+    },
+    {
+      "alias": "B",
+      "uidPresent": true
+    }
+  ],
+  "cleanup": {
+    "controllerDisposed": true,
+    "allSdkDisposed": true,
+    "accountsRetainedWithoutDeletion": true,
+    "noRealBrowserOr5173Touched": true
+  },
+  "limits": [
+    "GitHub未启用未测",
+    "非实体两设备/真实浏览器磁盘",
+    "密码规则GUI最终读回另由主代理补"
+  ],
+  "engineHash": "7e29e36b751063306866b2c663aafadd4ca87fe1fd49ec0bd203d1d55da48566",
+  "status": "pass",
+  "sourceStable": true,
+  "completedAt": "2026-10-11T10:56:41.116Z"
+}

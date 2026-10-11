@@ -1,0 +1,117 @@
+{
+  "layer": "L2 fake-indexeddb+实际SQL RPC；受控auth/网络，非实云",
+  "startedAt": "2026-10-11T06:45:30.427Z",
+  "hashes": {
+    "src/lib/sync/controller.ts": "161bab111ba0935543c0d3faa03de16f88ef1dd137d86e26f81b5090c8e25956",
+    "src/lib/sync/storage.ts": "ea290950aeca6ffbc4760348642c5044d326321a248f738fbba8fc4d13f1ebf8",
+    "src/lib/sync/types.ts": "5e746769db9421d7766bfd84c90355b6911fbe84a3715afd3dc01250fe2bc5ab",
+    "src/lib/cloud/repository.ts": "f352bb1e595edb097159c790a1a37049afdafd452108d1f407e82ad3158f0f16",
+    "supabase/migrations/202610110001_account_progress.sql": "3f30a3251c13ae579c9c7b78d6de185cfc8b2cf61d3ee3482dc8b8fdf0225c5a"
+  },
+  "checks": [
+    {
+      "id": "E01-commit-failure-no-cloud-dispatch",
+      "status": "pass",
+      "detail": {
+        "unsavedTargetPreserved": true,
+        "noDispatchBeforeCommit": true
+      }
+    },
+    {
+      "id": "E02-initial-read-barrier-versus-loaded-cache",
+      "status": "pass",
+      "detail": {
+        "cacheMissReadOnly": true,
+        "sameUidLoadedCacheEditable": true
+      }
+    },
+    {
+      "id": "E03-inflight-true-false-not-rolled-back",
+      "status": "pass",
+      "detail": {
+        "final": false,
+        "revision": 2,
+        "immutableInflight": true
+      }
+    },
+    {
+      "id": "E04-E05-offline-restart-and-lost-receipt",
+      "status": "pass",
+      "detail": {
+        "falseSurvivedRestart": true,
+        "receiptCalls": 2,
+        "revision": 1
+      }
+    },
+    {
+      "id": "E06-two-tabs-no-WebLocks-same-IDB",
+      "status": "pass",
+      "detail": {
+        "dispatchWhileLease": 1,
+        "final": false,
+        "WebLocksUsed": false
+      }
+    },
+    {
+      "id": "E07-late-A-ack-does-not-contaminate-B-or-guest",
+      "status": "pass",
+      "detail": {
+        "B": [
+          "Dungeon007"
+        ],
+        "lateAStoredOnlyA": true,
+        "signOutFailureKeepsIdentity": true
+      }
+    },
+    {
+      "id": "E08-expired-no-new-send-queue-preserved",
+      "status": "pass",
+      "detail": {
+        "pendingRetained": true,
+        "readOnly": true
+      }
+    },
+    {
+      "id": "E09-second-cloud-change-requires-new-choice",
+      "status": "fail",
+      "error": "AssertionError [ERR_ASSERTION]: 云端已变版本，旧选择被自动应用\n    at file:///Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/qa_engine.mjs:39:526\n    at async test (file:///Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/qa_engine.mjs:30:62)\n    at async file:///Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/qa_engine.mjs:39:2"
+    },
+    {
+      "id": "E10-merge-replace-counts-hidden-DLC-cancel-no-write",
+      "status": "pass",
+      "detail": {
+        "merge": 3,
+        "replace": 2,
+        "overlap": 1,
+        "cancelledPreviewWrites": 0
+      }
+    },
+    {
+      "id": "E11-backup-job-transaction-and-136-replace",
+      "status": "pass",
+      "detail": {
+        "failureWrites": 0,
+        "successBatch": 136,
+        "guestRawUnchanged": true
+      }
+    },
+    {
+      "id": "E12-restore-and-stale-preview-UID-safety",
+      "status": "pass",
+      "detail": {
+        "sameUidRestored": true,
+        "staleCloudRejected": true,
+        "crossUidRestoreBlocked": true
+      }
+    },
+    {
+      "id": "E01-corrupt-raw-not-overwritten",
+      "status": "pass",
+      "detail": {
+        "rawRetained": true
+      }
+    }
+  ],
+  "status": "fail",
+  "completedAt": "2026-10-11T06:45:33.233Z"
+}

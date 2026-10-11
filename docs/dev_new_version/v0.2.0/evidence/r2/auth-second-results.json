@@ -1,0 +1,74 @@
+{
+  "engineHash": "3f0b27c92252c9eb8cc04d761b33a212e1f9edc50378bf07aeb73576fdcd3ab9",
+  "layer": "L2实际认证wrapper/controller + 受控client/fakeIDB；非实云",
+  "startedAt": "2026-10-11T09:58:39.176Z",
+  "checks": [
+    {
+      "id": "P01-P02-raw-password-and-validation",
+      "status": "pass",
+      "detail": {
+        "emailTrimmed": true,
+        "passwordUnmodified": true,
+        "shortLoginAllowed": true,
+        "invalidZeroRequest": true
+      }
+    },
+    {
+      "id": "P03-valid-session-only-and-no-session",
+      "status": "pass",
+      "detail": {
+        "invalidSessions": 8,
+        "identityTakenFromSession": true
+      }
+    },
+    {
+      "id": "P06-error-matrix-code-before-status",
+      "status": "pass",
+      "detail": {
+        "cases": 18,
+        "guestCredentialsNotExpiry": true,
+        "syncSemanticsPreserved": true
+      }
+    },
+    {
+      "id": "P03-errors-before-identity",
+      "status": "pass",
+      "detail": {
+        "errorBlocksValidLookingSession": true
+      }
+    },
+    {
+      "id": "P04-P08-controller-guest-expired-account-switch",
+      "status": "pass",
+      "detail": {
+        "guestFailureKeepsGuest": true,
+        "firstReadBarrier": true,
+        "expiredFailureKeepsA": true,
+        "successBSeparate": true
+      }
+    },
+    {
+      "id": "P08-auth-promise-event-lifecycle-races",
+      "status": "pass",
+      "detail": [
+        {
+          "kind": "other-uid-first",
+          "latePromiseSafe": true,
+          "readBarrier": true
+        },
+        {
+          "kind": "same-uid-first",
+          "latePromiseSafe": true,
+          "readBarrier": true
+        },
+        {
+          "kind": "dispose-restart",
+          "latePromiseSafe": true,
+          "readBarrier": true
+        }
+      ]
+    }
+  ],
+  "status": "pass",
+  "completedAt": "2026-10-11T09:58:39.216Z"
+}

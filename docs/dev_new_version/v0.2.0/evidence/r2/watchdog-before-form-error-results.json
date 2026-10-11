@@ -1,0 +1,217 @@
+{
+  "checkedAt": "2026-10-11T10:11:48.837Z",
+  "node": "v24.18.0",
+  "branch": "dev/v0.2.0",
+  "head": "2686aa1c026bd046ba703381ee246fdd0f3bf628",
+  "scope": "r2定向预巡检，非实云/本人验收/部署",
+  "build": {
+    "command": "node node_modules/vite/bin/vite.js build --outDir .runtime/r2-watchdog-dist --base=/zelda_map/",
+    "exitCode": 0,
+    "modules": 98,
+    "jsKilobytes": 695.53,
+    "gzipKilobytes": 202.82,
+    "warning": "原有单包超过500kB体积提示"
+  },
+  "privateConfiguration": {
+    "ignored": true,
+    "mode": "600",
+    "databasePasswordUsesVitePrefix": false,
+    "prospectiveFilesScanned": 605,
+    "buildFilesScanned": 6,
+    "exactSecretMatchCount": 0,
+    "exactMatches": []
+  },
+  "tokenScan": {
+    "matches": [
+      {
+        "path": "supabase/tests/adapters.test.mjs",
+        "line": 22,
+        "category": "supabase_secret"
+      },
+      {
+        "path": "tests/v020/qa_adapters.mjs",
+        "line": 13,
+        "category": "supabase_secret"
+      }
+    ],
+    "scope": "拟入库文件，仅记录脱敏定位；合成值需人工判断"
+  },
+  "sourceHashes": {
+    "package.json": "8d8817901cd5e2c19ef96d867191a6d13af32b9d9ec01248fdbe9433ad052bd3",
+    "package-lock.json": "e73a0dcd7e291c84a3c4152f148c313f977024485d1d80b0bade6cb9f1ad3de1",
+    "src/App.tsx": "449037022fdb14ab6b90fdfac595b7caee70dbc4f81a46e7d01543f985e295a9",
+    "src/components/AccountDialog.tsx": "87b6dd05402d36b9f0fb58637944e6ef4c64a65b6dbccd193d185d3fc040081b",
+    "src/components/AccountPanel.tsx": "73149c7473a198ab1e2539b875d0af66b1d070d6dee4ed726cccf2a880692c2e",
+    "src/components/ConflictDialog.tsx": "abc0d2a79ce3a9cb36159149d3c3883901330c70859f4c118a8364924b93f88e",
+    "src/components/Icon.tsx": "1fb277363d562df850dda3db1828a452a624654efff661aeddbc3bf8cd519eff",
+    "src/components/ImportDialog.tsx": "70b7fcc5ea42edf04deb355fd28db0b00cb274c04e84b6356666c02236fef8a7",
+    "src/components/MapCanvas.tsx": "f8c0812b2f3cfab0e3e90c25b00e3965059f637d83055843c214723197000504",
+    "src/components/SafePreview.tsx": "470d61bcc115533d1cc383770db7be4187def067ac5789a341470be78d1b9030",
+    "src/components/Settings.tsx": "8a0b4484c78b54899ac1de63a177902d232e6411160bcaaf487e580ea4232948",
+    "src/components/ShrineDetails.tsx": "0945785ea0253ddfee7676b25c1e2cc0886ccf2e421496a69d4331a3b49698e7",
+    "src/components/SyncStatus.tsx": "61f8e995fab5472a9dee6ede701202898084b888c86192472f4768f7a8d78480",
+    "src/components/Text.tsx": "4cc29b7e303754221fb100b70d407146617770427e24d7f314be87d3cd77e8b5",
+    "src/components/TransferDialog.tsx": "a93249a9adbcb6d4a61e6ee9074cbdf020ba9be22330f16fad6eced9b3737a46",
+    "src/i18n.ts": "9ba98bc0f617a60016a10bbadfa60c1fff78ad09966f9faf81e3c89fec0f238c",
+    "src/lib/cloud/auth.ts": "469d6cedb97dfe92678327f32f50265004d333024ffe7508873f97784eb43dbc",
+    "src/lib/cloud/client.ts": "73bd1004ffe1da25036a8052df4113effad9a9dfaaf5ad3af4ac7c119584462e",
+    "src/lib/cloud/errors.ts": "4e72920bf2e364de4c141cb097f6324497e1a284ce2936bca659bbadcae20ea7",
+    "src/lib/cloud/repository.ts": "f352bb1e595edb097159c790a1a37049afdafd452108d1f407e82ad3158f0f16",
+    "src/lib/data.ts": "caa9d120c73c527adc930322cb11e96c3abd16cf01a23fb04b150092d90f0c66",
+    "src/lib/map.ts": "31942b26a812feb44e208fc0e2d00aab44b7a34abca40784c6d80cdb6926cabd",
+    "src/lib/progress.ts": "d32cfa8cbc6c8de880aec80cb0c4a82a66fd4312ffaad04effe7f963dd42b9ee",
+    "src/lib/sync/controller.ts": "c4e0be7304848b0cf07f2de70c7b7f01751632223da6874eaba27666148ea827",
+    "src/lib/sync/storage.ts": "ea290950aeca6ffbc4760348642c5044d326321a248f738fbba8fc4d13f1ebf8",
+    "src/lib/sync/types.ts": "e526141b8a421b24178210df5b9a1cd8dc0f902524e5fc87e5d5f616796a6877",
+    "src/main.tsx": "e7d86d0c7194d7ae7740747e6a63e00644c8abd58a30cb704c4eadc23025900c",
+    "src/styles.css": "f5e5142ad12291f3701de310f375ba23403a37ed1caecbcaead9a2a2da5e7dc3",
+    "src/types.ts": "d337085d9fa37ea15b6d804c0fb607153362182455518821a8d22cec40559eed",
+    "src/vite-env.d.ts": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5",
+    "supabase/migrations/202610110001_account_progress.sql": "3f30a3251c13ae579c9c7b78d6de185cfc8b2cf61d3ee3482dc8b8fdf0225c5a",
+    "public/data/shrines.json": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde",
+    "public/assets/hyrule-base.webp": "5847a9e5f5d4ed44bc20b61d2b5c24999c33b796d8a42354946f42c631b4ec10"
+  },
+  "manifestHash": "1344a55ecf97e21d36f0509ab24d9f9e2c8f153d00107e11a31f4f7fc79f43cf",
+  "sourceMatchesQABuild": true,
+  "changedFromR1": [
+    "src/components/AccountPanel.tsx",
+    "src/components/SyncStatus.tsx",
+    "src/i18n.ts",
+    "src/lib/cloud/auth.ts",
+    "src/lib/cloud/errors.ts",
+    "src/lib/sync/controller.ts",
+    "src/lib/sync/types.ts",
+    "src/styles.css"
+  ],
+  "r1Archive": {
+    "filesChecked": 29,
+    "checks": [
+      {
+        "path": "src/App.tsx",
+        "match": true
+      },
+      {
+        "path": "src/components/AccountDialog.tsx",
+        "match": true
+      },
+      {
+        "path": "src/components/AccountPanel.tsx",
+        "match": true
+      },
+      {
+        "path": "src/components/ConflictDialog.tsx",
+        "match": true
+      },
+      {
+        "path": "src/components/Icon.tsx",
+        "match": true
+      },
+      {
+        "path": "src/components/ImportDialog.tsx",
+        "match": true
+      },
+      {
+        "path": "src/components/MapCanvas.tsx",
+        "match": true
+      },
+      {
+        "path": "src/components/SafePreview.tsx",
+        "match": true
+      },
+      {
+        "path": "src/components/Settings.tsx",
+        "match": true
+      },
+      {
+        "path": "src/components/ShrineDetails.tsx",
+        "match": true
+      },
+      {
+        "path": "src/components/SyncStatus.tsx",
+        "match": true
+      },
+      {
+        "path": "src/components/Text.tsx",
+        "match": true
+      },
+      {
+        "path": "src/components/TransferDialog.tsx",
+        "match": true
+      },
+      {
+        "path": "src/i18n.ts",
+        "match": true
+      },
+      {
+        "path": "src/lib/cloud/auth.ts",
+        "match": true
+      },
+      {
+        "path": "src/lib/cloud/client.ts",
+        "match": true
+      },
+      {
+        "path": "src/lib/cloud/errors.ts",
+        "match": true
+      },
+      {
+        "path": "src/lib/cloud/repository.ts",
+        "match": true
+      },
+      {
+        "path": "src/lib/data.ts",
+        "match": true
+      },
+      {
+        "path": "src/lib/map.ts",
+        "match": true
+      },
+      {
+        "path": "src/lib/progress.ts",
+        "match": true
+      },
+      {
+        "path": "src/lib/sync/controller.ts",
+        "match": true
+      },
+      {
+        "path": "src/lib/sync/storage.ts",
+        "match": true
+      },
+      {
+        "path": "src/lib/sync/types.ts",
+        "match": true
+      },
+      {
+        "path": "src/main.tsx",
+        "match": true
+      },
+      {
+        "path": "src/styles.css",
+        "match": true
+      },
+      {
+        "path": "src/types.ts",
+        "match": true
+      },
+      {
+        "path": "src/vite-env.d.ts",
+        "match": true
+      },
+      {
+        "path": "supabase/migrations/202610110001_account_progress.sql",
+        "match": true
+      }
+    ],
+    "allMatch": true
+  },
+  "dependenciesUnchanged": true,
+  "buildHashes": {
+    "THIRD_PARTY_NOTICES.txt": "fd5f16dd8038ea3f594386158dcc684f609c61279b536c646c29fbc49c17109d",
+    "assets/hyrule-base.webp": "5847a9e5f5d4ed44bc20b61d2b5c24999c33b796d8a42354946f42c631b4ec10",
+    "assets/index-VxA7D2sM.css": "7b42b6a3b9daadaad340c629484cdb872b8f54167e7614cbf2a1398cd6c70514",
+    "assets/index-zLHr3D8j.js": "e0731ca88ee762e866421c4e93551cea2951947473e1834bcba2a9303c162174",
+    "data/shrines.json": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde",
+    "index.html": "92c6b981365d1489e3dc7a099fde725d8f303dbb3852ec9ef75d9e025f3d8189"
+  }
+}

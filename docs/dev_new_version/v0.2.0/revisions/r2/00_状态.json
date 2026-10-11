@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "version": "v0.2.0",
+  "stage": "development_testing",
+  "status": "running",
+  "docs": {
+    "01_需求文档.md": "complete",
+    "02_PRD.md": "r2_complete",
+    "03_UIUX设计.md": "r2_complete",
+    "04_技术方案.md": "r2_complete",
+    "05_测试方案.md": "r2_complete",
+    "06_开发记录.md": "r2_complete_for_current_stage",
+    "07_测试报告.md": "r2_complete_for_local_scope_with_edit_retest",
+    "08_用户验收.md": "r2_waiting_live_configuration",
+    "09_仓库巡检报告.md": "r2_preinspection_complete",
+    "10_上线记录.md": "cloud_preparation_only",
+    "11_版本开发总结.md": "interim"
+  },
+  "approval": [],
+  "base_commit": "2686aa1c026bd046ba703381ee246fdd0f3bf628",
+  "created_at": "2026-10-11T06:07:17.118017+00:00",
+  "revision": "r2",
+  "branch": "dev/v0.2.0",
+  "supabase": {
+    "project_ref": "tvbpcfsjcwoelfkfjxaw",
+    "url": "https://tvbpcfsjcwoelfkfjxaw.supabase.co",
+    "organization": "Zelda Map",
+    "plan": "Free",
+    "region": "ap-northeast-2",
+    "status": "email/password and limited authenticated cloud API verified; GitHub setup pending",
+    "metadata_verified": true,
+    "confirm_email": "off; human action-time permission received and public API verified",
+    "minimum_password_length": 8,
+    "auth_redirects": "Site URL and three exact roots saved; no wildcards"
+  },
+  "external_requirements": [
+    "Human GitHub OAuth App/client secret/provider setup",
+    "Real browser UI/physical-device integration and full GitHub auth verification",
+    "v0.2.0 human acceptance"
+  ],
+  "unresolved_engineering_blockers": [],
+  "public_build_variables": "configured and API-readback matched; no deployment",
+  "local_candidate_inputs": "evidence/r2/candidate-manifest.json",
+  "test_scope": "r1 results archived; r2 password authentication not yet tested",
+  "qa_candidate_manifest": "evidence/r2/candidate-manifest.json",
+  "minor_followups": [],
+  "action_permissions": [
+    {
+      "source": "current user question reply",
+      "question_id": "call_oADJD7x8bdtCH9sNLhQFdybK",
+      "quote": "允许关闭，注册后直接使用",
+      "scope": "Disable and save Confirm email for this map project only",
+      "not_version_acceptance": true
+    }
+  ]
+}

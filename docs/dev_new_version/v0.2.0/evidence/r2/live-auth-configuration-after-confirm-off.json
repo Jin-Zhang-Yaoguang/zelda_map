@@ -1,0 +1,9 @@
+{
+  "time_utc": "2026-10-11T10:52:12.283204+00:00",
+  "source": "read-only public Auth settings after authorized Dashboard save",
+  "mailer_autoconfirm": true,
+  "disable_signup": false,
+  "email_enabled": true,
+  "github_enabled": false,
+  "minimum_password_length": "not exposed by this endpoint"
+}

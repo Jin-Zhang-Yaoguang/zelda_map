@@ -1,0 +1,1 @@
+损坏/过期context首次测试使用等待中的导航frame.evaluate，导致测试自身死锁/TargetClosed，没有业务通过或失败结论。改为全新context内Storage.setItem测试替身仅改oauth-view键，实际App/SDK不变；结果另存browser-oauth-bad-context-results.json。

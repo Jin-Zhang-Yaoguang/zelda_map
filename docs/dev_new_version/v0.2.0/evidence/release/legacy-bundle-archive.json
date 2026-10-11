@@ -1,0 +1,11 @@
+{
+  "scope": "仅发布历史编译测试证据的无损gzip副本；本机原始mjs保留不改，产品不引用此文件",
+  "original_path": "docs/dev_new_version/v0.2.0/evidence/error-normalization-before-bundle.mjs",
+  "archive_path": "docs/dev_new_version/v0.2.0/evidence/error-normalization-before-bundle.mjs.gz",
+  "original_bytes": 900326,
+  "original_sha256": "3c726222dc738fd93c4c802067c65994700cbfc81550bf9eaaf013c766684641",
+  "archive_bytes": 168621,
+  "archive_sha256": "10aa2d4b08a7b64755f33a394af89e702385a97469f8b7163b70c4ba02b3e3ef",
+  "restoration": "gzip -dk error-normalization-before-bundle.mjs.gz ; decompressed SHA256 must match original_sha256",
+  "reason": "Preserve byte-exact historical SDK bundle with compiler-generated trailing whitespace; keep generated raw artifact local rather than publish a duplicate compiled source tree"
+}

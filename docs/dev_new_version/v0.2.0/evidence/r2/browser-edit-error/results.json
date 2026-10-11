@@ -1,0 +1,106 @@
+{
+  "layer": "L3真实Chromium/官方SDK/IndexedDB + 受控GoTrue和PGlite RPC；非Supabase实云",
+  "startedAt": "2026-10-11T10:24:24.441Z",
+  "checks": [
+    {
+      "id": "P12-watchP3-edit-clears-auth-errors-sdk",
+      "status": "pass",
+      "detail": {
+        "layer": "实际SDK密码/login及signup失败 + 完整应用DOM",
+        "cases": [
+          {
+            "field": "email",
+            "oldAuthErrorAndAriaCleared": true,
+            "newFailureVisible": true,
+            "guestUnchanged": true
+          },
+          {
+            "field": "password",
+            "oldAuthErrorAndAriaCleared": true,
+            "newFailureVisible": true,
+            "guestUnchanged": true
+          },
+          {
+            "field": "confirm-password",
+            "oldAuthErrorAndAriaCleared": true,
+            "newFailureVisible": true,
+            "guestUnchanged": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "P12-watchP3-edit-keeps-expired-and-nonauth-snapshot",
+      "status": "pass",
+      "detail": {
+        "layer": "L3实际AccountPanel/SyncStatus；只在隔离harness注入snapshot，非实云",
+        "results": [
+          {
+            "operation": "storage",
+            "code": "storageUnavailable",
+            "messagePreserved": true,
+            "snapshotUnchanged": true,
+            "expiredStillVisible": true
+          },
+          {
+            "operation": "sync",
+            "code": "permissionDenied",
+            "messagePreserved": true,
+            "snapshotUnchanged": true,
+            "expiredStillVisible": true
+          },
+          {
+            "operation": "sync",
+            "code": "networkFailure",
+            "messagePreserved": true,
+            "snapshotUnchanged": true,
+            "expiredStillVisible": true
+          }
+        ]
+      }
+    }
+  ],
+  "pageErrors": [],
+  "resourceErrors": [],
+  "authCalls": [
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "password"
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "password"
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "password"
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/token",
+      "grant": "password"
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/signup",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/signup",
+      "grant": null
+    }
+  ],
+  "rpcCalls": [],
+  "browser": "149.0.7827.55",
+  "status": "pass",
+  "completedAt": "2026-10-11T10:24:26.601Z",
+  "cleanup": {
+    "browserClosed": true,
+    "httpClosed": true,
+    "pgliteClosed": true
+  }
+}

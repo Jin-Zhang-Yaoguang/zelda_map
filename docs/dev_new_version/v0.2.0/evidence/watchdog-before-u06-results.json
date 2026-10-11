@@ -1,0 +1,142 @@
+{
+  "checkedAt": "2026-10-11T07:08:16.045Z",
+  "branch": "dev/v0.2.0",
+  "baseCommit": "2686aa1c026bd046ba703381ee246fdd0f3bf628",
+  "privateConfiguration": {
+    "ignored": true,
+    "mode": "600",
+    "databasePasswordUsesVitePrefix": false,
+    "prospectiveGitFilesScanned": 479,
+    "buildFilesScanned": 6,
+    "exactSecretMatches": 0,
+    "leaks": []
+  },
+  "licenseChecks": [
+    {
+      "name": "@supabase/supabase-js",
+      "version": "2.117.3",
+      "license": "MIT",
+      "noticeHasVersion": true,
+      "licenseFile": "LICENSE",
+      "exactLicenseIncluded": true
+    },
+    {
+      "name": "@supabase/auth-js",
+      "version": "2.117.3",
+      "license": "MIT",
+      "noticeHasVersion": true,
+      "licenseFile": "LICENSE",
+      "exactLicenseIncluded": true
+    },
+    {
+      "name": "@supabase/postgrest-js",
+      "version": "2.117.3",
+      "license": "MIT",
+      "noticeHasVersion": true,
+      "licenseFile": "LICENSE",
+      "exactLicenseIncluded": true
+    },
+    {
+      "name": "@supabase/functions-js",
+      "version": "2.117.3",
+      "license": "MIT",
+      "noticeHasVersion": true,
+      "licenseFile": "LICENSE",
+      "exactLicenseIncluded": true
+    },
+    {
+      "name": "@supabase/realtime-js",
+      "version": "2.117.3",
+      "license": "MIT",
+      "noticeHasVersion": true,
+      "licenseFile": "LICENSE",
+      "exactLicenseIncluded": true
+    },
+    {
+      "name": "@supabase/storage-js",
+      "version": "2.117.3",
+      "license": "MIT",
+      "noticeHasVersion": true,
+      "licenseFile": "LICENSE",
+      "exactLicenseIncluded": true
+    },
+    {
+      "name": "@supabase/phoenix",
+      "version": "0.4.5",
+      "license": "MIT",
+      "noticeHasVersion": true,
+      "licenseFile": "LICENSE.md",
+      "exactLicenseIncluded": true
+    },
+    {
+      "name": "iceberg-js",
+      "version": "0.8.1",
+      "license": "MIT",
+      "noticeHasVersion": true,
+      "licenseFile": "LICENSE",
+      "exactLicenseIncluded": true
+    },
+    {
+      "name": "tslib",
+      "version": "2.8.1",
+      "license": "0BSD",
+      "noticeHasVersion": true,
+      "licenseFile": "LICENSE.txt",
+      "exactLicenseIncluded": true
+    },
+    {
+      "name": "vite",
+      "version": "7.3.7",
+      "license": "MIT",
+      "noticeHasVersion": true,
+      "licenseFile": "LICENSE.md",
+      "exactLicenseIncluded": true
+    }
+  ],
+  "candidateHashes": {
+    ".env.example": "0adb3fad3823a6a9241e59b9f1ee6e0c5632ec2f10316264d7e91ebe76a26ec7",
+    "src/components/AccountDialog.tsx": "7f9f0b0cf850e3f9db104170f5c77d52a55027b10dd45f0c5e94d416c2cbc386",
+    "src/components/AccountPanel.tsx": "6f02955ab49f363c1f47298a4d2491db34f563ca3e503ce82193b3621fd02dc0",
+    "src/components/ConflictDialog.tsx": "a23f0e17be21766bf20e4d2c37427248981062d845e9f6379464198af1a7a083",
+    "src/components/SyncStatus.tsx": "0e9d1d39ab2229ba730f762905d5ab7a597e0e07f197d78d3a6d640a73783d6f",
+    "src/components/TransferDialog.tsx": "9df04525dea7f18cd5deb142d6859069f70477c43fcb3cbc6f4f2f9b47a0a472",
+    "src/lib/cloud/auth.ts": "9fcfa0882140b531729fbf0f195909367e76365fb3e6a3590924733e5aa55c7d",
+    "src/lib/cloud/client.ts": "73bd1004ffe1da25036a8052df4113effad9a9dfaaf5ad3af4ac7c119584462e",
+    "src/lib/cloud/errors.ts": "7a34720ad47874cdcb10a6262c735c267329534db454c1543fbe9da6072bb3b3",
+    "src/lib/cloud/repository.ts": "f352bb1e595edb097159c790a1a37049afdafd452108d1f407e82ad3158f0f16",
+    "src/lib/sync/controller.ts": "0ece323083d043bf1ee23477323cb2a3bf1039ca6b8d14798d99f9aab8d71580",
+    "src/lib/sync/storage.ts": "ea290950aeca6ffbc4760348642c5044d326321a248f738fbba8fc4d13f1ebf8",
+    "src/lib/sync/types.ts": "5e746769db9421d7766bfd84c90355b6911fbe84a3715afd3dc01250fe2bc5ab",
+    "supabase/migrations/202610110001_account_progress.sql": "3f30a3251c13ae579c9c7b78d6de185cfc8b2cf61d3ee3482dc8b8fdf0225c5a",
+    ".github/workflows/pages.yml": "1e87d170402850019264c6742a6c761fedf95cf03dc602fcf028c24a90020063",
+    ".gitignore": "9b8b211447907b204cb6ba1ebc6a232ecc90f69b8ee9043e4f3a00103eb24aa8",
+    "README.md": "356608c90f8c07c803697c765f0d2171ead4b5cebad3126d93a5d94af715f366",
+    "package-lock.json": "e73a0dcd7e291c84a3c4152f148c313f977024485d1d80b0bade6cb9f1ad3de1",
+    "package.json": "8d8817901cd5e2c19ef96d867191a6d13af32b9d9ec01248fdbe9433ad052bd3",
+    "public/THIRD_PARTY_NOTICES.txt": "fd5f16dd8038ea3f594386158dcc684f609c61279b536c646c29fbc49c17109d",
+    "src/App.tsx": "847a28fda2de844c19b17ba1f35e26202b90ad44096292545c23eff5de31cbe8",
+    "src/components/Icon.tsx": "1fb277363d562df850dda3db1828a452a624654efff661aeddbc3bf8cd519eff",
+    "src/components/ImportDialog.tsx": "18b5db961f32de1504a0040fe7560222665cf537f194e383904b12e184376155",
+    "src/components/MapCanvas.tsx": "f8c0812b2f3cfab0e3e90c25b00e3965059f637d83055843c214723197000504",
+    "src/components/SafePreview.tsx": "470d61bcc115533d1cc383770db7be4187def067ac5789a341470be78d1b9030",
+    "src/components/Settings.tsx": "162eda7c5221407ea8bf2351a6e3e8108aed4ce6328e8c8f201865a5160274c6",
+    "src/components/ShrineDetails.tsx": "0945785ea0253ddfee7676b25c1e2cc0886ccf2e421496a69d4331a3b49698e7",
+    "src/components/Text.tsx": "4cc29b7e303754221fb100b70d407146617770427e24d7f314be87d3cd77e8b5",
+    "src/i18n.ts": "a3d848bd547f6236a32c17f2dc229b878569d1514a654fb08dedd80eab69c1d6",
+    "src/lib/data.ts": "caa9d120c73c527adc930322cb11e96c3abd16cf01a23fb04b150092d90f0c66",
+    "src/lib/map.ts": "31942b26a812feb44e208fc0e2d00aab44b7a34abca40784c6d80cdb6926cabd",
+    "src/lib/progress.ts": "d32cfa8cbc6c8de880aec80cb0c4a82a66fd4312ffaad04effe7f963dd42b9ee",
+    "src/main.tsx": "e7d86d0c7194d7ae7740747e6a63e00644c8abd58a30cb704c4eadc23025900c",
+    "src/styles.css": "fa0108abc9869d62b123554f0149c84e05f2733fd797c9e7230592e4a68da8da",
+    "src/types.ts": "d337085d9fa37ea15b6d804c0fb607153362182455518821a8d22cec40559eed",
+    "src/vite-env.d.ts": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5"
+  },
+  "buildHashes": {
+    "THIRD_PARTY_NOTICES.txt": "fd5f16dd8038ea3f594386158dcc684f609c61279b536c646c29fbc49c17109d",
+    "assets/hyrule-base.webp": "5847a9e5f5d4ed44bc20b61d2b5c24999c33b796d8a42354946f42c631b4ec10",
+    "assets/index-BOkju6aV.css": "3aac052b5bb9d737a1a43d03b35c97f30400192dc8a41578d6cea68ad3efef5a",
+    "assets/index-DXRxFt-U.js": "ab6216c27934657beb4d172fbac28186a7ec2d664f5ac9e6c21ba1d08365906a",
+    "data/shrines.json": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde",
+    "index.html": "46811fcc8c6f1e9fffd02063d62748e455251c23699676edae025a5ef5b85260"
+  }
+}

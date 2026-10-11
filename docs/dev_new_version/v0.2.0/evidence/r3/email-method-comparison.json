@@ -1,0 +1,15 @@
+{
+  "r2Source": "revisions/r2/source/src/lib/cloud/auth.ts",
+  "currentSource": "src/lib/cloud/auth.ts",
+  "methods": {
+    "signUpEmailPassword": {
+      "unchanged": true,
+      "sha256": "d02f78ac532fa2af5713cee1a9fe0f8f8bdbcf64d9299da16731d87cea55e866"
+    },
+    "signInEmailPassword": {
+      "unchanged": true,
+      "sha256": "c9e5754173fd9816612397e0cc98ad8a354ba0b6b38082b0260b8545fe8ea2bc"
+    }
+  },
+  "controllerOnlyDeletedGithubOneLine": true
+}

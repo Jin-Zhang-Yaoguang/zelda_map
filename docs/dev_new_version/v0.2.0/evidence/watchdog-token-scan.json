@@ -1,0 +1,11 @@
+{
+  "matches": [
+    {
+      "path": "tests/v020/qa_adapters.mjs",
+      "line": 13,
+      "category": "supabase_secret"
+    }
+  ],
+  "candidateFileCount": 463,
+  "scope": "拟入库文件；只报位置类别，不回显匹配值"
+}

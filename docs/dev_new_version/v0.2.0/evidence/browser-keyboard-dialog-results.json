@@ -1,0 +1,38 @@
+{
+  "layer": "L3真实Chromium/官方SDK/IndexedDB + 受控GoTrue和PGlite RPC；非Supabase实云",
+  "startedAt": "2026-10-11T07:13:53.199Z",
+  "checks": [
+    {
+      "id": "U06-keyboard-dialog-focus-cancel-safe",
+      "status": "fail",
+      "error": "AssertionError [ERR_ASSERTION]: 稳定后返回焦点 {\"id\":\"\",\"tag\":\"BODY\",\"triggerDisabled\":false,\"headerInert\":false}\n+ actual - expected\n\n+ ''\n- 'migration-trigger'\n\n    at /Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/qa_browser.cjs:64:1165\n    at async check (/Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/qa_browser.cjs:45:161)\n    at async /Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/v020/qa_browser.cjs:64:2"
+    }
+  ],
+  "pageErrors": [],
+  "resourceErrors": [],
+  "authCalls": [
+    {
+      "method": "POST",
+      "path": "/auth/v1/otp",
+      "grant": null
+    },
+    {
+      "method": "POST",
+      "path": "/auth/v1/verify",
+      "grant": null
+    }
+  ],
+  "rpcCalls": [
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    },
+    {
+      "name": "get_shrine_progress",
+      "owner": "A"
+    }
+  ],
+  "browser": "149.0.7827.55",
+  "status": "fail",
+  "completedAt": "2026-10-11T07:13:54.865Z"
+}

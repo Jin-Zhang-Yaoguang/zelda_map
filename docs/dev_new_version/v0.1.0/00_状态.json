@@ -1006,9 +1006,20 @@
   "repository_publication": {
     "target": "https://github.com/Jin-Zhang-Yaoguang/zelda_map",
     "visibility": "public",
-    "status": "repository_created_pending_push",
+    "status": "pushed",
     "branch": "main",
     "excluded_local_progress_files": 10,
-    "website_deployment": "local_preview"
+    "website_deployment": "local_preview",
+    "code_commit": "62626ccb6cc890f91d4249bb05f8383901dd97ba",
+    "remote_verified": true,
+    "default_branch": "main",
+    "branch_protected": false,
+    "checks": {
+      "build": "passed",
+      "gitleaks_staged": "passed",
+      "authored_files_diff_check": "passed",
+      "third_party_notice_format": "preserved_original",
+      "acceptance_binding": "accepted"
+    }
   }
 }

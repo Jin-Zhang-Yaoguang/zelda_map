@@ -1,0 +1,5797 @@
+{
+  "testedAt": "2026-10-11T03:10:46.387217+00:00",
+  "command": "python3 tests/r2/qa_data.py",
+  "datasetVersion": "v0.1.0-20261011-r2",
+  "generatedAt": "2026-10-11T03:01:07.341380+00:00",
+  "sha256": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde",
+  "expectedSha256": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde",
+  "count": 136,
+  "base": 120,
+  "dlc": 16,
+  "towers": 15,
+  "chests": 205,
+  "sources": 307,
+  "regions": {
+    "eldin": 12,
+    "wasteland": 15,
+    "ridgeland": 8,
+    "lanayru": 12,
+    "faron": 8,
+    "dueling-peaks": 9,
+    "tabantha": 7,
+    "great-plateau": 8,
+    "woodland": 8,
+    "akkala": 8,
+    "hateno": 7,
+    "hebra": 14,
+    "central": 8,
+    "gerudo": 6,
+    "lake": 6
+  },
+  "errors": [],
+  "unverifiedFields": [],
+  "safeCandidates": [],
+  "sourceConflicts": [
+    {
+      "id": "Dungeon017",
+      "field": "supplies",
+      "status": "conflict",
+      "sourceIds": [
+        "chests-Dungeon017",
+        "actor-labels",
+        "wiki-Dungeon017"
+      ],
+      "note": "宝箱来源有差异：游戏对象objid25353的drop=[1,Weapon_Lsword_041]，游戏三语文本为戒心长刀 / Eightfold Longblade / 残心の太刀；Wiki写静心大剑 / Edge of Duality / 無心の大剣（Weapon_Lsword_055）。展示保留游戏对象的基础物资。原对象sharp_weapon_judge_type=0、one_hit_mode=0、spawns_with_lotm=0；这些字段尚不能证明差异是版本、缩放或DLC变化，原因未确认。",
+      "displayNote": {
+        "zh": "此处展示游戏基础物资“戒心长刀”，Wiki却列为“静心大剑”。差异原因尚未确认，不能据此推断版本或缩放变化。",
+        "en": "The game’s base drop shown here is Eightfold Longblade, while the Wiki lists Edge of Duality. The cause is unconfirmed; version or scaling changes cannot be inferred.",
+        "ja": "ここではゲームの基本ドロップ「残心の太刀」を表示していますが、Wikiは「無心の大剣」と記載。差異の原因は未確認で、バージョンや補正の変化とは断定できません。"
+      }
+    }
+  ],
+  "schemaNegativeTests": [
+    {
+      "case": "缺少 towers 根字段",
+      "rejected": true
+    },
+    {
+      "case": "只有 14 座塔",
+      "rejected": true
+    },
+    {
+      "case": "存在第 16 座塔",
+      "rejected": true
+    },
+    {
+      "case": "Tower00 ID",
+      "rejected": true
+    },
+    {
+      "case": "Tower16 ID",
+      "rejected": true
+    },
+    {
+      "case": "塔三语值为空",
+      "rejected": true
+    },
+    {
+      "case": "塔缺少日语名",
+      "rejected": true
+    },
+    {
+      "case": "塔 XYZ 非有限值",
+      "rejected": true
+    },
+    {
+      "case": "塔缺少高度 y",
+      "rejected": true
+    },
+    {
+      "case": "塔意外新增 dlc 字段",
+      "rejected": true
+    },
+    {
+      "case": "塔缺少 region 证据",
+      "rejected": true
+    }
+  ],
+  "checkedImplementationHashes": {
+    "src/types.ts": "d337085d9fa37ea15b6d804c0fb607153362182455518821a8d22cec40559eed",
+    "src/lib/data.ts": "caa9d120c73c527adc930322cb11e96c3abd16cf01a23fb04b150092d90f0c66",
+    "src/lib/progress.ts": "d32cfa8cbc6c8de880aec80cb0c4a82a66fd4312ffaad04effe7f963dd42b9ee",
+    "data/schema/shrines.schema.json": "7d5bce43c16c454ca4ae7781f287bedf4eefa1554b437cd2578efed3ad97f397",
+    "tests/r2/qa_data.py": "d3d21e7049f51e213e3c6a7f63371741c5e6f87390f90c22bfed29fd55cc2105"
+  },
+  "rawNameTableDuplicates": {
+    "ids": [
+      "Dungeon000",
+      "Dungeon001",
+      "Dungeon002",
+      "Dungeon003",
+      "Dungeon004",
+      "Dungeon005",
+      "Dungeon006",
+      "Dungeon007",
+      "Dungeon008",
+      "Dungeon009",
+      "Dungeon010",
+      "Dungeon011",
+      "Dungeon012",
+      "Dungeon013",
+      "Dungeon014",
+      "Dungeon015",
+      "Dungeon016",
+      "Dungeon017",
+      "Dungeon018",
+      "Dungeon019",
+      "Dungeon020",
+      "Dungeon021",
+      "Dungeon022",
+      "Dungeon023",
+      "Dungeon024",
+      "Dungeon025",
+      "Dungeon026",
+      "Dungeon027",
+      "Dungeon028",
+      "Dungeon029",
+      "Dungeon030",
+      "Dungeon031",
+      "Dungeon032",
+      "Dungeon033",
+      "Dungeon034",
+      "Dungeon035",
+      "Dungeon036",
+      "Dungeon037",
+      "Dungeon038",
+      "Dungeon039",
+      "Dungeon040",
+      "Dungeon041",
+      "Dungeon042",
+      "Dungeon043",
+      "Dungeon044",
+      "Dungeon045",
+      "Dungeon046",
+      "Dungeon047",
+      "Dungeon048",
+      "Dungeon049",
+      "Dungeon050",
+      "Dungeon051",
+      "Dungeon052",
+      "Dungeon053",
+      "Dungeon054",
+      "Dungeon055",
+      "Dungeon056",
+      "Dungeon057",
+      "Dungeon058",
+      "Dungeon059",
+      "Dungeon060",
+      "Dungeon061",
+      "Dungeon062",
+      "Dungeon063",
+      "Dungeon064",
+      "Dungeon065",
+      "Dungeon066",
+      "Dungeon067",
+      "Dungeon068",
+      "Dungeon069",
+      "Dungeon070",
+      "Dungeon071",
+      "Dungeon072",
+      "Dungeon073",
+      "Dungeon074",
+      "Dungeon075",
+      "Dungeon076",
+      "Dungeon077",
+      "Dungeon078",
+      "Dungeon079",
+      "Dungeon080",
+      "Dungeon081",
+      "Dungeon082",
+      "Dungeon083",
+      "Dungeon084",
+      "Dungeon085",
+      "Dungeon086",
+      "Dungeon087",
+      "Dungeon088",
+      "Dungeon089",
+      "Dungeon090",
+      "Dungeon091",
+      "Dungeon092",
+      "Dungeon093",
+      "Dungeon094",
+      "Dungeon095",
+      "Dungeon096",
+      "Dungeon097",
+      "Dungeon098",
+      "Dungeon099",
+      "Dungeon100",
+      "Dungeon101",
+      "Dungeon102",
+      "Dungeon103",
+      "Dungeon104",
+      "Dungeon105",
+      "Dungeon106",
+      "Dungeon107",
+      "Dungeon108",
+      "Dungeon109",
+      "Dungeon110",
+      "Dungeon111",
+      "Dungeon112",
+      "Dungeon113",
+      "Dungeon114",
+      "Dungeon115",
+      "Dungeon116",
+      "Dungeon117",
+      "Dungeon118",
+      "Dungeon119"
+    ],
+    "conflictingIds": [],
+    "note": "原始 HTML 的 120 座本体名称存在重复同值行；逐份比对后合并，不把重复同值当映射失败。"
+  },
+  "towerSourceReadback": [
+    {
+      "id": "Tower01",
+      "position": {
+        "x": -2173.0,
+        "y": 550.0,
+        "z": -2034.0
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        0
+      ],
+      "regionId": "hebra",
+      "projection": {
+        "u": 956.75,
+        "v": 741.5,
+        "lat": -741.5,
+        "lng": 956.75
+      },
+      "name": {
+        "zh": "海布拉之塔",
+        "ja": "ヘブラの塔",
+        "en": "Hebra Tower"
+      },
+      "rawHtmlName": {
+        "zh": "海布拉之塔",
+        "ja": "ヘブラの 塔",
+        "en": "Hebra Tower"
+      },
+      "sourceId": "map-static"
+    },
+    {
+      "id": "Tower02",
+      "position": {
+        "x": -3613.748291015625,
+        "y": 465.8552551269531,
+        "z": -990.1647338867188
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        1
+      ],
+      "regionId": "tabantha",
+      "projection": {
+        "u": 596.5629272460938,
+        "v": 1002.4588165283203,
+        "lat": -1002.4588165283203,
+        "lng": 596.5629272460938
+      },
+      "name": {
+        "zh": "塔邦挞之塔",
+        "ja": "タバンタの塔",
+        "en": "Tabantha Tower"
+      },
+      "rawHtmlName": {
+        "zh": "塔邦挞之塔",
+        "ja": "タバンタの 塔",
+        "en": "Tabantha Tower"
+      },
+      "sourceId": "map-static"
+    },
+    {
+      "id": "Tower03",
+      "position": {
+        "x": -3666.0,
+        "y": 490.1874084472656,
+        "z": 1828.5999755859375
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        2
+      ],
+      "regionId": "gerudo",
+      "projection": {
+        "u": 583.5,
+        "v": 1707.1499938964844,
+        "lat": -1707.1499938964844,
+        "lng": 583.5
+      },
+      "name": {
+        "zh": "格鲁德之塔",
+        "ja": "ゲルドの塔",
+        "en": "Gerudo Tower"
+      },
+      "rawHtmlName": {
+        "zh": "格鲁德之塔",
+        "ja": "ゲルドの 塔",
+        "en": "Gerudo Tower"
+      },
+      "sourceId": "map-static"
+    },
+    {
+      "id": "Tower04",
+      "position": {
+        "x": -2306.8359375,
+        "y": 551.0,
+        "z": 2437.3203125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        3
+      ],
+      "regionId": "wasteland",
+      "projection": {
+        "u": 923.291015625,
+        "v": 1859.330078125,
+        "lat": -1859.330078125,
+        "lng": 923.291015625
+      },
+      "name": {
+        "zh": "荒野之塔",
+        "ja": "荒野の塔",
+        "en": "Wasteland Tower"
+      },
+      "rawHtmlName": {
+        "zh": "荒野之塔",
+        "ja": "荒野の 塔",
+        "en": "Wasteland Tower"
+      },
+      "sourceId": "map-static"
+    },
+    {
+      "id": "Tower05",
+      "position": {
+        "x": 883.88427734375,
+        "y": 371.03424072265625,
+        "z": -1605.710205078125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        4
+      ],
+      "regionId": "woodland",
+      "projection": {
+        "u": 1720.9710693359375,
+        "v": 848.5724487304688,
+        "lat": -848.5724487304688,
+        "lng": 1720.9710693359375
+      },
+      "name": {
+        "zh": "森林之塔",
+        "ja": "森林の塔",
+        "en": "Woodland Tower"
+      },
+      "rawHtmlName": {
+        "zh": "森林之塔",
+        "ja": "森林の 塔",
+        "en": "Woodland Tower"
+      },
+      "sourceId": "map-static"
+    },
+    {
+      "id": "Tower06",
+      "position": {
+        "x": -788.6449584960938,
+        "y": 218.46099853515625,
+        "z": 442.03057861328125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        5
+      ],
+      "regionId": "central",
+      "projection": {
+        "u": 1302.8387603759766,
+        "v": 1360.5076446533203,
+        "lat": -1360.5076446533203,
+        "lng": 1302.8387603759766
+      },
+      "name": {
+        "zh": "平原之塔",
+        "ja": "平原の塔",
+        "en": "Central Tower"
+      },
+      "rawHtmlName": {
+        "zh": "平原之塔",
+        "ja": "平原の 塔",
+        "en": "Central Tower"
+      },
+      "sourceId": "map-static"
+    },
+    {
+      "id": "Tower07",
+      "position": {
+        "x": -560.03515625,
+        "y": 267.239990234375,
+        "z": 1694.86328125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        6
+      ],
+      "regionId": "great-plateau",
+      "projection": {
+        "u": 1359.9912109375,
+        "v": 1673.7158203125,
+        "lat": -1673.7158203125,
+        "lng": 1359.9912109375
+      },
+      "name": {
+        "zh": "初始之塔",
+        "ja": "始まりの塔",
+        "en": "Great Plateau Tower"
+      },
+      "rawHtmlName": {
+        "zh": "初始之塔",
+        "ja": "始まりの 塔",
+        "en": "Great Plateau Tower"
+      },
+      "sourceId": "map-static"
+    },
+    {
+      "id": "Tower08",
+      "position": {
+        "x": 1016.77734375,
+        "y": 204.82568359375,
+        "z": 1714.08203125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        7
+      ],
+      "regionId": "dueling-peaks",
+      "projection": {
+        "u": 1754.1943359375,
+        "v": 1678.5205078125,
+        "lat": -1678.5205078125,
+        "lng": 1754.1943359375
+      },
+      "name": {
+        "zh": "双子山之塔",
+        "ja": "双子山の塔",
+        "en": "Dueling Peaks Tower"
+      },
+      "rawHtmlName": {
+        "zh": "双子山之塔",
+        "ja": "双子山の 塔",
+        "en": "Dueling Peaks Tower"
+      },
+      "sourceId": "map-static"
+    },
+    {
+      "id": "Tower09",
+      "position": {
+        "x": -31.8155517578125,
+        "y": 301.29864501953125,
+        "z": 2961.600830078125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        8
+      ],
+      "regionId": "lake",
+      "projection": {
+        "u": 1492.0461120605469,
+        "v": 1990.4002075195312,
+        "lat": -1990.4002075195312,
+        "lng": 1492.0461120605469
+      },
+      "name": {
+        "zh": "湖之塔",
+        "ja": "湖の塔",
+        "en": "Lake Tower"
+      },
+      "rawHtmlName": {
+        "zh": "湖之塔",
+        "ja": "湖の 塔",
+        "en": "Lake Tower"
+      },
+      "sourceId": "map-static"
+    },
+    {
+      "id": "Tower10",
+      "position": {
+        "x": 2174.1513671875,
+        "y": 529.5474243164062,
+        "z": -1556.7811279296875
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        9
+      ],
+      "regionId": "eldin",
+      "projection": {
+        "u": 2043.537841796875,
+        "v": 860.8047180175781,
+        "lat": -860.8047180175781,
+        "lng": 2043.537841796875
+      },
+      "name": {
+        "zh": "奥尔汀之塔",
+        "ja": "オルディンの塔",
+        "en": "Eldin Tower"
+      },
+      "rawHtmlName": {
+        "zh": "奥尔汀之塔",
+        "ja": "オルディンの 塔",
+        "en": "Eldin Tower"
+      },
+      "sourceId": "map-static"
+    },
+    {
+      "id": "Tower11",
+      "position": {
+        "x": 3308.0,
+        "y": 614.6000366210938,
+        "z": -1500.0999755859375
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        10
+      ],
+      "regionId": "akkala",
+      "projection": {
+        "u": 2327.0,
+        "v": 874.9750061035156,
+        "lat": -874.9750061035156,
+        "lng": 2327.0
+      },
+      "name": {
+        "zh": "阿卡莱之塔",
+        "ja": "アッカレの塔",
+        "en": "Akkala Tower"
+      },
+      "rawHtmlName": {
+        "zh": "阿卡莱之塔",
+        "ja": "アッカレの 塔",
+        "en": "Akkala Tower"
+      },
+      "sourceId": "map-static"
+    },
+    {
+      "id": "Tower12",
+      "position": {
+        "x": 2258.0,
+        "y": 331.73541259765625,
+        "z": -108.99996948242188
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        11
+      ],
+      "regionId": "lanayru",
+      "projection": {
+        "u": 2064.5,
+        "v": 1222.7500076293945,
+        "lat": -1222.7500076293945,
+        "lng": 2064.5
+      },
+      "name": {
+        "zh": "拉聂尔之塔",
+        "ja": "ラネールの塔",
+        "en": "Lanayru Tower"
+      },
+      "rawHtmlName": {
+        "zh": "拉聂尔之塔",
+        "ja": "ラネールの 塔",
+        "en": "Lanayru Tower"
+      },
+      "sourceId": "map-static"
+    },
+    {
+      "id": "Tower13",
+      "position": {
+        "x": 2735.5,
+        "y": 357.0,
+        "z": 2133.5
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        12
+      ],
+      "regionId": "hateno",
+      "projection": {
+        "u": 2183.875,
+        "v": 1783.375,
+        "lat": -1783.375,
+        "lng": 2183.875
+      },
+      "name": {
+        "zh": "哈特诺之塔",
+        "ja": "ハテノ塔",
+        "en": "Hateno Tower"
+      },
+      "rawHtmlName": {
+        "zh": "哈特诺之塔",
+        "ja": "ハテノ 塔",
+        "en": "Hateno Tower"
+      },
+      "sourceId": "map-static"
+    },
+    {
+      "id": "Tower14",
+      "position": {
+        "x": 1331.203125,
+        "y": 290.75,
+        "z": 3273.72265625
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        13
+      ],
+      "regionId": "faron",
+      "projection": {
+        "u": 1832.80078125,
+        "v": 2068.4306640625,
+        "lat": -2068.4306640625,
+        "lng": 1832.80078125
+      },
+      "name": {
+        "zh": "费罗尼之塔",
+        "ja": "フィローネの塔",
+        "en": "Faron Tower"
+      },
+      "rawHtmlName": {
+        "zh": "费罗尼之塔",
+        "ja": "フィローネの 塔",
+        "en": "Faron Tower"
+      },
+      "sourceId": "map-static"
+    },
+    {
+      "id": "Tower15",
+      "position": {
+        "x": -1755.300048828125,
+        "y": 349.4000244140625,
+        "z": -774.300048828125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        14
+      ],
+      "regionId": "ridgeland",
+      "projection": {
+        "u": 1061.1749877929688,
+        "v": 1056.4249877929688,
+        "lat": -1056.4249877929688,
+        "lng": 1061.1749877929688
+      },
+      "name": {
+        "zh": "丘陵之塔",
+        "ja": "丘陵の塔",
+        "en": "Ridgeland Tower"
+      },
+      "rawHtmlName": {
+        "zh": "丘陵之塔",
+        "ja": "丘陵の 塔",
+        "en": "Ridgeland Tower"
+      },
+      "sourceId": "map-static"
+    }
+  ],
+  "shrineSourceReadback": [
+    {
+      "id": "Dungeon000",
+      "position": {
+        "x": 2301.46240234375,
+        "y": 226.34815979003906,
+        "z": -940.7257690429688
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        9
+      ],
+      "regionId": "eldin",
+      "projection": {
+        "u": 2075.3656005859375,
+        "v": 1014.8185577392578,
+        "lat": -1014.8185577392578,
+        "lng": 2075.3656005859375
+      },
+      "chests": 4
+    },
+    {
+      "id": "Dungeon001",
+      "position": {
+        "x": -1793.2548828125,
+        "y": 125.85308074951172,
+        "z": 2422.486328125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        3
+      ],
+      "regionId": "wasteland",
+      "projection": {
+        "u": 1051.686279296875,
+        "v": 1855.62158203125,
+        "lat": -1855.62158203125,
+        "lng": 1051.686279296875
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon002",
+      "position": {
+        "x": 2666.11962890625,
+        "y": 260.9119567871094,
+        "z": -1580.3284912109375
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        9
+      ],
+      "regionId": "eldin",
+      "projection": {
+        "u": 2166.5299072265625,
+        "v": 854.9178771972656,
+        "lat": -854.9178771972656,
+        "lng": 2166.5299072265625
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon003",
+      "position": {
+        "x": -4847.43359375,
+        "y": 136.74302673339844,
+        "z": 3773.547607421875
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        3
+      ],
+      "regionId": "wasteland",
+      "projection": {
+        "u": 288.1416015625,
+        "v": 2193.3869018554688,
+        "lat": -2193.3869018554688,
+        "lng": 288.1416015625
+      },
+      "chests": 3
+    },
+    {
+      "id": "Dungeon004",
+      "position": {
+        "x": -1432.615478515625,
+        "y": 151.3189697265625,
+        "z": -593.2459716796875
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        14
+      ],
+      "regionId": "ridgeland",
+      "projection": {
+        "u": 1141.8461303710938,
+        "v": 1101.6885070800781,
+        "lat": -1101.6885070800781,
+        "lng": 1141.8461303710938
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon005",
+      "position": {
+        "x": 3323.169189453125,
+        "y": 252.2826690673828,
+        "z": -517.9188232421875
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        11
+      ],
+      "regionId": "lanayru",
+      "projection": {
+        "u": 2330.7922973632812,
+        "v": 1120.5202941894531,
+        "lat": -1120.5202941894531,
+        "lng": 2330.7922973632812
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon006",
+      "position": {
+        "x": 2833.532958984375,
+        "y": 165.7545166015625,
+        "z": 3311.9580078125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        13
+      ],
+      "regionId": "faron",
+      "projection": {
+        "u": 2208.3832397460938,
+        "v": 2077.989501953125,
+        "lat": -2077.989501953125,
+        "lng": 2208.3832397460938
+      },
+      "chests": 2
+    },
+    {
+      "id": "Dungeon007",
+      "position": {
+        "x": 87.01651000976562,
+        "y": 135.51492309570312,
+        "z": 1657.70556640625
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        7
+      ],
+      "regionId": "dueling-peaks",
+      "projection": {
+        "u": 1521.7541275024414,
+        "v": 1664.4263916015625,
+        "lat": -1664.4263916015625,
+        "lng": 1521.7541275024414
+      },
+      "chests": 2
+    },
+    {
+      "id": "Dungeon008",
+      "position": {
+        "x": -3608.985595703125,
+        "y": 255.73739624023438,
+        "z": -1516.377197265625
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        1
+      ],
+      "regionId": "tabantha",
+      "projection": {
+        "u": 597.7536010742188,
+        "v": 870.9057006835938,
+        "lat": -870.9057006835938,
+        "lng": 597.7536010742188
+      },
+      "chests": 2
+    },
+    {
+      "id": "Dungeon009",
+      "position": {
+        "x": -925.0302734375,
+        "y": 287.16851806640625,
+        "z": 2320.229248046875
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        6
+      ],
+      "regionId": "great-plateau",
+      "projection": {
+        "u": 1268.742431640625,
+        "v": 1830.0573120117188,
+        "lat": -1830.0573120117188,
+        "lng": 1268.742431640625
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon010",
+      "position": {
+        "x": -2809.968017578125,
+        "y": 185.0082244873047,
+        "z": 2300.1767578125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        3
+      ],
+      "regionId": "wasteland",
+      "projection": {
+        "u": 797.5079956054688,
+        "v": 1825.044189453125,
+        "lat": -1825.044189453125,
+        "lng": 797.5079956054688
+      },
+      "chests": 2
+    },
+    {
+      "id": "Dungeon011",
+      "position": {
+        "x": -1489.2401123046875,
+        "y": 288.22222900390625,
+        "z": -1473.80322265625
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        4
+      ],
+      "regionId": "woodland",
+      "projection": {
+        "u": 1127.6899719238281,
+        "v": 881.5491943359375,
+        "lat": -881.5491943359375,
+        "lng": 1127.6899719238281
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon012",
+      "position": {
+        "x": -4015.362060546875,
+        "y": 284.202392578125,
+        "z": -1722.4862060546875
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        1
+      ],
+      "regionId": "tabantha",
+      "projection": {
+        "u": 496.15948486328125,
+        "v": 819.3784484863281,
+        "lat": -819.3784484863281,
+        "lng": 496.15948486328125
+      },
+      "chests": 2
+    },
+    {
+      "id": "Dungeon013",
+      "position": {
+        "x": 4294.9013671875,
+        "y": 250.41909790039062,
+        "z": -2729.875
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        10
+      ],
+      "regionId": "akkala",
+      "projection": {
+        "u": 2573.725341796875,
+        "v": 567.53125,
+        "lat": -567.53125,
+        "lng": 2573.725341796875
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon014",
+      "position": {
+        "x": 2501.699951171875,
+        "y": 128.1676025390625,
+        "z": 1495.5816650390625
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        12
+      ],
+      "regionId": "hateno",
+      "projection": {
+        "u": 2125.4249877929688,
+        "v": 1623.8954162597656,
+        "lat": -1623.8954162597656,
+        "lng": 2125.4249877929688
+      },
+      "chests": 2
+    },
+    {
+      "id": "Dungeon015",
+      "position": {
+        "x": 1846.561279296875,
+        "y": 144.50735473632812,
+        "z": 2473.725830078125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        7
+      ],
+      "regionId": "dueling-peaks",
+      "projection": {
+        "u": 1961.6403198242188,
+        "v": 1868.4314575195312,
+        "lat": -1868.4314575195312,
+        "lng": 1961.6403198242188
+      },
+      "chests": 2
+    },
+    {
+      "id": "Dungeon016",
+      "position": {
+        "x": 3333.5,
+        "y": 132.0,
+        "z": 402.5
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        11
+      ],
+      "regionId": "lanayru",
+      "projection": {
+        "u": 2333.375,
+        "v": 1350.625,
+        "lat": -1350.625,
+        "lng": 2333.375
+      },
+      "chests": 2
+    },
+    {
+      "id": "Dungeon017",
+      "position": {
+        "x": 1266.2686767578125,
+        "y": 538.8690185546875,
+        "z": 1938.69970703125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        7
+      ],
+      "regionId": "dueling-peaks",
+      "projection": {
+        "u": 1816.5671691894531,
+        "v": 1734.6749267578125,
+        "lat": -1734.6749267578125,
+        "lng": 1816.5671691894531
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon018",
+      "position": {
+        "x": -2377.0166015625,
+        "y": 498.9140625,
+        "z": -3224.610107421875
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        0
+      ],
+      "regionId": "hebra",
+      "projection": {
+        "u": 905.745849609375,
+        "v": 443.84747314453125,
+        "lat": -443.84747314453125,
+        "lng": 905.745849609375
+      },
+      "chests": 2
+    },
+    {
+      "id": "Dungeon019",
+      "position": {
+        "x": 2696.76806640625,
+        "y": 233.93955993652344,
+        "z": 1333.0174560546875
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        12
+      ],
+      "regionId": "hateno",
+      "projection": {
+        "u": 2174.1920166015625,
+        "v": 1583.2543640136719,
+        "lat": -1583.2543640136719,
+        "lng": 2174.1920166015625
+      },
+      "chests": 3
+    },
+    {
+      "id": "Dungeon020",
+      "position": {
+        "x": -1892.4171142578125,
+        "y": 221.40000915527344,
+        "z": 91.030517578125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        14
+      ],
+      "regionId": "ridgeland",
+      "projection": {
+        "u": 1026.8957214355469,
+        "v": 1272.7576293945312,
+        "lat": -1272.7576293945312,
+        "lng": 1026.8957214355469
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon021",
+      "position": {
+        "x": -2269.10009765625,
+        "y": 225.5794677734375,
+        "z": -901.1000366210938
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        14
+      ],
+      "regionId": "ridgeland",
+      "projection": {
+        "u": 932.7249755859375,
+        "v": 1024.7249908447266,
+        "lat": -1024.7249908447266,
+        "lng": 932.7249755859375
+      },
+      "chests": 2
+    },
+    {
+      "id": "Dungeon022",
+      "position": {
+        "x": 470.9549255371094,
+        "y": 263.1484375,
+        "z": -2167.8173828125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        4
+      ],
+      "regionId": "woodland",
+      "projection": {
+        "u": 1617.7387313842773,
+        "v": 708.045654296875,
+        "lat": -708.045654296875,
+        "lng": 1617.7387313842773
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon023",
+      "position": {
+        "x": 1509.48046875,
+        "y": 141.4054718017578,
+        "z": -377.2189636230469
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        11
+      ],
+      "regionId": "lanayru",
+      "projection": {
+        "u": 1877.3701171875,
+        "v": 1155.6952590942383,
+        "lat": -1155.6952590942383,
+        "lng": 1877.3701171875
+      },
+      "chests": 2
+    },
+    {
+      "id": "Dungeon024",
+      "position": {
+        "x": 2621.619873046875,
+        "y": 258.38812255859375,
+        "z": 379.23419189453125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        12
+      ],
+      "regionId": "hateno",
+      "projection": {
+        "u": 2155.4049682617188,
+        "v": 1344.8085479736328,
+        "lat": -1344.8085479736328,
+        "lng": 2155.4049682617188
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon025",
+      "position": {
+        "x": 2075.823486328125,
+        "y": 533.7685546875,
+        "z": -2039.718017578125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        9
+      ],
+      "regionId": "eldin",
+      "projection": {
+        "u": 2018.9558715820312,
+        "v": 740.0704956054688,
+        "lat": -740.0704956054688,
+        "lng": 2018.9558715820312
+      },
+      "chests": 2
+    },
+    {
+      "id": "Dungeon026",
+      "position": {
+        "x": 1756.57080078125,
+        "y": 548.3204345703125,
+        "z": -2561.701171875
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        9
+      ],
+      "regionId": "eldin",
+      "projection": {
+        "u": 1939.1427001953125,
+        "v": 609.57470703125,
+        "lat": -609.57470703125,
+        "lng": 1939.1427001953125
+      },
+      "chests": 4
+    },
+    {
+      "id": "Dungeon027",
+      "position": {
+        "x": -1562.2928466796875,
+        "y": 199.7283172607422,
+        "z": 1309.782958984375
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        5
+      ],
+      "regionId": "central",
+      "projection": {
+        "u": 1109.4267883300781,
+        "v": 1577.4457397460938,
+        "lat": -1577.4457397460938,
+        "lng": 1109.4267883300781
+      },
+      "chests": 2
+    },
+    {
+      "id": "Dungeon028",
+      "position": {
+        "x": 1536.2091064453125,
+        "y": 520.3345947265625,
+        "z": -3117.4677734375
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        9
+      ],
+      "regionId": "eldin",
+      "projection": {
+        "u": 1884.0522766113281,
+        "v": 470.633056640625,
+        "lat": -470.633056640625,
+        "lng": 1884.0522766113281
+      },
+      "chests": 6
+    },
+    {
+      "id": "Dungeon029",
+      "position": {
+        "x": 854.0030517578125,
+        "y": 129.93179321289062,
+        "z": 838.7382202148438
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        7
+      ],
+      "regionId": "dueling-peaks",
+      "projection": {
+        "u": 1713.5007629394531,
+        "v": 1459.684555053711,
+        "lat": -1459.684555053711,
+        "lng": 1713.5007629394531
+      },
+      "chests": 2
+    },
+    {
+      "id": "Dungeon030",
+      "position": {
+        "x": -2004.00830078125,
+        "y": 240.64720153808594,
+        "z": 1675.2626953125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        2
+      ],
+      "regionId": "gerudo",
+      "projection": {
+        "u": 998.9979248046875,
+        "v": 1668.815673828125,
+        "lat": -1668.815673828125,
+        "lng": 998.9979248046875
+      },
+      "chests": 2
+    },
+    {
+      "id": "Dungeon031",
+      "position": {
+        "x": 2723.077880859375,
+        "y": 298.4114074707031,
+        "z": -1165.1676025390625
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        9
+      ],
+      "regionId": "eldin",
+      "projection": {
+        "u": 2180.7694702148438,
+        "v": 958.7080993652344,
+        "lat": -958.7080993652344,
+        "lng": 2180.7694702148438
+      },
+      "chests": 2
+    },
+    {
+      "id": "Dungeon032",
+      "position": {
+        "x": -3316.80224609375,
+        "y": 159.11378479003906,
+        "z": 2162.678955078125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        3
+      ],
+      "regionId": "wasteland",
+      "projection": {
+        "u": 670.7994384765625,
+        "v": 1790.6697387695312,
+        "lat": -1790.6697387695312,
+        "lng": 670.7994384765625
+      },
+      "chests": 4
+    },
+    {
+      "id": "Dungeon033",
+      "position": {
+        "x": 1601.8326416015625,
+        "y": 130.70001220703125,
+        "z": 462.75384521484375
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        11
+      ],
+      "regionId": "lanayru",
+      "projection": {
+        "u": 1900.4581604003906,
+        "v": 1365.688461303711,
+        "lat": -1365.688461303711,
+        "lng": 1900.4581604003906
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon034",
+      "position": {
+        "x": 3437.28515625,
+        "y": 129.6765594482422,
+        "z": 3317.19580078125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        13
+      ],
+      "regionId": "faron",
+      "projection": {
+        "u": 2359.3212890625,
+        "v": 2079.2989501953125,
+        "lat": -2079.2989501953125,
+        "lng": 2359.3212890625
+      },
+      "chests": 2
+    },
+    {
+      "id": "Dungeon035",
+      "position": {
+        "x": -3656.03271484375,
+        "y": 334.74481201171875,
+        "z": -1757.7003173828125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        1
+      ],
+      "regionId": "tabantha",
+      "projection": {
+        "u": 585.9918212890625,
+        "v": 810.5749206542969,
+        "lat": -810.5749206542969,
+        "lng": 585.9918212890625
+      },
+      "chests": 3
+    },
+    {
+      "id": "Dungeon036",
+      "position": {
+        "x": -3910.61279296875,
+        "y": 405.0010070800781,
+        "z": 1653.031005859375
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        2
+      ],
+      "regionId": "gerudo",
+      "projection": {
+        "u": 522.3468017578125,
+        "v": 1663.2577514648438,
+        "lat": -1663.2577514648438,
+        "lng": 522.3468017578125
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon037",
+      "position": {
+        "x": -2930.760498046875,
+        "y": 319.4459533691406,
+        "z": -433.03851318359375
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        14
+      ],
+      "regionId": "ridgeland",
+      "projection": {
+        "u": 767.3098754882812,
+        "v": 1141.7403717041016,
+        "lat": -1141.7403717041016,
+        "lng": 767.3098754882812
+      },
+      "chests": 2
+    },
+    {
+      "id": "Dungeon038",
+      "position": {
+        "x": -672.4623413085938,
+        "y": 186.09091186523438,
+        "z": 1513.63037109375
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        6
+      ],
+      "regionId": "great-plateau",
+      "projection": {
+        "u": 1331.8844146728516,
+        "v": 1628.4075927734375,
+        "lat": -1628.4075927734375,
+        "lng": 1331.8844146728516
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon039",
+      "position": {
+        "x": 3387.706787109375,
+        "y": 255.59239196777344,
+        "z": 2215.13037109375
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        12
+      ],
+      "regionId": "hateno",
+      "projection": {
+        "u": 2346.9266967773438,
+        "v": 1803.7825927734375,
+        "lat": -1803.7825927734375,
+        "lng": 2346.9266967773438
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon040",
+      "position": {
+        "x": -967.639404296875,
+        "y": 140.66522216796875,
+        "z": 716.8792724609375
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        5
+      ],
+      "regionId": "central",
+      "projection": {
+        "u": 1258.0901489257812,
+        "v": 1429.2198181152344,
+        "lat": -1429.2198181152344,
+        "lng": 1258.0901489257812
+      },
+      "chests": 5
+    },
+    {
+      "id": "Dungeon041",
+      "position": {
+        "x": -447.69512939453125,
+        "y": 193.01881408691406,
+        "z": 1990.182373046875
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        6
+      ],
+      "regionId": "great-plateau",
+      "projection": {
+        "u": 1388.0762176513672,
+        "v": 1747.5455932617188,
+        "lat": -1747.5455932617188,
+        "lng": 1388.0762176513672
+      },
+      "chests": 2
+    },
+    {
+      "id": "Dungeon042",
+      "position": {
+        "x": -1720.388916015625,
+        "y": 348.74114990234375,
+        "z": -2554.625732421875
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        0
+      ],
+      "regionId": "hebra",
+      "projection": {
+        "u": 1069.9027709960938,
+        "v": 611.3435668945312,
+        "lat": -611.3435668945312,
+        "lng": 1069.9027709960938
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon043",
+      "position": {
+        "x": -3083.613037109375,
+        "y": 584.5511474609375,
+        "z": 1221.7900390625
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        2
+      ],
+      "regionId": "gerudo",
+      "projection": {
+        "u": 729.0967407226562,
+        "v": 1555.447509765625,
+        "lat": -1555.447509765625,
+        "lng": 729.0967407226562
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon044",
+      "position": {
+        "x": 1245.1182861328125,
+        "y": 456.3691101074219,
+        "z": 1850.44091796875
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        7
+      ],
+      "regionId": "dueling-peaks",
+      "projection": {
+        "u": 1811.2795715332031,
+        "v": 1712.6102294921875,
+        "lat": -1712.6102294921875,
+        "lng": 1811.2795715332031
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon045",
+      "position": {
+        "x": 1662.9674072265625,
+        "y": 128.52410888671875,
+        "z": 1922.3955078125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        7
+      ],
+      "regionId": "dueling-peaks",
+      "projection": {
+        "u": 1915.7418518066406,
+        "v": 1730.598876953125,
+        "lat": -1730.598876953125,
+        "lng": 1915.7418518066406
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon046",
+      "position": {
+        "x": -2998.30517578125,
+        "y": 680.7533569335938,
+        "z": -3220.63525390625
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        0
+      ],
+      "regionId": "hebra",
+      "projection": {
+        "u": 750.4237060546875,
+        "v": 444.8411865234375,
+        "lat": -444.8411865234375,
+        "lng": 750.4237060546875
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon047",
+      "position": {
+        "x": 1272.9166259765625,
+        "y": 150.6749725341797,
+        "z": 1843.90966796875
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        7
+      ],
+      "regionId": "dueling-peaks",
+      "projection": {
+        "u": 1818.2291564941406,
+        "v": 1710.9774169921875,
+        "lat": -1710.9774169921875,
+        "lng": 1818.2291564941406
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon048",
+      "position": {
+        "x": 3028.297607421875,
+        "y": 361.6464538574219,
+        "z": -1668.014892578125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        10
+      ],
+      "regionId": "akkala",
+      "projection": {
+        "u": 2257.0744018554688,
+        "v": 832.9962768554688,
+        "lat": -832.9962768554688,
+        "lng": 2257.0744018554688
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon049",
+      "position": {
+        "x": 825.1654052734375,
+        "y": 145.87744140625,
+        "z": 187.50900268554688
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        11
+      ],
+      "regionId": "lanayru",
+      "projection": {
+        "u": 1706.2913513183594,
+        "v": 1296.8772506713867,
+        "lat": -1296.8772506713867,
+        "lng": 1706.2913513183594
+      },
+      "chests": 2
+    },
+    {
+      "id": "Dungeon050",
+      "position": {
+        "x": 1586.375244140625,
+        "y": 179.9945526123047,
+        "z": 3613.991943359375
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        13
+      ],
+      "regionId": "faron",
+      "projection": {
+        "u": 1896.5938110351562,
+        "v": 2153.4979858398438,
+        "lat": -2153.4979858398438,
+        "lng": 1896.5938110351562
+      },
+      "chests": 2
+    },
+    {
+      "id": "Dungeon051",
+      "position": {
+        "x": -4058.83544921875,
+        "y": 107.89071655273438,
+        "z": -2508.257080078125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        0
+      ],
+      "regionId": "hebra",
+      "projection": {
+        "u": 485.2911376953125,
+        "v": 622.9357299804688,
+        "lat": -622.9357299804688,
+        "lng": 485.2911376953125
+      },
+      "chests": 3
+    },
+    {
+      "id": "Dungeon052",
+      "position": {
+        "x": -2380.418701171875,
+        "y": 291.1098937988281,
+        "z": -2255.404296875
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        0
+      ],
+      "regionId": "hebra",
+      "projection": {
+        "u": 904.8953247070312,
+        "v": 686.14892578125,
+        "lat": -686.14892578125,
+        "lng": 904.8953247070312
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon053",
+      "position": {
+        "x": -3822.2373046875,
+        "y": 278.1203918457031,
+        "z": -2206.895751953125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        1
+      ],
+      "regionId": "tabantha",
+      "projection": {
+        "u": 544.440673828125,
+        "v": 698.2760620117188,
+        "lat": -698.2760620117188,
+        "lng": 544.440673828125
+      },
+      "chests": 2
+    },
+    {
+      "id": "Dungeon054",
+      "position": {
+        "x": 522.9542236328125,
+        "y": 191.9074249267578,
+        "z": 3525.324462890625
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        8
+      ],
+      "regionId": "lake",
+      "projection": {
+        "u": 1630.7385559082031,
+        "v": 2131.3311157226562,
+        "lat": -2131.3311157226562,
+        "lng": 1630.7385559082031
+      },
+      "chests": 3
+    },
+    {
+      "id": "Dungeon055",
+      "position": {
+        "x": -2832.0634765625,
+        "y": 92.875,
+        "z": -1577.1309814453125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        0
+      ],
+      "regionId": "hebra",
+      "projection": {
+        "u": 791.984130859375,
+        "v": 855.7172546386719,
+        "lat": -855.7172546386719,
+        "lng": 791.984130859375
+      },
+      "chests": 2
+    },
+    {
+      "id": "Dungeon056",
+      "position": {
+        "x": 1230.99658203125,
+        "y": 140.54844665527344,
+        "z": -1212.7283935546875
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        4
+      ],
+      "regionId": "woodland",
+      "projection": {
+        "u": 1807.7491455078125,
+        "v": 946.8179016113281,
+        "lat": -946.8179016113281,
+        "lng": 1807.7491455078125
+      },
+      "chests": 3
+    },
+    {
+      "id": "Dungeon057",
+      "position": {
+        "x": 345.58740234375,
+        "y": 136.07974243164062,
+        "z": 1007.7691650390625
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        5
+      ],
+      "regionId": "central",
+      "projection": {
+        "u": 1586.3968505859375,
+        "v": 1501.9422912597656,
+        "lat": -1501.9422912597656,
+        "lng": 1586.3968505859375
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon058",
+      "position": {
+        "x": -2297.783935546875,
+        "y": 452.568359375,
+        "z": 461.6640930175781
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        14
+      ],
+      "regionId": "ridgeland",
+      "projection": {
+        "u": 925.5540161132812,
+        "v": 1365.4160232543945,
+        "lat": -1365.4160232543945,
+        "lng": 925.5540161132812
+      },
+      "chests": 3
+    },
+    {
+      "id": "Dungeon059",
+      "position": {
+        "x": -4121.39892578125,
+        "y": 197.28811645507812,
+        "z": -414.1998291015625
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        1
+      ],
+      "regionId": "tabantha",
+      "projection": {
+        "u": 469.6502685546875,
+        "v": 1146.4500427246094,
+        "lat": -1146.4500427246094,
+        "lng": 469.6502685546875
+      },
+      "chests": 6
+    },
+    {
+      "id": "Dungeon060",
+      "position": {
+        "x": -3816.313720703125,
+        "y": 163.44683837890625,
+        "z": 2819.1572265625
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        3
+      ],
+      "regionId": "wasteland",
+      "projection": {
+        "u": 545.9215698242188,
+        "v": 1954.789306640625,
+        "lat": -1954.789306640625,
+        "lng": 545.9215698242188
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon061",
+      "position": {
+        "x": 1790.25732421875,
+        "y": 202.79495239257812,
+        "z": 2992.8642578125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        13
+      ],
+      "regionId": "faron",
+      "projection": {
+        "u": 1947.5643310546875,
+        "v": 1998.216064453125,
+        "lat": -1998.216064453125,
+        "lng": 1947.5643310546875
+      },
+      "chests": 2
+    },
+    {
+      "id": "Dungeon062",
+      "position": {
+        "x": -1672.3563232421875,
+        "y": 359.5669250488281,
+        "z": -3759.0283203125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        0
+      ],
+      "regionId": "hebra",
+      "projection": {
+        "u": 1081.9109191894531,
+        "v": 310.242919921875,
+        "lat": -310.242919921875,
+        "lng": 1081.9109191894531
+      },
+      "chests": 2
+    },
+    {
+      "id": "Dungeon063",
+      "position": {
+        "x": -4673.52978515625,
+        "y": 145.1199951171875,
+        "z": 1968.7900390625
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        3
+      ],
+      "regionId": "wasteland",
+      "projection": {
+        "u": 331.6175537109375,
+        "v": 1742.197509765625,
+        "lat": -1742.197509765625,
+        "lng": 331.6175537109375
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon064",
+      "position": {
+        "x": 2064.97265625,
+        "y": 611.0113525390625,
+        "z": -2327.87353515625
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        9
+      ],
+      "regionId": "eldin",
+      "projection": {
+        "u": 2016.2431640625,
+        "v": 668.0316162109375,
+        "lat": -668.0316162109375,
+        "lng": 2016.2431640625
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon065",
+      "position": {
+        "x": -1435.3870849609375,
+        "y": 350.57696533203125,
+        "z": 1990.705810546875
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        6
+      ],
+      "regionId": "great-plateau",
+      "projection": {
+        "u": 1141.1532287597656,
+        "v": 1747.6764526367188,
+        "lat": -1747.6764526367188,
+        "lng": 1141.1532287597656
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon066",
+      "position": {
+        "x": 4708.56396484375,
+        "y": 255.49844360351562,
+        "z": -1309.51123046875
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        11
+      ],
+      "regionId": "lanayru",
+      "projection": {
+        "u": 2677.1409912109375,
+        "v": 922.6221923828125,
+        "lat": -922.6221923828125,
+        "lng": 2677.1409912109375
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon067",
+      "position": {
+        "x": 1820.24072265625,
+        "y": 401.28619384765625,
+        "z": -1517.90283203125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        9
+      ],
+      "regionId": "eldin",
+      "projection": {
+        "u": 1955.0601806640625,
+        "v": 870.5242919921875,
+        "lat": -870.5242919921875,
+        "lng": 1955.0601806640625
+      },
+      "chests": 2
+    },
+    {
+      "id": "Dungeon068",
+      "position": {
+        "x": -329.16656494140625,
+        "y": 81.02226257324219,
+        "z": 2600.119384765625
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        8
+      ],
+      "regionId": "lake",
+      "projection": {
+        "u": 1417.7083587646484,
+        "v": 1900.0298461914062,
+        "lat": -1900.0298461914062,
+        "lng": 1417.7083587646484
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon069",
+      "position": {
+        "x": -985.7890625,
+        "y": 334.21539306640625,
+        "z": 3564.978271484375
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        8
+      ],
+      "regionId": "lake",
+      "projection": {
+        "u": 1253.552734375,
+        "v": 2141.2445678710938,
+        "lat": -2141.2445678710938,
+        "lng": 1253.552734375
+      },
+      "chests": 2
+    },
+    {
+      "id": "Dungeon070",
+      "position": {
+        "x": 2239.21337890625,
+        "y": 161.47589111328125,
+        "z": -292.42999267578125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        11
+      ],
+      "regionId": "lanayru",
+      "projection": {
+        "u": 2059.8033447265625,
+        "v": 1176.8925018310547,
+        "lat": -1176.8925018310547,
+        "lng": 2059.8033447265625
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon071",
+      "position": {
+        "x": 559.364013671875,
+        "y": 131.0377197265625,
+        "z": 2991.17822265625
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        8
+      ],
+      "regionId": "lake",
+      "projection": {
+        "u": 1639.8410034179688,
+        "v": 1997.7945556640625,
+        "lat": -1997.7945556640625,
+        "lng": 1639.8410034179688
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon072",
+      "position": {
+        "x": -1695.713623046875,
+        "y": 81.83724212646484,
+        "z": 1701.0263671875
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        5
+      ],
+      "regionId": "central",
+      "projection": {
+        "u": 1076.0715942382812,
+        "v": 1675.256591796875,
+        "lat": -1675.256591796875,
+        "lng": 1076.0715942382812
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon073",
+      "position": {
+        "x": -636.0839233398438,
+        "y": 141.86691284179688,
+        "z": -344.1649169921875
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        5
+      ],
+      "regionId": "central",
+      "projection": {
+        "u": 1340.979019165039,
+        "v": 1163.9587707519531,
+        "lat": -1163.9587707519531,
+        "lng": 1340.979019165039
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon074",
+      "position": {
+        "x": -952.1732788085938,
+        "y": 147.36257934570312,
+        "z": -623.8845825195312
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        5
+      ],
+      "regionId": "central",
+      "projection": {
+        "u": 1261.9566802978516,
+        "v": 1094.0288543701172,
+        "lat": -1094.0288543701172,
+        "lng": 1261.9566802978516
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon075",
+      "position": {
+        "x": 3899.691162109375,
+        "y": 367.7741394042969,
+        "z": -1303.793701171875
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        10
+      ],
+      "regionId": "akkala",
+      "projection": {
+        "u": 2474.9227905273438,
+        "v": 924.0515747070312,
+        "lat": -924.0515747070312,
+        "lng": 2474.9227905273438
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon076",
+      "position": {
+        "x": -3560.287353515625,
+        "y": 361.7767639160156,
+        "z": 1953.873291015625
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        2
+      ],
+      "regionId": "gerudo",
+      "projection": {
+        "u": 609.9281616210938,
+        "v": 1738.4683227539062,
+        "lat": -1738.4683227539062,
+        "lng": 609.9281616210938
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon077",
+      "position": {
+        "x": 4194.7138671875,
+        "y": 336.11444091796875,
+        "z": -855.9080200195312
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        10
+      ],
+      "regionId": "akkala",
+      "projection": {
+        "u": 2548.678466796875,
+        "v": 1036.0229949951172,
+        "lat": -1036.0229949951172,
+        "lng": 2548.678466796875
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon078",
+      "position": {
+        "x": -2743.991943359375,
+        "y": 318.39349365234375,
+        "z": 225.74667358398438
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        14
+      ],
+      "regionId": "ridgeland",
+      "projection": {
+        "u": 814.0020141601562,
+        "v": 1306.436668395996,
+        "lat": -1306.436668395996,
+        "lng": 814.0020141601562
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon079",
+      "position": {
+        "x": 760.29052734375,
+        "y": 201.72447204589844,
+        "z": -821.3871459960938
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        5
+      ],
+      "regionId": "central",
+      "projection": {
+        "u": 1690.0726318359375,
+        "v": 1044.6532135009766,
+        "lat": -1044.6532135009766,
+        "lng": 1690.0726318359375
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon080",
+      "position": {
+        "x": 94.99838256835938,
+        "y": 119.671875,
+        "z": 3840.94287109375
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        8
+      ],
+      "regionId": "lake",
+      "projection": {
+        "u": 1523.7495956420898,
+        "v": 2210.2357177734375,
+        "lat": -2210.2357177734375,
+        "lng": 1523.7495956420898
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon081",
+      "position": {
+        "x": 3657.1669921875,
+        "y": 363.3363952636719,
+        "z": 3307.99267578125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        13
+      ],
+      "regionId": "faron",
+      "projection": {
+        "u": 2414.291748046875,
+        "v": 2076.9981689453125,
+        "lat": -2076.9981689453125,
+        "lng": 2414.291748046875
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon082",
+      "position": {
+        "x": 4011.4833984375,
+        "y": 120.18290710449219,
+        "z": 2989.83056640625
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        12
+      ],
+      "regionId": "hateno",
+      "projection": {
+        "u": 2502.870849609375,
+        "v": 1997.4576416015625,
+        "lat": -1997.4576416015625,
+        "lng": 2502.870849609375
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon083",
+      "position": {
+        "x": -3466.356689453125,
+        "y": 397.492431640625,
+        "z": -447.4993591308594
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        1
+      ],
+      "regionId": "tabantha",
+      "projection": {
+        "u": 633.4108276367188,
+        "v": 1138.1251602172852,
+        "lat": -1138.1251602172852,
+        "lng": 633.4108276367188
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon084",
+      "position": {
+        "x": 3777.255126953125,
+        "y": 121.88737487792969,
+        "z": -2704.0693359375
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        10
+      ],
+      "regionId": "akkala",
+      "projection": {
+        "u": 2444.3137817382812,
+        "v": 573.982666015625,
+        "lat": -573.982666015625,
+        "lng": 2444.3137817382812
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon085",
+      "position": {
+        "x": -4657.4931640625,
+        "y": 632.4925537109375,
+        "z": 904.9697265625
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        2
+      ],
+      "regionId": "gerudo",
+      "projection": {
+        "u": 335.626708984375,
+        "v": 1476.242431640625,
+        "lat": -1476.242431640625,
+        "lng": 335.626708984375
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon086",
+      "position": {
+        "x": -2793.2744140625,
+        "y": 684.0189208984375,
+        "z": -2882.06298828125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        0
+      ],
+      "regionId": "hebra",
+      "projection": {
+        "u": 801.681396484375,
+        "v": 529.4842529296875,
+        "lat": -529.4842529296875,
+        "lng": 801.681396484375
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon087",
+      "position": {
+        "x": -3626.7099609375,
+        "y": 433.8231201171875,
+        "z": -3038.258544921875
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        0
+      ],
+      "regionId": "hebra",
+      "projection": {
+        "u": 593.322509765625,
+        "v": 490.43536376953125,
+        "lat": -490.43536376953125,
+        "lng": 593.322509765625
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon088",
+      "position": {
+        "x": -4446.01806640625,
+        "y": 342.85357666015625,
+        "z": -3802.418701171875
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        0
+      ],
+      "regionId": "hebra",
+      "projection": {
+        "u": 388.4954833984375,
+        "v": 299.39532470703125,
+        "lat": -299.39532470703125,
+        "lng": 388.4954833984375
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon089",
+      "position": {
+        "x": -148.39523315429688,
+        "y": 153.22174072265625,
+        "z": -1159.346435546875
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        5
+      ],
+      "regionId": "central",
+      "projection": {
+        "u": 1462.9011917114258,
+        "v": 960.1633911132812,
+        "lat": -960.1633911132812,
+        "lng": 1462.9011917114258
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon090",
+      "position": {
+        "x": -1417.77734375,
+        "y": 554.4000244140625,
+        "z": 3449.206298828125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        3
+      ],
+      "regionId": "wasteland",
+      "projection": {
+        "u": 1145.5556640625,
+        "v": 2112.3015747070312,
+        "lat": -2112.3015747070312,
+        "lng": 1145.5556640625
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon091",
+      "position": {
+        "x": 2662.70703125,
+        "y": 483.0,
+        "z": -3457.20703125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        9
+      ],
+      "regionId": "eldin",
+      "projection": {
+        "u": 2165.6767578125,
+        "v": 385.6982421875,
+        "lat": -385.6982421875,
+        "lng": 2165.6767578125
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon092",
+      "position": {
+        "x": -1940.4736328125,
+        "y": 262.8812561035156,
+        "z": -1459.0191650390625
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        14
+      ],
+      "regionId": "ridgeland",
+      "projection": {
+        "u": 1014.881591796875,
+        "v": 885.2452087402344,
+        "lat": -885.2452087402344,
+        "lng": 1014.881591796875
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon093",
+      "position": {
+        "x": -3809.560302734375,
+        "y": 168.3000030517578,
+        "z": 3126.85791015625
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        3
+      ],
+      "regionId": "wasteland",
+      "projection": {
+        "u": 547.6099243164062,
+        "v": 2031.7144775390625,
+        "lat": -2031.7144775390625,
+        "lng": 547.6099243164062
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon094",
+      "position": {
+        "x": -4798.14794921875,
+        "y": 144.12725830078125,
+        "z": 2800.031005859375
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        3
+      ],
+      "regionId": "wasteland",
+      "projection": {
+        "u": 300.4630126953125,
+        "v": 1950.0077514648438,
+        "lat": -1950.0077514648438,
+        "lng": 300.4630126953125
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon095",
+      "position": {
+        "x": 18.44451904296875,
+        "y": 290.3999938964844,
+        "z": -1943.7041015625
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        4
+      ],
+      "regionId": "woodland",
+      "projection": {
+        "u": 1504.6111297607422,
+        "v": 764.073974609375,
+        "lat": -764.073974609375,
+        "lng": 1504.6111297607422
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon096",
+      "position": {
+        "x": 2007.9007568359375,
+        "y": 314.49578857421875,
+        "z": 3284.565673828125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        13
+      ],
+      "regionId": "faron",
+      "projection": {
+        "u": 2001.9751892089844,
+        "v": 2071.1414184570312,
+        "lat": -2071.1414184570312,
+        "lng": 2001.9751892089844
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon097",
+      "position": {
+        "x": 4736.6181640625,
+        "y": 227.00015258789062,
+        "z": 3771.591796875
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        13
+      ],
+      "regionId": "faron",
+      "projection": {
+        "u": 2684.154541015625,
+        "v": 2192.89794921875,
+        "lat": -2192.89794921875,
+        "lng": 2684.154541015625
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon098",
+      "position": {
+        "x": -26.080352783203125,
+        "y": 293.3416442871094,
+        "z": -2457.68798828125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        4
+      ],
+      "regionId": "woodland",
+      "projection": {
+        "u": 1493.4799118041992,
+        "v": 635.5780029296875,
+        "lat": -635.5780029296875,
+        "lng": 1493.4799118041992
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon099",
+      "position": {
+        "x": 1841.2249755859375,
+        "y": 273.09820556640625,
+        "z": 891.112548828125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        7
+      ],
+      "regionId": "dueling-peaks",
+      "projection": {
+        "u": 1960.3062438964844,
+        "v": 1472.7781372070312,
+        "lat": -1472.7781372070312,
+        "lng": 1960.3062438964844
+      },
+      "chests": 3
+    },
+    {
+      "id": "Dungeon100",
+      "position": {
+        "x": -3852.460205078125,
+        "y": 649.2999877929688,
+        "z": 716.3579711914062
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        2
+      ],
+      "regionId": "gerudo",
+      "projection": {
+        "u": 536.8849487304688,
+        "v": 1429.0894927978516,
+        "lat": -1429.0894927978516,
+        "lng": 536.8849487304688
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon101",
+      "position": {
+        "x": 3148.85205078125,
+        "y": 289.0,
+        "z": -417.3299255371094
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        11
+      ],
+      "regionId": "lanayru",
+      "projection": {
+        "u": 2287.2130126953125,
+        "v": 1145.6675186157227,
+        "lat": -1145.6675186157227,
+        "lng": 2287.2130126953125
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon102",
+      "position": {
+        "x": 3324.085205078125,
+        "y": 311.68603515625,
+        "z": -3421.369140625
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        10
+      ],
+      "regionId": "akkala",
+      "projection": {
+        "u": 2331.0213012695312,
+        "v": 394.65771484375,
+        "lat": -394.65771484375,
+        "lng": 2331.0213012695312
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon103",
+      "position": {
+        "x": -1795.0001220703125,
+        "y": 177.1844482421875,
+        "z": 3464.390625
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        3
+      ],
+      "regionId": "wasteland",
+      "projection": {
+        "u": 1051.2499694824219,
+        "v": 2116.09765625,
+        "lat": -2116.09765625,
+        "lng": 1051.2499694824219
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon104",
+      "position": {
+        "x": -2636.7451171875,
+        "y": 459.03216552734375,
+        "z": -2061.288330078125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        0
+      ],
+      "regionId": "hebra",
+      "projection": {
+        "u": 840.813720703125,
+        "v": 734.6779174804688,
+        "lat": -734.6779174804688,
+        "lng": 840.813720703125
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon105",
+      "position": {
+        "x": 4655.0,
+        "y": 250.40000915527344,
+        "z": -3709.0
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        10
+      ],
+      "regionId": "akkala",
+      "projection": {
+        "u": 2663.75,
+        "v": 322.75,
+        "lat": -322.75,
+        "lng": 2663.75
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon106",
+      "position": {
+        "x": 836.6337890625,
+        "y": 295.1953125,
+        "z": -2418.811279296875
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        4
+      ],
+      "regionId": "woodland",
+      "projection": {
+        "u": 1709.158447265625,
+        "v": 645.2971801757812,
+        "lat": -645.2971801757812,
+        "lng": 1709.158447265625
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon107",
+      "position": {
+        "x": -2969.800048828125,
+        "y": 150.67344665527344,
+        "z": 3780.634033203125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        3
+      ],
+      "regionId": "wasteland",
+      "projection": {
+        "u": 757.5499877929688,
+        "v": 2195.1585083007812,
+        "lat": -2195.1585083007812,
+        "lng": 757.5499877929688
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon108",
+      "position": {
+        "x": 284.3999938964844,
+        "y": 294.3000183105469,
+        "z": -3119.60009765625
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        4
+      ],
+      "regionId": "woodland",
+      "projection": {
+        "u": 1571.099998474121,
+        "v": 470.0999755859375,
+        "lat": -470.0999755859375,
+        "lng": 1571.099998474121
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon109",
+      "position": {
+        "x": 4525.0400390625,
+        "y": 116.76589965820312,
+        "z": -2128.392822265625
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        10
+      ],
+      "regionId": "akkala",
+      "projection": {
+        "u": 2631.260009765625,
+        "v": 717.9017944335938,
+        "lat": -717.9017944335938,
+        "lng": 2631.260009765625
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon110",
+      "position": {
+        "x": -2689.30712890625,
+        "y": 114.00540161132812,
+        "z": 2811.9072265625
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        3
+      ],
+      "regionId": "wasteland",
+      "projection": {
+        "u": 827.6732177734375,
+        "v": 1952.976806640625,
+        "lat": -1952.976806640625,
+        "lng": 827.6732177734375
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon111",
+      "position": {
+        "x": 2636.69091796875,
+        "y": 327.1673889160156,
+        "z": 2833.853759765625
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        13
+      ],
+      "regionId": "faron",
+      "projection": {
+        "u": 2159.1727294921875,
+        "v": 1958.4634399414062,
+        "lat": -1958.4634399414062,
+        "lng": 2159.1727294921875
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon112",
+      "position": {
+        "x": 2039.6334228515625,
+        "y": 295.0314025878906,
+        "z": 971.7044067382812
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        7
+      ],
+      "regionId": "dueling-peaks",
+      "projection": {
+        "u": 2009.9083557128906,
+        "v": 1492.9261016845703,
+        "lat": -1492.9261016845703,
+        "lng": 2009.9083557128906
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon113",
+      "position": {
+        "x": 870.4946899414062,
+        "y": 135.99087524414062,
+        "z": 2329.5283203125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        8
+      ],
+      "regionId": "lake",
+      "projection": {
+        "u": 1717.6236724853516,
+        "v": 1832.382080078125,
+        "lat": -1832.382080078125,
+        "lng": 1717.6236724853516
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon114",
+      "position": {
+        "x": 4245.24560546875,
+        "y": 119.921875,
+        "z": 253.9075927734375
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        11
+      ],
+      "regionId": "lanayru",
+      "projection": {
+        "u": 2561.3114013671875,
+        "v": 1313.4768981933594,
+        "lat": -1313.4768981933594,
+        "lng": 2561.3114013671875
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon115",
+      "position": {
+        "x": -1088.799560546875,
+        "y": 35.048065185546875,
+        "z": -2660.744384765625
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        4
+      ],
+      "regionId": "woodland",
+      "projection": {
+        "u": 1227.8001098632812,
+        "v": 584.8139038085938,
+        "lat": -584.8139038085938,
+        "lng": 1227.8001098632812
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon116",
+      "position": {
+        "x": -821.5,
+        "y": 354.3000183105469,
+        "z": -3535.0
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        0
+      ],
+      "regionId": "hebra",
+      "projection": {
+        "u": 1294.625,
+        "v": 366.25,
+        "lat": -366.25,
+        "lng": 1294.625
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon117",
+      "position": {
+        "x": 3883.027587890625,
+        "y": 585.8084716796875,
+        "z": 1315.36083984375
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        12
+      ],
+      "regionId": "hateno",
+      "projection": {
+        "u": 2470.7568969726562,
+        "v": 1578.8402099609375,
+        "lat": -1578.8402099609375,
+        "lng": 2470.7568969726562
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon118",
+      "position": {
+        "x": -4022.127197265625,
+        "y": 301.09124755859375,
+        "z": -3711.696533203125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        0
+      ],
+      "regionId": "hebra",
+      "projection": {
+        "u": 494.46820068359375,
+        "v": 322.07586669921875,
+        "lat": -322.07586669921875,
+        "lng": 494.46820068359375
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon119",
+      "position": {
+        "x": 4182.7646484375,
+        "y": 301.1494445800781,
+        "z": 1686.558349609375
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        12
+      ],
+      "regionId": "hateno",
+      "projection": {
+        "u": 2545.691162109375,
+        "v": 1671.6395874023438,
+        "lat": -1671.6395874023438,
+        "lng": 2545.691162109375
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon120",
+      "position": {
+        "x": -941.8468017578125,
+        "y": 196.6999969482422,
+        "z": 1671.74169921875
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        6
+      ],
+      "regionId": "great-plateau",
+      "projection": {
+        "u": 1264.5382995605469,
+        "v": 1667.9354248046875,
+        "lat": -1667.9354248046875,
+        "lng": 1264.5382995605469
+      },
+      "chests": 2
+    },
+    {
+      "id": "Dungeon121",
+      "position": {
+        "x": -3392.15625,
+        "y": 450.978515625,
+        "z": 1347.4669189453125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        3
+      ],
+      "regionId": "wasteland",
+      "projection": {
+        "u": 651.9609375,
+        "v": 1586.8667297363281,
+        "lat": -1586.8667297363281,
+        "lng": 651.9609375
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon122",
+      "position": {
+        "x": -1215.9742431640625,
+        "y": 349.5,
+        "z": 2110.884521484375
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        6
+      ],
+      "regionId": "great-plateau",
+      "projection": {
+        "u": 1196.0064392089844,
+        "v": 1777.7211303710938,
+        "lat": -1777.7211303710938,
+        "lng": 1196.0064392089844
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon123",
+      "position": {
+        "x": -517.9490356445312,
+        "y": 182.8000030517578,
+        "z": 1799.02392578125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        6
+      ],
+      "regionId": "great-plateau",
+      "projection": {
+        "u": 1370.5127410888672,
+        "v": 1699.7559814453125,
+        "lat": -1699.7559814453125,
+        "lng": 1370.5127410888672
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon124",
+      "position": {
+        "x": 3103.6083984375,
+        "y": 551.9120483398438,
+        "z": -833.9618530273438
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        11
+      ],
+      "regionId": "lanayru",
+      "projection": {
+        "u": 2275.902099609375,
+        "v": 1041.509536743164,
+        "lat": -1041.509536743164,
+        "lng": 2275.902099609375
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon125",
+      "position": {
+        "x": 4934.23291015625,
+        "y": 115.80000305175781,
+        "z": -1002.050537109375
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        11
+      ],
+      "regionId": "lanayru",
+      "projection": {
+        "u": 2733.5582275390625,
+        "v": 999.4873657226562,
+        "lat": -999.4873657226562,
+        "lng": 2733.5582275390625
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon126",
+      "position": {
+        "x": 3761.8720703125,
+        "y": 556.78271484375,
+        "z": -645.5045166015625
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        11
+      ],
+      "regionId": "lanayru",
+      "projection": {
+        "u": 2440.468017578125,
+        "v": 1088.6238708496094,
+        "lat": -1088.6238708496094,
+        "lng": 2440.468017578125
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon127",
+      "position": {
+        "x": -3821.00244140625,
+        "y": 98.7734375,
+        "z": -2310.520751953125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        1
+      ],
+      "regionId": "tabantha",
+      "projection": {
+        "u": 544.7493896484375,
+        "v": 672.3698120117188,
+        "lat": -672.3698120117188,
+        "lng": 544.7493896484375
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon128",
+      "position": {
+        "x": -2156.432373046875,
+        "y": 459.3999938964844,
+        "z": -3188.149658203125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        0
+      ],
+      "regionId": "hebra",
+      "projection": {
+        "u": 960.8919067382812,
+        "v": 452.96258544921875,
+        "lat": -452.96258544921875,
+        "lng": 960.8919067382812
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon129",
+      "position": {
+        "x": -2377.081298828125,
+        "y": 273.9705810546875,
+        "z": -1383.91943359375
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        14
+      ],
+      "regionId": "ridgeland",
+      "projection": {
+        "u": 905.7296752929688,
+        "v": 904.0201416015625,
+        "lat": -904.0201416015625,
+        "lng": 905.7296752929688
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon130",
+      "position": {
+        "x": 2129.3486328125,
+        "y": 518.9150390625,
+        "z": -3228.66064453125
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        9
+      ],
+      "regionId": "eldin",
+      "projection": {
+        "u": 2032.337158203125,
+        "v": 442.8348388671875,
+        "lat": -442.8348388671875,
+        "lng": 2032.337158203125
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon131",
+      "position": {
+        "x": 2242.218505859375,
+        "y": 550.82275390625,
+        "z": -1996.1873779296875
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        9
+      ],
+      "regionId": "eldin",
+      "projection": {
+        "u": 2060.5546264648438,
+        "v": 750.9531555175781,
+        "lat": -750.9531555175781,
+        "lng": 2060.5546264648438
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon132",
+      "position": {
+        "x": 2931.935546875,
+        "y": 639.5069580078125,
+        "z": -2418.7333984375
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        9
+      ],
+      "regionId": "eldin",
+      "projection": {
+        "u": 2232.98388671875,
+        "v": 645.316650390625,
+        "lat": -645.316650390625,
+        "lng": 2232.98388671875
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon133",
+      "position": {
+        "x": -2340.23095703125,
+        "y": 138.5,
+        "z": 3900.926513671875
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        3
+      ],
+      "regionId": "wasteland",
+      "projection": {
+        "u": 914.9422607421875,
+        "v": 2225.2316284179688,
+        "lat": -2225.2316284179688,
+        "lng": 914.9422607421875
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon134",
+      "position": {
+        "x": -4894.4912109375,
+        "y": 150.984375,
+        "z": 2155.50146484375
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        3
+      ],
+      "regionId": "wasteland",
+      "projection": {
+        "u": 276.377197265625,
+        "v": 1788.8753662109375,
+        "lat": -1788.8753662109375,
+        "lng": 276.377197265625
+      },
+      "chests": 1
+    },
+    {
+      "id": "Dungeon135",
+      "position": {
+        "x": -833.5947265625,
+        "y": 198.8000030517578,
+        "z": 2144.810546875
+      },
+      "axisDelta": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "polygonIndices": [
+        6
+      ],
+      "regionId": "great-plateau",
+      "projection": {
+        "u": 1291.601318359375,
+        "v": 1786.20263671875,
+        "lat": -1786.20263671875,
+        "lng": 1291.601318359375
+      },
+      "chests": 3
+    }
+  ],
+  "sourceCacheHashes": {
+    "count": 277,
+    "errors": [],
+    "records": [
+      {
+        "path": "data/sources/static.json",
+        "sourceId": "map-static",
+        "sha256": "db50e3f1b36f7b6ad701f666c8266dd1d9a30f4dc1a5d66f1c4ca766cc12be02",
+        "matches": true
+      },
+      {
+        "path": "data/sources/localization-static.html",
+        "sourceId": "game-labels",
+        "sha256": "1c8e0285f4abf6ef27fd9504f898a2eec57948bb7739259716adb865f2622ca0",
+        "matches": true
+      },
+      {
+        "path": "data/sources/localization-actors.html",
+        "sourceId": "actor-labels",
+        "sha256": "be093fc7b0c6d16e802749d201ff66faf0326a2d7d8f775bcd2484c4896acb2f",
+        "matches": true
+      },
+      {
+        "path": "data/sources/tower-regions.json",
+        "sourceId": "tower-regions",
+        "sha256": "b507294568f7f26af9e1b380dd909bad8683dc3c0051f118aa4114cb650118c3",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon000.html",
+        "sourceId": "wiki-Dungeon000",
+        "sha256": "c80bd8c8209a586e79e5c468157318f044bc45e66a984922988aefb1234936e5",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon000.json",
+        "sourceId": "chests-Dungeon000",
+        "sha256": "ec8334fb818cc7e4ca9de773666c3ddcf696a4a0bd76ee37870dcefbd984bec4",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon001.html",
+        "sourceId": "wiki-Dungeon001",
+        "sha256": "67f9d0b2f2209a22dbfd2110520ff49c29bc661fdc69c8cbddbf2eb944c39269",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon001.json",
+        "sourceId": "chests-Dungeon001",
+        "sha256": "9f63b0b8d9ac23bd91d83e6a5bd223e76e0446bd7a8ffd444ca4a17f65b84167",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon002.html",
+        "sourceId": "wiki-Dungeon002",
+        "sha256": "7f26f3ff608c7d5b350c2b3bb866861a5de3ed5f140c7cbd73dc77fae967e28b",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon002.json",
+        "sourceId": "chests-Dungeon002",
+        "sha256": "456022a8d3efbb33247529b7b243585ba24fde975b69f6198da729c92c026518",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon003.html",
+        "sourceId": "wiki-Dungeon003",
+        "sha256": "2e81df4a5685e669419b9847bc42df50b460a38ae09fcbff902d2e4d013dadd1",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon003.json",
+        "sourceId": "chests-Dungeon003",
+        "sha256": "7bc14a3f0157c91918e70f1b87910f9e06a673ae18ffe70f50732f37e1a49f2e",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon004.html",
+        "sourceId": "wiki-Dungeon004",
+        "sha256": "b8b56199e6850b96ec0a5bda4b2dc09d0a4a6c02d6a6ce8eaea1efe9b4d93275",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon004.json",
+        "sourceId": "chests-Dungeon004",
+        "sha256": "94be91e48611985b031c1e8014b820263280b44cdb424ba02010898c6a8717fe",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon005.html",
+        "sourceId": "wiki-Dungeon005",
+        "sha256": "dee465a297a40047937b09a9902b52ce39d4ee35a9fb9b04cd5d2ff78343e9a9",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon005.json",
+        "sourceId": "chests-Dungeon005",
+        "sha256": "598415e09ded90f95cea2389a683d1f2fe47811ca0c80b491a623a304a57a6c7",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon006.html",
+        "sourceId": "wiki-Dungeon006",
+        "sha256": "5bf4bce7937b031389ef763577a01f42715ebae90b3353264f63056db5dce56d",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon006.json",
+        "sourceId": "chests-Dungeon006",
+        "sha256": "55a1f5eb8deafb5b8b0260c1dfaa33f86b3a99b4cbb2147b208d4eb1de2828a7",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon007.html",
+        "sourceId": "wiki-Dungeon007",
+        "sha256": "ea7837a51cbc1aecf8c663270b1f60da9e2197be395f3fe508d6e6826cbc8431",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon007.json",
+        "sourceId": "chests-Dungeon007",
+        "sha256": "2ec8639739060dfe66f4bbdd41d18c6be5c00aa5f434991121244e1337665abc",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon008.html",
+        "sourceId": "wiki-Dungeon008",
+        "sha256": "1e91fa4b460bad388853c0f64058dcd292cc92cfa16de5525498d0c564ad0010",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon008.json",
+        "sourceId": "chests-Dungeon008",
+        "sha256": "ebad96981e8a3327e0080f293d5e234f5340d483c219d73a5fd314b2b3bb5a58",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon009.html",
+        "sourceId": "wiki-Dungeon009",
+        "sha256": "5d6ae94240e982585880d4c1bf3ece1bbbc2e96532002bb68950ddcc6c2d5088",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon009.json",
+        "sourceId": "chests-Dungeon009",
+        "sha256": "1717f4dbf3176a87c5947917ae52f837cf90d5de0a73d14e0e19edacc41c183f",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon010.html",
+        "sourceId": "wiki-Dungeon010",
+        "sha256": "86001db8f5314058678321ccad5b66447c9c6f39098a4322b9df47742d84a5eb",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon010.json",
+        "sourceId": "chests-Dungeon010",
+        "sha256": "1c231679c3e312ed87844e96ac338e857df8c2a9265ed21a202b1d43f98866f7",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon011.html",
+        "sourceId": "wiki-Dungeon011",
+        "sha256": "de1eda9021574687a61fa11a1000cb0a1bd64c6030103b1cd8dcef7c33693be1",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon011.json",
+        "sourceId": "chests-Dungeon011",
+        "sha256": "12052e16ce97e26c5e5abfa7eb7a9cce6aff5abb79023f38de4b978456257cba",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon012.html",
+        "sourceId": "wiki-Dungeon012",
+        "sha256": "0735b1c6e87f0253cc9b0521c6b901be362cc982ad7c2475bb2d1aa3816f9d3f",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon012.json",
+        "sourceId": "chests-Dungeon012",
+        "sha256": "4e0381dc114621131fd1930a3dd9812a04e485f7ee277817cd10c1d47159e1e8",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon013.html",
+        "sourceId": "wiki-Dungeon013",
+        "sha256": "bedeb625457a4ce4190fdfc8038763ecfbc7ae12362da3d824d5f423a4b4300f",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon013.json",
+        "sourceId": "chests-Dungeon013",
+        "sha256": "b2469877afdc4834596e118d5d02aef7c7c7611d506dba7a84c17db630f66782",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon014.html",
+        "sourceId": "wiki-Dungeon014",
+        "sha256": "4bd3a12cd872539806d3ba993cd525044d4a2aabe243a1b7edc6b076cc853172",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon014.json",
+        "sourceId": "chests-Dungeon014",
+        "sha256": "b7ae63be606a6954ab11a0c7887edf454a7b6d2095e33537da055d000d17e4d4",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon015.html",
+        "sourceId": "wiki-Dungeon015",
+        "sha256": "6ffae5c1031e050b125f2117d73fb67a5a902b7d5cd12c15596c850a43f018f8",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon015.json",
+        "sourceId": "chests-Dungeon015",
+        "sha256": "55007f6591f96914710750205c0cd117c05930188d2f38e659c425ad92e5b47a",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon016.html",
+        "sourceId": "wiki-Dungeon016",
+        "sha256": "94445d7ce8d9d814c56a41af5a7b39d0dc3ab2034eb89523f8d3bf8c6904b102",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon016.json",
+        "sourceId": "chests-Dungeon016",
+        "sha256": "15c37ba4a955965d981f09df4657d78470c7f55e6a908e305740e46a487f35e6",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon017.html",
+        "sourceId": "wiki-Dungeon017",
+        "sha256": "1f8502a831e92ea3524535c97b1db972e5b87ddaae6e7ecbeca80827d7f89a17",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon017.json",
+        "sourceId": "chests-Dungeon017",
+        "sha256": "10c48b0d81edb5a7156296b24382d9efdf98cab8db76a1ba2fd9bd7f114168af",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon018.html",
+        "sourceId": "wiki-Dungeon018",
+        "sha256": "aee73b13f0638c9623ae2da3217c46bb8c0c74011bc312f21b75d92074afd62a",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon018.json",
+        "sourceId": "chests-Dungeon018",
+        "sha256": "ff59cbc2087d5530b874660965f5f57c9e78028bbb8afc9aa9fb28a2dd7331d3",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon019.html",
+        "sourceId": "wiki-Dungeon019",
+        "sha256": "971616efb0cc71590cfe0b44812f3b4d334b2daf7e8f88a3670f7206f1d4c924",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon019.json",
+        "sourceId": "chests-Dungeon019",
+        "sha256": "f72ebdc8b86647926670b16883bbb5aaed761310195de7dff4b7c07446225760",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon020.html",
+        "sourceId": "wiki-Dungeon020",
+        "sha256": "ef7fec9b2d6a80d43beb81814c36393b98f95a8f0f84ad89cebee2b0059ede12",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon020.json",
+        "sourceId": "chests-Dungeon020",
+        "sha256": "1a427218e699de29fa3fb795169aca5a51ade4238d1f16c298ef6ce8f56c5758",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon021.html",
+        "sourceId": "wiki-Dungeon021",
+        "sha256": "fc699db7bb796a6355af21f2261b9454d6b7c964f08a3b4570f64758907c482b",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon021.json",
+        "sourceId": "chests-Dungeon021",
+        "sha256": "992b08cc89b871c2a67617e1c4c5b7da117db002c9d223f3dd037091962ba466",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon022.html",
+        "sourceId": "wiki-Dungeon022",
+        "sha256": "d1100203167cd04cf0770ef48bdb7060ec88c7fe9a4263537f8827b4e3c7f182",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon022.json",
+        "sourceId": "chests-Dungeon022",
+        "sha256": "6a0e15315987dda51c1c3a59d43af4c07b5ce50e5ef72d82a1f2a30590fcaaee",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon023.html",
+        "sourceId": "wiki-Dungeon023",
+        "sha256": "6b0410c39fad17ea6a0d788c78de0fa8c676ec82564d407874f59d66a85fbcbd",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon023.json",
+        "sourceId": "chests-Dungeon023",
+        "sha256": "b710e6277085194e585df28853bba50f779a8de811571694b3b4ea4fccfdf3e4",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon024.html",
+        "sourceId": "wiki-Dungeon024",
+        "sha256": "467b37ca56c7d8723bae8057713a0373c6df9d7d67560a7f1d157d2f0d526fbc",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon024.json",
+        "sourceId": "chests-Dungeon024",
+        "sha256": "2f744c04b35d2fb04218deeca0c49f40635bd2643f810b43484615ba9b995b3e",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon025.html",
+        "sourceId": "wiki-Dungeon025",
+        "sha256": "07b504243224c29bdd00c2ccde7549fe1d03c15742f849514d107c7ab75b4186",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon025.json",
+        "sourceId": "chests-Dungeon025",
+        "sha256": "a54b669f28bc6226916634b6c59800167eb3f8601e31c8fa0def6b89fc0fb919",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon026.html",
+        "sourceId": "wiki-Dungeon026",
+        "sha256": "b9d68d8938468ce4a245c9024519bf44ab310c7e3993e40a725b1195a701e545",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon026.json",
+        "sourceId": "chests-Dungeon026",
+        "sha256": "948bbe01a27adc788f0644e8015fd17e796ffca7daa4a8eb5cef2e53790c5ad4",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon027.html",
+        "sourceId": "wiki-Dungeon027",
+        "sha256": "a491cb578e4eaa68187738ed6b589ca4a6413969698b6c141d250fa4bb258839",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon027.json",
+        "sourceId": "chests-Dungeon027",
+        "sha256": "ae236ef2ac5649702a5830262a62802f08aa4c14ae4fa7dd29b424591397f8e6",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon028.html",
+        "sourceId": "wiki-Dungeon028",
+        "sha256": "0d9a3824b7c5acab5ec7efb2495c52e903f6d036d6ec080bcf3e166f4804d7d4",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon028.json",
+        "sourceId": "chests-Dungeon028",
+        "sha256": "4a262479fc31d3afa49550a8a9c4c385dccfbae1a7cc219eb45a55054828ebc8",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon029.html",
+        "sourceId": "wiki-Dungeon029",
+        "sha256": "043a0f3cda0b143eee356816fd4b67e8780f843c7a61e70186dfe9f85358f233",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon029.json",
+        "sourceId": "chests-Dungeon029",
+        "sha256": "b4d18faee2c710932338932f3bac93d726702faa76770d8e9718449525fbc309",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon030.html",
+        "sourceId": "wiki-Dungeon030",
+        "sha256": "eba2d97820084bbc168f0303b43205a2c359cd4680025d062cb273d8f95027d1",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon030.json",
+        "sourceId": "chests-Dungeon030",
+        "sha256": "6e8e91bb2c212ec0a5108d2ff18467b5ef3be745bcd76d58582e7e6f55bebaf1",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon031.html",
+        "sourceId": "wiki-Dungeon031",
+        "sha256": "0b40c13974ae4f32cc205c484fe2561178756791458e5055559ac459e6f586ac",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon031.json",
+        "sourceId": "chests-Dungeon031",
+        "sha256": "d9f5e0b60ef8aac5a9314d61fa603115953149125f782c2efd247ab478410a7e",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon032.html",
+        "sourceId": "wiki-Dungeon032",
+        "sha256": "ed4fc503d0e6073b8a188141de1f45033132caf0428ec01df942d8303bbede8c",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon032.json",
+        "sourceId": "chests-Dungeon032",
+        "sha256": "020c9574723fed1b935a3e741a7ba67666dfbb372a67c913a09f0e27bbf6bb92",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon033.html",
+        "sourceId": "wiki-Dungeon033",
+        "sha256": "cf9bfee5490af0086a7ea9b6a74f9f748467bb518f301331337db5776fffaed6",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon033.json",
+        "sourceId": "chests-Dungeon033",
+        "sha256": "3d8b1c1236f41fe1767ad882934ff4e126a7bd26f4ab9abff3ce67dec99de539",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon034.html",
+        "sourceId": "wiki-Dungeon034",
+        "sha256": "6aed699df8896413459bc39348a242fd994d9e09c73688fd7586fd43c179839c",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon034.json",
+        "sourceId": "chests-Dungeon034",
+        "sha256": "420e4f6d1051edb76c171d5635ff6a4914583530d4f9e3cbebf5ec83a8621c94",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon035.html",
+        "sourceId": "wiki-Dungeon035",
+        "sha256": "0f75f411127dc6f6815b3dd0881d27f20743f1803b82427438bec8102a85100c",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon035.json",
+        "sourceId": "chests-Dungeon035",
+        "sha256": "d13f316be5ccd96537b5c8d1df0eb6027cb21dca8204609b75da5cc15fe3d809",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon036.html",
+        "sourceId": "wiki-Dungeon036",
+        "sha256": "093aaa9971331b590a3daa5b8fe0bcd41b799b0a9dec802ea5a54d7737017ad0",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon036.json",
+        "sourceId": "chests-Dungeon036",
+        "sha256": "3a3cb5d4bcf42197e839b7f8fbf203034e988dac2d7394dc87b1768b92da3df2",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon037.html",
+        "sourceId": "wiki-Dungeon037",
+        "sha256": "0c8f41bcf248193e5534db1e791f588454b01b43732d068362078e03a8e76b9f",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon037.json",
+        "sourceId": "chests-Dungeon037",
+        "sha256": "d38d2c5472d790c8a10d44d7c8cfe199a7da787711595fe5322ad3cbf2267813",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon038.html",
+        "sourceId": "wiki-Dungeon038",
+        "sha256": "776be03fd8565a5b3ba14896e607e43624b718202ff225b2eecd01cdee841482",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon038.json",
+        "sourceId": "chests-Dungeon038",
+        "sha256": "cd57b7d2c88895cab20fa082fda1e88d39d65135c2b5378ca3342f9187c1b7c4",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon039.html",
+        "sourceId": "wiki-Dungeon039",
+        "sha256": "a0b28a602b6a5cd79574104b24fd13db001057362744ac8a85d058b865d02ef6",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon039.json",
+        "sourceId": "chests-Dungeon039",
+        "sha256": "c1ae7dc75afc15941c0fdb7677bbca968bf25521c8d65782a55c57a49595becd",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon040.html",
+        "sourceId": "wiki-Dungeon040",
+        "sha256": "196396ed78731956480dba6469d31b638ff55a459101b6f4f2dac9d53231617a",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon040.json",
+        "sourceId": "chests-Dungeon040",
+        "sha256": "7ea4a6449013bb44ba607d984d1258f0a312c2a802ba99b43ab4d18e8a6904b6",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon041.html",
+        "sourceId": "wiki-Dungeon041",
+        "sha256": "97c4585e86fd128d493288260023efa90e05751c37ff0d8d470ba93ab9b06a1e",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon041.json",
+        "sourceId": "chests-Dungeon041",
+        "sha256": "c6d60445a427d92d841e88de9f696de5897c9991c53e4af5d60bca7e59d1e2bd",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon042.html",
+        "sourceId": "wiki-Dungeon042",
+        "sha256": "24491ada6fbca6e10f3a3b5672d3731b25ba6204f9604dbd5552ee2d534eb8b8",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon042.json",
+        "sourceId": "chests-Dungeon042",
+        "sha256": "b64804006563198e48df4c19a833cce7fcc8aaf1a6d41b0f1677a037f02840b4",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon043.html",
+        "sourceId": "wiki-Dungeon043",
+        "sha256": "1bcdc15dd316f89b09a61f7659bc6f393af9635ed8cc6b0f51254d60dec5c9d1",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon043.json",
+        "sourceId": "chests-Dungeon043",
+        "sha256": "5cef5546cdeccddae26a6145f4b47fe1341525fe46678942bde05024a24d9dcd",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon044.html",
+        "sourceId": "wiki-Dungeon044",
+        "sha256": "521149971714d190d86fb259a6911e5020f8d53b3cecc82ae9350cc13032237c",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon044.json",
+        "sourceId": "chests-Dungeon044",
+        "sha256": "e2a681e9bd73cc50a516d1a0a40f3e9965b6ac3d1c1321d6e7d4824e5f477b19",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon045.html",
+        "sourceId": "wiki-Dungeon045",
+        "sha256": "74082ad54af408e9663001e4b765c9116ab5ed00bb2d60e028a312c838f26282",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon045.json",
+        "sourceId": "chests-Dungeon045",
+        "sha256": "b45c0b6925951837b7d1fc4656cc3aaab390c61738ce270fb36b5f4ae06eaf67",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon046.html",
+        "sourceId": "wiki-Dungeon046",
+        "sha256": "06f69860c36c63c42fcb02363cd9cf3b28a8ad4fe93c745746e8226e1d4c202a",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon046.json",
+        "sourceId": "chests-Dungeon046",
+        "sha256": "7a4ec20c364e0ad64f5b8e02d59ccc5f297fecb91c0bc0c10912e112e84975a7",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon047.html",
+        "sourceId": "wiki-Dungeon047",
+        "sha256": "127ed9ae55187213d925c3d7cf42c78f92caffdfc4bfcb479afbb814d6781ec8",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon047.json",
+        "sourceId": "chests-Dungeon047",
+        "sha256": "1323c117a2c73b14c9155977b585e325c5a641773c7d2a526bb4c36fe7b9aa63",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon048.html",
+        "sourceId": "wiki-Dungeon048",
+        "sha256": "0c10d5febc6c698c0688ad74160683212ca8d1f3bb23e0c57ffdf15ef8a8fc01",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon048.json",
+        "sourceId": "chests-Dungeon048",
+        "sha256": "8705ff7e2e4c90178ec208024a9cc07926cc5df9667da590e149e1cd8b6182c1",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon049.html",
+        "sourceId": "wiki-Dungeon049",
+        "sha256": "bbf12fdfe161a5b8c96c422dd920039ce7c98eb7cdd41eab67fc0cb0f1688c5f",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon049.json",
+        "sourceId": "chests-Dungeon049",
+        "sha256": "80a5fa58e2ab4c6d1fb56a745a1e37c352f036055dd06ec2bc095267cd9cc5e4",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon050.html",
+        "sourceId": "wiki-Dungeon050",
+        "sha256": "62f34bc69b3cfc00abf60ed0f4f9a349f35415cf983c1db4b91175116dd01bf1",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon050.json",
+        "sourceId": "chests-Dungeon050",
+        "sha256": "438d46acc388d16791fdc1d262919d888f43e031c03f5e5d8729bcdcb68184a9",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon051.html",
+        "sourceId": "wiki-Dungeon051",
+        "sha256": "c31ce71e10de8e22382ff32c68a6c0a30948de593c25f92e3a1ea67169557dd8",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon051.json",
+        "sourceId": "chests-Dungeon051",
+        "sha256": "593a24813602c925ad658df161d5bab230cab87236df13b3b299fe07c6b1a1be",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon052.html",
+        "sourceId": "wiki-Dungeon052",
+        "sha256": "db744e7a18cd3bbde8e9c49d4feb809afdfea3949fbc8780ccbb2b5733bfe651",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon052.json",
+        "sourceId": "chests-Dungeon052",
+        "sha256": "882a876cdb9642df4db2e09ebb1945bf7e3c36f15b7252d59c8ded043518f8c1",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon053.html",
+        "sourceId": "wiki-Dungeon053",
+        "sha256": "506160188de1e53c6206c0b4dfeb9e5600f5153971f7c60fd7061e3cb31b4f21",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon053.json",
+        "sourceId": "chests-Dungeon053",
+        "sha256": "99a9df562b0f0119eca89e7011c3f2ed2c397c8532a7a9b5979f3ca0c702b41b",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon054.html",
+        "sourceId": "wiki-Dungeon054",
+        "sha256": "42356fd6120b3b9774cac46f5fa7cb98881d5c060eba1e6b060235255fd42931",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon054.json",
+        "sourceId": "chests-Dungeon054",
+        "sha256": "03cc96dc7822572a305f0a82de4c0bc26807e6e5dd170b1e8c3f8c1f9bba4f7f",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon055.html",
+        "sourceId": "wiki-Dungeon055",
+        "sha256": "92fa4b052d71984d1cdb1bacff623a3df054b7aabe4d70c98599835804d2a519",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon055.json",
+        "sourceId": "chests-Dungeon055",
+        "sha256": "5c3dcfcf06f3efb4aa06ffae2b16aace5909a8c2a2be899e7e83e0a9d493a76c",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon056.html",
+        "sourceId": "wiki-Dungeon056",
+        "sha256": "e2db47e0555e403ff1c83537ff3b80fcbf977570fe4789a60a90c2850fdcca34",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon056.json",
+        "sourceId": "chests-Dungeon056",
+        "sha256": "55f62f48c1c6c6147bfe7c984d90b521166bc1f2069c399696cf6a088c954364",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon057.html",
+        "sourceId": "wiki-Dungeon057",
+        "sha256": "b883c9fadcff17113eec1c00acf04ade433e006a752af94214ff892259140def",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon057.json",
+        "sourceId": "chests-Dungeon057",
+        "sha256": "5880a5dc4c8e876e2cd015f2ed3c907f1f527a984da7362024866e8a4019e489",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon058.html",
+        "sourceId": "wiki-Dungeon058",
+        "sha256": "bf3d3e0df4b94f5986b14509ddeb60c0014d94ff4748790d1408ef54b9690155",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon058.json",
+        "sourceId": "chests-Dungeon058",
+        "sha256": "31310f52d80ea8d1ac58b269d1a46aa985780e529705d58138d8c8552dd923c8",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon059.html",
+        "sourceId": "wiki-Dungeon059",
+        "sha256": "fd7c16ca46fd667e7c8e6199c28340b28974549ea75f8055b2818c8d0ec95c6e",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon059.json",
+        "sourceId": "chests-Dungeon059",
+        "sha256": "3016312b876f3a990bfbdd0036bec83a28c81ec2b9380d23c05ebd21f469d4d7",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon060.html",
+        "sourceId": "wiki-Dungeon060",
+        "sha256": "5075cec2d65d0e1c69300447fad50bee38facf9926170ab0e6946b5b1aea7dfd",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon060.json",
+        "sourceId": "chests-Dungeon060",
+        "sha256": "58f98953683cf4281a0adaaf6353d228b2cb373633ddb4e17ceb480ecd320441",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon061.html",
+        "sourceId": "wiki-Dungeon061",
+        "sha256": "5bc03e15d983c9c899be6dfe3e146acad0df5cf0cb2cdde9af3aba4d5ff586a5",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon061.json",
+        "sourceId": "chests-Dungeon061",
+        "sha256": "6d9a14ce278df6da7aa81e94faecb642dd026f547ba0742f93bc6c444e93534a",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon062.html",
+        "sourceId": "wiki-Dungeon062",
+        "sha256": "ddfab796658f954b6024892189ae0fb26dfb03a26be88eab0d5da07aa2f4c53f",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon062.json",
+        "sourceId": "chests-Dungeon062",
+        "sha256": "8bb307b601e857e78bb29f72eed9d751f2d65d83c28518e643d72499b0f2d96f",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon063.html",
+        "sourceId": "wiki-Dungeon063",
+        "sha256": "6e634b6fb852820a5e82e7e28fcdbb38a8a929af066d6005eb8a30adbba3a441",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon063.json",
+        "sourceId": "chests-Dungeon063",
+        "sha256": "0beb2bc7c26147bb4fe3c06d097a9ed2b9384f87879771ea469c0982072b4ef5",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon064.html",
+        "sourceId": "wiki-Dungeon064",
+        "sha256": "14ed2b6b376ec1257ce2ac2d6dd4d776ddd415df7d30f988a3ad1af5f9e75127",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon064.json",
+        "sourceId": "chests-Dungeon064",
+        "sha256": "366aeb46523c12ef54e71644cf64d41b5e24aad7c9415fc0a4291dab60e0d9c4",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon065.html",
+        "sourceId": "wiki-Dungeon065",
+        "sha256": "4385f579d7361a878841090e4937ebe5161412e9bc391cf38adb31125fc5b260",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon065.json",
+        "sourceId": "chests-Dungeon065",
+        "sha256": "56d6e23c18ccad68d80826d578019d54886aac1327d59044ea9d872a0169ca5a",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon066.html",
+        "sourceId": "wiki-Dungeon066",
+        "sha256": "0187dc5fea20a1d95daa0b2ced2e6a1312cc6ec18b73395e8459b4ccd4189e6e",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon066.json",
+        "sourceId": "chests-Dungeon066",
+        "sha256": "47e67d16f0a3ab574da9e07eb25951672e473c17405d5693ce97d76ce8bd4a7a",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon067.html",
+        "sourceId": "wiki-Dungeon067",
+        "sha256": "391e5cd9daed96b4f7da2d0979c92552072601b3f8ea954aa31eec74570a771f",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon067.json",
+        "sourceId": "chests-Dungeon067",
+        "sha256": "57978acc60475d83910536492efb07091c3099898095f69766ff904ac7715b7e",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon068.html",
+        "sourceId": "wiki-Dungeon068",
+        "sha256": "cd0ddd029a17b8f636a42b312b8f28ed99fcdfbcfddcdf4185443ebe27663206",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon068.json",
+        "sourceId": "chests-Dungeon068",
+        "sha256": "59a33528c05ba48fa27fee894f591d5b85606d995b41b62f433e1459a041d39d",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon069.html",
+        "sourceId": "wiki-Dungeon069",
+        "sha256": "707d562c9ea9b3d2ace79ae06d6066152c9bb6f1094c5c3d35cf2d5b378c8e3e",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon069.json",
+        "sourceId": "chests-Dungeon069",
+        "sha256": "a669f2f3174353aba0f289ae28f0ec14b391b4224d06f4943a484006fc22e232",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon070.html",
+        "sourceId": "wiki-Dungeon070",
+        "sha256": "ea6a462bb7d500964e476e54abedfdd7a064ca334cfd4f3250bd96b34c7614ce",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon070.json",
+        "sourceId": "chests-Dungeon070",
+        "sha256": "ae31d5e634543b447a8c8367785dc48734210310647b5225e266541d5779c46f",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon071.html",
+        "sourceId": "wiki-Dungeon071",
+        "sha256": "38921022c1c3ff89376a898d4bcef5432046c32cd7a54a16d6c360c6909c9056",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon071.json",
+        "sourceId": "chests-Dungeon071",
+        "sha256": "052a2a86e770772e00a6e7d88e194bf29988cdd4659d4f5c7fb65734ff180181",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon072.html",
+        "sourceId": "wiki-Dungeon072",
+        "sha256": "9f8a196bf38fef09fe10db06d921403e47ea04aaa183948a46db4a19ec8bc44e",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon072.json",
+        "sourceId": "chests-Dungeon072",
+        "sha256": "566e3653a91d80e5e7e9f12e36b7e5b2685f88172afca4dd8a297b129b14cd60",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon073.html",
+        "sourceId": "wiki-Dungeon073",
+        "sha256": "a6e58e72f1482acf4e337739efe9a0140758f6dac589c6710d46c0aceddca8d1",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon073.json",
+        "sourceId": "chests-Dungeon073",
+        "sha256": "e1d967d9be78ad852b4e2963741b9ba6587a558ed1d05f19479ded3703adcb70",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon074.html",
+        "sourceId": "wiki-Dungeon074",
+        "sha256": "75828b9f7f8089a07612c88a5559707ede13204ff32f98462acced4e81c88c03",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon074.json",
+        "sourceId": "chests-Dungeon074",
+        "sha256": "962c39795cefb082ec047e1d0cba3d998f480525de3f5c063e4cd3859fc8eabf",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon075.html",
+        "sourceId": "wiki-Dungeon075",
+        "sha256": "aa3598f913e98764036998b13687c63d32c65a514259abb6bd7590bb6ca37766",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon075.json",
+        "sourceId": "chests-Dungeon075",
+        "sha256": "c979c7eedb3dbfd2b38cd21c3116e73a58fc02cc402b90f1c221422c527f34c8",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon076.html",
+        "sourceId": "wiki-Dungeon076",
+        "sha256": "06227b43318a1bfe9a0c169fc7fd2266ac4fcf9fc92f97ff1f967cce36778dc3",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon076.json",
+        "sourceId": "chests-Dungeon076",
+        "sha256": "835a99f83c89e94816c678fc64626381dd9ec029b9fa8632159b64b9248593e3",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon077.html",
+        "sourceId": "wiki-Dungeon077",
+        "sha256": "b278ffc70e7a71394f6314e3c8cf314c948163df9f2b860cc6cbb8700f10f23a",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon077.json",
+        "sourceId": "chests-Dungeon077",
+        "sha256": "9e3580932a50b52c45d0f4e6f2a2f1be5adacddc3644558d0179a974b233abf1",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon078.html",
+        "sourceId": "wiki-Dungeon078",
+        "sha256": "0eff9eb3330490ca08cb3481b7e6e303b196173bc1bf779255c92cbbb41a7755",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon078.json",
+        "sourceId": "chests-Dungeon078",
+        "sha256": "96ca5520edf2cc07c9a9b1a24eb68d0e26231dd94d940cc35f5f832afc5d3190",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon079.html",
+        "sourceId": "wiki-Dungeon079",
+        "sha256": "e3550d1c2ed59dc5a59e6fe1129d7c653a1f323eae40168716dd20d046aae6cb",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon079.json",
+        "sourceId": "chests-Dungeon079",
+        "sha256": "53181bd4de558a495cd64b28d5d7a47ef27b94a1dfc9ccd54e8c26884de44fb2",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon080.html",
+        "sourceId": "wiki-Dungeon080",
+        "sha256": "9d3aca7f90afb64b7377ed5d0cbc3b73fe4cb9a9b7287408add72ce893899c18",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon080.json",
+        "sourceId": "chests-Dungeon080",
+        "sha256": "7de73e7281e5185efe36543d3ae39eb14037ad8dd7521444f0b855f49219a77e",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon081.html",
+        "sourceId": "wiki-Dungeon081",
+        "sha256": "11c83d85f77deea8227d1bb171ad0fd0f3d3dd7421c7dae2c0b09f156042683a",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon081.json",
+        "sourceId": "chests-Dungeon081",
+        "sha256": "8db091776cda28cf3d2096ab6390f56058e7d45004bbdc828850020d371d0c16",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon082.html",
+        "sourceId": "wiki-Dungeon082",
+        "sha256": "49dea8691bd88768d55d4fe08b7bbb206ea4974e6385b531c21c365e7f97c543",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon082.json",
+        "sourceId": "chests-Dungeon082",
+        "sha256": "db77051ac1cae4a9cec01b495292356279325c7deac5e1499a9f5df6ea02879d",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon083.html",
+        "sourceId": "wiki-Dungeon083",
+        "sha256": "473adfc55c77606198de7208f191dbca6b9cdaf727564331a41a337b73eb36c3",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon083.json",
+        "sourceId": "chests-Dungeon083",
+        "sha256": "7466d17ff024dc8d387b01b6583b26c63e7c68e5eff6269c57241c41d0960a44",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon084.html",
+        "sourceId": "wiki-Dungeon084",
+        "sha256": "098fbaba87681e4ba7d752b2ac520f2190780e36dc08bc1f449385c89c0aff19",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon084.json",
+        "sourceId": "chests-Dungeon084",
+        "sha256": "cd9a81f10dc17601e54bdab01cda4a77ac5b390d1078e21ca063c7424867b6b7",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon085.html",
+        "sourceId": "wiki-Dungeon085",
+        "sha256": "0752866ef5b86e1b2f19e3cb05ac4680a4fd563e78b3d3f5c01e396d842b9723",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon085.json",
+        "sourceId": "chests-Dungeon085",
+        "sha256": "2800f9b8b3ab49a6d0822309c51deb4ba4d7c63c85b01949e7f17663b9bb785d",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon086.html",
+        "sourceId": "wiki-Dungeon086",
+        "sha256": "4a48b5c0c6bf8365cf52b9c68cb8f9eb5a36174b810601d8ecee19fe3aa964a7",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon086.json",
+        "sourceId": "chests-Dungeon086",
+        "sha256": "7c2918b0ef95ad64a793f4d405cce7444991de2010cf0aa6ebb38bf7337c8c85",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon087.html",
+        "sourceId": "wiki-Dungeon087",
+        "sha256": "9533786dc5d43916eab6efa517aa3b2dd66e249a118cd3dc35e2d23d426cdac7",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon087.json",
+        "sourceId": "chests-Dungeon087",
+        "sha256": "25c34475fa4cf8f5db09d951d07ce81463ca9f514f93c21a05fb43e20fbd9ac8",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon088.html",
+        "sourceId": "wiki-Dungeon088",
+        "sha256": "ca15ab9efc45194f8e8e256230c2e28177273cdfaef5f0de613972f59cfe2c3e",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon088.json",
+        "sourceId": "chests-Dungeon088",
+        "sha256": "9ed3caa9910df32623c851f6343c2b3d7b188ff6db2676e15655832096310ef4",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon089.html",
+        "sourceId": "wiki-Dungeon089",
+        "sha256": "926d2483f9891b5b5c4be761187bccc4a0f7e6d172f38784be4b505afad4dc67",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon089.json",
+        "sourceId": "chests-Dungeon089",
+        "sha256": "a632c9c9c3a53f0e17e12f5a387d87324b9a6d27b624400fc322aeeb0ea2d363",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon090.html",
+        "sourceId": "wiki-Dungeon090",
+        "sha256": "27ad76a3dc0318e1adf271d265366237024b1a8342bc201149197ec4fabe8977",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon090.json",
+        "sourceId": "chests-Dungeon090",
+        "sha256": "c9e3ac984812e51c586827a1692926f120c25a5b9f09c480cc84e3aa9da1331b",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon091.html",
+        "sourceId": "wiki-Dungeon091",
+        "sha256": "f8a8d1807195bc3547faa23bc3c2aaf2beb89c3b0c5c60061e7aa46bcd4c2f5b",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon091.json",
+        "sourceId": "chests-Dungeon091",
+        "sha256": "68c95c95c5ae057cd0c73b2ba70eba19e213e8f04a8839d74b9fd82e00339942",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon092.html",
+        "sourceId": "wiki-Dungeon092",
+        "sha256": "8f0ed643fd027b0d25288b67e6c0dd331a51e6ba918338558c69834548e7475b",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon092.json",
+        "sourceId": "chests-Dungeon092",
+        "sha256": "00f2b6cdc95da97825f8acbf93acfc76671842428791a2f2ab827ccaac7aef3c",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon093.html",
+        "sourceId": "wiki-Dungeon093",
+        "sha256": "c6668e22666c0b34783ff1e0e7635bcaf0adc502474fa2fc1a16673d6cd77174",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon093.json",
+        "sourceId": "chests-Dungeon093",
+        "sha256": "fe26cc6a3c1676c606a2715b1b0451fd6ad5dcd3ff6a8fdaf8a010d33aeff289",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon094.html",
+        "sourceId": "wiki-Dungeon094",
+        "sha256": "aa8d2b8bd9ee270b08ac616874367b42e5ea61a42b30b0d42dbb75280a4cd012",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon094.json",
+        "sourceId": "chests-Dungeon094",
+        "sha256": "5e7ab937f940d448d41bfae9a1b92aede78590e151bbbaf338b1420826148aa1",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon095.html",
+        "sourceId": "wiki-Dungeon095",
+        "sha256": "ca1b6cd89b0e5dd074c763c7e0d640c98180d6794398382962ac856a36d50742",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon095.json",
+        "sourceId": "chests-Dungeon095",
+        "sha256": "2a0640466e467d1f78e49d43febf7e5b42dbb3c82ea0b958f0eb750349a58361",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon096.html",
+        "sourceId": "wiki-Dungeon096",
+        "sha256": "6953b60236824c277cf0eb8b59b5c0d29f80eb001416eee46af8efdf65390c7f",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon096.json",
+        "sourceId": "chests-Dungeon096",
+        "sha256": "7642fbcbbbb7d28aaf225c5af77f8a1b4194b6dde06a8650f1592a6ae88bfab2",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon097.html",
+        "sourceId": "wiki-Dungeon097",
+        "sha256": "d75a6df47c402408871137c55dfc610c02d3725b3bfbb81eaa8c8d6141be9949",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon097.json",
+        "sourceId": "chests-Dungeon097",
+        "sha256": "3382d45d5ed9b209c40871a1fdcf7cfee8cdf908b4a882cc70b51b5c579cdcbc",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon098.html",
+        "sourceId": "wiki-Dungeon098",
+        "sha256": "3cf62f102feaa6173a86d2aac57b040e713939404a6d5267e113af055f656f7d",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon098.json",
+        "sourceId": "chests-Dungeon098",
+        "sha256": "2b189ba5edb0de5e1692d69d071a47f6a873b6ec41bffb449966a37c408bb8ee",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon099.html",
+        "sourceId": "wiki-Dungeon099",
+        "sha256": "3f974a3515c00e715f5fc0757defc7fff1277c6039133ae9d26448e014b6786c",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon099.json",
+        "sourceId": "chests-Dungeon099",
+        "sha256": "37eac2866340e3aa76d0006405075369066c69f2a54552dba04f48f0c3635000",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon100.html",
+        "sourceId": "wiki-Dungeon100",
+        "sha256": "4950267cad69c33a18d8c88333853e7c5d4accc63f198ff7503582ff9c19e934",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon100.json",
+        "sourceId": "chests-Dungeon100",
+        "sha256": "3453bed51cd377a688483d023b67ca6da74eeff18865e1af27244ff8c0571e4e",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon101.html",
+        "sourceId": "wiki-Dungeon101",
+        "sha256": "833eb44797c249bf84fa4bc4fb8ab0a7b442d9704d53a42134c924cfb138d402",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon101.json",
+        "sourceId": "chests-Dungeon101",
+        "sha256": "8370d0d29335f9479c0ad724037f83699e73a5f8ee89cc5a6720247b1d4fe194",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon102.html",
+        "sourceId": "wiki-Dungeon102",
+        "sha256": "59220967cf16f17a81c0920eb8cf862abf963b9bd4fbffd00f0144d90b7108d9",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon102.json",
+        "sourceId": "chests-Dungeon102",
+        "sha256": "c75ef0fc7ebb6975692ab6259286155dd299c805d3fb4b05327fb289f76a92c8",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon103.html",
+        "sourceId": "wiki-Dungeon103",
+        "sha256": "6f223d7f85a42496575a7c92e4b033fe6d45ec55d4a54913116fd8b1054be3f8",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon103.json",
+        "sourceId": "chests-Dungeon103",
+        "sha256": "95ef3f6f3fb6ff108a99261934c24638a79c48b486f422c65d3497eda01ce786",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon104.html",
+        "sourceId": "wiki-Dungeon104",
+        "sha256": "1cb91ae402a778d5bf34445a7dd0349c15242dba907b7798f22eb80879bd25f9",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon104.json",
+        "sourceId": "chests-Dungeon104",
+        "sha256": "653209c32d5e99c7548e058ccbfc9943fcd058222575d0bdd33f41587c65ec46",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon105.html",
+        "sourceId": "wiki-Dungeon105",
+        "sha256": "777c595932b00ff752516238d32fa45960ccaa25820502b40ab35aa7ba17968a",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon105.json",
+        "sourceId": "chests-Dungeon105",
+        "sha256": "187643a819d50dbd2d0f22bb6577347c951601941a574253277895b4f0851b8d",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon106.html",
+        "sourceId": "wiki-Dungeon106",
+        "sha256": "a6a30db1de7c69e3c830c3ccab80e646c4ee2e99ef08a8262c5e5743b6dfacaa",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon106.json",
+        "sourceId": "chests-Dungeon106",
+        "sha256": "4032c9f0387d3d97f2d3093d531c3cf6ace7e3b2741056f36347f9e6f13cae1c",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon107.html",
+        "sourceId": "wiki-Dungeon107",
+        "sha256": "a55dbb29f0d1ccf7498d15a58e07c79c52ffb74add5293c5b6cd8647b09ea913",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon107.json",
+        "sourceId": "chests-Dungeon107",
+        "sha256": "6093e94d97b89104be6e14f41dad1096d32e23a0dead665bc2a680181c7a1774",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon108.html",
+        "sourceId": "wiki-Dungeon108",
+        "sha256": "f88cf10f5fdf48899678e94292f9241def93e1bf0a60b75ee5c4198818d9172b",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon108.json",
+        "sourceId": "chests-Dungeon108",
+        "sha256": "4ba8350a7f316d2a0ce59d1c6aa67486c776fadeae53c0d73536bb56600d5f77",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon109.html",
+        "sourceId": "wiki-Dungeon109",
+        "sha256": "ed593a92c6ac8d5f81b979a16155c37d176eff14034760ab18517f0210db02ff",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon109.json",
+        "sourceId": "chests-Dungeon109",
+        "sha256": "72c5f2df7555a9282d8e506f1263bbef4661a961e000e3bf08a0e946a83684d5",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon110.html",
+        "sourceId": "wiki-Dungeon110",
+        "sha256": "4ff707ca14a3e9167a36e583965679c2372d593f60cceb4612c865b2b7c76899",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon110.json",
+        "sourceId": "chests-Dungeon110",
+        "sha256": "84e4c6381e137fa7ebeef4e5af878c8464d61ac5d38685a04407666dac8eeb8d",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon111.html",
+        "sourceId": "wiki-Dungeon111",
+        "sha256": "6aedba71c5ead58e502d3607503aa2f1c6405ccb6e493a563b298f5c6e5a024c",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon111.json",
+        "sourceId": "chests-Dungeon111",
+        "sha256": "fbfef7275403fcc592a18a1fd0d743a04bf5b6e99cbe8a6c7f54110c46b94bd9",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon112.html",
+        "sourceId": "wiki-Dungeon112",
+        "sha256": "39a86103db79aa36044e9aacff53693985f61bf95bc95cfd801896e3bdd1e3eb",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon112.json",
+        "sourceId": "chests-Dungeon112",
+        "sha256": "0ee555cb68bbfbc799f423701c89ba3d2330ecacd05ba82e5cb869b8def667e8",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon113.html",
+        "sourceId": "wiki-Dungeon113",
+        "sha256": "ec04ac233e0c201eb582cb01451321df07a0788ea35b6ec3a35021b519142d0a",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon113.json",
+        "sourceId": "chests-Dungeon113",
+        "sha256": "f88e72cee91b916556024d4d173dc266b3fa6acaba8af480668b090ab6417a2c",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon114.html",
+        "sourceId": "wiki-Dungeon114",
+        "sha256": "aab657f77e833874217b0d91cd7c1be088d99b92bb2fa693c5cc26fc9cea0287",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon114.json",
+        "sourceId": "chests-Dungeon114",
+        "sha256": "e6a2740f63c01e516d478315d5a44a3439cb561c9026b7cb8e4e7b8ce551602b",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon115.html",
+        "sourceId": "wiki-Dungeon115",
+        "sha256": "212b5aa595e36c9aa61091c6e032ae0cd2ee8a356c3c8511ed486002c5b8d6ec",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon115.json",
+        "sourceId": "chests-Dungeon115",
+        "sha256": "e8a8b5c23131c634fa19d28911dcd7811051ab98fbd6008af3a50a551794228b",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon116.html",
+        "sourceId": "wiki-Dungeon116",
+        "sha256": "a60871d682caf2b1affaf5fc2b7a64f59fbaddae3b6d1685d367103bb1453100",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon116.json",
+        "sourceId": "chests-Dungeon116",
+        "sha256": "254858e078d6476824c7927e2b652fa920f5fb5a00fd156d6319df16a63ce38f",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon117.html",
+        "sourceId": "wiki-Dungeon117",
+        "sha256": "d28c9861540afef1445a64b055ffd98e29bfb44587c2b63dcc6ff219e18d899e",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon117.json",
+        "sourceId": "chests-Dungeon117",
+        "sha256": "2cc8de9bff46c09cda2a28ea098fb31ca2f9ceaa347c95afd293b81682298c44",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon118.html",
+        "sourceId": "wiki-Dungeon118",
+        "sha256": "730e2363888d157d4d86463f0df7842c4f9ac646222a35673370a4e9d48b7691",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon118.json",
+        "sourceId": "chests-Dungeon118",
+        "sha256": "49533b8d9089610431c09b58283d6f0492401a0862ca297ac741f6424cc060b8",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon119.html",
+        "sourceId": "wiki-Dungeon119",
+        "sha256": "257d42105b8f0c3eab268deb670b64a02fbdce2acb9e54cd9f888ee7fc2c3ec1",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon119.json",
+        "sourceId": "chests-Dungeon119",
+        "sha256": "ef24d18372c4ce36a845bed4a9367c7bf95e0b4762e73f95e0d5b742500774b1",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon120.html",
+        "sourceId": "wiki-Dungeon120",
+        "sha256": "c265f4ee61907568c24aeacd08aa4fef8aee5a38541494041b4227bb95221e87",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon120.json",
+        "sourceId": "chests-Dungeon120",
+        "sha256": "bac374fd263a9775cdfde96e7a86eb803b5e0d98b4e41b963a62af7845188e89",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon121.html",
+        "sourceId": "wiki-Dungeon121",
+        "sha256": "c2a77ab9a19758976c21c5f5e69e048260749f56b8a52951e45c1733e6b01a9e",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon121.json",
+        "sourceId": "chests-Dungeon121",
+        "sha256": "a7aced8539bed63a0905f015aa1f9dae0377e50e023eb92aa98da683daac26fc",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon122.html",
+        "sourceId": "wiki-Dungeon122",
+        "sha256": "8254581ed1a5c62e1fcb639bd4e9e4e9d2c80c09b72c41d3874456d7101e2d34",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon122.json",
+        "sourceId": "chests-Dungeon122",
+        "sha256": "32a94dda90cd53e229fc7bff2cc75df6194f313ea2406cbf5cafd7bd4b84cee3",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon123.html",
+        "sourceId": "wiki-Dungeon123",
+        "sha256": "cbad4bc1d31c618f4345e908b1d2390c65a5e18902c0802cbe6ace8d10219a81",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon123.json",
+        "sourceId": "chests-Dungeon123",
+        "sha256": "fae2ef3fe18a7a9ef6bde183b77dd3a0c2bc7239690262d5fe42716e35dffcba",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon124.html",
+        "sourceId": "wiki-Dungeon124",
+        "sha256": "478156e7fa9ee1cc436999754468aadff6b26b6d47b288d48b3b9b1aa06f10a5",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon124.json",
+        "sourceId": "chests-Dungeon124",
+        "sha256": "d6735a571c591eae95f67afdacfa2777f3be04c37fc5421eec9c4f8b7649124a",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon125.html",
+        "sourceId": "wiki-Dungeon125",
+        "sha256": "2577faefdb4770996a0c117e5deef58619695dd649b9f753b4979c61ae46ec0d",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon125.json",
+        "sourceId": "chests-Dungeon125",
+        "sha256": "f95df164fd02e4d8ed214e5422a50b88b9549a1611e33d677bff43057e8ef62a",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon126.html",
+        "sourceId": "wiki-Dungeon126",
+        "sha256": "58c6552c625e6be666de3dd111472472139494b6fd0a8157453efcfeb8966abd",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon126.json",
+        "sourceId": "chests-Dungeon126",
+        "sha256": "e048df0dc86b6ddd1b5db18dcf0d05434a7e0ed913d1f2ba25422b23004e16e9",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon127.html",
+        "sourceId": "wiki-Dungeon127",
+        "sha256": "d2533408a296d1983b8cf2dda316f550cc6a00987ed933623c387f0a0de3717d",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon127.json",
+        "sourceId": "chests-Dungeon127",
+        "sha256": "d670cad3658822372a7c2694cb2e7a92cc6cd2abecb52e3a130374bbeb9df0f9",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon128.html",
+        "sourceId": "wiki-Dungeon128",
+        "sha256": "b940fb18ec4492d22dd94019398cb4cf7e7c4ea055ec66ec14e445f12d695a7d",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon128.json",
+        "sourceId": "chests-Dungeon128",
+        "sha256": "bf7bdf8c379d74b74742ec7572f171f127d3ac960eee5c91acf6fd7155a55a09",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon129.html",
+        "sourceId": "wiki-Dungeon129",
+        "sha256": "54d6b7c3dc9f027d5407ab299f35ae34a24b8ca3737385ba2acc252ac508e79d",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon129.json",
+        "sourceId": "chests-Dungeon129",
+        "sha256": "b2b5f559ff27b7d83009426f193a0c878e8d928e92084c7553399818e5f76c72",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon130.html",
+        "sourceId": "wiki-Dungeon130",
+        "sha256": "95f549e97e9631c1995ed51c17f586cb9d938f2972827240988ac764299e9148",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon130.json",
+        "sourceId": "chests-Dungeon130",
+        "sha256": "6a635fc5b3d7d8de3f24d48c0806a834086ab49da50597e627aa19f544c14bd6",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon131.html",
+        "sourceId": "wiki-Dungeon131",
+        "sha256": "cb8b5fc63fd23a25ab690789ddcf48ab5b59776aa65e0e0a7267ccf3c337a891",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon131.json",
+        "sourceId": "chests-Dungeon131",
+        "sha256": "b0d761e3523da06255a84622ba16cc4fdbc7b1b076d70129f7da5dc8bc75dde1",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon132.html",
+        "sourceId": "wiki-Dungeon132",
+        "sha256": "d67967faad458e5d8e59b31b65f0d51667b636289c1e4b7fa2711501d45e3bd2",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon132.json",
+        "sourceId": "chests-Dungeon132",
+        "sha256": "8f1ce08dc44fff2b851445882d8da01c2144fb55e6509a2e0e3d1c886139dac6",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon133.html",
+        "sourceId": "wiki-Dungeon133",
+        "sha256": "84f31b0761e52abf394cffa29767081b8cf7db7c8d300d43cb8beba5c1da5adf",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon133.json",
+        "sourceId": "chests-Dungeon133",
+        "sha256": "7b71e8f99a3b3d1cc73b86622655d28cca8230559ebc39d8ddd6bb251be88360",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon134.html",
+        "sourceId": "wiki-Dungeon134",
+        "sha256": "cfcc2541ba79685fe8a0d05d329c8163c8760a3ccb76bb874f465724d204d528",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon134.json",
+        "sourceId": "chests-Dungeon134",
+        "sha256": "318e44c2e7cdeab26f928febd5fb1935a08790653b49cdde3966f9ab62794c5a",
+        "matches": true
+      },
+      {
+        "path": "data/sources/wiki/Dungeon135.html",
+        "sourceId": "wiki-Dungeon135",
+        "sha256": "bae19ef5225ed51a2c0260997bf8ce134530009ce72b72d9f5303242e5ab4800",
+        "matches": true
+      },
+      {
+        "path": "data/sources/chests/Dungeon135.json",
+        "sourceId": "chests-Dungeon135",
+        "sha256": "c5ed16398cee9bc5e48634003f1e9b2aa19a6c2c9a1631dfb73846aded8a3856",
+        "matches": true
+      },
+      {
+        "path": "data/sources/enemies-Dungeon078.json",
+        "sourceId": "enemies-Dungeon078",
+        "sha256": "07e43448048bc3fc6921238f2742a45ba1de79a55e4cbd452ec333880d835e53",
+        "matches": true
+      }
+    ]
+  },
+  "packageReadback": [
+    {
+      "path": "data/shrines.json",
+      "public": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde",
+      "dist": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde",
+      "same": true
+    },
+    {
+      "path": "assets/hyrule-base.webp",
+      "public": "5847a9e5f5d4ed44bc20b61d2b5c24999c33b796d8a42354946f42c631b4ec10",
+      "dist": "5847a9e5f5d4ed44bc20b61d2b5c24999c33b796d8a42354946f42c631b4ec10",
+      "same": true
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.txt",
+      "public": "5cd96ec0a64a180e02eb5f36c03a303218492418ee4533ea1293369a231aca33",
+      "dist": "5cd96ec0a64a180e02eb5f36c03a303218492418ee4533ea1293369a231aca33",
+      "same": true
+    }
+  ],
+  "completionIdChecks": {
+    "results": [
+      {
+        "id": "Tower01",
+        "isShrineId": false,
+        "rejected": true
+      },
+      {
+        "id": "Tower02",
+        "isShrineId": false,
+        "rejected": true
+      },
+      {
+        "id": "Tower03",
+        "isShrineId": false,
+        "rejected": true
+      },
+      {
+        "id": "Tower04",
+        "isShrineId": false,
+        "rejected": true
+      },
+      {
+        "id": "Tower05",
+        "isShrineId": false,
+        "rejected": true
+      },
+      {
+        "id": "Tower06",
+        "isShrineId": false,
+        "rejected": true
+      },
+      {
+        "id": "Tower07",
+        "isShrineId": false,
+        "rejected": true
+      },
+      {
+        "id": "Tower08",
+        "isShrineId": false,
+        "rejected": true
+      },
+      {
+        "id": "Tower09",
+        "isShrineId": false,
+        "rejected": true
+      },
+      {
+        "id": "Tower10",
+        "isShrineId": false,
+        "rejected": true
+      },
+      {
+        "id": "Tower11",
+        "isShrineId": false,
+        "rejected": true
+      },
+      {
+        "id": "Tower12",
+        "isShrineId": false,
+        "rejected": true
+      },
+      {
+        "id": "Tower13",
+        "isShrineId": false,
+        "rejected": true
+      },
+      {
+        "id": "Tower14",
+        "isShrineId": false,
+        "rejected": true
+      },
+      {
+        "id": "Tower15",
+        "isShrineId": false,
+        "rejected": true
+      }
+    ],
+    "importPreserved": true,
+    "invalidStoredTowerRejected": true,
+    "writes": 0
+  },
+  "uniqueIntroByLanguage": {
+    "zh": 136,
+    "en": 136,
+    "ja": 135
+  },
+  "uniqueWalkthroughByLanguage": {
+    "zh": 136,
+    "en": 136,
+    "ja": 136
+  },
+  "boundaries": [
+    "verification 旗标仅检查引用与缺口，不作为事实证据。",
+    "三语名称、试炼、原始 XYZ、分区与宝箱 drop 全量比对；介绍、前置和攻略仅检查结构、来源身份及缺口，未逐句证明语义。",
+    "不覆盖真实浏览器图层、阈值、图标、点击、手机、折叠和可见 DOM；由父 QA 单独验证。",
+    "Dungeon017 的双源差异保持明示；未证明版本、缩放或 DLC 是原因。",
+    "源哈希证明本地快照与记录一致，不证明远端当前内容或游戏实际通关。",
+    "没有运行 build、启动服务、修改生产数据/状态或覆盖 r1 证据。"
+  ]
+}

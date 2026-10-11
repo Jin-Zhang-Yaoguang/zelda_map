@@ -1,0 +1,817 @@
+id	locale	field	text
+Dungeon000	zh	summary	位于贝莱谷的岩隙。
+Dungeon000	zh	prerequisite	常规探索入口。
+Dungeon000	en	summary	In a crag in Trilby Valley.
+Dungeon000	en	prerequisite	An exploration destination.
+Dungeon000	ja	summary	ベーレ谷の岩間にある。
+Dungeon000	ja	prerequisite	通常の探索で訪れる祠。
+Dungeon001	zh	summary	位于格鲁德峡谷的通道旁。
+Dungeon001	zh	prerequisite	常规探索入口。
+Dungeon001	en	summary	Beside Gerudo Canyon Pass.
+Dungeon001	en	prerequisite	An exploration destination.
+Dungeon001	ja	summary	ゲルドキャニオンの通路沿い。
+Dungeon001	ja	prerequisite	通常の探索で訪れる祠。
+Dungeon002	zh	summary	位于密兹达湖以北的峡谷。
+Dungeon002	zh	prerequisite	常规探索入口。
+Dungeon002	en	summary	In a gorge north of Cephla Lake.
+Dungeon002	en	prerequisite	An exploration destination.
+Dungeon002	ja	summary	ミズーダ湖の北の谷間にある。
+Dungeon002	ja	prerequisite	通常の探索で訪れる祠。
+Dungeon003	zh	summary	位于格鲁德沙漠西南的大化石。
+Dungeon003	zh	prerequisite	常规探索入口。
+Dungeon003	en	summary	At the Gerudo Great Skeleton.
+Dungeon003	en	prerequisite	An exploration destination.
+Dungeon003	ja	summary	ゲルド砂漠南西の大化石にある。
+Dungeon003	ja	prerequisite	通常の探索で訪れる祠。
+Dungeon004	zh	summary	位于终焉之谷北侧道路旁。
+Dungeon004	zh	prerequisite	常规探索入口。
+Dungeon004	en	summary	Beside the north-side road in Breach of Demise.
+Dungeon004	en	prerequisite	An exploration destination.
+Dungeon004	ja	summary	終焉の谷の北側の道沿い。
+Dungeon004	ja	prerequisite	通常の探索で訪れる祠。
+Dungeon005	zh	summary	位于卓拉领地王座室下方。
+Dungeon005	zh	prerequisite	常规探索入口。
+Dungeon005	en	summary	Below the throne room in Zora’s Domain.
+Dungeon005	en	prerequisite	An exploration destination.
+Dungeon005	ja	summary	ゾーラの里の王座の下にある。
+Dungeon005	ja	prerequisite	通常の探索で訪れる祠。
+Dungeon006	zh	summary	位于沃托里村西北边缘。
+Dungeon006	zh	prerequisite	常规探索入口。
+Dungeon006	en	summary	On Lurelin Village’s northwest outskirts.
+Dungeon006	en	prerequisite	An exploration destination.
+Dungeon006	ja	summary	ウオトリー村の北西の外れにある。
+Dungeon006	ja	prerequisite	通常の探索で訪れる祠。
+Dungeon007	zh	summary	位于东部的驿站村废墟与莫约里桥之间。
+Dungeon007	zh	prerequisite	常规探索入口。
+Dungeon007	en	summary	Between East Post Ruins and Proxim Bridge.
+Dungeon007	en	prerequisite	An exploration destination.
+Dungeon007	ja	summary	東の宿場町跡とモヨリ橋の間にある。
+Dungeon007	ja	prerequisite	通常の探索で訪れる祠。
+Dungeon008	zh	summary	位于利特村南方的湖岸。
+Dungeon008	zh	prerequisite	入口有时机条件，相关歌谣任务可作线索。
+Dungeon008	en	summary	On the shore south of Rito Village.
+Dungeon008	en	prerequisite	An entrance timing condition; a song quest offers clues.
+Dungeon008	ja	summary	リトの村の南の湖岸にある。
+Dungeon008	ja	prerequisite	入口には時機の条件があり、歌の依頼が手掛かりになる。
+Dungeon009	zh	summary	位于初始台地南侧的高崖。
+Dungeon009	zh	prerequisite	常规探索入口。
+Dungeon009	en	summary	On the southern Great Plateau precipice.
+Dungeon009	en	prerequisite	An exploration destination.
+Dungeon009	ja	summary	始まりの台地の南の崖にある。
+Dungeon009	ja	prerequisite	通常の探索で訪れる祠。
+Dungeon010	zh	summary	位于格鲁德峡谷驿站旁的小崖。
+Dungeon010	zh	prerequisite	常规探索入口。
+Dungeon010	en	summary	On a cliff beside Gerudo Canyon Stable.
+Dungeon010	en	prerequisite	An exploration destination.
+Dungeon010	ja	summary	ゲルドキャニオン馬宿の横の崖にある。
+Dungeon010	ja	prerequisite	通常の探索で訪れる祠。
+Dungeon011	zh	summary	位于玛丽塔山丘，道路以东。
+Dungeon011	zh	prerequisite	常规探索入口。
+Dungeon011	en	summary	On Salari Hill, east of Hilltop High Road.
+Dungeon011	en	prerequisite	An exploration destination.
+Dungeon011	ja	summary	丘陵の道の東、マリッタの丘にある。
+Dungeon011	ja	prerequisite	通常の探索で訪れる祠。
+Dungeon012	zh	summary	位于利特村西侧的兄弟岩。
+Dungeon012	zh	prerequisite	涉及神庙挑战。
+Dungeon012	en	summary	At Warbler’s Nest west of Rito Village.
+Dungeon012	en	prerequisite	A shrine challenge is involved.
+Dungeon012	ja	summary	リトの村の西、兄弟岩にある。
+Dungeon012	ja	prerequisite	祠チャレンジに関連。
+Dungeon013	zh	summary	位于东阿卡莱驿站对面。
+Dungeon013	zh	prerequisite	常规探索入口。
+Dungeon013	en	summary	Opposite East Akkala Stable.
+Dungeon013	en	prerequisite	An exploration destination.
+Dungeon013	ja	summary	ヒガッカレ馬宿の向かいにある。
+Dungeon013	ja	prerequisite	通常の探索で訪れる祠。
+Dungeon014	zh	summary	位于哈特诺堡垒东北的石像谷。
+Dungeon014	zh	prerequisite	涉及神庙挑战。
+Dungeon014	en	summary	In the statue grove northeast of Fort Hateno.
+Dungeon014	en	prerequisite	A shrine challenge is involved.
+Dungeon014	ja	summary	ハテノ砦の北東の石像の谷にある。
+Dungeon014	ja	prerequisite	祠チャレンジに関連。
+Dungeon015	zh	summary	位于西哈特尔河岸的洞内。
+Dungeon015	zh	prerequisite	入口有环境障碍。
+Dungeon015	en	summary	In a riverside cave in West Necluda.
+Dungeon015	en	prerequisite	An environmental obstacle guards the entrance.
+Dungeon015	ja	summary	西ハテールの川沿いの洞窟にある。
+Dungeon015	ja	prerequisite	入口に環境上の障害がある。
+Dungeon016	zh	summary	位于萨玛莎平原。
+Dungeon016	zh	prerequisite	常规探索入口。
+Dungeon016	en	summary	On Samasa Plain.
+Dungeon016	en	prerequisite	An exploration destination.
+Dungeon016	ja	summary	サマサ平原にある。
+Dungeon016	ja	prerequisite	通常の探索で訪れる祠。
+Dungeon017	zh	summary	位于双子山南峰顶部。
+Dungeon017	zh	prerequisite	常规探索入口。
+Dungeon017	en	summary	Atop the southern Dueling Peak.
+Dungeon017	en	prerequisite	An exploration destination.
+Dungeon017	ja	summary	双子山の南側の山頂にある。
+Dungeon017	ja	prerequisite	通常の探索で訪れる祠。
+Dungeon018	zh	summary	位于海布拉山脉茨茨齐齐雪原西北。
+Dungeon018	zh	prerequisite	位于寒冷区域。
+Dungeon018	en	summary	In northwest Pikida Stonegrove, Hebra.
+Dungeon018	en	prerequisite	Located in a cold area.
+Dungeon018	ja	summary	ヘブラ山脈、ツツキキ雪原の北西にある。
+Dungeon018	ja	prerequisite	寒冷地にある。
+Dungeon019	zh	summary	位于拉聂尔神道中央广场瀑布后的洞穴。
+Dungeon019	zh	prerequisite	常规探索入口。
+Dungeon019	en	summary	Behind the Lanayru Promenade waterfall.
+Dungeon019	en	prerequisite	An exploration destination.
+Dungeon019	ja	summary	ラネール参道の滝の裏の洞窟にある。
+Dungeon019	ja	prerequisite	通常の探索で訪れる祠。
+Dungeon020	zh	summary	位于海拉鲁平原西部。
+Dungeon020	zh	prerequisite	涉及神庙挑战。
+Dungeon020	en	summary	In the West Hyrule Plains.
+Dungeon020	en	prerequisite	A shrine challenge is involved.
+Dungeon020	ja	summary	ハイラル平原の西にある。
+Dungeon020	ja	prerequisite	祠チャレンジに関連。
+Dungeon021	zh	summary	位于雷之台地。
+Dungeon021	zh	prerequisite	涉及神庙挑战。
+Dungeon021	en	summary	On Thundra Plateau.
+Dungeon021	en	prerequisite	A shrine challenge is involved.
+Dungeon021	ja	summary	雷の台地にある。
+Dungeon021	ja	prerequisite	祠チャレンジに関連。
+Dungeon022	zh	summary	位于克洛格森林德库树东侧。
+Dungeon022	zh	prerequisite	常规探索入口。
+Dungeon022	en	summary	East of the Great Deku Tree in Korok Forest.
+Dungeon022	en	prerequisite	An exploration destination.
+Dungeon022	ja	summary	コログの森のデクの樹の東にある。
+Dungeon022	ja	prerequisite	通常の探索で訪れる祠。
+Dungeon023	zh	summary	位于海利亚河中的小岛。
+Dungeon023	zh	prerequisite	常规探索入口。
+Dungeon023	en	summary	On a small Hylia River island.
+Dungeon023	en	prerequisite	An exploration destination.
+Dungeon023	ja	summary	ハイリア川の小島にある。
+Dungeon023	ja	prerequisite	通常の探索で訪れる祠。
+Dungeon024	zh	summary	位于阿拉布平原。
+Dungeon024	zh	prerequisite	涉及神庙挑战。
+Dungeon024	en	summary	On Rabia Plain.
+Dungeon024	en	prerequisite	A shrine challenge is involved.
+Dungeon024	ja	summary	アラブー平野にある。
+Dungeon024	ja	prerequisite	祠チャレンジに関連。
+Dungeon025	zh	summary	位于奥尔汀峡谷的马尔鼓坑道内。
+Dungeon025	zh	prerequisite	涉及神庙挑战。
+Dungeon025	en	summary	Inside Gorko Tunnel in Eldin Canyon.
+Dungeon025	en	prerequisite	A shrine challenge is involved.
+Dungeon025	ja	summary	オルディン峡谷のマルゴ坑道にある。
+Dungeon025	ja	prerequisite	祠チャレンジに関連。
+Dungeon026	zh	summary	位于鼓隆城北侧、通往北部废矿的崖上。
+Dungeon026	zh	prerequisite	常规探索入口。
+Dungeon026	en	summary	On Goron City’s northern mining road.
+Dungeon026	en	prerequisite	An exploration destination.
+Dungeon026	ja	summary	ゴロンシティ北、廃鉱への崖道にある。
+Dungeon026	ja	prerequisite	通常の探索で訪れる祠。
+Dungeon027	zh	summary	位于平原外围的驿站西侧山丘。
+Dungeon027	zh	prerequisite	常规探索入口。
+Dungeon027	en	summary	On a hill west of Outskirt Stable.
+Dungeon027	en	prerequisite	An exploration destination.
+Dungeon027	ja	summary	平原外れの馬宿の西の丘にある。
+Dungeon027	ja	prerequisite	通常の探索で訪れる祠。
+Dungeon028	zh	summary	位于火山湖的蟹蟹岛内。
+Dungeon028	zh	prerequisite	需要穿越灼热地形。
+Dungeon028	en	summary	Inside the Isle of Rabac’s crag.
+Dungeon028	en	prerequisite	Approach through volcanic terrain.
+Dungeon028	ja	summary	ニカカ島の岩の内部にある。
+Dungeon028	ja	prerequisite	高温の地形を通って訪れる。
+Dungeon029	zh	summary	位于河畔驿站东北的花之中州。
+Dungeon029	zh	prerequisite	涉及神庙挑战。
+Dungeon029	en	summary	On Floret Sandbar northeast of Riverside Stable.
+Dungeon029	en	prerequisite	A shrine challenge is involved.
+Dungeon029	ja	summary	リバーサイド馬宿の北東、花の中州にある。
+Dungeon029	ja	prerequisite	祠チャレンジに関連。
+Dungeon030	zh	summary	位于格鲁德高地娜波露山。
+Dungeon030	zh	prerequisite	涉及神庙挑战。
+Dungeon030	en	summary	On Mount Nabooru in Gerudo Highlands.
+Dungeon030	en	prerequisite	A shrine challenge is involved.
+Dungeon030	ja	summary	ゲルド高地のナボール山にある。
+Dungeon030	ja	prerequisite	祠チャレンジに関連。
+Dungeon031	zh	summary	位于山麓驿站东侧崖顶。
+Dungeon031	zh	prerequisite	常规探索入口。
+Dungeon031	en	summary	On a cliff east of Foothill Stable.
+Dungeon031	en	prerequisite	An exploration destination.
+Dungeon031	ja	summary	山麓の馬宿の東の崖上にある。
+Dungeon031	ja	prerequisite	通常の探索で訪れる祠。
+Dungeon032	zh	summary	位于格鲁德沙漠北格鲁德巨石。
+Dungeon032	zh	prerequisite	常规探索入口。
+Dungeon032	en	summary	At the Great Cliffs in Gerudo Desert.
+Dungeon032	en	prerequisite	An exploration destination.
+Dungeon032	ja	summary	ゲルド砂漠の大きな崖にある。
+Dungeon032	ja	prerequisite	通常の探索で訪れる祠。
+Dungeon033	zh	summary	位于拉聂尔湿地的神庙岛。
+Dungeon033	zh	prerequisite	常规探索入口。
+Dungeon033	en	summary	On Shrine Island in Lanayru Wetlands.
+Dungeon033	en	prerequisite	An exploration destination.
+Dungeon033	ja	summary	ラネール湿原の祠の島にある。
+Dungeon033	ja	prerequisite	通常の探索で訪れる祠。
+Dungeon034	zh	summary	位于雅西诺遗迹。
+Dungeon034	zh	prerequisite	涉及神庙挑战。
+Dungeon034	en	summary	At Palmorae Ruins.
+Dungeon034	en	prerequisite	A shrine challenge is involved.
+Dungeon034	ja	summary	ヤシノ遺跡にある。
+Dungeon034	ja	prerequisite	祠チャレンジに関連。
+Dungeon035	zh	summary	位于利特村旅馆西南。
+Dungeon035	zh	prerequisite	常规探索入口。
+Dungeon035	en	summary	Southwest of Rito Village’s inn.
+Dungeon035	en	prerequisite	An exploration destination.
+Dungeon035	ja	summary	リトの村の宿屋の南西にある。
+Dungeon035	ja	prerequisite	通常の探索で訪れる祠。
+Dungeon036	zh	summary	位于格鲁德高地卡尔萨谷道旁。
+Dungeon036	zh	prerequisite	入口有解锁条件。
+Dungeon036	en	summary	Beside the Karusa Valley route.
+Dungeon036	en	prerequisite	An entrance condition must be met.
+Dungeon036	ja	summary	ゲルド高地、カルサー谷の道沿い。
+Dungeon036	ja	prerequisite	入口の解放条件がある。
+Dungeon037	zh	summary	位于塔邦挞大桥驿站南侧山脊。
+Dungeon037	zh	prerequisite	常规探索入口。
+Dungeon037	en	summary	On the ridge south of Tabantha Bridge Stable.
+Dungeon037	en	prerequisite	An exploration destination.
+Dungeon037	ja	summary	タバンタ大橋馬宿の南の尾根にある。
+Dungeon037	ja	prerequisite	通常の探索で訪れる祠。
+Dungeon038	zh	summary	位于初始台地的小湖旁。
+Dungeon038	zh	prerequisite	常规探索入口。
+Dungeon038	en	summary	Beside a small lake on the Great Plateau.
+Dungeon038	en	prerequisite	An exploration destination.
+Dungeon038	ja	summary	始まりの台地の小さな湖の近く。
+Dungeon038	ja	prerequisite	通常の探索で訪れる祠。
+Dungeon039	zh	summary	位于哈特诺村内。
+Dungeon039	zh	prerequisite	常规探索入口。
+Dungeon039	en	summary	Inside Hateno Village.
+Dungeon039	en	prerequisite	An exploration destination.
+Dungeon039	ja	summary	ハテノ村の中にある。
+Dungeon039	ja	prerequisite	通常の探索で訪れる祠。
+Dungeon040	zh	summary	位于海拉鲁平原达夫奈斯山南麓。
+Dungeon040	zh	prerequisite	常规探索入口。
+Dungeon040	en	summary	At Mount Daphnes’ southern base.
+Dungeon040	en	prerequisite	An exploration destination.
+Dungeon040	ja	summary	ハイラル平原、ダフネス山の南麓。
+Dungeon040	ja	prerequisite	通常の探索で訪れる祠。
+Dungeon041	zh	summary	位于初始台地东部神殿遗迹。
+Dungeon041	zh	prerequisite	常规探索入口。
+Dungeon041	en	summary	In Eastern Abbey on the Great Plateau.
+Dungeon041	en	prerequisite	An exploration destination.
+Dungeon041	ja	summary	始まりの台地の東の神殿跡。
+Dungeon041	ja	prerequisite	通常の探索で訪れる祠。
+Dungeon042	zh	summary	位于雪原驿站旁。
+Dungeon042	zh	prerequisite	位于寒冷区域。
+Dungeon042	en	summary	Beside Snowfield Stable.
+Dungeon042	en	prerequisite	Located in a cold area.
+Dungeon042	ja	summary	雪原の馬宿のそばにある。
+Dungeon042	ja	prerequisite	寒冷地にある。
+Dungeon043	zh	summary	位于格鲁德高地的查波雪原。
+Dungeon043	zh	prerequisite	入口有环境障碍。
+Dungeon043	en	summary	On Vatorsa Snowfield in Gerudo Highlands.
+Dungeon043	en	prerequisite	An environmental obstacle guards the entrance.
+Dungeon043	ja	summary	ゲルド高地のツァボ雪原にある。
+Dungeon043	ja	prerequisite	入口に環境上の障害がある。
+Dungeon044	zh	summary	位于双子山北峰下方的平台。
+Dungeon044	zh	prerequisite	常规探索入口。
+Dungeon044	en	summary	On a ledge below the northern Dueling Peak.
+Dungeon044	en	prerequisite	An exploration destination.
+Dungeon044	ja	summary	双子山の北峰の下の足場にある。
+Dungeon044	ja	prerequisite	通常の探索で訪れる祠。
+Dungeon045	zh	summary	位于双子驿站旁的浅水池。
+Dungeon045	zh	prerequisite	入口有环境障碍。
+Dungeon045	en	summary	In a shallow pool beside Dueling Peaks Stable.
+Dungeon045	en	prerequisite	An environmental obstacle guards the entrance.
+Dungeon045	ja	summary	双子馬宿の横の浅い池にある。
+Dungeon045	ja	prerequisite	入口に環境上の障害がある。
+Dungeon046	zh	summary	位于海布拉山脉丝莱米小屋北方。
+Dungeon046	zh	prerequisite	位于寒冷区域。
+Dungeon046	en	summary	North of Selmie’s Spot in Hebra.
+Dungeon046	en	prerequisite	Located in a cold area.
+Dungeon046	ja	summary	ヘブラ山脈、スレミーの小屋の北にある。
+Dungeon046	ja	prerequisite	寒冷地にある。
+Dungeon047	zh	summary	位于双子山谷北侧低处岩台。
+Dungeon047	zh	prerequisite	常规探索入口。
+Dungeon047	en	summary	On a low northern ledge in Dueling Peaks valley.
+Dungeon047	en	prerequisite	An exploration destination.
+Dungeon047	ja	summary	双子山の谷の北側の低い岩棚にある。
+Dungeon047	ja	prerequisite	通常の探索で訪れる祠。
+Dungeon048	zh	summary	位于南阿卡莱驿站上方山脊。
+Dungeon048	zh	prerequisite	常规探索入口。
+Dungeon048	en	summary	On the ridge above South Akkala Stable.
+Dungeon048	en	prerequisite	An exploration destination.
+Dungeon048	ja	summary	ミナッカレ馬宿の上の尾根にある。
+Dungeon048	ja	prerequisite	通常の探索で訪れる祠。
+Dungeon049	zh	summary	位于湿地驿站西侧。
+Dungeon049	zh	prerequisite	常规探索入口。
+Dungeon049	en	summary	Directly west of Wetland Stable.
+Dungeon049	en	prerequisite	An exploration destination.
+Dungeon049	ja	summary	湿原の馬宿のすぐ西にある。
+Dungeon049	ja	prerequisite	通常の探索で訪れる祠。
+Dungeon050	zh	summary	位于湖畔驿站背后的洞穴。
+Dungeon050	zh	prerequisite	入口有环境障碍。
+Dungeon050	en	summary	In the cave behind Lakeside Stable.
+Dungeon050	en	prerequisite	An environmental obstacle guards the entrance.
+Dungeon050	ja	summary	レイクサイド馬宿の裏の洞窟にある。
+Dungeon050	ja	prerequisite	入口に環境上の障害がある。
+Dungeon051	zh	summary	位于海布拉乌克池塘西侧山洞。
+Dungeon051	zh	prerequisite	位于寒冷区域。
+Dungeon051	en	summary	In a cave west of Lake Kilsie.
+Dungeon051	en	prerequisite	Located in a cold area.
+Dungeon051	ja	summary	ヘブラのウッコ池の西の洞窟にある。
+Dungeon051	ja	prerequisite	寒冷地にある。
+Dungeon052	zh	summary	位于塔邦挞柯库皮雪原谷底洞穴。
+Dungeon052	zh	prerequisite	位于寒冷区域。
+Dungeon052	en	summary	In Kopeeki Drifts Cave, Tabantha.
+Dungeon052	en	prerequisite	Located in a cold area.
+Dungeon052	ja	summary	タバンタのコクッピ雪原の洞窟にある。
+Dungeon052	ja	prerequisite	寒冷地にある。
+Dungeon053	zh	summary	位于飞行训练场南方的山道。
+Dungeon053	zh	prerequisite	常规探索入口。
+Dungeon053	en	summary	On the pass south of the Flight Range.
+Dungeon053	en	prerequisite	An exploration destination.
+Dungeon053	ja	summary	飛行訓練場の南の峠道にある。
+Dungeon053	ja	prerequisite	通常の探索で訪れる祠。
+Dungeon054	zh	summary	位于高原驿站上方的岩台。
+Dungeon054	zh	prerequisite	常规探索入口。
+Dungeon054	en	summary	On a ledge above Highland Stable.
+Dungeon054	en	prerequisite	An exploration destination.
+Dungeon054	ja	summary	高原の馬宿の上の岩棚にある。
+Dungeon054	ja	prerequisite	通常の探索で訪れる祠。
+Dungeon055	zh	summary	位于塔邦挞边界的库库甲谷。
+Dungeon055	zh	prerequisite	常规探索入口。
+Dungeon055	en	summary	In Tanagar Canyon near Tabantha.
+Dungeon055	en	prerequisite	An exploration destination.
+Dungeon055	ja	summary	タバンタ境界のククジャ谷にある。
+Dungeon055	ja	prerequisite	通常の探索で訪れる祠。
+Dungeon056	zh	summary	位于奥尔汀鲁皮湖北侧。
+Dungeon056	zh	prerequisite	常规探索入口。
+Dungeon056	en	summary	North of Pico Pond in Eldin Canyon.
+Dungeon056	en	prerequisite	An exploration destination.
+Dungeon056	ja	summary	オルディン峡谷のルピ湖の北にある。
+Dungeon056	ja	prerequisite	通常の探索で訪れる祠。
+Dungeon057	zh	summary	位于河畔驿站西北的海利亚河岸。
+Dungeon057	zh	prerequisite	常规探索入口。
+Dungeon057	en	summary	Northwest of Riverside Stable on Hylia River.
+Dungeon057	en	prerequisite	An exploration destination.
+Dungeon057	ja	summary	リバーサイド馬宿の北西の川岸にある。
+Dungeon057	ja	prerequisite	通常の探索で訪れる祠。
+Dungeon058	zh	summary	位于萨托利山峰附近。
+Dungeon058	zh	prerequisite	常规探索入口。
+Dungeon058	en	summary	Near Satori Mountain’s summit.
+Dungeon058	en	prerequisite	An exploration destination.
+Dungeon058	ja	summary	サトリ山の山頂近くにある。
+Dungeon058	ja	prerequisite	通常の探索で訪れる祠。
+Dungeon059	zh	summary	位于塔邦挞路茨平原西侧洞内。
+Dungeon059	zh	prerequisite	入口有环境障碍。
+Dungeon059	en	summary	In a cave west of Rayne Highlands.
+Dungeon059	en	prerequisite	An environmental obstacle guards the entrance.
+Dungeon059	ja	summary	タバンタのルツ平原西側の洞内にある。
+Dungeon059	ja	prerequisite	入口に環境上の障害がある。
+Dungeon060	zh	summary	位于格鲁德小镇外。
+Dungeon060	zh	prerequisite	常规探索入口。
+Dungeon060	en	summary	Immediately outside Gerudo Town.
+Dungeon060	en	prerequisite	An exploration destination.
+Dungeon060	ja	summary	ゲルドの街の外にある。
+Dungeon060	ja	prerequisite	通常の探索で訪れる祠。
+Dungeon061	zh	summary	位于花柔莉亚大瀑布最高一段的后方。
+Dungeon061	zh	prerequisite	常规探索入口。
+Dungeon061	en	summary	Behind Floria Falls’ highest waterfall.
+Dungeon061	en	prerequisite	An exploration destination.
+Dungeon061	ja	summary	フロリア大滝の最上段の裏にある。
+Dungeon061	ja	prerequisite	通常の探索で訪れる祠。
+Dungeon062	zh	summary	位于北塔邦挞雪原北缘。
+Dungeon062	zh	prerequisite	位于寒冷区域。
+Dungeon062	en	summary	Near North Tabantha Snowfield’s northern edge.
+Dungeon062	en	prerequisite	Located in a cold area.
+Dungeon062	ja	summary	北タバンタ雪原の北端近くにある。
+Dungeon062	ja	prerequisite	寒冷地にある。
+Dungeon063	zh	summary	位于格鲁德沙漠西部沙尘区。
+Dungeon063	zh	prerequisite	常规探索入口。
+Dungeon063	en	summary	In Gerudo Desert’s western sandstorm.
+Dungeon063	en	prerequisite	An exploration destination.
+Dungeon063	ja	summary	ゲルド砂漠西の砂嵐の中にある。
+Dungeon063	ja	prerequisite	通常の探索で訪れる祠。
+Dungeon064	zh	summary	位于奥尔汀大桥前的死亡之山道路旁。
+Dungeon064	zh	prerequisite	常规探索入口。
+Dungeon064	en	summary	Before the Bridge of Eldin on Death Mountain’s road.
+Dungeon064	en	prerequisite	An exploration destination.
+Dungeon064	ja	summary	デスマウンテン道、オルディン橋の手前にある。
+Dungeon064	ja	prerequisite	通常の探索で訪れる祠。
+Dungeon065	zh	summary	位于初始台地海利亚山上。
+Dungeon065	zh	prerequisite	位于寒冷区域。
+Dungeon065	en	summary	On Mount Hylia, Great Plateau.
+Dungeon065	en	prerequisite	Located in a cold area.
+Dungeon065	ja	summary	始まりの台地のハイリア山にある。
+Dungeon065	ja	prerequisite	寒冷地にある。
+Dungeon066	zh	summary	位于阿卡莱的奇克伦岛洞穴。
+Dungeon066	zh	prerequisite	入口有环境障碍。
+Dungeon066	en	summary	In Tingel Island’s cave, Akkala.
+Dungeon066	en	prerequisite	An environmental obstacle guards the entrance.
+Dungeon066	ja	summary	アッカレのチクルン島の洞窟にある。
+Dungeon066	ja	prerequisite	入口に環境上の障害がある。
+Dungeon067	zh	summary	位于奥尔汀鼓大湖的小岛。
+Dungeon067	zh	prerequisite	需要穿越灼热地形。
+Dungeon067	en	summary	On an islet in Goronbi Lake, Eldin.
+Dungeon067	en	prerequisite	Approach through volcanic terrain.
+Dungeon067	ja	summary	オルディンのゴダイ湖の小島にある。
+Dungeon067	ja	prerequisite	高温の地形を通って訪れる。
+Dungeon068	zh	summary	位于海利亚湖中央岛屿的岩石凹地。
+Dungeon068	zh	prerequisite	可从湖中岛屿寻找入口。
+Dungeon068	en	summary	In a rocky hollow on Hylia Island.
+Dungeon068	en	prerequisite	Reach the island entrance.
+Dungeon068	ja	summary	ハイリア島の岩に囲まれたくぼみにある。
+Dungeon068	ja	prerequisite	湖の島から入口へ向かう。
+Dungeon069	zh	summary	位于格鲁德高地、奥赛平原西侧。
+Dungeon069	zh	prerequisite	需攀登西侧山坡。
+Dungeon069	en	summary	In Gerudo Highlands, west of Oseira Plains.
+Dungeon069	en	prerequisite	Climb the western slopes.
+Dungeon069	ja	summary	オーセ平原の西、ゲルド高地にある。
+Dungeon069	ja	prerequisite	西側の斜面を登る。
+Dungeon070	zh	summary	位于卓拉河畔、达尔布尔桥西侧。
+Dungeon070	zh	prerequisite	可从河岸抵达。
+Dungeon070	en	summary	Beside Zora River, west of Inogo Bridge.
+Dungeon070	en	prerequisite	Approach from the riverbank.
+Dungeon070	ja	summary	ゾーラ川沿い、イノゴ橋の西にある。
+Dungeon070	ja	prerequisite	川岸から向かえる。
+Dungeon071	zh	summary	位于思古兰特树海与芬拉斯树海交界。
+Dungeon071	zh	prerequisite	可从树林外围寻找入口。
+Dungeon071	en	summary	At the border of Pagos Woods and Finra Woods.
+Dungeon071	en	prerequisite	Find the entrance near the woods.
+Dungeon071	ja	summary	樹海スグラントと樹海フィンラスの境付近にある。
+Dungeon071	ja	prerequisite	森の外周で入口を探す。
+Dungeon072	zh	summary	位于德谷多吊桥下方。
+Dungeon072	zh	prerequisite	需下到桥下区域。
+Dungeon072	en	summary	Beneath Digdogg Suspension Bridge.
+Dungeon072	en	prerequisite	Descend below the bridge.
+Dungeon072	ja	summary	デグドの吊り橋の下にある。
+Dungeon072	ja	prerequisite	橋の下へ降りる。
+Dungeon073	zh	summary	位于海拉鲁平原的碎石场遗迹。
+Dungeon073	zh	prerequisite	可从遗迹地面抵达。
+Dungeon073	en	summary	Among the rocky Quarry Ruins in Hyrule Field.
+Dungeon073	en	prerequisite	Approach through the ruins.
+Dungeon073	ja	summary	ハイラル平原の採石場跡の岩場にある。
+Dungeon073	ja	prerequisite	遺跡の地上から向かえる。
+Dungeon074	zh	summary	位于海拉鲁城堡西侧岛屿的洞穴内。
+Dungeon074	zh	prerequisite	入口有环境障碍。
+Dungeon074	en	summary	Inside a cave on Hyrule Castle West island.
+Dungeon074	en	prerequisite	The entrance has an environmental barrier.
+Dungeon074	ja	summary	ハイラル城西の島の洞窟内にある。
+Dungeon074	ja	prerequisite	入口に障害物がある。
+Dungeon075	zh	summary	位于阿卡莱湖上方的南侧悬崖。
+Dungeon075	zh	prerequisite	需抵达崖上入口。
+Dungeon075	en	summary	On a cliff overlooking Lake Akkala, south of Tarrey Town.
+Dungeon075	en	prerequisite	Reach the cliff entrance.
+Dungeon075	ja	summary	アッカレ湖を見下ろす、イチカラ村南の崖にある。
+Dungeon075	ja	prerequisite	崖の上の入口へ向かう。
+Dungeon076	zh	summary	位于格鲁德之塔附近的高地。
+Dungeon076	zh	prerequisite	需完成入口相关神庙挑战。
+Dungeon076	en	summary	In the highlands beside Gerudo Tower.
+Dungeon076	en	prerequisite	Requires its entrance shrine challenge.
+Dungeon076	ja	summary	ゲルドの塔付近の高地にある。
+Dungeon076	ja	prerequisite	出現に関わる祠チャレンジが必要。
+Dungeon077	zh	summary	藏于阿卡莱高原乌尔拉峡谷。
+Dungeon077	zh	prerequisite	入口有岩石障碍。
+Dungeon077	en	summary	Hidden in Ulria Grotto, Akkala Highlands.
+Dungeon077	en	prerequisite	Rocks obstruct the entrance.
+Dungeon077	ja	summary	アッカレ高原のウルラ峡谷に隠れている。
+Dungeon077	ja	prerequisite	岩が入口を塞いでいる。
+Dungeon078	zh	summary	位于瓦舒阿山丘一带。
+Dungeon078	zh	prerequisite	入口受特殊时机条件限制。
+Dungeon078	en	summary	In the Washa’s Bluff area.
+Dungeon078	en	prerequisite	A special timing condition unlocks the entrance.
+Dungeon078	ja	summary	ワシュアの丘付近にある。
+Dungeon078	ja	prerequisite	入口の出現に特定の時機条件がある。
+Dungeon079	zh	summary	位于海拉鲁平原东部的更格尔山丘。
+Dungeon079	zh	prerequisite	可从丘陵寻找入口。
+Dungeon079	en	summary	In the eastern Crenel Hills of Hyrule Field.
+Dungeon079	en	prerequisite	Approach through the hills.
+Dungeon079	ja	summary	ハイラル平原東部のゴングルの丘にある。
+Dungeon079	ja	prerequisite	丘陵から入口を探す。
+Dungeon080	zh	summary	位于费罗尼草原的帕发海岸。
+Dungeon080	zh	prerequisite	需完成相关神庙挑战。
+Dungeon080	en	summary	On Puffer Beach in the Faron Grasslands.
+Dungeon080	en	prerequisite	Requires its shrine challenge.
+Dungeon080	ja	summary	フィローネ草原のパファー海岸にある。
+Dungeon080	ja	prerequisite	関連する祠チャレンジが必要。
+Dungeon081	zh	summary	位于东哈特尔乌洛克海角顶部。
+Dungeon081	zh	prerequisite	需抵达海岬高处。
+Dungeon081	en	summary	Atop Cape Cales in East Necluda.
+Dungeon081	en	prerequisite	Reach the cape’s summit.
+Dungeon081	ja	summary	東ハテールのウーロコ岬の上にある。
+Dungeon081	ja	prerequisite	岬の高所まで向かう。
+Dungeon082	zh	summary	位于哈特尔海的哈特诺小岛。
+Dungeon082	zh	prerequisite	需前往海上岛屿。
+Dungeon082	en	summary	On Tenoko Island in the Necluda Sea.
+Dungeon082	en	prerequisite	Travel to the offshore island.
+Dungeon082	ja	summary	ハテール海のハテノコ島にある。
+Dungeon082	ja	prerequisite	沖の島へ向かう。
+Dungeon083	zh	summary	位于塔邦挞边境的古代石柱群。
+Dungeon083	zh	prerequisite	可从遗迹区域抵达。
+Dungeon083	en	summary	Among the Ancient Columns of Tabantha Frontier.
+Dungeon083	en	prerequisite	Approach through the ruins.
+Dungeon083	ja	summary	タバンタ辺境の古代石柱群にある。
+Dungeon083	ja	prerequisite	遺跡から向かえる。
+Dungeon084	zh	summary	位于阿卡莱高原的力量之泉后方。
+Dungeon084	zh	prerequisite	需完成泉水相关入口试炼。
+Dungeon084	en	summary	Behind the Spring of Power in Akkala Highlands.
+Dungeon084	en	prerequisite	Requires the spring’s entrance challenge.
+Dungeon084	ja	summary	アッカレ高原の力の泉の奥にある。
+Dungeon084	ja	prerequisite	泉に関わる入口の試練が必要。
+Dungeon085	zh	summary	位于格鲁德高地的贝利尔雪原。
+Dungeon085	zh	prerequisite	需适应雪原环境。
+Dungeon085	en	summary	On Risoka Snowfield in Gerudo Highlands.
+Dungeon085	en	prerequisite	Prepare for the snowfield environment.
+Dungeon085	ja	summary	ゲルド高地のベリル雪原にある。
+Dungeon085	ja	prerequisite	雪原の環境に備える。
+Dungeon086	zh	summary	位于海布拉山山顶下方。
+Dungeon086	zh	prerequisite	需克服冰雪环境障碍。
+Dungeon086	en	summary	Below Hebra Peak in the Hebra Mountains.
+Dungeon086	en	prerequisite	An icy environmental barrier surrounds the entrance.
+Dungeon086	ja	summary	ヘブラ山脈の山頂の下にある。
+Dungeon086	ja	prerequisite	入口周辺の氷雪の障害に対処する。
+Dungeon087	zh	summary	位于海布拉山脉比隆雪原下方。
+Dungeon087	zh	prerequisite	需探索山下入口。
+Dungeon087	en	summary	Below Biron Snowshelf in the Hebra Mountains.
+Dungeon087	en	prerequisite	Explore the entrance beneath the mountain.
+Dungeon087	ja	summary	ヘブラ山脈のビロン雪原の下にある。
+Dungeon087	ja	prerequisite	山の下の入口を探す。
+Dungeon088	zh	summary	位于海布拉山脉西北角的冰冻山麓。
+Dungeon088	zh	prerequisite	需前往寒冷山麓。
+Dungeon088	en	summary	At Icefall Foothills in northwestern Hebra.
+Dungeon088	en	prerequisite	Travel to the cold foothills.
+Dungeon088	ja	summary	ヘブラ北西の氷結の山麓にある。
+Dungeon088	ja	prerequisite	寒い山麓へ向かう。
+Dungeon089	zh	summary	位于海拉鲁城堡的船坞内。
+Dungeon089	zh	prerequisite	入口需要环境互动。
+Dungeon089	en	summary	Inside the docks of Hyrule Castle.
+Dungeon089	en	prerequisite	The entrance requires an environmental interaction.
+Dungeon089	ja	summary	ハイラル城の船着き場にある。
+Dungeon089	ja	prerequisite	入口を出す環境操作が必要。
+Dungeon090	zh	summary	位于摩尔迦娜山的雪地。
+Dungeon090	zh	prerequisite	入口有时机与环境条件。
+Dungeon090	en	summary	On snowy Mount Granajh.
+Dungeon090	en	prerequisite	The entrance has timing and environmental conditions.
+Dungeon090	ja	summary	雪のモルガナ山にある。
+Dungeon090	ja	prerequisite	入口に時機と環境の条件がある。
+Dungeon091	zh	summary	位于奥尔汀东北方的毅力崖顶。
+Dungeon091	zh	prerequisite	需完成入口的攀登挑战。
+Dungeon091	en	summary	Atop Gut Check Rock in northeastern Eldin.
+Dungeon091	en	prerequisite	Requires an entrance climbing challenge.
+Dungeon091	ja	summary	オルディン北東のド根性ガケの頂にある。
+Dungeon091	ja	prerequisite	入口の登攀試練が必要。
+Dungeon092	zh	summary	位于海拉鲁丘陵拉布拉山丘的岩壁内。
+Dungeon092	zh	prerequisite	入口有岩石障碍。
+Dungeon092	en	summary	In Upland Lindor’s cliff face, Hyrule Ridge.
+Dungeon092	en	prerequisite	Rocks block the entrance.
+Dungeon092	ja	summary	ハイラル丘陵のラブラー丘の岩壁内にある。
+Dungeon092	ja	prerequisite	入口を岩が塞いでいる。
+Dungeon093	zh	summary	位于格鲁德沙漠的沙海象拉力赛场。
+Dungeon093	zh	prerequisite	需推进相关主线并完成神庙挑战。
+Dungeon093	en	summary	At the Sand-Seal Rally in Gerudo Desert.
+Dungeon093	en	prerequisite	Requires relevant main-story progress and a shrine challenge.
+Dungeon093	ja	summary	ゲルド砂漠のスナザラシラリー会場にある。
+Dungeon093	ja	prerequisite	関連メインチャレンジと祠チャレンジが必要。
+Dungeon094	zh	summary	位于格鲁德沙漠的卢玛琳沙丘。
+Dungeon094	zh	prerequisite	入口有环境试炼，周围有强敌。
+Dungeon094	en	summary	In Toruma Dunes, Gerudo Desert.
+Dungeon094	en	prerequisite	An environmental entrance challenge lies near a powerful enemy.
+Dungeon094	ja	summary	ゲルド砂漠のルマリン砂丘にある。
+Dungeon094	ja	prerequisite	入口に環境の試練があり、近くに強敵がいる。
+Dungeon095	zh	summary	位于迷失的森林西南部萨莉娅湖畔。
+Dungeon095	zh	prerequisite	需完成森林里的神庙挑战。
+Dungeon095	en	summary	Beside Lake Saria in southwestern Lost Woods.
+Dungeon095	en	prerequisite	Requires a forest shrine challenge.
+Dungeon095	ja	summary	迷いの森南西のサリヤ湖湖畔にある。
+Dungeon095	ja	prerequisite	森の祠チャレンジが必要。
+Dungeon096	zh	summary	位于克拉尔湖东南侧的山丘。
+Dungeon096	zh	prerequisite	入口受特殊天气与环境条件限制。
+Dungeon096	en	summary	On a hill southeast of Calora Lake.
+Dungeon096	en	prerequisite	Weather and environmental conditions affect the entrance.
+Dungeon096	ja	summary	コーラル湖南東の丘にある。
+Dungeon096	ja	prerequisite	天候と環境に関わる入口条件がある。
+Dungeon097	zh	summary	位于哈特尔海外海的塞哈特诺岛。
+Dungeon097	zh	prerequisite	需完成岛屿的独立试炼。
+Dungeon097	en	summary	On Eventide Island in the Necluda Sea.
+Dungeon097	en	prerequisite	Requires the island’s special trial.
+Dungeon097	ja	summary	ハテール海のサイハテノ島にある。
+Dungeon097	ja	prerequisite	島の独立した試練が必要。
+Dungeon098	zh	summary	位于海拉鲁大森林西北角。
+Dungeon098	zh	prerequisite	需先开启相关神庙挑战。
+Dungeon098	en	summary	In the northwestern Great Hyrule Forest.
+Dungeon098	en	prerequisite	The related shrine challenge must be started.
+Dungeon098	ja	summary	ハイラル大森林の北西にある。
+Dungeon098	ja	prerequisite	関連する祠チャレンジの開始が必要。
+Dungeon099	zh	summary	位于卡卡利科村东侧山丘。
+Dungeon099	zh	prerequisite	需准备武器与盾。
+Dungeon099	en	summary	On the east hill above Kakariko Village.
+Dungeon099	en	prerequisite	Bring a weapon and shield.
+Dungeon099	ja	summary	カカリコ村東の丘にある。
+Dungeon099	ja	prerequisite	武器と盾を用意する。
+Dungeon100	zh	summary	位于格鲁德山顶东侧。
+Dungeon100	zh	prerequisite	需完成岩壁相关入口试炼。
+Dungeon100	en	summary	East of Gerudo Summit in the highlands.
+Dungeon100	en	prerequisite	Requires a cliffside entrance challenge.
+Dungeon100	ja	summary	ゲルド山頂の東側にある。
+Dungeon100	ja	prerequisite	崖の壁画に関わる入口試練が必要。
+Dungeon101	zh	summary	位于拉聂尔大水源的塞拉瀑布旁。
+Dungeon101	zh	prerequisite	入口需要特定试炼；相关主线可提供线索。
+Dungeon101	en	summary	Beside Veiled Falls in Lanayru Great Spring.
+Dungeon101	en	prerequisite	An entrance trial is required; story progress provides clues.
+Dungeon101	ja	summary	ラネール大水源のセラの滝付近にある。
+Dungeon101	ja	prerequisite	入口試練が必要で、メイン進行により手掛かりが得られる。
+Dungeon102	zh	summary	位于奥阿卡莱骷髅池塘的高石柱上。
+Dungeon102	zh	prerequisite	需抵达高处入口。
+Dungeon102	en	summary	On a tall spire at Skull Lake in Deep Akkala.
+Dungeon102	en	prerequisite	Reach the elevated entrance.
+Dungeon102	ja	summary	奥アッカレのドクロ池の高い岩柱にある。
+Dungeon102	ja	prerequisite	高所の入口へ向かう。
+Dungeon103	zh	summary	位于格鲁德沙漠的南洛美城堡遗迹。
+Dungeon103	zh	prerequisite	需通过遗迹内的迷宫探索。
+Dungeon103	en	summary	Inside South Lomei Labyrinth in Gerudo Desert.
+Dungeon103	en	prerequisite	Navigate the ruin’s labyrinth.
+Dungeon103	ja	summary	ゲルド砂漠の南ローメイ城跡にある。
+Dungeon103	ja	prerequisite	遺跡内の迷路を探索する。
+Dungeon104	zh	summary	位于塔邦挞边境东北的河道岩层下。
+Dungeon104	zh	prerequisite	需克服寒冷水域的环境障碍。
+Dungeon104	en	summary	Under riverbank rocks in northeastern Tabantha Frontier.
+Dungeon104	en	prerequisite	Cold water complicates access.
+Dungeon104	ja	summary	タバンタ辺境北東の川沿いの岩の下にある。
+Dungeon104	ja	prerequisite	冷たい水が接近の障害となる。
+Dungeon105	zh	summary	位于阿卡莱海北部的洛美岛。
+Dungeon105	zh	prerequisite	需通过岛上的迷宫。
+Dungeon105	en	summary	On Lomei Labyrinth Island in the northern Akkala Sea.
+Dungeon105	en	prerequisite	Navigate the island labyrinth.
+Dungeon105	ja	summary	アッカレ海北部のローメイ島にある。
+Dungeon105	ja	prerequisite	島の迷路を探索する。
+Dungeon106	zh	summary	位于海拉鲁大森林东北的米德沼泽。
+Dungeon106	zh	prerequisite	需完成森林中的装备试炼。
+Dungeon106	en	summary	In Mido Swamp, northeastern Great Hyrule Forest.
+Dungeon106	en	prerequisite	Requires a forest equipment challenge.
+Dungeon106	ja	summary	ハイラル大森林北東のミード沼にある。
+Dungeon106	ja	prerequisite	森の装備試練が必要。
+Dungeon107	zh	summary	位于格鲁德沙漠东部荒地。
+Dungeon107	zh	prerequisite	需完成入口相关人物的神庙挑战。
+Dungeon107	en	summary	In the East Barrens of Gerudo Desert.
+Dungeon107	en	prerequisite	Requires the entrance character’s shrine challenge.
+Dungeon107	ja	summary	ゲルド砂漠の東側の荒地にある。
+Dungeon107	ja	prerequisite	入口の人物に関わる祠チャレンジが必要。
+Dungeon108	zh	summary	位于德依布朗遗迹东北角。
+Dungeon108	zh	prerequisite	需完成遗迹内的探索挑战。
+Dungeon108	en	summary	In northeastern Thyphlo Ruins.
+Dungeon108	en	prerequisite	Requires the ruins’ exploration challenge.
+Dungeon108	ja	summary	ドイブラン遺跡の北東にある。
+Dungeon108	ja	prerequisite	遺跡内の探索試練が必要。
+Dungeon109	zh	summary	位于阿卡莱螺旋状马秋兹半岛中央。
+Dungeon109	zh	prerequisite	需完成半岛的入口试炼。
+Dungeon109	en	summary	At the center of spiral-shaped Rist Peninsula, Akkala.
+Dungeon109	en	prerequisite	Requires the peninsula’s entrance challenge.
+Dungeon109	ja	summary	アッカレの渦巻くマキューズ半島の中央にある。
+Dungeon109	ja	prerequisite	半島の入口試練が必要。
+Dungeon110	zh	summary	位于东格鲁德遗迹的七尊雕像之间。
+Dungeon110	zh	prerequisite	需完成遗迹的入口试炼。
+Dungeon110	en	summary	Among the seven statues of East Gerudo Ruins.
+Dungeon110	en	prerequisite	Requires the ruins’ entrance challenge.
+Dungeon110	ja	summary	東ゲルド遺跡の7体の像の間にある。
+Dungeon110	ja	prerequisite	遺跡の入口試練が必要。
+Dungeon111	zh	summary	位于东哈特尔泰尔美山东侧。
+Dungeon111	zh	prerequisite	需完成周边野外的神庙挑战。
+Dungeon111	en	summary	On the eastern side of Mount Taran, East Necluda.
+Dungeon111	en	prerequisite	Requires the surrounding field challenge.
+Dungeon111	ja	summary	東ハテールのテルメ山東側にある。
+Dungeon111	ja	prerequisite	周辺の野外の祠チャレンジが必要。
+Dungeon112	zh	summary	位于卡卡利科村东山森林中。
+Dungeon112	zh	prerequisite	需完成村内相关任务与神庙挑战。
+Dungeon112	en	summary	In the woods on Kakariko Village’s east hill.
+Dungeon112	en	prerequisite	Requires related village quests and a shrine challenge.
+Dungeon112	ja	summary	カカリコ村東の丘の森にある。
+Dungeon112	ja	prerequisite	村の関連チャレンジと祠チャレンジが必要。
+Dungeon113	zh	summary	位于费罗尼草原勇气之泉后方。
+Dungeon113	zh	prerequisite	需完成泉水相关入口试炼。
+Dungeon113	en	summary	Behind the Spring of Courage in Faron Grasslands.
+Dungeon113	en	prerequisite	Requires the spring’s entrance challenge.
+Dungeon113	ja	summary	フィローネ草原の勇気の泉の奥にある。
+Dungeon113	ja	prerequisite	泉に関わる入口試練が必要。
+Dungeon114	zh	summary	位于拉聂尔海荷隆湾的岛屿。
+Dungeon114	zh	prerequisite	需完成相关环境神庙挑战。
+Dungeon114	en	summary	On an island in Horon Lagoon, Lanayru Sea.
+Dungeon114	en	prerequisite	Requires an environmental shrine challenge.
+Dungeon114	ja	summary	ラネール海のホロン湾の島にある。
+Dungeon114	ja	prerequisite	環境に関わる祠チャレンジが必要。
+Dungeon115	zh	summary	位于库库甲谷的忘却神殿深处。
+Dungeon115	zh	prerequisite	入口周围有多名守护者。
+Dungeon115	en	summary	Deep inside the Forgotten Temple in Tanagar Canyon.
+Dungeon115	en	prerequisite	Numerous Guardians guard the approach.
+Dungeon115	ja	summary	ククジャ谷の忘れ去られた神殿の奥にある。
+Dungeon115	ja	prerequisite	入口周辺に多数のガーディアンがいる。
+Dungeon116	zh	summary	位于海布拉山脉东北的北洛美迷宫中央。
+Dungeon116	zh	prerequisite	需通过遗迹迷宫。
+Dungeon116	en	summary	At North Lomei Labyrinth’s center in northeastern Hebra.
+Dungeon116	en	prerequisite	Navigate the ruin’s labyrinth.
+Dungeon116	ja	summary	ヘブラ北東の北ローメイ城跡の中央にある。
+Dungeon116	ja	prerequisite	遺跡の迷路を探索する。
+Dungeon117	zh	summary	位于拉聂尔山顶的智慧之泉后方。
+Dungeon117	zh	prerequisite	需完成泉水相关入口试炼。
+Dungeon117	en	summary	Behind the Spring of Wisdom atop Mount Lanayru.
+Dungeon117	en	prerequisite	Requires the spring’s entrance challenge.
+Dungeon117	ja	summary	ラネール山頂の知恵の泉の奥にある。
+Dungeon117	ja	prerequisite	泉に関わる入口試練が必要。
+Dungeon118	zh	summary	位于海布拉山脉北部的冰洞内。
+Dungeon118	zh	prerequisite	需克服洞穴入口的环境障碍。
+Dungeon118	en	summary	Inside an ice cave in northern Hebra Mountains.
+Dungeon118	en	prerequisite	An environmental barrier blocks the cave entrance.
+Dungeon118	ja	summary	ヘブラ山脈北部の氷の洞窟内にある。
+Dungeon118	ja	prerequisite	洞窟入口の環境の障害に対処する。
+Dungeon119	zh	summary	位于拉聂尔山的玛德罗纳山麓。
+Dungeon119	zh	prerequisite	入口有岩石障碍；相关任务可提供线索。
+Dungeon119	en	summary	At Madorna Mountain’s base on Mount Lanayru.
+Dungeon119	en	prerequisite	Rocks block entry; the related quest supplies clues.
+Dungeon119	ja	summary	ラネール山のマドロナ山麓にある。
+Dungeon119	ja	prerequisite	岩が入口を塞ぎ、関連チャレンジが手掛かりになる。
+Dungeon120	zh	summary	DLC神庙，位于初始台地的精灵森林。
+Dungeon120	zh	prerequisite	需英杰之诗DLC及其主线阶段。
+Dungeon120	en	summary	A DLC shrine in the Great Plateau’s Forest of Spirits.
+Dungeon120	en	prerequisite	Requires The Champions’ Ballad DLC and its story phase.
+Dungeon120	ja	summary	始まりの台地の精霊の森にあるDLCの祠。
+Dungeon120	ja	prerequisite	英傑たちの詩DLCと該当のメイン進行が必要。
+Dungeon121	zh	summary	DLC神庙，位于格鲁德高地依盖队基地外。
+Dungeon121	zh	prerequisite	需英杰之诗DLC及乌尔波扎相关阶段。
+Dungeon121	en	summary	A DLC shrine outside the Yiga Hideout in Gerudo Highlands.
+Dungeon121	en	prerequisite	Requires The Champions’ Ballad DLC and Urbosa’s phase.
+Dungeon121	ja	summary	ゲルド高地のイーガ団アジト外にあるDLCの祠。
+Dungeon121	ja	prerequisite	英傑たちの詩DLCとウルボザの段階が必要。
+Dungeon122	zh	summary	DLC神庙，位于初始台地的海利亚山。
+Dungeon122	zh	prerequisite	需英杰之诗DLC及其主线阶段。
+Dungeon122	en	summary	A DLC shrine on Mount Hylia, Great Plateau.
+Dungeon122	en	prerequisite	Requires The Champions’ Ballad DLC and its story phase.
+Dungeon122	ja	summary	始まりの台地のハイリア山にあるDLCの祠。
+Dungeon122	ja	prerequisite	英傑たちの詩DLCと該当のメイン進行が必要。
+Dungeon123	zh	summary	DLC神庙，位于初始之塔与东部神殿遗迹间。
+Dungeon123	zh	prerequisite	需英杰之诗DLC及其主线阶段。
+Dungeon123	en	summary	A DLC shrine between Great Plateau Tower and Eastern Abbey.
+Dungeon123	en	prerequisite	Requires The Champions’ Ballad DLC and its story phase.
+Dungeon123	ja	summary	始まりの塔と東の神殿の間にあるDLCの祠。
+Dungeon123	ja	prerequisite	英傑たちの詩DLCと該当のメイン進行が必要。
+Dungeon124	zh	summary	DLC神庙，位于拉聂尔卓拉台地。
+Dungeon124	zh	prerequisite	需英杰之诗DLC及米法相关阶段。
+Dungeon124	en	summary	A DLC shrine atop Upland Zorana, Lanayru.
+Dungeon124	en	prerequisite	Requires The Champions’ Ballad DLC and Mipha’s phase.
+Dungeon124	ja	summary	ラネールのゾラ台地にあるDLCの祠。
+Dungeon124	ja	prerequisite	英傑たちの詩DLCとミファーの段階が必要。
+Dungeon125	zh	summary	DLC神庙，位于拉聂尔海岛屿之间。
+Dungeon125	zh	prerequisite	需英杰之诗DLC及米法相关阶段。
+Dungeon125	en	summary	A DLC shrine among the islands of Lanayru Sea.
+Dungeon125	en	prerequisite	Requires The Champions’ Ballad DLC and Mipha’s phase.
+Dungeon125	ja	summary	ラネール海の島々の間にあるDLCの祠。
+Dungeon125	ja	prerequisite	英傑たちの詩DLCとミファーの段階が必要。
+Dungeon126	zh	summary	DLC神庙，位于拉聂尔的雷兽山。
+Dungeon126	zh	prerequisite	需英杰之诗DLC及米法相关阶段。
+Dungeon126	en	summary	A DLC shrine on Ploymus Mountain, Lanayru.
+Dungeon126	en	prerequisite	Requires The Champions’ Ballad DLC and Mipha’s phase.
+Dungeon126	ja	summary	ラネールの雷獣山にあるDLCの祠。
+Dungeon126	ja	prerequisite	英傑たちの詩DLCとミファーの段階が必要。
+Dungeon127	zh	summary	DLC神庙，位于飞行训练场底部。
+Dungeon127	zh	prerequisite	需英杰之诗DLC及力巴尔相关阶段。
+Dungeon127	en	summary	A DLC shrine at the bottom of the Flight Range.
+Dungeon127	en	prerequisite	Requires The Champions’ Ballad DLC and Revali’s phase.
+Dungeon127	ja	summary	飛行訓練場の底にあるDLCの祠。
+Dungeon127	ja	prerequisite	英傑たちの詩DLCとリーバルの段階が必要。
+Dungeon128	zh	summary	DLC神庙，位于海布拉山脉茨茨齐齐雪原。
+Dungeon128	zh	prerequisite	需英杰之诗DLC及力巴尔相关阶段。
+Dungeon128	en	summary	A DLC shrine at Pikida Stonegrove, Hebra Mountains.
+Dungeon128	en	prerequisite	Requires The Champions’ Ballad DLC and Revali’s phase.
+Dungeon128	ja	summary	ヘブラ山脈のツツキキ雪原にあるDLCの祠。
+Dungeon128	ja	prerequisite	英傑たちの詩DLCとリーバルの段階が必要。
+Dungeon129	zh	summary	DLC神庙，位于库库甲谷上方的高地。
+Dungeon129	zh	prerequisite	需英杰之诗DLC及力巴尔相关阶段。
+Dungeon129	en	summary	A DLC shrine above Tanagar Canyon on Upland Lindor.
+Dungeon129	en	prerequisite	Requires The Champions’ Ballad DLC and Revali’s phase.
+Dungeon129	ja	summary	ククジャ谷の上の高地にあるDLCの祠。
+Dungeon129	ja	prerequisite	英傑たちの詩DLCとリーバルの段階が必要。
+Dungeon130	zh	summary	DLC神庙，位于奥尔汀达鲁马湖的北岸。
+Dungeon130	zh	prerequisite	需英杰之诗DLC及达尔克尔相关阶段。
+Dungeon130	en	summary	A DLC shrine on Lake Darman’s northern shore, Eldin.
+Dungeon130	en	prerequisite	Requires The Champions’ Ballad DLC and Daruk’s phase.
+Dungeon130	ja	summary	オルディンのダルマー湖北岸にあるDLCの祠。
+Dungeon130	ja	prerequisite	英傑たちの詩DLCとダルケルの段階が必要。
+Dungeon131	zh	summary	DLC神庙，位于奥尔汀达鲁波池塘以南。
+Dungeon131	zh	prerequisite	需英杰之诗DLC及达尔克尔相关阶段。
+Dungeon131	en	summary	A DLC shrine south of Darb Pond, Eldin.
+Dungeon131	en	prerequisite	Requires The Champions’ Ballad DLC and Daruk’s phase.
+Dungeon131	ja	summary	オルディンのダルボ池南にあるDLCの祠。
+Dungeon131	ja	prerequisite	英傑たちの詩DLCとダルケルの段階が必要。
+Dungeon132	zh	summary	DLC神庙，位于死亡之山东南。
+Dungeon132	zh	prerequisite	需英杰之诗DLC及达尔克尔相关阶段。
+Dungeon132	en	summary	A DLC shrine southeast of Death Mountain.
+Dungeon132	en	prerequisite	Requires The Champions’ Ballad DLC and Daruk’s phase.
+Dungeon132	ja	summary	デスマウンテン南東にあるDLCの祠。
+Dungeon132	ja	prerequisite	英傑たちの詩DLCとダルケルの段階が必要。
+Dungeon133	zh	summary	DLC神庙，位于格鲁德沙漠东部荒地。
+Dungeon133	zh	prerequisite	需英杰之诗DLC及乌尔波扎相关阶段。
+Dungeon133	en	summary	A DLC shrine in Gerudo Desert’s East Barrens.
+Dungeon133	en	prerequisite	Requires The Champions’ Ballad DLC and Urbosa’s phase.
+Dungeon133	ja	summary	ゲルド砂漠東の荒地にあるDLCの祠。
+Dungeon133	ja	prerequisite	英傑たちの詩DLCとウルボザの段階が必要。
+Dungeon134	zh	summary	DLC神庙，位于格鲁德沙漠西部荒地。
+Dungeon134	zh	prerequisite	需英杰之诗DLC及乌尔波扎相关阶段。
+Dungeon134	en	summary	A DLC shrine in Gerudo Desert’s West Barrens.
+Dungeon134	en	prerequisite	Requires The Champions’ Ballad DLC and Urbosa’s phase.
+Dungeon134	ja	summary	ゲルド砂漠西の荒地にあるDLCの祠。
+Dungeon134	ja	prerequisite	英傑たちの詩DLCとウルボザの段階が必要。
+Dungeon135	zh	summary	DLC神庙，位于初始台地时光之神殿遗迹南方。
+Dungeon135	zh	prerequisite	需英杰之诗DLC及其主线阶段。
+Dungeon135	en	summary	A DLC shrine south of the Temple of Time, Great Plateau.
+Dungeon135	en	prerequisite	Requires The Champions’ Ballad DLC and its story phase.
+Dungeon135	ja	summary	始まりの台地の時の神殿南にあるDLCの祠。
+Dungeon135	ja	prerequisite	英傑たちの詩DLCと該当のメイン進行が必要。

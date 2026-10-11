@@ -1,0 +1,704 @@
+{
+  "revision": "r3",
+  "testedAt": "2026-10-11T03:53:45.730561+00:00",
+  "command": "python3 tests/r3/qa_static.py",
+  "staticStatus": "PASS",
+  "errors": [],
+  "checks": [
+    {
+      "name": "结构化提示节点",
+      "passed": true,
+      "evidence": "MapCanvas.tsx:70–88；分别创建 div/strong/span/badges。"
+    },
+    {
+      "name": "动态提示均为纯文本",
+      "passed": true,
+      "evidence": "MapCanvas.tsx:75、78、84。"
+    },
+    {
+      "name": "不拼动态 HTML",
+      "passed": true,
+      "evidence": "MapCanvas.tsx 全文件；divIcon html 仅取三个固定 SVG 常量。"
+    },
+    {
+      "name": "不读取敏感字段",
+      "passed": true,
+      "evidence": "MapCanvas.tsx 全文件；未读取试炼、详情、前置过程、物资、奖励或攻略。"
+    },
+    {
+      "name": "神庙输入为安全字段 Pick",
+      "passed": true,
+      "evidence": "MapCanvas.tsx:10；id/name/position/regionId/dlc。"
+    },
+    {
+      "name": "神庙完整 ARIA 基础字段",
+      "passed": true,
+      "evidence": "MapCanvas.tsx:248–253；ARIA 不复用被 ellipsis 截断的可见节点。"
+    },
+    {
+      "name": "高塔只名称地区定位",
+      "passed": true,
+      "evidence": "MapCanvas.tsx:231–234。"
+    },
+    {
+      "name": "ARIA 使用属性文本",
+      "passed": true,
+      "evidence": "MapCanvas.tsx:161；不使用 HTML sink。"
+    },
+    {
+      "name": "整卡不拦截指针",
+      "passed": true,
+      "evidence": "styles.css map-tooltip/content；Leaflet bindTooltip interactive:false。"
+    },
+    {
+      "name": "显式卡宽与动态上限",
+      "passed": true,
+      "evidence": "styles.css + MapCanvas.tsx:110、113–114；静态声明有效性，最终宽度由父 QA 实测。"
+    },
+    {
+      "name": "字体拆分有效声明",
+      "passed": true,
+      "evidence": "styles.css :root 与 map-tooltip；无 font 简写。"
+    },
+    {
+      "name": "名称地区单行省略",
+      "passed": true,
+      "evidence": "styles.css title/region。"
+    },
+    {
+      "name": "18px 主图形",
+      "passed": true,
+      "evidence": "styles.css shrine-symbol 与 svg。"
+    },
+    {
+      "name": "44px 透明命中区",
+      "passed": true,
+      "evidence": "MapCanvas.tsx:224、244；styles.css shrine-hit/tower-hit。"
+    },
+    {
+      "name": "-1 连续缩放阈值保持",
+      "passed": true,
+      "evidence": "lib/map.ts + MapCanvas.tsx:177、182、196。"
+    },
+    {
+      "name": "互斥塔神庙且无聚合",
+      "passed": true,
+      "evidence": "MapCanvas.tsx:220–255；无聚合实现。"
+    },
+    {
+      "name": "原点点击定位路径保持",
+      "passed": true,
+      "evidence": "MapCanvas.tsx:226–229、247；未静态改动选择回调。"
+    },
+    {
+      "name": "r2 产品合同未超范围修改",
+      "passed": true,
+      "evidence": []
+    },
+    {
+      "name": "包逐字读回 data/shrines.json",
+      "passed": true,
+      "evidence": {
+        "public": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde",
+        "dist": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde"
+      }
+    },
+    {
+      "name": "包逐字读回 assets/hyrule-base.webp",
+      "passed": true,
+      "evidence": {
+        "public": "5847a9e5f5d4ed44bc20b61d2b5c24999c33b796d8a42354946f42c631b4ec10",
+        "dist": "5847a9e5f5d4ed44bc20b61d2b5c24999c33b796d8a42354946f42c631b4ec10"
+      }
+    },
+    {
+      "name": "包逐字读回 THIRD_PARTY_NOTICES.txt",
+      "passed": true,
+      "evidence": {
+        "public": "5cd96ec0a64a180e02eb5f36c03a303218492418ee4533ea1293369a231aca33",
+        "dist": "5cd96ec0a64a180e02eb5f36c03a303218492418ee4533ea1293369a231aca33"
+      }
+    },
+    {
+      "name": "数据 SHA 保持指定 r2 候选",
+      "passed": true,
+      "evidence": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde"
+    },
+    {
+      "name": "根范围 136+15",
+      "passed": true,
+      "evidence": {
+        "shrines": 136,
+        "towers": 15,
+        "dlc": 16
+      }
+    },
+    {
+      "name": "205 宝箱仅结构数量",
+      "passed": true,
+      "evidence": "只读取生产 detail.supplies 条目；未重读宝箱缓存或证明物品语义。"
+    },
+    {
+      "name": "017 conflict 仅结构保持",
+      "passed": true,
+      "evidence": [
+        {
+          "id": "Dungeon017",
+          "field": "supplies",
+          "status": "conflict",
+          "sourceIds": [
+            "chests-Dungeon017",
+            "actor-labels",
+            "wiki-Dungeon017"
+          ],
+          "displayNoteLocales": [
+            "en",
+            "ja",
+            "zh"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "现有 dist 含 r3 提示结构与宽度",
+      "passed": true,
+      "evidence": {
+        ".css": {
+          "map-tooltip-content": 1,
+          "map-tooltip-title": 1,
+          "map-tooltip-region": 1,
+          "map-tooltip-badges": 1,
+          "--tooltip-max-width": 3
+        },
+        ".js": {
+          "map-tooltip-content": 1,
+          "map-tooltip-title": 1,
+          "map-tooltip-region": 1,
+          "map-tooltip-badges": 1,
+          "--tooltip-max-width": 1
+        }
+      }
+    }
+  ],
+  "expectedDatasetSha256": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde",
+  "inputHashes": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "4855052a65cf769a5d360db8713a2babb09f9b15e84ec6b02ee7dfd2aaa4131b",
+      "size": 483
+    },
+    {
+      "path": "docs/dev_new_version/v0.1.0/03_UIUX设计.md",
+      "sha256": "7a94276e2ee2b1b98cca8c75123099cc13a04b9df01f42f7576168f543f0627a",
+      "size": 21166
+    },
+    {
+      "path": "docs/dev_new_version/v0.1.0/04_技术方案.md",
+      "sha256": "f98f8e2f3076765a17db01fddc18623a46a929ab913ac5580f871dd2ad0c7612",
+      "size": 16517
+    },
+    {
+      "path": "docs/dev_new_version/v0.1.0/evidence/r2/candidate-manifest.json",
+      "sha256": "a1428b6202309adf5b6b7cb3bdc58928c5fafc7baf286b3fe1881ee7106a5980",
+      "size": 5857
+    },
+    {
+      "path": "src/components/MapCanvas.tsx",
+      "sha256": "08eab4eb95e88c7ca8f3c600736b59de38196deb7d0e9f6f6b4c22e437ccdb75",
+      "size": 14415
+    },
+    {
+      "path": "src/styles.css",
+      "sha256": "9e6548f35ae07e1096a6c736d82ded79fe1a7b2edb43a180156d6572711508ea",
+      "size": 27399
+    },
+    {
+      "path": "src/lib/map.ts",
+      "sha256": "31942b26a812feb44e208fc0e2d00aab44b7a34abca40784c6d80cdb6926cabd",
+      "size": 170
+    },
+    {
+      "path": "src/types.ts",
+      "sha256": "d337085d9fa37ea15b6d804c0fb607153362182455518821a8d22cec40559eed",
+      "size": 1575
+    },
+    {
+      "path": "tests/r3/qa_static.py",
+      "sha256": "8340f5a3886517b3c99274a9e3ba247d8c275645096c4a955dcec4af96307a04",
+      "size": 15607
+    },
+    {
+      "path": "dist/index.html",
+      "sha256": "8d601784ed415a9e0f6467ae01cd6aa7c26af885a52be54a52b19842e6134b92",
+      "size": 421
+    }
+  ],
+  "r2Comparison": [
+    {
+      "path": "data/schema/shrines.schema.json",
+      "sha256": "7d5bce43c16c454ca4ae7781f287bedf4eefa1554b437cd2578efed3ad97f397",
+      "size": 8317,
+      "r2Sha256": "7d5bce43c16c454ca4ae7781f287bedf4eefa1554b437cd2578efed3ad97f397",
+      "sameAsR2": true
+    },
+    {
+      "path": "docs/dev_new_version/v0.1.0/01_需求文档.md",
+      "sha256": "fe1a96d7bbc6702fc0ad6ee9422410b50e0484b01f341d8268d3e1d31489d000",
+      "size": 5837,
+      "r2Sha256": "27376690aa040074422990d4fd9d75f2a5dd936aca386402ff05533faa6333e5",
+      "sameAsR2": false
+    },
+    {
+      "path": "docs/dev_new_version/v0.1.0/02_PRD.md",
+      "sha256": "3d7c561a11ce7e9c61c8ff340cc9a2fc420b84bd24cb22fad0002b79ba97dfc8",
+      "size": 17618,
+      "r2Sha256": "ee6220de90c62fbee2669f6523e6cb8409a3ab099b9322f5a991eee546900801",
+      "sameAsR2": false
+    },
+    {
+      "path": "docs/dev_new_version/v0.1.0/03_UIUX设计.md",
+      "sha256": "7a94276e2ee2b1b98cca8c75123099cc13a04b9df01f42f7576168f543f0627a",
+      "size": 21166,
+      "r2Sha256": "84c6d54d96fbc0807fefb0c3405b4bf625586db595de501c23548e38a5826bb8",
+      "sameAsR2": false
+    },
+    {
+      "path": "docs/dev_new_version/v0.1.0/04_技术方案.md",
+      "sha256": "f98f8e2f3076765a17db01fddc18623a46a929ab913ac5580f871dd2ad0c7612",
+      "size": 16517,
+      "r2Sha256": "2818ff93912f382b8a396e78721dbfa190d38d9ef93641ae69042548b873bfe2",
+      "sameAsR2": false
+    },
+    {
+      "path": "docs/dev_new_version/v0.1.0/05_测试方案.md",
+      "sha256": "bfd6c367fd6311852fa7e935045704ad3e2de5a2405ed50c381c50bae0f36242",
+      "size": 21720,
+      "r2Sha256": "f45919e8458ca7039707ad4c67b2033dc1b4e4ecfeaf24f0a1ff05418c264013",
+      "sameAsR2": false
+    },
+    {
+      "path": "docs/dev_new_version/v0.1.0/06_开发记录.md",
+      "sha256": "a4b3e69fe4a535748cc4a76e362d40b06f9b4bb35ec42e335f75459a003efe60",
+      "size": 5414,
+      "r2Sha256": "c34931a64df5be5ac2aaa9daabe7c78c59d85ed69ff0f8a571afc8a2b4d42284",
+      "sameAsR2": false
+    },
+    {
+      "path": "index.html",
+      "sha256": "ef43691065f6c983dbb013b169f444ac64038abdb75a8f7b00c6e785fdd8c913",
+      "size": 322,
+      "r2Sha256": "ef43691065f6c983dbb013b169f444ac64038abdb75a8f7b00c6e785fdd8c913",
+      "sameAsR2": true
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "1e606f6da1714f5d5d08d889e82e79f3f75d5432a935e55f5457c47915f28f99",
+      "size": 62914,
+      "r2Sha256": "1e606f6da1714f5d5d08d889e82e79f3f75d5432a935e55f5457c47915f28f99",
+      "sameAsR2": true
+    },
+    {
+      "path": "package.json",
+      "sha256": "4b997939fa498ab1a3ceb9f48415efe9d48fac35458efbd5b3f9d8bad66aeb7b",
+      "size": 549,
+      "r2Sha256": "4b997939fa498ab1a3ceb9f48415efe9d48fac35458efbd5b3f9d8bad66aeb7b",
+      "sameAsR2": true
+    },
+    {
+      "path": "public/THIRD_PARTY_NOTICES.txt",
+      "sha256": "5cd96ec0a64a180e02eb5f36c03a303218492418ee4533ea1293369a231aca33",
+      "size": 104551,
+      "r2Sha256": "5cd96ec0a64a180e02eb5f36c03a303218492418ee4533ea1293369a231aca33",
+      "sameAsR2": true
+    },
+    {
+      "path": "public/assets/hyrule-base.webp",
+      "sha256": "5847a9e5f5d4ed44bc20b61d2b5c24999c33b796d8a42354946f42c631b4ec10",
+      "size": 1204518,
+      "r2Sha256": "5847a9e5f5d4ed44bc20b61d2b5c24999c33b796d8a42354946f42c631b4ec10",
+      "sameAsR2": true
+    },
+    {
+      "path": "public/data/shrines.json",
+      "sha256": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde",
+      "size": 740926,
+      "r2Sha256": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde",
+      "sameAsR2": true
+    },
+    {
+      "path": "requirements-data.txt",
+      "sha256": "d88f28984e63d257df9a014d28feb8b9b41ce8496012f82a9c9bf84222847d92",
+      "size": 110,
+      "r2Sha256": "d88f28984e63d257df9a014d28feb8b9b41ce8496012f82a9c9bf84222847d92",
+      "sameAsR2": true
+    },
+    {
+      "path": "src/App.tsx",
+      "sha256": "c8c8b615e931c3193e4afb8b546fe8cfcb70137dbdf3ce143cbd1c394acb036b",
+      "size": 18924,
+      "r2Sha256": "c8c8b615e931c3193e4afb8b546fe8cfcb70137dbdf3ce143cbd1c394acb036b",
+      "sameAsR2": true
+    },
+    {
+      "path": "src/components/Icon.tsx",
+      "sha256": "1fb277363d562df850dda3db1828a452a624654efff661aeddbc3bf8cd519eff",
+      "size": 1334,
+      "r2Sha256": "1fb277363d562df850dda3db1828a452a624654efff661aeddbc3bf8cd519eff",
+      "sameAsR2": true
+    },
+    {
+      "path": "src/components/ImportDialog.tsx",
+      "sha256": "18b5db961f32de1504a0040fe7560222665cf537f194e383904b12e184376155",
+      "size": 3056,
+      "r2Sha256": "18b5db961f32de1504a0040fe7560222665cf537f194e383904b12e184376155",
+      "sameAsR2": true
+    },
+    {
+      "path": "src/components/MapCanvas.tsx",
+      "sha256": "08eab4eb95e88c7ca8f3c600736b59de38196deb7d0e9f6f6b4c22e437ccdb75",
+      "size": 14415,
+      "r2Sha256": "8654db637fc5fecd7c07b80d419dbe969cb69f8521779e93d2d0318185a58d09",
+      "sameAsR2": false
+    },
+    {
+      "path": "src/components/SafePreview.tsx",
+      "sha256": "e7e8b7c37103d9356b611d1bfc9636fd4543ebf3f38bcdd6a05caec22ef049e4",
+      "size": 2213,
+      "r2Sha256": "e7e8b7c37103d9356b611d1bfc9636fd4543ebf3f38bcdd6a05caec22ef049e4",
+      "sameAsR2": true
+    },
+    {
+      "path": "src/components/Settings.tsx",
+      "sha256": "13f9ef1b13b51800d6b6b8204b6a47a2e6ae273219199ccca7b19c465ffaabeb",
+      "size": 2939,
+      "r2Sha256": "13f9ef1b13b51800d6b6b8204b6a47a2e6ae273219199ccca7b19c465ffaabeb",
+      "sameAsR2": true
+    },
+    {
+      "path": "src/components/ShrineDetails.tsx",
+      "sha256": "604c0eb417a2046b17d127fdaa813342f73e99da476183161c56d6e0b711736c",
+      "size": 4613,
+      "r2Sha256": "604c0eb417a2046b17d127fdaa813342f73e99da476183161c56d6e0b711736c",
+      "sameAsR2": true
+    },
+    {
+      "path": "src/components/Text.tsx",
+      "sha256": "4cc29b7e303754221fb100b70d407146617770427e24d7f314be87d3cd77e8b5",
+      "size": 673,
+      "r2Sha256": "4cc29b7e303754221fb100b70d407146617770427e24d7f314be87d3cd77e8b5",
+      "sameAsR2": true
+    },
+    {
+      "path": "src/i18n.ts",
+      "sha256": "9ddd7c2ac418a95c5598ab68d1bf27cb7fec9f39fd9e3bc0cc11e45f77d00ccb",
+      "size": 18574,
+      "r2Sha256": "9ddd7c2ac418a95c5598ab68d1bf27cb7fec9f39fd9e3bc0cc11e45f77d00ccb",
+      "sameAsR2": true
+    },
+    {
+      "path": "src/lib/data.ts",
+      "sha256": "caa9d120c73c527adc930322cb11e96c3abd16cf01a23fb04b150092d90f0c66",
+      "size": 4139,
+      "r2Sha256": "caa9d120c73c527adc930322cb11e96c3abd16cf01a23fb04b150092d90f0c66",
+      "sameAsR2": true
+    },
+    {
+      "path": "src/lib/map.ts",
+      "sha256": "31942b26a812feb44e208fc0e2d00aab44b7a34abca40784c6d80cdb6926cabd",
+      "size": 170,
+      "r2Sha256": "31942b26a812feb44e208fc0e2d00aab44b7a34abca40784c6d80cdb6926cabd",
+      "sameAsR2": true
+    },
+    {
+      "path": "src/lib/progress.ts",
+      "sha256": "d32cfa8cbc6c8de880aec80cb0c4a82a66fd4312ffaad04effe7f963dd42b9ee",
+      "size": 4418,
+      "r2Sha256": "d32cfa8cbc6c8de880aec80cb0c4a82a66fd4312ffaad04effe7f963dd42b9ee",
+      "sameAsR2": true
+    },
+    {
+      "path": "src/main.tsx",
+      "sha256": "e7d86d0c7194d7ae7740747e6a63e00644c8abd58a30cb704c4eadc23025900c",
+      "size": 259,
+      "r2Sha256": "e7d86d0c7194d7ae7740747e6a63e00644c8abd58a30cb704c4eadc23025900c",
+      "sameAsR2": true
+    },
+    {
+      "path": "src/styles.css",
+      "sha256": "9e6548f35ae07e1096a6c736d82ded79fe1a7b2edb43a180156d6572711508ea",
+      "size": 27399,
+      "r2Sha256": "792a0ed6e8db5383fdc5c83f6d3752d922e9c1c7186e1048898c966d13104e45",
+      "sameAsR2": false
+    },
+    {
+      "path": "src/types.ts",
+      "sha256": "d337085d9fa37ea15b6d804c0fb607153362182455518821a8d22cec40559eed",
+      "size": 1575,
+      "r2Sha256": "d337085d9fa37ea15b6d804c0fb607153362182455518821a8d22cec40559eed",
+      "sameAsR2": true
+    },
+    {
+      "path": "tests/r2/qa_browser.cjs",
+      "sha256": "10dbc79da32cea426d73a02b221fe196632a4104a2f79324160731b627dfc2db",
+      "size": 24360,
+      "r2Sha256": "10dbc79da32cea426d73a02b221fe196632a4104a2f79324160731b627dfc2db",
+      "sameAsR2": true
+    },
+    {
+      "path": "tests/r2/qa_data.py",
+      "sha256": "d3d21e7049f51e213e3c6a7f63371741c5e6f87390f90c22bfed29fd55cc2105",
+      "size": 24625,
+      "r2Sha256": "d3d21e7049f51e213e3c6a7f63371741c5e6f87390f90c22bfed29fd55cc2105",
+      "sameAsR2": true
+    },
+    {
+      "path": "tsconfig.app.json",
+      "sha256": "d75fd25ce4d5f5cb98c397c11952ccc4fc906f4cc4c97e81cdcbc95e4e7b0073",
+      "size": 492,
+      "r2Sha256": "d75fd25ce4d5f5cb98c397c11952ccc4fc906f4cc4c97e81cdcbc95e4e7b0073",
+      "sameAsR2": true
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "67312658d22f72e4310e3c1410ea5862b1489055bbd9d70107f3f3cbbb86bdf8",
+      "size": 91,
+      "r2Sha256": "67312658d22f72e4310e3c1410ea5862b1489055bbd9d70107f3f3cbbb86bdf8",
+      "sameAsR2": true
+    },
+    {
+      "path": "tsconfig.node.json",
+      "sha256": "6c9a407af0f21ccdf8a09b8a75e9f4785c6c13b9d6ef1a47d6c2076713232a7b",
+      "size": 358,
+      "r2Sha256": "6c9a407af0f21ccdf8a09b8a75e9f4785c6c13b9d6ef1a47d6c2076713232a7b",
+      "sameAsR2": true
+    },
+    {
+      "path": "vite.config.ts",
+      "sha256": "9ae325f72690814233532e1e15a8a7f3b1ae21814be2e04780b4c342c91a2981",
+      "size": 255,
+      "r2Sha256": "9ae325f72690814233532e1e15a8a7f3b1ae21814be2e04780b4c342c91a2981",
+      "sameAsR2": true
+    }
+  ],
+  "unexpectedProductChanges": [],
+  "packageReadback": [
+    {
+      "path": "data/shrines.json",
+      "public": {
+        "path": "public/data/shrines.json",
+        "sha256": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde",
+        "size": 740926
+      },
+      "dist": {
+        "path": "dist/data/shrines.json",
+        "sha256": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde",
+        "size": 740926
+      },
+      "byteIdentical": true
+    },
+    {
+      "path": "assets/hyrule-base.webp",
+      "public": {
+        "path": "public/assets/hyrule-base.webp",
+        "sha256": "5847a9e5f5d4ed44bc20b61d2b5c24999c33b796d8a42354946f42c631b4ec10",
+        "size": 1204518
+      },
+      "dist": {
+        "path": "dist/assets/hyrule-base.webp",
+        "sha256": "5847a9e5f5d4ed44bc20b61d2b5c24999c33b796d8a42354946f42c631b4ec10",
+        "size": 1204518
+      },
+      "byteIdentical": true
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.txt",
+      "public": {
+        "path": "public/THIRD_PARTY_NOTICES.txt",
+        "sha256": "5cd96ec0a64a180e02eb5f36c03a303218492418ee4533ea1293369a231aca33",
+        "size": 104551
+      },
+      "dist": {
+        "path": "dist/THIRD_PARTY_NOTICES.txt",
+        "sha256": "5cd96ec0a64a180e02eb5f36c03a303218492418ee4533ea1293369a231aca33",
+        "size": 104551
+      },
+      "byteIdentical": true
+    }
+  ],
+  "bundleFiles": [
+    {
+      "path": "dist/assets/index-B7CQyL1l.css",
+      "sha256": "f0e26335b6d4302f4e22852fedd7f7243468ccbb262560716d3949952afaa7c0",
+      "size": 43007
+    },
+    {
+      "path": "dist/assets/index-BN0TqlsP.js",
+      "sha256": "db5af850044e51347b46fe59690e099aec8ad7fe2bdd602f9818f92ac6de6e0b",
+      "size": 396486
+    }
+  ],
+  "bundleTokenCounts": {
+    ".css": {
+      "map-tooltip-content": 1,
+      "map-tooltip-title": 1,
+      "map-tooltip-region": 1,
+      "map-tooltip-badges": 1,
+      "--tooltip-max-width": 3
+    },
+    ".js": {
+      "map-tooltip-content": 1,
+      "map-tooltip-title": 1,
+      "map-tooltip-region": 1,
+      "map-tooltip-badges": 1,
+      "--tooltip-max-width": 1
+    }
+  },
+  "dataStructure": {
+    "datasetVersion": "v0.1.0-20261011-r2",
+    "shrines": 136,
+    "base": 120,
+    "dlc": 16,
+    "towers": 15,
+    "suppliesEntries": 205,
+    "conflicts": [
+      {
+        "id": "Dungeon017",
+        "field": "supplies",
+        "status": "conflict",
+        "sourceIds": [
+          "chests-Dungeon017",
+          "actor-labels",
+          "wiki-Dungeon017"
+        ],
+        "displayNoteLocales": [
+          "en",
+          "ja",
+          "zh"
+        ]
+      }
+    ]
+  },
+  "cssDeclarations": {
+    ".map-tooltip": {
+      "width": "220px!important",
+      "max-width": "var(--tooltip-max-width,240px)!important",
+      "font-family": "inherit!important",
+      "font-size": "12px!important",
+      "font-weight": null,
+      "line-height": "1.5!important",
+      "white-space": "normal!important",
+      "text-overflow": null,
+      "pointer-events": "none!important"
+    },
+    ".map-tooltip-content": {
+      "width": null,
+      "max-width": "100%",
+      "font-family": null,
+      "font-size": null,
+      "font-weight": null,
+      "line-height": null,
+      "white-space": null,
+      "text-overflow": null,
+      "pointer-events": "none"
+    },
+    ".map-tooltip-title": {
+      "width": null,
+      "max-width": "calc(var(--tooltip-max-width,240px) - 26px)",
+      "font-family": null,
+      "font-size": "14px",
+      "font-weight": "600",
+      "line-height": "1.45",
+      "white-space": "nowrap",
+      "text-overflow": "ellipsis",
+      "pointer-events": null
+    },
+    ".map-tooltip-region": {
+      "width": null,
+      "max-width": "calc(var(--tooltip-max-width,240px) - 26px)",
+      "font-family": null,
+      "font-size": "12px",
+      "font-weight": null,
+      "line-height": "1.5",
+      "white-space": "nowrap",
+      "text-overflow": "ellipsis",
+      "pointer-events": null
+    },
+    ".map-tooltip-badges": {
+      "width": null,
+      "max-width": null,
+      "font-family": null,
+      "font-size": null,
+      "font-weight": null,
+      "line-height": null,
+      "white-space": null,
+      "text-overflow": null,
+      "pointer-events": null
+    },
+    ".map-tooltip-badge": {
+      "width": null,
+      "max-width": null,
+      "font-family": null,
+      "font-size": "10px",
+      "font-weight": null,
+      "line-height": "1.4",
+      "white-space": "nowrap",
+      "text-overflow": null,
+      "pointer-events": null
+    }
+  },
+  "pendingGeometryObservations": [
+    {
+      "id": "G1",
+      "status": "source_addressed_pending_parent_browser_retest",
+      "source": "src/components/MapCanvas.tsx:97–108",
+      "contract": "03_UIUX设计.md:204、206",
+      "finding": "修前失败由父QA实测确认。当前已按visibleBottom和anchor四边显式关闭；修后浏览器几何仍由父QA复测，本静态报告不代签。"
+    }
+  ],
+  "limits": [
+    "这是一份源码静态与现有包读回报告，未运行 build、浏览器或本机服务。",
+    "CSS 声明与 DOM 文本路径已核对；有效像素尺寸、边界夹紧、鼠标离开、触控和当前浏览器 computed style 由父 QA 实测。",
+    "G1修前失败由父QA报告，当前静态关闭路径已补齐；修后几何待父QA复测。G2旧版父QA实测通过，新observer仅增加保障。",
+    "136 神庙、15 高塔、205 条物资及 017 conflict 仅结构核对；没有重做 277 缓存核验、136 攻略语义或游戏实机核实。",
+    "哈希和逐字一致证明本地文件未变，不证明远端来源、事实准确性或正式发布。",
+    "只写 tests/r3/qa_static.py 与 r3/static-package-audit.json、.md；不覆盖 baseline、r1 或 r2。"
+  ],
+  "postFixSourceReview": {
+    "reviewedAt": "2026-10-11T03:54:37.936653+00:00",
+    "commands": [
+      "python3 tests/r3/qa_static.py",
+      "nl -ba src/components/MapCanvas.tsx | sed -n '88,176p'"
+    ],
+    "method": "当前输出内关闭/observer调用配对人工核对",
+    "checks": [
+      {
+        "name": "不可见 anchor 显式关闭",
+        "passed": true,
+        "source": "src/components/MapCanvas.tsx:97-109",
+        "finding": "地图零尺寸、无可见高度或anchor超出可见矩形时，closeTooltip后return；visibleBottom扣除实际sidebar顶边。"
+      },
+      {
+        "name": "仅打开时注册地图事件及 observer",
+        "passed": true,
+        "source": "src/components/MapCanvas.tsx:147-156",
+        "finding": "打开先清理/重算，重算关闭后不注册；仍打开才监听地图与地图/sidebar尺寸。"
+      },
+      {
+        "name": "关闭及移除统一配对清理",
+        "passed": true,
+        "source": "src/components/MapCanvas.tsx:142-157",
+        "finding": "同一cleanup负责map.off、observer.disconnect并清空引用；tooltipclose/remove均调用。"
+      }
+    ],
+    "staticOnly": true
+  },
+  "resolvedSourceObservations": [
+    {
+      "id": "G2",
+      "status": "source_safeguard_added_prior_browser_pass_reported_by_parent",
+      "source": "src/components/MapCanvas.tsx:140–157",
+      "contract": "03_UIUX设计.md:204、206",
+      "finding": "父QA报告旧版Chromium键盘展开面板会自然关闭提示，因此不记业务失败。当前新增打开期间map/sidebar ResizeObserver，close/remove统一断开，是低成本保障。父QA实际运行证据另存。"
+    }
+  ]
+}

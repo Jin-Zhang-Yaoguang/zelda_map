@@ -1,0 +1,239 @@
+{
+  "time": "2026-10-11T02:52:03.898Z",
+  "datasetVersion": "v0.1.0-20261011",
+  "browser": "149.0.7827.55",
+  "results": [
+    {
+      "name": "01-language-context",
+      "status": "pass",
+      "detail": {
+        "id": "Dungeon000",
+        "searchLanguages": 3,
+        "detailReset": true
+      }
+    },
+    {
+      "name": "02-safe-dom-all",
+      "status": "pass",
+      "detail": {
+        "previews": 408
+      }
+    },
+    {
+      "name": "06-import-rejections",
+      "status": "pass",
+      "detail": {
+        "rejected": [
+          "bad-json",
+          "bad-schema",
+          "bad-game",
+          "bad-types",
+          "unknown",
+          "too-large"
+        ],
+        "toastNonBlocking": true,
+        "toastClose": true
+      }
+    },
+    {
+      "name": "08-keyboard-clusters",
+      "status": "pass",
+      "detail": {
+        "clusters": 24,
+        "nearby": 2,
+        "dialogTrap": true
+      }
+    },
+    {
+      "name": "09-mobile-360",
+      "status": "pass",
+      "detail": {
+        "width": 360,
+        "panelHeight": 472.796875,
+        "collapsedHeight": 56,
+        "touch": true
+      }
+    },
+    {
+      "name": "09-mobile-390",
+      "status": "pass",
+      "detail": {
+        "width": 390,
+        "panelHeight": 472.796875,
+        "collapsedHeight": 56,
+        "touch": true
+      }
+    },
+    {
+      "name": "09-mobile-768",
+      "status": "pass",
+      "detail": {
+        "width": 768,
+        "panelHeight": 472.796875,
+        "collapsedHeight": 56,
+        "touch": true
+      }
+    },
+    {
+      "name": "13-detail-source-samples",
+      "status": "pass",
+      "detail": {
+        "sample": [
+          "Dungeon000",
+          "Dungeon038",
+          "Dungeon017",
+          "Dungeon044",
+          "Dungeon070",
+          "Dungeon078",
+          "Dungeon081",
+          "Dungeon082",
+          "Dungeon093",
+          "Dungeon107",
+          "Dungeon112",
+          "Dungeon120",
+          "Dungeon127",
+          "Dungeon134",
+          "Dungeon135"
+        ],
+        "localizedDetailViews": 45
+      }
+    },
+    {
+      "name": "14-map-projection-landmarks",
+      "status": "pass",
+      "detail": [
+        {
+          "id": "Dungeon018",
+          "region": "hebra",
+          "dx": 0.10386962890629547,
+          "dy": 0.46966613769529886
+        },
+        {
+          "id": "Dungeon008",
+          "region": "tabantha",
+          "dx": 0.44413533528643256,
+          "dy": 0.03632187499999873
+        },
+        {
+          "id": "Dungeon030",
+          "region": "gerudo",
+          "dx": 0.2058068033853715,
+          "dy": 0.4628374999999778
+        },
+        {
+          "id": "Dungeon001",
+          "region": "wasteland",
+          "dx": 0.3318128255208421,
+          "dy": 0.13302500000008877
+        },
+        {
+          "id": "Dungeon011",
+          "region": "woodland",
+          "dx": 0.1579311116536246,
+          "dy": 0.3004187499999489
+        },
+        {
+          "id": "Dungeon027",
+          "region": "central",
+          "dx": 0.05907629394528158,
+          "dy": 0.008771875000093132
+        },
+        {
+          "id": "Dungeon009",
+          "region": "great-plateau",
+          "dx": 0.3482561848959449,
+          "dy": 0.11811562499997308
+        },
+        {
+          "id": "Dungeon007",
+          "region": "dueling-peaks",
+          "dx": 0.05940632120768896,
+          "dy": 0.2832687499999338
+        },
+        {
+          "id": "Dungeon054",
+          "region": "lake",
+          "dx": 0.17029732259106822,
+          "dy": 0.11060312499989777
+        },
+        {
+          "id": "Dungeon000",
+          "region": "eldin",
+          "dx": 0.04835042317699845,
+          "dy": 0.2980726562500422
+        },
+        {
+          "id": "Dungeon013",
+          "region": "akkala",
+          "dx": 0.14313574218749636,
+          "dy": 0.020800000000008367
+        },
+        {
+          "id": "Dungeon005",
+          "region": "lanayru",
+          "dx": 0.34316023763017256,
+          "dy": 0.30086406249995434
+        },
+        {
+          "id": "Dungeon014",
+          "region": "hateno",
+          "dx": 0.536689371744842,
+          "dy": 0.5614296875000946
+        },
+        {
+          "id": "Dungeon006",
+          "region": "faron",
+          "dx": 0.2343259277342895,
+          "dy": 0.3179374999999709
+        },
+        {
+          "id": "Dungeon004",
+          "region": "ridgeland",
+          "dx": 0.16736417643232926,
+          "dy": 0.09032343750004657
+        },
+        {
+          "id": "Dungeon017",
+          "region": "dueling-peaks",
+          "dx": 0.6244819742837535,
+          "dy": 0.13894374999995307
+        },
+        {
+          "id": "Dungeon038",
+          "region": "great-plateau",
+          "dx": 0.6273637084962047,
+          "dy": 0.6340312499999072
+        },
+        {
+          "id": "Dungeon082",
+          "region": "hateno",
+          "dx": 0.16621972656230355,
+          "dy": 0.41286874999991596
+        },
+        {
+          "id": "Dungeon127",
+          "region": "tabantha",
+          "dx": 0.29513525390621,
+          "dy": 0.23068437500000982
+        },
+        {
+          "id": "Dungeon134",
+          "region": "wasteland",
+          "dx": 0.36758691406248545,
+          "dy": 0.03711874999999054
+        }
+      ]
+    },
+    {
+      "name": "15-source-conflict-localized",
+      "status": "pass",
+      "detail": {
+        "status": "conflict",
+        "displayLanguages": 3,
+        "outerHidden": true,
+        "foldedHidden": true
+      }
+    }
+  ],
+  "pageErrors": []
+}

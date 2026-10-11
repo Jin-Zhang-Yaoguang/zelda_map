@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "status": "accepted",
+  "recorded_fingerprint": "7500957122b6d533de64c165a18f26793455fb224956ec8bb3f06932caf946ee",
+  "current_fingerprint": "7500957122b6d533de64c165a18f26793455fb224956ec8bb3f06932caf946ee",
+  "changed": {
+    "documents": [],
+    "code": []
+  },
+  "git": {
+    "is_git": true,
+    "git_root": "/Users/a1-6/Desktop/PycharmProjects/zelda_map",
+    "base_commit": null,
+    "dirty": true
+  }
+}

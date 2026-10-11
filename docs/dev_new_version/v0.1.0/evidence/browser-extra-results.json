@@ -1,0 +1,37 @@
+{
+  "time": "2026-10-11T02:55:17.627Z",
+  "datasetVersion": "v0.1.0-20261011",
+  "browser": "149.0.7827.55",
+  "results": [
+    {
+      "name": "16-invalid-data-recovery",
+      "status": "pass",
+      "detail": {
+        "cases": [
+          "invalid-json",
+          "invalid-structure"
+        ],
+        "retryRecovered": true
+      }
+    },
+    {
+      "name": "17-invalid-route-history",
+      "status": "pass",
+      "detail": {
+        "invalidHashes": 3,
+        "backForward": true,
+        "queryPreserved": true
+      }
+    },
+    {
+      "name": "18-corrupt-storage-repair",
+      "status": "pass",
+      "detail": {
+        "rawBackupPreserved": true,
+        "explicitRepair": true,
+        "refreshReadsRepairedState": true
+      }
+    }
+  ],
+  "pageErrors": []
+}

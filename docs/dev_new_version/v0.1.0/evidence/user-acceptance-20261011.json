@@ -1,0 +1,11 @@
+{
+  "source": "user",
+  "message": "这个 hover 效果可以了，v0.1.0 验收通过，继续收尾。",
+  "received_at": "2026-10-11T13:02:01+08:00",
+  "decision": "accepted",
+  "authorized_actions": [
+    "记录 v0.1.0 验收并完成本机版本收尾"
+  ],
+  "target": "v0.1.0 r3 本机预览 http://127.0.0.1:5173/",
+  "confirmation_context": "来源为当前会话真人用户消息。主代理已核对原话；未提供可导出的消息ID。received_at为主代理读取并记录本次确认的时间。范围为本机验收与收尾。"
+}

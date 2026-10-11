@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-11T03:15:32.224Z",
+  "origin": "http://127.0.0.1:5173/",
+  "datasetHash": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde",
+  "dataVersion": "v0.1.0-20261011-r2",
+  "sourceHashes": {
+    "src/App.tsx": "c8c8b615e931c3193e4afb8b546fe8cfcb70137dbdf3ce143cbd1c394acb036b",
+    "src/components/MapCanvas.tsx": "8654db637fc5fecd7c07b80d419dbe969cb69f8521779e93d2d0318185a58d09",
+    "src/lib/map.ts": "31942b26a812feb44e208fc0e2d00aab44b7a34abca40784c6d80cdb6926cabd",
+    "src/lib/data.ts": "caa9d120c73c527adc930322cb11e96c3abd16cf01a23fb04b150092d90f0c66",
+    "src/styles.css": "792a0ed6e8db5383fdc5c83f6d3752d922e9c1c7186e1048898c966d13104e45"
+  },
+  "playwright": "1.62.1",
+  "browser": "149.0.7827.55",
+  "results": [
+    {
+      "name": "15-mobile-touch-pinch",
+      "status": "pass",
+      "detail": {
+        "before": -0.5,
+        "far": {
+          "zoom": -1.7000000000000002,
+          "layer": "towers",
+          "towers": 15,
+          "shrines": 0
+        },
+        "after": {
+          "zoom": -0.4,
+          "layer": "shrines",
+          "towers": 0,
+          "shrines": 136
+        },
+        "completedIds": [],
+        "input": "CDP synthetic touch pinch; no map setter"
+      }
+    }
+  ],
+  "pageErrors": []
+}

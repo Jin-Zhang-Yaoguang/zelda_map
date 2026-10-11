@@ -1,0 +1,3490 @@
+[
+  {
+    "id": "Dungeon068",
+    "sourceId": "wiki-Dungeon068",
+    "safe": {
+      "summary": {
+        "zh": "位于海利亚湖中央岛屿的岩石凹地。",
+        "en": "In a rocky hollow on Hylia Island.",
+        "ja": "ハイリア島の岩に囲まれたくぼみにある。"
+      },
+      "prerequisite": {
+        "zh": "可从湖中岛屿寻找入口。",
+        "en": "Reach the island entrance.",
+        "ja": "湖の島から入口へ向かう。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "石块沿导轨升起，试炼围绕爆破天花板展开。",
+        "en": "A rail-mounted cube launches toward a cracked ceiling.",
+        "ja": "レール上の石が割れた天井へ跳ね上がる。"
+      },
+      "prerequisites": [
+        {
+          "zh": "入口藏在岛中央的干燥凹地。",
+          "en": "Find the dry hollow at the island center.",
+          "ja": "島中央の乾いたくぼみに入口がある。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "方形炸弹放石块顶，圆形炸弹放下方漏斗；先引爆圆弹，再引爆升起的方弹。",
+          "en": "Put a square bomb atop the cube and a round bomb below. Detonate the round bomb first, then the square bomb while airborne.",
+          "ja": "石の上に四角、下の漏斗に丸いバクダンを置き、丸、四角の順に起爆する。"
+        },
+        {
+          "zh": "天花板破开后站上石块，再用下方炸弹把自己送到上层。",
+          "en": "After breaking the ceiling, ride the cube upward using another bomb below.",
+          "ja": "天井を壊したら石に乗り、下のバクダンで上階へ飛ぶ。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon069",
+    "sourceId": "wiki-Dungeon069",
+    "safe": {
+      "summary": {
+        "zh": "位于格鲁德高地、奥赛平原西侧。",
+        "en": "In Gerudo Highlands, west of Oseira Plains.",
+        "ja": "オーセ平原の西、ゲルド高地にある。"
+      },
+      "prerequisite": {
+        "zh": "需攀登西侧山坡。",
+        "en": "Climb the western slopes.",
+        "ja": "西側の斜面を登る。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "移动平台上的激光可反复触发水晶，改变阶梯。",
+        "en": "A moving laser repeatedly toggles crystal-controlled steps.",
+        "ja": "動くレーザーで水晶を切り替え、段差を変える。"
+      },
+      "prerequisites": [
+        {
+          "zh": "从平原西坡上行，在废弃物堆附近找入口。",
+          "en": "Climb west from the plains; look among debris piles.",
+          "ja": "平原西の斜面を登り、廃材の山の間で入口を探す。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "静止激光发射器并敲下底座，将它放到移动平台上，朝向水晶。",
+          "en": "Freeze and knock down the emitter; place it on the moving platform facing the crystal.",
+          "ja": "発射器をビタロックで止めて台から落とし、動く床に水晶へ向けて置く。"
+        },
+        {
+          "zh": "趁平台交替升降，沿侧边阶梯逐段登到导师处。",
+          "en": "Climb the side steps as the alternating platforms align.",
+          "ja": "足場の切り替わりに合わせ、側面の段を登る。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon070",
+    "sourceId": "wiki-Dungeon070",
+    "safe": {
+      "summary": {
+        "zh": "位于卓拉河畔、达尔布尔桥西侧。",
+        "en": "Beside Zora River, west of Inogo Bridge.",
+        "ja": "ゾーラ川沿い、イノゴ橋の西にある。"
+      },
+      "prerequisite": {
+        "zh": "可从河岸抵达。",
+        "en": "Approach from the riverbank.",
+        "ja": "川岸から向かえる。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "初阶战斗试炼，对手使用守护者剑与盾。",
+        "en": "A minor combat trial against a sword-and-shield scout.",
+        "ja": "剣と盾を持つ小型ガーディアンとの初級試練。"
+      },
+      "prerequisites": [
+        {
+          "zh": "入口在桥西侧的北岸；托尔伏在相关主线开始前会停留附近。",
+          "en": "The entrance is on the north bank; Torfeau appears nearby before the Zora quest.",
+          "ja": "入口は橋の西の北岸。関連メインチャレンジ開始前はトルフォーが近くにいる。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "走近中央唤出守护者，防住剑击后利用空隙攻击。",
+          "en": "Approach the center; defend against sword swings and counter during openings.",
+          "ja": "中央で敵を出し、剣の攻撃を防いで隙に反撃する。"
+        },
+        {
+          "zh": "击败守护者Ⅱ，穿过开启的栅门到达导师。",
+          "en": "Defeat the Scout II and pass the opened gate to the monk.",
+          "ja": "小型ガーディアンを倒し、開いた柵を通って導師へ進む。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon071",
+    "sourceId": "wiki-Dungeon071",
+    "safe": {
+      "summary": {
+        "zh": "位于思古兰特树海与芬拉斯树海交界。",
+        "en": "At the border of Pagos Woods and Finra Woods.",
+        "ja": "樹海スグラントと樹海フィンラスの境付近にある。"
+      },
+      "prerequisite": {
+        "zh": "可从树林外围寻找入口。",
+        "en": "Find the entrance near the woods.",
+        "ja": "森の外周で入口を探す。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "初阶战斗试炼，对手持剑与盾。",
+        "en": "A minor trial against a sword-and-shield scout.",
+        "ja": "剣と盾を持つ小型ガーディアンの初級試練。"
+      },
+      "prerequisites": [
+        {
+          "zh": "入口在费罗尼草原与西哈特尔的两片树林交界。",
+          "en": "The entrance lies where the Faron and West Necluda woods meet.",
+          "ja": "フィローネ草原と西ハテールの森が接する地点に入口がある。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "接近中央使守护者Ⅱ升起，避开剑击后反击。",
+          "en": "Raise the Scout II at the center; evade sword attacks and counter.",
+          "ja": "中央の小型ガーディアンを起こし、剣を避けて反撃する。"
+        },
+        {
+          "zh": "打倒对手后穿过栅门，前往导师的祭坛。",
+          "en": "After defeating it, pass the gate and approach the monk.",
+          "ja": "倒したら柵を通り、導師の祭壇へ進む。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon072",
+    "sourceId": "wiki-Dungeon072",
+    "safe": {
+      "summary": {
+        "zh": "位于德谷多吊桥下方。",
+        "en": "Beneath Digdogg Suspension Bridge.",
+        "ja": "デグドの吊り橋の下にある。"
+      },
+      "prerequisite": {
+        "zh": "需下到桥下区域。",
+        "en": "Descend below the bridge.",
+        "ja": "橋の下へ降りる。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "桥下神庙是持枪守护者的初阶战斗试炼。",
+        "en": "The bridge shrine contains a spear-wielding minor trial.",
+        "ja": "槍を持つ小型ガーディアンとの初級試練。"
+      },
+      "prerequisites": [
+        {
+          "zh": "从海拉鲁平原前往悬桥下的入口。",
+          "en": "Approach the entrance below the bridge in Hyrule Field.",
+          "ja": "ハイラル平原の吊り橋の下から入口へ向かう。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "接近场地中央，守护者Ⅱ出现；留意长枪的正面刺击。",
+          "en": "Approach the center to summon Scout II; watch its forward spear thrusts.",
+          "ja": "中央で敵を出し、槍の正面突きを避ける。"
+        },
+        {
+          "zh": "击败它便能打开后方栅门，进入导师房间。",
+          "en": "Defeat it to open the rear gate and reach the monk.",
+          "ja": "敵を倒して奥の柵を開き、導師の部屋へ進む。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon073",
+    "sourceId": "wiki-Dungeon073",
+    "safe": {
+      "summary": {
+        "zh": "位于海拉鲁平原的碎石场遗迹。",
+        "en": "Among the rocky Quarry Ruins in Hyrule Field.",
+        "ja": "ハイラル平原の採石場跡の岩場にある。"
+      },
+      "prerequisite": {
+        "zh": "可从遗迹地面抵达。",
+        "en": "Approach through the ruins.",
+        "ja": "遺跡の地上から向かえる。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "初阶战斗试炼，对手为持枪守护者Ⅱ。",
+        "en": "A minor trial against a spear-wielding Scout II.",
+        "ja": "槍を持つ小型ガーディアンとの初級試練。"
+      },
+      "prerequisites": [
+        {
+          "zh": "在碎石场遗迹的岩石之间寻找入口。",
+          "en": "Look for the entrance among the Quarry Ruins outcrops.",
+          "ja": "採石場跡の岩の間で入口を探す。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "靠近中央启动战斗，侧移躲开长枪攻击再反击。",
+          "en": "Start the central encounter; evade spear attacks sideways and counter.",
+          "ja": "中央で戦闘を始め、槍を横に避けて反撃する。"
+        },
+        {
+          "zh": "打倒对手后进入后方栅门，走到导师处。",
+          "en": "Defeat the scout, pass the rear gate, and reach the monk.",
+          "ja": "敵を倒したら奥の柵を通って導師へ向かう。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon074",
+    "sourceId": "wiki-Dungeon074",
+    "safe": {
+      "summary": {
+        "zh": "位于海拉鲁城堡西侧岛屿的洞穴内。",
+        "en": "Inside a cave on Hyrule Castle West island.",
+        "ja": "ハイラル城西の島の洞窟内にある。"
+      },
+      "prerequisite": {
+        "zh": "入口有环境障碍。",
+        "en": "The entrance has an environmental barrier.",
+        "ja": "入口に障害物がある。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "隐藏洞穴内设持斧守护者的初阶试炼。",
+        "en": "The hidden cave contains a minor axe-wielding combat trial.",
+        "ja": "洞窟内は斧を持つ小型ガーディアンの初級試練。"
+      },
+      "prerequisites": [
+        {
+          "zh": "洞口被荆棘挡住，先用火烧开。",
+          "en": "Burn the thorns blocking the cave entrance.",
+          "ja": "洞窟を塞ぐイバラを火で焼く。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "进入中央房间，躲开斧击并攻击守护者Ⅱ。",
+          "en": "Enter the arena; evade axe strikes and attack the Scout II.",
+          "ja": "中央の部屋で斧を避け、小型ガーディアンに反撃する。"
+        },
+        {
+          "zh": "击败对手后通过后方栅门，走到导师处。",
+          "en": "Defeat it, pass the rear gate, and approach the monk.",
+          "ja": "倒したら奥の柵を通り、導師へ進む。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon075",
+    "sourceId": "wiki-Dungeon075",
+    "safe": {
+      "summary": {
+        "zh": "位于阿卡莱湖上方的南侧悬崖。",
+        "en": "On a cliff overlooking Lake Akkala, south of Tarrey Town.",
+        "ja": "アッカレ湖を見下ろす、イチカラ村南の崖にある。"
+      },
+      "prerequisite": {
+        "zh": "需抵达崖上入口。",
+        "en": "Reach the cliff entrance.",
+        "ja": "崖の上の入口へ向かう。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "初阶试炼，对手持斧，场地有可破坏石柱。",
+        "en": "A minor axe trial with destructible stone pillars.",
+        "ja": "斧を持つ敵と壊せる石柱がある初級試練。"
+      },
+      "prerequisites": [
+        {
+          "zh": "入口位于一始村南方、阿卡莱湖旁的高地。",
+          "en": "Find the entrance south of Tarrey Town above Lake Akkala.",
+          "ja": "入口はイチカラ村南、アッカレ湖沿いの高台にある。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "启动中央战斗；敌人旋转冲锋时躲到石柱后，让它撞柱。",
+          "en": "Start the fight; place a pillar between you and its spinning charge.",
+          "ja": "戦闘を始め、回転突進では石柱を敵との間に挟む。"
+        },
+        {
+          "zh": "击败守护者Ⅱ后从开启的栅门前往导师。",
+          "en": "Defeat Scout II and enter the opened gate to the monk.",
+          "ja": "小型ガーディアンを倒し、開いた柵から導師へ進む。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon076",
+    "sourceId": "wiki-Dungeon076",
+    "safe": {
+      "summary": {
+        "zh": "位于格鲁德之塔附近的高地。",
+        "en": "In the highlands beside Gerudo Tower.",
+        "ja": "ゲルドの塔付近の高地にある。"
+      },
+      "prerequisite": {
+        "zh": "需完成入口相关神庙挑战。",
+        "en": "Requires its entrance shrine challenge.",
+        "ja": "出現に関わる祠チャレンジが必要。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "入口与塔影有关，庙内是中阶战斗试炼。",
+        "en": "Its entrance follows the tower shadow; inside is a modest combat trial.",
+        "ja": "塔の影に関わる入口と、中位の戦闘試練がある。"
+      },
+      "prerequisites": [
+        {
+          "zh": "下午约三点，在塔影覆盖的台座上向太阳射箭；塔顶卡西瓦提供线索。",
+          "en": "Around 3 p.m., stand on the shadowed pedestal and shoot the sun; Kass gives the clue.",
+          "ja": "午後3時頃、塔の影が重なる台座から太陽を射る。塔上のカッシーワが手掛かりを歌う。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "神庙出现后进入中央房间，与守护者Ⅲ交战。",
+          "en": "Enter the revealed shrine and fight Scout III in the central arena.",
+          "ja": "現れた祠の中央で小型ガーディアンと戦う。"
+        },
+        {
+          "zh": "留意剑与枪的攻击，击败对手后穿过后门。",
+          "en": "Watch its sword and spear; defeat it and pass the rear gate.",
+          "ja": "剣と槍に注意して倒し、奥の門を通る。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon077",
+    "sourceId": "wiki-Dungeon077",
+    "safe": {
+      "summary": {
+        "zh": "藏于阿卡莱高原乌尔拉峡谷。",
+        "en": "Hidden in Ulria Grotto, Akkala Highlands.",
+        "ja": "アッカレ高原のウルラ峡谷に隠れている。"
+      },
+      "prerequisite": {
+        "zh": "入口有岩石障碍。",
+        "en": "Rocks obstruct the entrance.",
+        "ja": "岩が入口を塞いでいる。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "岩壁后的洞穴设有中阶战斗试炼。",
+        "en": "A modest combat trial lies behind a cracked rock wall.",
+        "ja": "割れた岩壁の奥に中位の戦闘試練がある。"
+      },
+      "prerequisites": [
+        {
+          "zh": "从上方滑翔入洞窟，在空中用炸弹箭击碎封口岩石。",
+          "en": "Glide down into the grotto and shoot the cracked rocks with bomb arrows.",
+          "ja": "上から滑空し、空中でバクダン矢を割れた岩へ放つ。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "进入场地唤出持斧与剑的守护者Ⅲ，避开连击再反击。",
+          "en": "Summon Scout III; evade its axe-and-sword attacks before countering.",
+          "ja": "斧と剣を持つ敵を出し、連撃を避けて反撃する。"
+        },
+        {
+          "zh": "击败对手后穿过开启的栅门到导师处。",
+          "en": "Defeat it and pass the opened gate to the monk.",
+          "ja": "倒したら開いた柵を通り、導師へ向かう。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon078",
+    "sourceId": "wiki-Dungeon078",
+    "safe": {
+      "summary": {
+        "zh": "位于瓦舒阿山丘一带。",
+        "en": "In the Washa’s Bluff area.",
+        "ja": "ワシュアの丘付近にある。"
+      },
+      "prerequisite": {
+        "zh": "入口受特殊时机条件限制。",
+        "en": "A special timing condition unlocks the entrance.",
+        "ja": "入口の出現に特定の時機条件がある。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "血月入口试炼后，还要完成中阶战斗。",
+        "en": "A Blood Moon entrance challenge precedes a modest combat trial.",
+        "ja": "赤い月の入口試練の後に中位の戦闘がある。"
+      },
+      "prerequisites": [
+        {
+          "zh": "听取树上卡西瓦的线索；血月之夜卸下全部防具，站上附近台座。",
+          "en": "Kass gives the clue; stand on the pedestal without armor on a Blood Moon night.",
+          "ja": "木の上のカッシーワが手掛かりを歌う。赤い月の夜に防具を全て外して台座に立つ。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "满足台座条件，神庙升起后进入。",
+          "en": "Meet the pedestal condition, then enter the revealed shrine.",
+          "ja": "台座の条件を満たし、現れた祠に入る。"
+        },
+        {
+          "zh": "击败持剑与盾的守护者Ⅲ，再通过后方栅门。",
+          "en": "Defeat the sword-and-shield Scout III and pass the rear gate.",
+          "ja": "剣と盾を持つ敵を倒し、奥の柵を通る。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon079",
+    "sourceId": "wiki-Dungeon079",
+    "safe": {
+      "summary": {
+        "zh": "位于海拉鲁平原东部的更格尔山丘。",
+        "en": "In the eastern Crenel Hills of Hyrule Field.",
+        "ja": "ハイラル平原東部のゴングルの丘にある。"
+      },
+      "prerequisite": {
+        "zh": "可从丘陵寻找入口。",
+        "en": "Approach through the hills.",
+        "ja": "丘陵から入口を探す。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "大树桩内的中阶试炼，对手持斧与枪。",
+        "en": "A stump-hidden modest trial against an axe-and-spear scout.",
+        "ja": "大きな切り株内で斧と槍の敵と戦う中位試練。"
+      },
+      "prerequisites": [
+        {
+          "zh": "入口在丘陵上的巨大中空树桩内。",
+          "en": "Find the entrance inside the large hollow tree stump.",
+          "ja": "丘陵の大きな中空の切り株に入口がある。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "进入中央场地，避开守护者Ⅲ的斧击与枪刺。",
+          "en": "Enter the central arena; evade Scout III’s axe swings and spear thrusts.",
+          "ja": "中央で敵を出し、斧と槍の攻撃を避ける。"
+        },
+        {
+          "zh": "打倒对手后走过栅门，前往导师处。",
+          "en": "Defeat it and cross the opened gate to the monk.",
+          "ja": "敵を倒したら柵を通り、導師へ進む。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon080",
+    "sourceId": "wiki-Dungeon080",
+    "safe": {
+      "summary": {
+        "zh": "位于费罗尼草原的帕发海岸。",
+        "en": "On Puffer Beach in the Faron Grasslands.",
+        "ja": "フィローネ草原のパファー海岸にある。"
+      },
+      "prerequisite": {
+        "zh": "需完成相关神庙挑战。",
+        "en": "Requires its shrine challenge.",
+        "ja": "関連する祠チャレンジが必要。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "拍摄入口试炼后，庙内是中阶战斗。",
+        "en": "A photography entrance challenge precedes a modest combat trial.",
+        "ja": "写真の入口試練の後に中位の戦闘がある。"
+      },
+      "prerequisites": [
+        {
+          "zh": "需有相机；向柳奈展示飞行、步行及小型守护者三种照片。",
+          "en": "Use the Camera to show Loone a Skywatcher, Stalker, and Scout photo.",
+          "ja": "ウツシエで飛行型、歩行型、小型ガーディアンの写真をリュネに見せる。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "获准取走球后，将它放入台座凹槽，使神庙出现。",
+          "en": "Take the released orb and place it in the pedestal socket.",
+          "ja": "球を譲ってもらい、台座の穴に入れて祠を出現させる。"
+        },
+        {
+          "zh": "进入后击败持枪与盾的守护者Ⅲ，通过后方栅门。",
+          "en": "Defeat the spear-and-shield Scout III and pass the rear gate.",
+          "ja": "槍と盾を持つ敵を倒し、奥の柵を通る。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon081",
+    "sourceId": "wiki-Dungeon081",
+    "safe": {
+      "summary": {
+        "zh": "位于东哈特尔乌洛克海角顶部。",
+        "en": "Atop Cape Cales in East Necluda.",
+        "ja": "東ハテールのウーロコ岬の上にある。"
+      },
+      "prerequisite": {
+        "zh": "需抵达海岬高处。",
+        "en": "Reach the cape’s summit.",
+        "ja": "岬の高所まで向かう。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "中阶战斗试炼，对手持斧与盾。",
+        "en": "A modest trial against an axe-and-shield scout.",
+        "ja": "斧と盾を持つ敵との中位試練。"
+      },
+      "prerequisites": [
+        {
+          "zh": "入口俯瞰哈特尔海，在海岬顶部寻找。",
+          "en": "Look above the Necluda Sea at the top of the cape.",
+          "ja": "ハテール海を見下ろす岬の上で入口を探す。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "接近中央唤出守护者Ⅲ，避开斧击并在空隙攻击。",
+          "en": "Summon Scout III; evade axe strikes and attack during openings.",
+          "ja": "中央で敵を起こし、斧を避けて隙に攻撃する。"
+        },
+        {
+          "zh": "击败对手后走过升起的栅门，到达导师处。",
+          "en": "Defeat it and pass the raised gate to the monk.",
+          "ja": "倒したら上がった柵を通り、導師へ進む。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon082",
+    "sourceId": "wiki-Dungeon082",
+    "safe": {
+      "summary": {
+        "zh": "位于哈特尔海的哈特诺小岛。",
+        "en": "On Tenoko Island in the Necluda Sea.",
+        "ja": "ハテール海のハテノコ島にある。"
+      },
+      "prerequisite": {
+        "zh": "需前往海上岛屿。",
+        "en": "Travel to the offshore island.",
+        "ja": "沖の島へ向かう。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "高阶战斗试炼，对手同时持斧、剑与枪。",
+        "en": "A major trial against a scout wielding axe, sword, and spear.",
+        "ja": "斧、剣、槍を持つ敵との上位戦闘試練。"
+      },
+      "prerequisites": [
+        {
+          "zh": "入口在岛上，进入前准备足够耐久的战斗装备。",
+          "en": "The entrance is on the island; bring durable combat equipment.",
+          "ja": "入口は島内。十分な耐久の戦闘装備を用意する。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "走近中央，与守护者Ⅳ交战，按当前武器躲避攻击。",
+          "en": "Fight Scout IV at the center; adjust dodges to its current weapon.",
+          "ja": "中央で敵と戦い、使う武器に応じて攻撃を避ける。"
+        },
+        {
+          "zh": "击败守护者后通过开启的栅门，接近导师。",
+          "en": "Defeat the scout and pass the opened gate to the monk.",
+          "ja": "倒したら開いた柵を通り、導師へ向かう。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon083",
+    "sourceId": "wiki-Dungeon083",
+    "safe": {
+      "summary": {
+        "zh": "位于塔邦挞边境的古代石柱群。",
+        "en": "Among the Ancient Columns of Tabantha Frontier.",
+        "ja": "タバンタ辺境の古代石柱群にある。"
+      },
+      "prerequisite": {
+        "zh": "可从遗迹区域抵达。",
+        "en": "Approach through the ruins.",
+        "ja": "遺跡から向かえる。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "高阶试炼，矩形场地布有多排可破坏石柱。",
+        "en": "A major trial in a rectangular arena with rows of breakable pillars.",
+        "ja": "壊せる石柱が並ぶ長方形の上位試練。"
+      },
+      "prerequisites": [
+        {
+          "zh": "入口在古代石柱群之间，战斗装备需能应付守护者Ⅳ。",
+          "en": "Find the entrance among the columns; prepare for Scout IV.",
+          "ja": "石柱群の間で入口を探し、強い小型ガーディアンとの戦闘に備える。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "进入场地，利用柱间距离躲避持剑、斧与盾的对手。",
+          "en": "Enter the arena; use spacing between pillars against its sword, axe, and shield.",
+          "ja": "場内の柱間の距離を使い、剣、斧、盾を持つ敵の攻撃を避ける。"
+        },
+        {
+          "zh": "打倒对手后穿过后方栅门到导师处。",
+          "en": "Defeat it and pass the rear gate to the monk.",
+          "ja": "倒したら奥の柵を通り、導師へ進む。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon084",
+    "sourceId": "wiki-Dungeon084",
+    "safe": {
+      "summary": {
+        "zh": "位于阿卡莱高原的力量之泉后方。",
+        "en": "Behind the Spring of Power in Akkala Highlands.",
+        "ja": "アッカレ高原の力の泉の奥にある。"
+      },
+      "prerequisite": {
+        "zh": "需完成泉水相关入口试炼。",
+        "en": "Requires the spring’s entrance challenge.",
+        "ja": "泉に関わる入口の試練が必要。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "泉后入口通向浅水中的高阶战斗试炼。",
+        "en": "The spring entrance leads to a major trial in shallow water.",
+        "ja": "泉の奥で浅い水の上位戦闘試練に挑む。"
+      },
+      "prerequisites": [
+        {
+          "zh": "将奥尔龙的鳞片献给泉水；东阿卡莱驿站的诺波坦提供线索。",
+          "en": "Offer Dinraal’s Scale to the spring; Nobo at East Akkala Stable gives the clue.",
+          "ja": "オルドラのウロコを泉に捧げる。ヒガッカレ馬宿のノボタンが手掛かりを教える。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "进入后可用制冰建立阻挡，也可利用水与电对付守护者Ⅳ。",
+          "en": "Use Cryonis barriers or electricity in the water against Scout IV.",
+          "ja": "アイスメーカーの障害物や水への電気で敵に対処する。"
+        },
+        {
+          "zh": "击败持剑、枪与盾的对手，通过后方栅门。",
+          "en": "Defeat its sword, spear, and shield loadout, then pass the rear gate.",
+          "ja": "剣、槍、盾を持つ敵を倒し、奥の柵を通る。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon085",
+    "sourceId": "wiki-Dungeon085",
+    "safe": {
+      "summary": {
+        "zh": "位于格鲁德高地的贝利尔雪原。",
+        "en": "On Risoka Snowfield in Gerudo Highlands.",
+        "ja": "ゲルド高地のベリル雪原にある。"
+      },
+      "prerequisite": {
+        "zh": "需适应雪原环境。",
+        "en": "Prepare for the snowfield environment.",
+        "ja": "雪原の環境に備える。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "高阶战斗试炼，场地覆盖浅水。",
+        "en": "A major combat trial with a shallow-water floor.",
+        "ja": "浅い水が広がる上位の戦闘試練。"
+      },
+      "prerequisites": [
+        {
+          "zh": "从雪原进入神庙，准备应付持斧、枪与盾的守护者Ⅳ。",
+          "en": "Enter from the snowfield; prepare for Scout IV’s axe, spear, and shield.",
+          "ja": "雪原から入り、斧、槍、盾を持つ敵との戦闘に備える。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "接近中央启动战斗，避开近身连击并反击。",
+          "en": "Trigger the central fight; evade close attacks and counter.",
+          "ja": "中央で戦闘を始め、近距離の攻撃を避けて反撃する。"
+        },
+        {
+          "zh": "击败对手后通过升起的栅门，走到导师处。",
+          "en": "Defeat it and pass the raised gate to the monk.",
+          "ja": "倒したら上がった柵を通り、導師へ進む。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon086",
+    "sourceId": "wiki-Dungeon086",
+    "safe": {
+      "summary": {
+        "zh": "位于海布拉山山顶下方。",
+        "en": "Below Hebra Peak in the Hebra Mountains.",
+        "ja": "ヘブラ山脈の山頂の下にある。"
+      },
+      "prerequisite": {
+        "zh": "需克服冰雪环境障碍。",
+        "en": "An icy environmental barrier surrounds the entrance.",
+        "ja": "入口周辺の氷雪の障害に対処する。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "浅水战斗场地可制冰，对手为守护者Ⅳ。",
+        "en": "A water-covered major trial allows Cryonis cover against Scout IV.",
+        "ja": "水の床で氷柱を作れる上位戦闘試練。"
+      },
+      "prerequisites": [
+        {
+          "zh": "融化入口周围的大冰块，或越过它们进入。",
+          "en": "Melt the large ice blocks around the entrance, or climb over them.",
+          "ja": "入口を囲む大きな氷を溶かすか、乗り越えて入る。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "靠近中央启动战斗，用制冰块阻挡对手的接近。",
+          "en": "Start the central fight and create ice pillars to block the scout.",
+          "ja": "中央で戦闘を始め、氷柱で敵の接近を遮る。"
+        },
+        {
+          "zh": "避开斧、枪、剑的攻击，击败后从栅门前往导师。",
+          "en": "Evade its axe, spear, and sword; defeat it and pass the gate.",
+          "ja": "斧、槍、剣を避けて倒し、柵から導師へ進む。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon087",
+    "sourceId": "wiki-Dungeon087",
+    "safe": {
+      "summary": {
+        "zh": "位于海布拉山脉比隆雪原下方。",
+        "en": "Below Biron Snowshelf in the Hebra Mountains.",
+        "ja": "ヘブラ山脈のビロン雪原の下にある。"
+      },
+      "prerequisite": {
+        "zh": "需探索山下入口。",
+        "en": "Explore the entrance beneath the mountain.",
+        "ja": "山の下の入口を探す。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "隐蔽洞穴内是带可移动金属块的高阶战斗试炼。",
+        "en": "A hidden cave contains a major trial with movable metal blocks.",
+        "ja": "隠れた洞窟内に金属ブロックを使える上位試練がある。"
+      },
+      "prerequisites": [
+        {
+          "zh": "可从夏利巴山山顶杉树向西北滑翔，找到雪原下洞穴；桃虹的故事提供线索。",
+          "en": "Glide northwest from Talonto Peak’s cedar toward the cave; Molli’s story gives the clue.",
+          "ja": "シャリバ岳の杉から北西へ滑空し、雪原下の洞窟を探す。モモの話が手掛かり。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "进入战斗场地，用磁力拔起地面金属块挡住守护者Ⅳ。",
+          "en": "Use Magnesis to lift floor blocks as cover against Scout IV.",
+          "ja": "床の金属ブロックをマグネキャッチで引き上げ、敵を遮る。"
+        },
+        {
+          "zh": "击败持斧、剑与枪的对手后，穿过后方栅门。",
+          "en": "Defeat its axe, sword, and spear loadout and pass the rear gate.",
+          "ja": "斧、剣、槍を持つ敵を倒し、奥の柵を通る。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon088",
+    "sourceId": "wiki-Dungeon088",
+    "safe": {
+      "summary": {
+        "zh": "位于海布拉山脉西北角的冰冻山麓。",
+        "en": "At Icefall Foothills in northwestern Hebra.",
+        "ja": "ヘブラ北西の氷結の山麓にある。"
+      },
+      "prerequisite": {
+        "zh": "需前往寒冷山麓。",
+        "en": "Travel to the cold foothills.",
+        "ja": "寒い山麓へ向かう。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "高阶战斗场地没有普通石柱，可用金属块防守。",
+        "en": "A major combat arena offers movable metal blocks for cover.",
+        "ja": "金属ブロックで防御できる上位戦闘試練。"
+      },
+      "prerequisites": [
+        {
+          "zh": "在山脉西北角找到入口，准备足够战斗装备。",
+          "en": "Find the northwestern entrance and bring sufficient combat equipment.",
+          "ja": "山脈北西の入口を探し、十分な戦闘装備を用意する。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "启动中央战斗，用磁力把地面金属块抬起，作为掩护。",
+          "en": "Start the fight; lift floor blocks with Magnesis for cover.",
+          "ja": "戦闘を始め、床の金属ブロックを引き上げて遮蔽物にする。"
+        },
+        {
+          "zh": "击败持斧、枪与剑的守护者Ⅳ，再通过后方栅门。",
+          "en": "Defeat Scout IV’s axe, spear, and sword and pass the rear gate.",
+          "ja": "斧、槍、剣を持つ敵を倒し、奥の柵を通る。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon089",
+    "sourceId": "wiki-Dungeon089",
+    "safe": {
+      "summary": {
+        "zh": "位于海拉鲁城堡的船坞内。",
+        "en": "Inside the docks of Hyrule Castle.",
+        "ja": "ハイラル城の船着き場にある。"
+      },
+      "prerequisite": {
+        "zh": "入口需要环境互动。",
+        "en": "The entrance requires an environmental interaction.",
+        "ja": "入口を出す環境操作が必要。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "船坞里的隐藏神庙设有无石柱的高阶试炼。",
+        "en": "The hidden dock shrine holds a pillarless major combat trial.",
+        "ja": "船着き場の隠れた祠で、石柱のない上位試練に挑む。"
+      },
+      "prerequisites": [
+        {
+          "zh": "点燃小火把环中央的大火把，使神庙出现。",
+          "en": "Light the large torch at the center of the smaller torch ring.",
+          "ja": "小さな松明の輪の中央にある大きな松明を点火する。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "战斗时用磁力拔起地面五个金属块之一，遮挡守护者Ⅳ。",
+          "en": "Use Magnesis to raise one of five floor blocks as cover against Scout IV.",
+          "ja": "床の5個の金属ブロックを引き上げ、敵を遮る。"
+        },
+        {
+          "zh": "击败持斧、剑与枪的对手后，穿过后方栅门。",
+          "en": "Defeat its axe, sword, and spear attacks and pass the rear gate.",
+          "ja": "斧、剣、槍を持つ敵を倒し、奥の柵を通る。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon090",
+    "sourceId": "wiki-Dungeon090",
+    "safe": {
+      "summary": {
+        "zh": "位于摩尔迦娜山的雪地。",
+        "en": "On snowy Mount Granajh.",
+        "ja": "雪のモルガナ山にある。"
+      },
+      "prerequisite": {
+        "zh": "入口有时机与环境条件。",
+        "en": "The entrance has timing and environmental conditions.",
+        "ja": "入口に時機と環境の条件がある。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "入口试炼利用冰冷物体的影子，庙内为祝福。",
+        "en": "The entrance uses a cold object’s shadow; inside is a blessing.",
+        "ja": "冷たい物体の影を使う入口試練。内部は祝福。"
+      },
+      "prerequisites": [
+        {
+          "zh": "山顶遗迹日志提供线索；下午四点台座发光时，将雪球或冰柱的影子投到台座。",
+          "en": "The summit log gives the clue; at 4 p.m., cast a snowball or ice pillar’s shadow onto the glowing pedestal.",
+          "ja": "山頂の記録が手掛かり。午後4時、雪球か氷柱の影を光る台座に重ねる。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "调整雪球或制冰块的位置，使影子满足台座要求。",
+          "en": "Position a snowball or Cryonis block until its shadow covers the pedestal.",
+          "ja": "雪球か氷柱の位置を調整し、影を台座に重ねる。"
+        },
+        {
+          "zh": "神庙出现后进入，沿直路到导师处完成祝福。",
+          "en": "Enter the revealed shrine and follow the straight path to the monk.",
+          "ja": "現れた祠に入り、一本道を導師まで進む。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon091",
+    "sourceId": "wiki-Dungeon091",
+    "safe": {
+      "summary": {
+        "zh": "位于奥尔汀东北方的毅力崖顶。",
+        "en": "Atop Gut Check Rock in northeastern Eldin.",
+        "ja": "オルディン北東のド根性ガケの頂にある。"
+      },
+      "prerequisite": {
+        "zh": "需完成入口的攀登挑战。",
+        "en": "Requires an entrance climbing challenge.",
+        "ja": "入口の登攀試練が必要。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "入口由鼓隆族看守，庙内没有机关或敌人。",
+        "en": "A Goron guards the entrance; inside has no puzzles or enemies.",
+        "ja": "ゴロン族が入口を守り、内部に仕掛けや敵はない。"
+      },
+      "prerequisites": [
+        {
+          "zh": "与拦路的巴恺忒交谈，参加毅力崖挑战。",
+          "en": "Speak to Bayge blocking the entrance and enter his climbing challenge.",
+          "ja": "入口を塞ぐバケットに話しかけ、登攀試練に参加する。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "三分钟内爬到顶端，并在途中收集至少一百卢比。",
+          "en": "Reach the summit within three minutes while collecting at least 100 rupees.",
+          "ja": "3分以内に100ルピー以上集めながら頂上へ登る。"
+        },
+        {
+          "zh": "守卫让路后进入神庙，沿直路走到导师处。",
+          "en": "Once Bayge moves, enter the shrine and walk straight to the monk.",
+          "ja": "通してもらったら祠に入り、導師までまっすぐ進む。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon092",
+    "sourceId": "wiki-Dungeon092",
+    "safe": {
+      "summary": {
+        "zh": "位于海拉鲁丘陵拉布拉山丘的岩壁内。",
+        "en": "In Upland Lindor’s cliff face, Hyrule Ridge.",
+        "ja": "ハイラル丘陵のラブラー丘の岩壁内にある。"
+      },
+      "prerequisite": {
+        "zh": "入口有岩石障碍。",
+        "en": "Rocks block the entrance.",
+        "ja": "入口を岩が塞いでいる。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "破岩后的洞穴中是没有内部谜题的祝福神庙。",
+        "en": "The cave behind the rocks contains a puzzle-free blessing.",
+        "ja": "岩の奥の洞窟に、内部の謎解きがない祝福の祠がある。"
+      },
+      "prerequisites": [
+        {
+          "zh": "在玛丽塔交易所遗迹附近、怪物据点南侧找裂岩洞口。",
+          "en": "Find the cracked cave entrance south of the monster camp near Maritta Exchange Ruins.",
+          "ja": "マリッタ交易所跡近くの魔物拠点の南で、割れた岩の洞口を探す。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "用炸弹等爆炸物破开裂岩，进入洞穴。",
+          "en": "Break the cracked rock with explosives and enter the cave.",
+          "ja": "バクダンなどで割れた岩を壊し、洞窟へ入る。"
+        },
+        {
+          "zh": "进入神庙后沿直路前往导师，无额外内部机关。",
+          "en": "Inside, walk straight to the monk; there is no further puzzle.",
+          "ja": "祠内は追加の仕掛けがなく、一本道を導師まで進む。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon093",
+    "sourceId": "wiki-Dungeon093",
+    "safe": {
+      "summary": {
+        "zh": "位于格鲁德沙漠的沙海象拉力赛场。",
+        "en": "At the Sand-Seal Rally in Gerudo Desert.",
+        "ja": "ゲルド砂漠のスナザラシラリー会場にある。"
+      },
+      "prerequisite": {
+        "zh": "需推进相关主线并完成神庙挑战。",
+        "en": "Requires relevant main-story progress and a shrine challenge.",
+        "ja": "関連メインチャレンジと祠チャレンジが必要。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "沙海象竞速胜利会开启这座祝福神庙。",
+        "en": "Winning the sand-seal race unlocks this blessing shrine.",
+        "ja": "スナザラシ競走の勝利で出現する祝福の祠。"
+      },
+      "prerequisites": [
+        {
+          "zh": "先解放神兽瓦·娜波力斯，再与赛场夏本努交谈，支付50卢比参赛。",
+          "en": "Complete Vah Naboris, then speak to Shabonne and pay 50 rupees to race.",
+          "ja": "ヴァ・ナボリスを解放後、シャボンヌに話し、50ルピーで参加する。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "保持踩盾滑行，穿过全部赛道门，在90秒内完成。",
+          "en": "Stay on your shield, pass every course gate, and finish under 90 seconds.",
+          "ja": "盾から降りず全てのゲートを通り、90秒未満でゴールする。"
+        },
+        {
+          "zh": "把胜利奖杯球放入台座凹槽，神庙出现后进入找导师。",
+          "en": "Place the trophy orb in the pedestal socket; enter the shrine and reach the monk.",
+          "ja": "優勝の球を台座の穴に入れ、出現した祠で導師へ進む。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。",
+    "additionalSources": [
+      {
+        "id": "extra-Dungeon093-1",
+        "title": "Zelda Dungeon：Raqa Zunzo Shrine Guide",
+        "url": "https://www.zeldadungeon.net/breath-of-the-wild-walkthrough/shrine-locations/raqa-zunzo-shrine-guide/",
+        "retrievedAt": "2026-10-11",
+        "locator": "Location/Walkthrough：娜波力斯前置、50卢比报名、90秒内通过所有门"
+      }
+    ],
+    "evidenceOverrides": {
+      "safe": [
+        "extra-Dungeon093-1"
+      ],
+      "intro": [
+        "extra-Dungeon093-1"
+      ],
+      "prerequisites": [
+        "extra-Dungeon093-1"
+      ],
+      "walkthrough": [
+        "extra-Dungeon093-1"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon094",
+    "sourceId": "wiki-Dungeon094",
+    "safe": {
+      "summary": {
+        "zh": "位于格鲁德沙漠的卢玛琳沙丘。",
+        "en": "In Toruma Dunes, Gerudo Desert.",
+        "ja": "ゲルド砂漠のルマリン砂丘にある。"
+      },
+      "prerequisite": {
+        "zh": "入口有环境试炼，周围有强敌。",
+        "en": "An environmental entrance challenge lies near a powerful enemy.",
+        "ja": "入口に環境の試練があり、近くに強敵がいる。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "沙丘火把决定神庙出现，庙内为祝福。",
+        "en": "Dune torches reveal the shrine; inside is a blessing.",
+        "ja": "砂丘の松明で祠が現れ、内部は祝福。"
+      },
+      "prerequisites": [
+        {
+          "zh": "岩石周围有四个固定火把；莫尔德拉吉克会威胁靠近者。",
+          "en": "Four fixed torches surround the rocks; a Molduga threatens the area.",
+          "ja": "岩の周りに4本の松明があり、モルドラジークが周辺にいる。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "避开或击败沙地巨兽，点亮全部四个火把。",
+          "en": "Avoid or defeat the Molduga and light all four torches.",
+          "ja": "モルドラジークを避けるか倒し、4本全てを点火する。"
+        },
+        {
+          "zh": "进入出现的神庙，沿直路到导师处。",
+          "en": "Enter the revealed shrine and follow the straight path to the monk.",
+          "ja": "現れた祠に入り、一本道を導師まで進む。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon095",
+    "sourceId": "wiki-Dungeon095",
+    "safe": {
+      "summary": {
+        "zh": "位于迷失的森林西南部萨莉娅湖畔。",
+        "en": "Beside Lake Saria in southwestern Lost Woods.",
+        "ja": "迷いの森南西のサリヤ湖湖畔にある。"
+      },
+      "prerequisite": {
+        "zh": "需完成森林里的神庙挑战。",
+        "en": "Requires a forest shrine challenge.",
+        "ja": "森の祠チャレンジが必要。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "入口试炼用磁力观察树木，并归还遗失的箱子。",
+        "en": "The entrance trial uses Magnesis-guided trees and a returned chest.",
+        "ja": "木を磁力で探し、箱を返す入口試練。"
+      },
+      "prerequisites": [
+        {
+          "zh": "在克洛格试炼入口与阿兹基交谈，开启探索。",
+          "en": "Speak to Zooki at the Korok Trial entrance.",
+          "ja": "コログの試練入口でアズキに話しかける。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "用磁力显出树中的金属石，沿这些树走；把生锈盾放入要求盾牌的树嘴。",
+          "en": "Follow trees containing metal boulders with Magnesis; place a rusty shield in the requesting tree’s mouth.",
+          "ja": "磁力で金属岩のある木を辿り、盾を求める木の口に錆びた盾を入れる。"
+        },
+        {
+          "zh": "将另一棵树出现的金属箱运回湖中岛屿的树嘴，进入出现的神庙找导师。",
+          "en": "Return the revealed metal chest to the island tree’s mouth, then enter the shrine.",
+          "ja": "別の木に現れる金属箱を湖の島の木の口へ返し、現れた祠に入る。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon096",
+    "sourceId": "wiki-Dungeon096",
+    "safe": {
+      "summary": {
+        "zh": "位于克拉尔湖东南侧的山丘。",
+        "en": "On a hill southeast of Calora Lake.",
+        "ja": "コーラル湖南東の丘にある。"
+      },
+      "prerequisite": {
+        "zh": "入口受特殊天气与环境条件限制。",
+        "en": "Weather and environmental conditions affect the entrance.",
+        "ja": "天候と環境に関わる入口条件がある。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "雷暴中的石丘包住神庙，庙内无额外试炼。",
+        "en": "A storm-struck mound hides a shrine without an interior trial.",
+        "ja": "雷雨の岩の塚に隠れ、内部に追加試練はない。"
+      },
+      "prerequisites": [
+        {
+          "zh": "卡西瓦提供雷电线索；可穿卓拉铠甲攀附近瀑布，另行登山也可。",
+          "en": "Kass gives the lightning clue; Zora Armor offers a quick waterfall route.",
+          "ja": "カッシーワが雷の手掛かりを歌う。ゾーラの鎧なら近くの滝を登れる。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "把金属物品留在巨大石丘顶，退开，等雷电直接击中石丘。",
+          "en": "Leave a metal object atop the mound, move away, and let lightning strike it.",
+          "ja": "大きな塚の上に金属物を置いて離れ、雷を塚に落とす。"
+        },
+        {
+          "zh": "石丘破开后进入神庙，沿通道前往导师。",
+          "en": "Enter after the mound breaks and walk to the monk.",
+          "ja": "塚が壊れたら祠に入り、通路を導師まで進む。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon097",
+    "sourceId": "wiki-Dungeon097",
+    "safe": {
+      "summary": {
+        "zh": "位于哈特尔海外海的塞哈特诺岛。",
+        "en": "On Eventide Island in the Necluda Sea.",
+        "ja": "ハテール海のサイハテノ島にある。"
+      },
+      "prerequisite": {
+        "zh": "需完成岛屿的独立试炼。",
+        "en": "Requires the island’s special trial.",
+        "ja": "島の独立した試練が必要。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "登岛后装备暂时收走，需用岛上资源完成三球试炼。",
+        "en": "Equipment is temporarily removed; island resources support a three-orb trial.",
+        "ja": "上陸で装備を預け、島の資源で3つの球の試練に挑む。"
+      },
+      "prerequisites": [
+        {
+          "zh": "神庙在柯荷利特台地顶；登岛自动开始试炼，完成后装备归还。",
+          "en": "The shrine is atop Koholit Rock; landing starts the trial, and completion returns your gear.",
+          "ja": "祠はコホリット台地の頂。上陸で開始し、クリアで装備が戻る。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "从东侧怪物据点、山脚西诺克斯颈上及山顶据点取三颗球；巨人球可偷取或战斗取得。",
+          "en": "Take orbs from the eastern camp, the Hinox’s neck, and the summit camp; steal or fight for the Hinox orb.",
+          "ja": "東の拠点、山麓のヒノックスの首、頂上の拠点で球を取る。ヒノックスの球は盗むか倒して得る。"
+        },
+        {
+          "zh": "放入北岸外海、西南据点和山顶的三座台座；外海台座可用制冰运球。",
+          "en": "Fill the offshore northern, southwestern, and summit sockets; use Cryonis for the offshore one.",
+          "ja": "北岸沖、南西拠点、頂上の台座に入れる。沖へは氷柱で球を運ぶ。"
+        },
+        {
+          "zh": "装备归还后进入出现的神庙，沿直路到导师处。",
+          "en": "After gear returns, enter the revealed shrine and walk to the monk.",
+          "ja": "装備が戻ったら現れた祠に入り、導師まで進む。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon098",
+    "sourceId": "wiki-Dungeon098",
+    "safe": {
+      "summary": {
+        "zh": "位于海拉鲁大森林西北角。",
+        "en": "In the northwestern Great Hyrule Forest.",
+        "ja": "ハイラル大森林の北西にある。"
+      },
+      "prerequisite": {
+        "zh": "需先开启相关神庙挑战。",
+        "en": "The related shrine challenge must be started.",
+        "ja": "関連する祠チャレンジの開始が必要。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "入口试炼要求不被小克洛格发现地跟随。",
+        "en": "The entrance trial follows a Korok without being noticed.",
+        "ja": "小さなコログに気付かれず後を追う入口試練。"
+      },
+      "prerequisites": [
+        {
+          "zh": "与森林西入口的泰奇奥交谈后神庙可出现；任务全部完成并非进入的硬门槛。",
+          "en": "Speaking to Tasho starts the quest and makes the shrine available; full quest completion is not required for entry.",
+          "ja": "西の入口のタッチオとの会話で開始。入場にはチャレンジ完了までは必要ない。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "远远跟随拓奇，利用树木遮挡；被发现会重新开始。",
+          "en": "Follow Oaki at a distance using trees for cover; being seen resets the escort.",
+          "ja": "トッチーから距離を取り、木で隠れて追う。見つかるとやり直し。"
+        },
+        {
+          "zh": "到达神庙后与拓奇交谈完成任务，进入庙内沿直路到导师处。",
+          "en": "At the shrine, speak to Oaki to finish the quest, then enter and approach the monk.",
+          "ja": "祠でトッチーに話して完了し、内部を導師まで進む。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon099",
+    "sourceId": "wiki-Dungeon099",
+    "safe": {
+      "summary": {
+        "zh": "位于卡卡利科村东侧山丘。",
+        "en": "On the east hill above Kakariko Village.",
+        "ja": "カカリコ村東の丘にある。"
+      },
+      "prerequisite": {
+        "zh": "需准备武器与盾。",
+        "en": "Bring a weapon and shield.",
+        "ja": "武器と盾を用意する。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "教学试炼按次序练习闪避突击、防反和蓄力攻击。",
+        "en": "A tutorial teaches dodge rushes, parrying, and charged attacks.",
+        "ja": "回避ジャスト、防御ジャスト、タメ攻撃を順に学ぶ。"
+      },
+      "prerequisites": [
+        {
+          "zh": "入口可从村旁山丘抵达；剑术练习需有未损坏的武器和盾。",
+          "en": "Reach the shrine above the village; training requires usable weapons and a shield.",
+          "ja": "村の丘から向かえる。壊れていない武器と盾が練習に必要。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "按提示先侧跳、再后空翻，在攻击临近时闪避并接突击。",
+          "en": "Perform a last-moment side hop and rush, then a backflip and rush.",
+          "ja": "攻撃直前に横跳びしてラッシュ、次にバク宙してラッシュを行う。"
+        },
+        {
+          "zh": "完成一次精准盾反，再用蓄力攻击击中守护者，开启后门。",
+          "en": "Parry once, then land a charged attack to defeat the scout and open the gate.",
+          "ja": "盾でジャストガードし、タメ攻撃を当てて敵を倒し、奥の門を開く。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon100",
+    "sourceId": "wiki-Dungeon100",
+    "safe": {
+      "summary": {
+        "zh": "位于格鲁德山顶东侧。",
+        "en": "East of Gerudo Summit in the highlands.",
+        "ja": "ゲルド山頂の東側にある。"
+      },
+      "prerequisite": {
+        "zh": "需完成岩壁相关入口试炼。",
+        "en": "Requires a cliffside entrance challenge.",
+        "ja": "崖の壁画に関わる入口試練が必要。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "岩壁上的闪电壁画是入口线索，庙内为祝福。",
+        "en": "A lightning mural marks the entrance puzzle; inside is a blessing.",
+        "ja": "雷の壁画が入口の手掛かりで、内部は祝福。"
+      },
+      "prerequisites": [
+        {
+          "zh": "塔邦挞大桥驿站的果戈给线索；寻找有四道闪电图案的壁画。",
+          "en": "Geggle at Tabantha Bridge Stable gives the clue; find the mural with four lightning bolts.",
+          "ja": "タバンタ大橋馬宿のゴーグが手掛かりを教える。雷4本の壁画を探す。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "用电箭射中壁画中央的台座，令神庙升起。",
+          "en": "Shoot the mural’s central pedestal with a shock arrow.",
+          "ja": "壁画中央の台座へ電気の矢を放ち、祠を出現させる。"
+        },
+        {
+          "zh": "进入后沿直路走到导师处，内部没有额外谜题。",
+          "en": "Enter and walk straight to the monk; no further puzzle awaits.",
+          "ja": "内部に追加の謎解きはなく、まっすぐ導師へ進む。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon101",
+    "sourceId": "wiki-Dungeon101",
+    "safe": {
+      "summary": {
+        "zh": "位于拉聂尔大水源的塞拉瀑布旁。",
+        "en": "Beside Veiled Falls in Lanayru Great Spring.",
+        "ja": "ラネール大水源のセラの滝付近にある。"
+      },
+      "prerequisite": {
+        "zh": "入口需要特定试炼；相关主线可提供线索。",
+        "en": "An entrance trial is required; story progress provides clues.",
+        "ja": "入口試練が必要で、メイン進行により手掛かりが得られる。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "空中下刺激活瀑布旁台座，内部为祝福。",
+        "en": "A downward aerial thrust activates the waterfall pedestal; inside is a blessing.",
+        "ja": "滝の台座に空中から突く入口試練。内部は祝福。"
+      },
+      "prerequisites": [
+        {
+          "zh": "入口可在解放露塔前开启；需祭祀之枪或光鳞之枪，相关歌谣只提供提示。",
+          "en": "Vah Ruta is not required; use the Ceremonial or Lightscale Trident. The song supplies hints.",
+          "ja": "ルッタ解放前でも可能。祭事の槍か光鱗の槍を使い、歌は手掛かりとなる。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "跳到台座上方，用指定长枪在空中向下攻击，刺中台座。",
+          "en": "Jump above the pedestal and land a downward attack with either trident.",
+          "ja": "台座の上空から指定の槍で下突きし、台座に当てる。"
+        },
+        {
+          "zh": "神庙出现后进入，沿直路前往导师。",
+          "en": "Enter the revealed shrine and walk straight to the monk.",
+          "ja": "現れた祠に入り、導師までまっすぐ進む。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon102",
+    "sourceId": "wiki-Dungeon102",
+    "safe": {
+      "summary": {
+        "zh": "位于奥阿卡莱骷髅池塘的高石柱上。",
+        "en": "On a tall spire at Skull Lake in Deep Akkala.",
+        "ja": "奥アッカレのドクロ池の高い岩柱にある。"
+      },
+      "prerequisite": {
+        "zh": "需抵达高处入口。",
+        "en": "Reach the elevated entrance.",
+        "ja": "高所の入口へ向かう。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "抵达骷髅左眼的石柱顶即为试炼，庙内为祝福。",
+        "en": "Reaching the skull’s left-eye spire is the trial; inside is a blessing.",
+        "ja": "ドクロの左目の岩柱を登ることが試練。内部は祝福。"
+      },
+      "prerequisites": [
+        {
+          "zh": "阿卡莱研究所的洁琳提供位置线索；目标是地图东侧岛屿的石柱。",
+          "en": "Jerrin provides the clue; the target spire is on the lake’s eastern island.",
+          "ja": "研究所のジェリンが場所を教える。目標は池の東側の島の岩柱。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "攀到东侧石柱顶，激活神庙入口。",
+          "en": "Climb the eastern spire and activate the shrine entrance.",
+          "ja": "東側の岩柱を登り、祠の入口を起動する。"
+        },
+        {
+          "zh": "进入后沿直路到导师处，没有内部机关。",
+          "en": "Inside, walk straight to the monk; there are no interior puzzles.",
+          "ja": "内部に仕掛けはなく、一本道を導師まで進む。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon103",
+    "sourceId": "wiki-Dungeon103",
+    "safe": {
+      "summary": {
+        "zh": "位于格鲁德沙漠的南洛美城堡遗迹。",
+        "en": "Inside South Lomei Labyrinth in Gerudo Desert.",
+        "ja": "ゲルド砂漠の南ローメイ城跡にある。"
+      },
+      "prerequisite": {
+        "zh": "需通过遗迹内的迷宫探索。",
+        "en": "Navigate the ruin’s labyrinth.",
+        "ja": "遺跡内の迷路を探索する。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "迷宫路线本身是试炼，神庙内没有额外谜题。",
+        "en": "The labyrinth route is the trial; the shrine has no further puzzles.",
+        "ja": "迷路の道が試練で、祠内に追加の謎解きはない。"
+      },
+      "prerequisites": [
+        {
+          "zh": "踏入南洛美遗迹自动开启挑战，目标神庙在中央较低处。",
+          "en": "Entering South Lomei starts the challenge; the shrine is beneath the center.",
+          "ja": "南ローメイに入ると開始し、目標の祠は中央の低い位置にある。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "沿迷宫通道向中央探索，可攀墙绕开怨念；寻找两支黄色火把。",
+          "en": "Work toward the center, climbing around Malice; look for two yellow torches.",
+          "ja": "中央へ進み、怨念は壁を登って避ける。黄色の松明2本を探す。"
+        },
+        {
+          "zh": "从火把旁台阶下行到神庙，进入后沿直路到导师处。",
+          "en": "Descend the steps by the torches to the shrine, then walk to the monk.",
+          "ja": "松明脇の階段を下りて祠へ入り、導師まで進む。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。",
+    "additionalSources": [
+      {
+        "id": "extra-Dungeon103-1",
+        "title": "Zelda Dungeon：The Desert Labyrinth",
+        "url": "https://www.zeldadungeon.net/wiki/The_Desert_Labyrinth",
+        "retrievedAt": "2026-10-11",
+        "locator": "Guide/Gallery：迷宫中央、攀墙绕怨念、黄色火把导航"
+      },
+      {
+        "id": "extra-Dungeon103-2",
+        "title": "GamesRadar：Wasteland Tower shrine solutions",
+        "url": "https://www.gamesradar.com/legend-of-zelda-breath-of-the-wild-shrine-locations-solutions-guide/6/",
+        "retrievedAt": "2026-10-11",
+        "locator": "#7 Dila Maag：两火把旁台阶下行到神庙"
+      }
+    ],
+    "evidenceOverrides": {
+      "walkthrough": [
+        "extra-Dungeon103-1",
+        "extra-Dungeon103-2"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon104",
+    "sourceId": "wiki-Dungeon104",
+    "safe": {
+      "summary": {
+        "zh": "位于塔邦挞边境东北的河道岩层下。",
+        "en": "Under riverbank rocks in northeastern Tabantha Frontier.",
+        "ja": "タバンタ辺境北東の川沿いの岩の下にある。"
+      },
+      "prerequisite": {
+        "zh": "需克服寒冷水域的环境障碍。",
+        "en": "Cold water complicates access.",
+        "ja": "冷たい水が接近の障害となる。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "河道中抵达入口就是试炼，庙内是祝福。",
+        "en": "Reaching the river entrance is the trial; inside is a blessing.",
+        "ja": "川の入口へ辿り着くことが試練。内部は祝福。"
+      },
+      "prerequisites": [
+        {
+          "zh": "入口位于海布拉水源与海布拉河下游；直接游过冰水会受伤。",
+          "en": "The entrance lies downstream of Hebra Headspring and Falls; swimming in cold water causes damage.",
+          "ja": "ヘブラ水源とヘブラ川の下流にある。冷水を泳ぐとダメージを受ける。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "砍倒河边树木，站到树干上顺流漂向入口。",
+          "en": "Fell a tree and ride its trunk downstream toward the entrance.",
+          "ja": "木を切り倒し、幹に乗って下流の入口へ流れる。"
+        },
+        {
+          "zh": "进入神庙后沿直路到导师处，没有内部谜题。",
+          "en": "Enter and walk straight to the monk; there is no interior puzzle.",
+          "ja": "祠内に謎解きはなく、導師までまっすぐ進む。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon105",
+    "sourceId": "wiki-Dungeon105",
+    "safe": {
+      "summary": {
+        "zh": "位于阿卡莱海北部的洛美岛。",
+        "en": "On Lomei Labyrinth Island in the northern Akkala Sea.",
+        "ja": "アッカレ海北部のローメイ島にある。"
+      },
+      "prerequisite": {
+        "zh": "需通过岛上的迷宫。",
+        "en": "Navigate the island labyrinth.",
+        "ja": "島の迷路を探索する。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "迷宫通向高处房间，庙内为祝福。",
+        "en": "The maze leads to an elevated chamber containing a blessing.",
+        "ja": "迷路の先の高い部屋に祝福の祠がある。"
+      },
+      "prerequisites": [
+        {
+          "zh": "抵达迷宫岛会自动开启挑战；神庙入口由盘旋向上的通道连接。",
+          "en": "Arrival starts the challenge; a winding upward passage reaches the shrine.",
+          "ja": "島への到着で開始。上に回り込む通路が祠へ繋がる。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "从入口广场走到西北通道，向北到金属块附近，然后右转沿路找梯子。",
+          "en": "Take the plaza’s northwestern passage, head north toward the metal block, then turn right toward the ladder.",
+          "ja": "入口広場の北西の道へ進み、金属ブロック付近まで北へ。その後右へ辿って梯子を探す。"
+        },
+        {
+          "zh": "爬梯子后沿盘旋楼梯上行，经过蝙蝠所在走廊，进入高处神庙。",
+          "en": "Climb the ladder and winding stairs, passing the Keese corridor to the elevated shrine.",
+          "ja": "梯子と回り込む階段を登り、キースの通路を経て高い祠へ入る。"
+        },
+        {
+          "zh": "庙内没有额外试炼，沿直路到导师处。",
+          "en": "Inside, walk straight to the monk; no further trial awaits.",
+          "ja": "内部に追加試練はなく、導師まで進む。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。",
+    "additionalSources": [
+      {
+        "id": "extra-Dungeon105-1",
+        "title": "Zelda Dungeon：Tu Ka’loh Shrine",
+        "url": "https://www.zeldadungeon.net/wiki/Tu_Ka%27loh_Shrine",
+        "retrievedAt": "2026-10-11",
+        "locator": "Trial of the Labyrinth：入口广场西北通道、北方金属块、右转梯子与上行楼梯"
+      },
+      {
+        "id": "extra-Dungeon105-2",
+        "title": "Player Assist：Tu Ka’loh Shrine Guide",
+        "url": "https://playerassist.com/legend-zelda-breath-wild-tu-kaloh-shrine-guide/",
+        "retrievedAt": "2026-10-11",
+        "locator": "Trial of the Labyrinth：梯子、盘旋楼梯、蝙蝠走廊"
+      }
+    ],
+    "evidenceOverrides": {
+      "walkthrough": [
+        "extra-Dungeon105-1",
+        "extra-Dungeon105-2"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon106",
+    "sourceId": "wiki-Dungeon106",
+    "safe": {
+      "summary": {
+        "zh": "位于海拉鲁大森林东北的米德沼泽。",
+        "en": "In Mido Swamp, northeastern Great Hyrule Forest.",
+        "ja": "ハイラル大森林北東のミード沼にある。"
+      },
+      "prerequisite": {
+        "zh": "需完成森林中的装备试炼。",
+        "en": "Requires a forest equipment challenge.",
+        "ja": "森の装備試練が必要。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "外部路线要求保护整套克洛格装备，庙内为祝福。",
+        "en": "Protecting the Korok equipment completes the route; inside is a blessing.",
+        "ja": "コログの装備を守って道を進む試練。内部は祝福。"
+      },
+      "prerequisites": [
+        {
+          "zh": "与达秘达米交谈，使用森民之剑、盾与弓参加试炼。",
+          "en": "Speak to Damia and use the Forest Dweller’s sword, shield, and bow.",
+          "ja": "ダミダミに話し、森人の剣・盾・弓で試練に参加する。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "沿规定路线穿过骷髅波克布林、蝙蝠与丘丘，避免装备被烧毁或损坏。",
+          "en": "Follow the route past Stalkoblins, Keese, and Chuchus without burning or breaking the equipment.",
+          "ja": "スタルボコブリン、キース、チュチュの道を進み、装備を燃やさず壊さない。"
+        },
+        {
+          "zh": "到终点使神庙出现，进入后沿直路走到导师处。",
+          "en": "Reach the end to reveal the shrine, then enter and approach the monk.",
+          "ja": "終点で祠を出現させ、内部を導師まで進む。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon107",
+    "sourceId": "wiki-Dungeon107",
+    "safe": {
+      "summary": {
+        "zh": "位于格鲁德沙漠东部荒地。",
+        "en": "In the East Barrens of Gerudo Desert.",
+        "ja": "ゲルド砂漠の東側の荒地にある。"
+      },
+      "prerequisite": {
+        "zh": "需完成入口相关人物的神庙挑战。",
+        "en": "Requires the entrance character’s shrine challenge.",
+        "ja": "入口の人物に関わる祠チャレンジが必要。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "倒在终端旁的格鲁德人挡住入口，庙内为祝福。",
+        "en": "A Gerudo resting against the terminal blocks this blessing shrine.",
+        "ja": "端末にもたれたゲルド族が祝福の祠の入口を塞ぐ。"
+      },
+      "prerequisites": [
+        {
+          "zh": "先与帕可忒交谈，再到格鲁德小镇酒馆找芙洛丝；白天去北部冰屋取冰。",
+          "en": "Speak to Pokki, then Furosa at the Gerudo canteen; collect ice from the Northern Icehouse during daylight.",
+          "ja": "パクト、次にゲルドの酒場のフロスに話し、明るい間に北の氷室で氷を受け取る。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "迅速沿阴影搬运冰块至遗迹入口的芙洛丝处，避免冰块融化。",
+          "en": "Carry the ice quickly through shade to Furosa at the ruins entrance.",
+          "ja": "日陰を使い、氷が溶ける前に遺跡入口のフロスへ運ぶ。"
+        },
+        {
+          "zh": "回神庙告知帕可忒饮品已备好；她离开后进入，走到导师处。",
+          "en": "Tell Pokki her drink is ready; once she leaves, enter and approach the monk.",
+          "ja": "パクトに飲み物の完成を伝え、去ったら祠で導師へ進む。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。",
+    "additionalSources": [
+      {
+        "id": "extra-Dungeon107-1",
+        "title": "Zelda Wiki：Carry the Ice!",
+        "url": "https://zeldawiki.wiki/wiki/Carry_the_Ice%21",
+        "retrievedAt": "2026-10-11",
+        "locator": "Location and Rules：白天取冰、阴影搬运、交付到遗迹入口"
+      }
+    ],
+    "evidenceOverrides": {
+      "prerequisites": [
+        "extra-Dungeon107-1"
+      ],
+      "walkthrough": [
+        "extra-Dungeon107-1"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon108",
+    "sourceId": "wiki-Dungeon108",
+    "safe": {
+      "summary": {
+        "zh": "位于德依布朗遗迹东北角。",
+        "en": "In northeastern Thyphlo Ruins.",
+        "ja": "ドイブラン遺跡の北東にある。"
+      },
+      "prerequisite": {
+        "zh": "需完成遗迹内的探索挑战。",
+        "en": "Requires the ruins’ exploration challenge.",
+        "ja": "遺跡内の探索試練が必要。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "黑暗遗迹中要找到球与台座，庙内为祝福。",
+        "en": "Find an orb and pedestal in dark ruins; inside is a blessing.",
+        "ja": "暗闇の遺跡で球と台座を探し、内部は祝福。"
+      },
+      "prerequisites": [
+        {
+          "zh": "进入遗迹自动开启试炼；西入口附近有火把可取。",
+          "en": "Entering starts the trial; take the torch near the western entrance.",
+          "ja": "遺跡へ入ると開始。西の入口付近でたいまつを取る。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "沿鸟形火把寻找蓝色西诺克斯，击败它并取得颈上的球。",
+          "en": "Follow the bird-shaped torches to the Blue Hinox; defeat it and take its neck orb.",
+          "ja": "鳥形の松明を辿り、青いヒノックスを倒して首の球を取る。"
+        },
+        {
+          "zh": "把球放入附近台座，神庙出现后进入找导师。",
+          "en": "Place the orb in the nearby socket; enter the revealed shrine.",
+          "ja": "近くの台座の穴に球を入れ、現れた祠で導師へ進む。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon109",
+    "sourceId": "wiki-Dungeon109",
+    "safe": {
+      "summary": {
+        "zh": "位于阿卡莱螺旋状马秋兹半岛中央。",
+        "en": "At the center of spiral-shaped Rist Peninsula, Akkala.",
+        "ja": "アッカレの渦巻くマキューズ半島の中央にある。"
+      },
+      "prerequisite": {
+        "zh": "需完成半岛的入口试炼。",
+        "en": "Requires the peninsula’s entrance challenge.",
+        "ja": "半島の入口試練が必要。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "入口试炼需要从半岛根部搬球到中心，庙内为祝福。",
+        "en": "Carry an orb from the peninsula base to its center; inside is a blessing.",
+        "ja": "半島の付け根から中央へ球を運ぶ試練。内部は祝福。"
+      },
+      "prerequisites": [
+        {
+          "zh": "半岛根部遗迹的石碑与旁边球体提供入口线索。",
+          "en": "The tablet and nearby orb at the peninsula base provide the clue.",
+          "ja": "半島の付け根の石碑と近くの球が手掛かり。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "取球沿半岛运到中央，将其放入台座凹槽。",
+          "en": "Carry the orb along the peninsula and place it in the central socket.",
+          "ja": "球を半島に沿って中央へ運び、台座の穴に入れる。"
+        },
+        {
+          "zh": "神庙升起后进入，沿直路到导师处。",
+          "en": "Enter the revealed shrine and walk straight to the monk.",
+          "ja": "現れた祠に入り、一本道を導師まで進む。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon110",
+    "sourceId": "wiki-Dungeon110",
+    "safe": {
+      "summary": {
+        "zh": "位于东格鲁德遗迹的七尊雕像之间。",
+        "en": "Among the seven statues of East Gerudo Ruins.",
+        "ja": "東ゲルド遺跡の7体の像の間にある。"
+      },
+      "prerequisite": {
+        "zh": "需完成遗迹的入口试炼。",
+        "en": "Requires the ruins’ entrance challenge.",
+        "ja": "遺跡の入口試練が必要。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "七颗金属球的符号要与女英雄雕像配对。",
+        "en": "Seven metal orbs must match the heroines’ symbols.",
+        "ja": "7個の金属球を英雄像の記号に合わせる。"
+      },
+      "prerequisites": [
+        {
+          "zh": "格鲁德小镇的罗汀提供线索；遗迹中需找到全部七颗带符号的球。",
+          "en": "Rotana gives the clue; find all seven symbol-marked orbs in the ruins.",
+          "ja": "ロテインが手掛かりを教える。遺跡で記号の付いた7個の球を探す。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "检查各雕像的符号，用磁力把对应球放入其前方凹槽。",
+          "en": "Inspect each statue’s symbol; use Magnesis to place its matching orb in front.",
+          "ja": "像の記号を確認し、磁力で一致する球を前の穴へ置く。"
+        },
+        {
+          "zh": "全部配对后进入出现的神庙，沿直路到导师处。",
+          "en": "Match all seven, enter the revealed shrine, and walk to the monk.",
+          "ja": "全て合わせて現れた祠に入り、導師まで進む。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon111",
+    "sourceId": "wiki-Dungeon111",
+    "safe": {
+      "summary": {
+        "zh": "位于东哈特尔泰尔美山东侧。",
+        "en": "On the eastern side of Mount Taran, East Necluda.",
+        "ja": "東ハテールのテルメ山東側にある。"
+      },
+      "prerequisite": {
+        "zh": "需完成周边野外的神庙挑战。",
+        "en": "Requires the surrounding field challenge.",
+        "ja": "周辺の野外の祠チャレンジが必要。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "三座台座需要巨人三兄弟携带的球，庙内为祝福。",
+        "en": "Three pedestals need the Hinox brothers’ orbs; inside is a blessing.",
+        "ja": "3兄弟のヒノックスの球を台座へ置く試練。内部は祝福。"
+      },
+      "prerequisites": [
+        {
+          "zh": "台座旁石碑提供线索；球分别在库罕池塘、库坦池塘与拉贝拉湿地带的巨人身上。",
+          "en": "The tablet gives the clue; orbs lie on Hinoxes at Hanu Pond, Uten Marsh, and Rabella Wetlands.",
+          "ja": "石碑が手掛かり。クハン池、クテン池、ラベラ湿地帯のヒノックスが球を持つ。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "从三只巨人颈上偷取球，或击败它们取球。",
+          "en": "Steal each neck orb, or defeat the three Hinoxes to retrieve them.",
+          "ja": "3体の首の球を盗むか、倒して回収する。"
+        },
+        {
+          "zh": "把三颗球放入山上的三个凹槽，进入神庙找导师。",
+          "en": "Socket all three on the mountain, then enter the shrine and approach the monk.",
+          "ja": "山の3つの穴へ入れ、現れた祠で導師へ進む。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon112",
+    "sourceId": "wiki-Dungeon112",
+    "safe": {
+      "summary": {
+        "zh": "位于卡卡利科村东山森林中。",
+        "en": "In the woods on Kakariko Village’s east hill.",
+        "ja": "カカリコ村東の丘の森にある。"
+      },
+      "prerequisite": {
+        "zh": "需完成村内相关任务与神庙挑战。",
+        "en": "Requires related village quests and a shrine challenge.",
+        "ja": "村の関連チャレンジと祠チャレンジが必要。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "传家宝失窃事件通向台座，庙内是祝福。",
+        "en": "A stolen-heirloom quest leads to the pedestal; inside is a blessing.",
+        "ja": "家宝の盗難事件を経て台座を開く。内部は祝福。"
+      },
+      "prerequisites": [
+        {
+          "zh": "先完成找回咕咕鸡、萤火虫之光及拍摄大妖精之泉三项任务，再到英帕家与帕雅交谈。",
+          "en": "Complete Flown the Coop, By Firefly’s Light, and Find the Fairy Fountain; speak to Paya at Impa’s house.",
+          "ja": "コッコ回収、ホタル、大妖精の泉の撮影を終え、インパの家でパーヤに話す。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "按事件推进至夜晚，晚十点远远跟随多朗离岗，走到东山台座。",
+          "en": "Advance to nighttime; follow Dorian at a distance when he leaves at 10 p.m.",
+          "ja": "夜まで事件を進め、午後10時に離れるドゥランを距離を取って台座まで追う。"
+        },
+        {
+          "zh": "击败依盖队干部，把夺回的球放入台座，进入神庙找导师。",
+          "en": "Defeat the Yiga Blademaster, socket the recovered orb, and enter the shrine.",
+          "ja": "イーガ団幹部を倒し、取り戻した球を台座へ入れて祠に進む。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。",
+    "additionalSources": [
+      {
+        "id": "extra-Dungeon112-1",
+        "title": "Zelda Dungeon：The Stolen Heirloom",
+        "url": "https://www.zeldadungeon.net/wiki/The_Stolen_Heirloom",
+        "retrievedAt": "2026-10-11",
+        "locator": "Requirements：Find the Fairy Fountain/Flown the Coop/By Firefly’s Light，非全部村内支线"
+      }
+    ],
+    "evidenceOverrides": {
+      "safe": [
+        "extra-Dungeon112-1"
+      ],
+      "prerequisites": [
+        "extra-Dungeon112-1"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon113",
+    "sourceId": "wiki-Dungeon113",
+    "safe": {
+      "summary": {
+        "zh": "位于费罗尼草原勇气之泉后方。",
+        "en": "Behind the Spring of Courage in Faron Grasslands.",
+        "ja": "フィローネ草原の勇気の泉の奥にある。"
+      },
+      "prerequisite": {
+        "zh": "需完成泉水相关入口试炼。",
+        "en": "Requires the spring’s entrance challenge.",
+        "ja": "泉に関わる入口試練が必要。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "向勇气之泉献鳞片开启入口，内部为祝福。",
+        "en": "A scale offering opens the spring entrance; inside is a blessing.",
+        "ja": "泉へのウロコの奉納で入口を開く。内部は祝福。"
+      },
+      "prerequisites": [
+        {
+          "zh": "树林中的卡西瓦提供泉水线索；泉内女神像要求费罗龙的鳞片。",
+          "en": "Kass gives the clue; the spring statue requests Farosh’s Scale.",
+          "ja": "森のカッシーワが手掛かりを歌い、泉の女神像がフロドラのウロコを求める。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "射中费罗龙身体取得鳞片，将鳞片放入勇气之泉。",
+          "en": "Strike Farosh’s body for a scale and drop it into the Spring of Courage.",
+          "ja": "フロドラの体を射てウロコを取り、勇気の泉へ落とす。"
+        },
+        {
+          "zh": "女神像后方墙壁开启后进入神庙，沿直路到导师处。",
+          "en": "Enter behind the opened statue wall and walk straight to the monk.",
+          "ja": "女神像の奥の壁が開いたら祠に入り、導師まで進む。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon114",
+    "sourceId": "wiki-Dungeon114",
+    "safe": {
+      "summary": {
+        "zh": "位于拉聂尔海荷隆湾的岛屿。",
+        "en": "On an island in Horon Lagoon, Lanayru Sea.",
+        "ja": "ラネール海のホロン湾の島にある。"
+      },
+      "prerequisite": {
+        "zh": "需完成相关环境神庙挑战。",
+        "en": "Requires an environmental shrine challenge.",
+        "ja": "環境に関わる祠チャレンジが必要。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "破岩恢复风道，再滑翔落到台座上开启神庙。",
+        "en": "Restore wind channels and glide onto the pedestal to reveal the shrine.",
+        "ja": "岩を壊して風道を戻し、台座に滑空で着地する。"
+      },
+      "prerequisites": [
+        {
+          "zh": "湾边卡西瓦的歌谣提供台座与风的线索。",
+          "en": "Kass’s lagoon song provides the wind-and-pedestal clue.",
+          "ja": "湾のカッシーワの歌が風と台座の手掛かりを示す。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "炸开所有堵塞风道的裂岩，让强风从大岛吹向台座小岛。",
+          "en": "Destroy the cracked rocks blocking wind channels until a strong gust reaches the pedestal island.",
+          "ja": "風道を塞ぐ割れた岩を全て壊し、大きな島から台座の島へ強風を通す。"
+        },
+        {
+          "zh": "从大岛乘风滑翔到台座上着陆，再进入出现的神庙。",
+          "en": "Glide with the wind from the large island onto the pedestal, then enter the shrine.",
+          "ja": "大きな島から風で滑空して台座に着地し、現れた祠へ入る。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon115",
+    "sourceId": "wiki-Dungeon115",
+    "safe": {
+      "summary": {
+        "zh": "位于库库甲谷的忘却神殿深处。",
+        "en": "Deep inside the Forgotten Temple in Tanagar Canyon.",
+        "ja": "ククジャ谷の忘れ去られた神殿の奥にある。"
+      },
+      "prerequisite": {
+        "zh": "入口周围有多名守护者。",
+        "en": "Numerous Guardians guard the approach.",
+        "ja": "入口周辺に多数のガーディアンがいる。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "神殿内守护者构成抵达试炼，庙内为祝福。",
+        "en": "Temple Guardians challenge the approach; inside is a blessing.",
+        "ja": "神殿のガーディアンが到達の試練。祠内は祝福。"
+      },
+      "prerequisites": [
+        {
+          "zh": "神庙在神殿最深处的大女神像前，残破守护者会在靠近时启动。",
+          "en": "The shrine stands before the rear Goddess statue; dormant Guardians activate nearby.",
+          "ja": "奥の大きな女神像前にあり、朽ちたガーディアンが接近で起動する。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "保持移动避开守护者射线，穿过神殿向最深处前进。",
+          "en": "Keep moving to evade Guardian beams and cross the temple toward its rear.",
+          "ja": "ガーディアンの光線を動いて避け、神殿の奥へ進む。"
+        },
+        {
+          "zh": "到达女神像前激活神庙，进入后沿直路到导师处。",
+          "en": "Activate the shrine before the statue, enter, and walk straight to the monk.",
+          "ja": "女神像前で祠を起動し、内部を導師まで進む。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon116",
+    "sourceId": "wiki-Dungeon116",
+    "safe": {
+      "summary": {
+        "zh": "位于海布拉山脉东北的北洛美迷宫中央。",
+        "en": "At North Lomei Labyrinth’s center in northeastern Hebra.",
+        "ja": "ヘブラ北東の北ローメイ城跡の中央にある。"
+      },
+      "prerequisite": {
+        "zh": "需通过遗迹迷宫。",
+        "en": "Navigate the ruin’s labyrinth.",
+        "ja": "遺跡の迷路を探索する。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "神庙被栅栏围住，需要由上方通道进入。",
+        "en": "The shrine is barred off and reached through an overhead passage.",
+        "ja": "柵に囲まれた祠へ上の通路から入る。"
+      },
+      "prerequisites": [
+        {
+          "zh": "进入北洛美会自动开启挑战，平地上的栅栏不能直接通过。",
+          "en": "Entering starts the challenge; the ground-level bars block direct access.",
+          "ja": "北ローメイへの入場で開始し、地上の柵は直接通れない。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "从入口向东至中央外环，走西南支路，逆时针到西北侧怨念处并射掉眼球。",
+          "en": "Go east from the entrance to the central outer ring; take the southwestern branch counterclockwise and shoot the northwestern Malice eye.",
+          "ja": "入口から東の中央外周へ進み、南西の分岐から反時計回りに北西の怨念の目を射る。"
+        },
+        {
+          "zh": "折回到迷宫北角，面向南寻找长走廊中的灯；朝灯前进，再沿通道向东到两灯间梯子。",
+          "en": "Backtrack to the northern point, face south toward the lit corridor, then follow it east to the ladder between two lights.",
+          "ja": "北の角へ戻り、南向きに長い通路の灯を探す。灯へ進み、東の2つの灯の間の梯子へ。"
+        },
+        {
+          "zh": "爬梯子沿楼梯到上方走道，落到神庙入口，进入后直走到导师处。",
+          "en": "Climb the ladder and stairs to the overhead walkway, drop to the entrance, and walk to the monk.",
+          "ja": "梯子と階段で上の通路へ進み、入口へ降りて祠内の導師へ向かう。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。",
+    "additionalSources": [
+      {
+        "id": "extra-Dungeon116-1",
+        "title": "Zelda Dungeon：Trial on the Cliff",
+        "url": "https://www.zeldadungeon.net/wiki/Trial_on_the_Cliff",
+        "retrievedAt": "2026-10-11",
+        "locator": "Guide/Gallery：北侧怨念眼球、攀墙捷径、两灯间梯子"
+      },
+      {
+        "id": "extra-Dungeon116-2",
+        "title": "NightlyGamingBinge：Trial on the Cliff walkthrough",
+        "url": "https://nightlygamingbinge.com/trial-on-the-cliff-shrine-quest-breath-of-the-wild/",
+        "retrievedAt": "2026-10-11",
+        "locator": "How to Complete：东行中央外环、西南支路逆时针、射西北怨念眼、折回北角向南灯廊再东行梯子"
+      }
+    ],
+    "evidenceOverrides": {
+      "walkthrough": [
+        "extra-Dungeon116-1",
+        "extra-Dungeon116-2"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon117",
+    "sourceId": "wiki-Dungeon117",
+    "safe": {
+      "summary": {
+        "zh": "位于拉聂尔山顶的智慧之泉后方。",
+        "en": "Behind the Spring of Wisdom atop Mount Lanayru.",
+        "ja": "ラネール山頂の知恵の泉の奥にある。"
+      },
+      "prerequisite": {
+        "zh": "需完成泉水相关入口试炼。",
+        "en": "Requires the spring’s entrance challenge.",
+        "ja": "泉に関わる入口試練が必要。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "向泉献上聂尔龙鳞片可开门，通常需先净化龙。",
+        "en": "Offer Naydra’s Scale to open the door, normally after purifying the dragon.",
+        "ja": "ネルドラのウロコを奉納して開く。通常は先に龍を浄化する。"
+      },
+      "prerequisites": [
+        {
+          "zh": "可跟随泉中女神像指示；若已有城堡取得的鳞片，也可直接献上而不先净化。",
+          "en": "Follow the statue’s request; an existing castle scale can open the door without purification.",
+          "ja": "女神像の指示に従う。城で得たウロコがあれば、浄化前でも奉納で開く。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "追随聂尔龙，射掉身体上的怨念眼球；净化后再射身体取得鳞片。",
+          "en": "Follow Naydra and shoot its Malice eyes; after purification, shoot its body for a scale.",
+          "ja": "ネルドラを追って怨念の目を射る。浄化後に体を射てウロコを取る。"
+        },
+        {
+          "zh": "将鳞片放入智慧之泉，进入后方神庙走到导师处。",
+          "en": "Drop the scale into the spring, then enter and approach the monk.",
+          "ja": "ウロコを知恵の泉へ入れ、奥の祠で導師へ進む。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon118",
+    "sourceId": "wiki-Dungeon118",
+    "safe": {
+      "summary": {
+        "zh": "位于海布拉山脉北部的冰洞内。",
+        "en": "Inside an ice cave in northern Hebra Mountains.",
+        "ja": "ヘブラ山脈北部の氷の洞窟内にある。"
+      },
+      "prerequisite": {
+        "zh": "需克服洞穴入口的环境障碍。",
+        "en": "An environmental barrier blocks the cave entrance.",
+        "ja": "洞窟入口の環境の障害に対処する。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "海布拉大化石下的祝福神庙由雪球开门。",
+        "en": "Snowballs open the cave beneath Hebra Great Skeleton.",
+        "ja": "雪球で開く洞窟のヘブラ大化石の下にある祝福の祠。"
+      },
+      "prerequisites": [
+        {
+          "zh": "入口石门在海布拉山北岳东南方，大雪球在门东侧坡上。",
+          "en": "The stone door is southeast of Hebra North Summit; snowballs lie east of it.",
+          "ja": "石門はヘブラ北峰の南東。大きな雪球は門の東の斜面にある。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "将大雪球滚下山坡撞开石门，进入冰洞。",
+          "en": "Roll a large snowball downhill to break the stone door.",
+          "ja": "大きな雪球を斜面から転がして石門を壊し、洞窟に入る。"
+        },
+        {
+          "zh": "在大化石下找到神庙，进入后沿直路到导师处。",
+          "en": "Find the shrine beneath the skeleton, then enter and walk to the monk.",
+          "ja": "大化石の下の祠を見つけ、内部を導師まで進む。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon119",
+    "sourceId": "wiki-Dungeon119",
+    "safe": {
+      "summary": {
+        "zh": "位于拉聂尔山的玛德罗纳山麓。",
+        "en": "At Madorna Mountain’s base on Mount Lanayru.",
+        "ja": "ラネール山のマドロナ山麓にある。"
+      },
+      "prerequisite": {
+        "zh": "入口有岩石障碍；相关任务可提供线索。",
+        "en": "Rocks block entry; the related quest supplies clues.",
+        "ja": "岩が入口を塞ぎ、関連チャレンジが手掛かりになる。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "三棵杉树指向隐藏洞穴，内部为祝福神庙。",
+        "en": "Three cedars indicate a hidden cave containing a blessing.",
+        "ja": "3本の杉が隠れた洞窟を示し、内部は祝福。"
+      },
+      "prerequisites": [
+        {
+          "zh": "哈特诺村的可莱维亚提供线索；无需先接受任务也能进入。",
+          "en": "Clavia gives the clue; accepting the quest is not required.",
+          "ja": "ハテノ村のクレーヴィアが手掛かりを教える。受注前でも入れる。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "从三座山顶杉树的连线向正东方向找洞穴，用炸弹或炸弹箭破开封口岩石。",
+          "en": "Look due east of the three summit cedars and break the cave’s rocks with bombs or bomb arrows.",
+          "ja": "山頂の杉3本を結ぶ線から真東で洞窟を探し、岩をバクダンかバクダン矢で壊す。"
+        },
+        {
+          "zh": "进入神庙后沿直路前往导师，内部没有额外谜题。",
+          "en": "Enter and walk straight to the monk; no further puzzle awaits.",
+          "ja": "内部に追加の謎解きはなく、導師まで進む。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。"
+  },
+  {
+    "id": "Dungeon120",
+    "sourceId": "wiki-Dungeon120",
+    "safe": {
+      "summary": {
+        "zh": "DLC神庙，位于初始台地的精灵森林。",
+        "en": "A DLC shrine in the Great Plateau’s Forest of Spirits.",
+        "ja": "始まりの台地の精霊の森にあるDLCの祠。"
+      },
+      "prerequisite": {
+        "zh": "需英杰之诗DLC及其主线阶段。",
+        "en": "Requires The Champions’ Ballad DLC and its story phase.",
+        "ja": "英傑たちの詩DLCと該当のメイン進行が必要。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "用磁力控制金属碗，在滚落杂物中捞取试炼球。",
+        "en": "Use a magnetic bowl to catch orbs among rolling debris.",
+        "ja": "磁力で金属の器を動かし、落ちる物の中から球をすくう。"
+      },
+      "prerequisites": [
+        {
+          "zh": "需英杰之诗DLC并解放四神兽；在复苏神庙终端启动台地试炼，领取一击必杀之剑。持剑时自己也受击即败。",
+          "en": "Requires The Champions’ Ballad and all four Divine Beasts. Start the Plateau trial at the Resurrection terminal and take the One-Hit Obliterator; one hit also defeats you.",
+          "ja": "英傑たちの詩DLCと四神獣の解放が必要。回生の祠の端末で台地の試練を始め、一撃の剣を取る。自分も一撃で倒れる。"
+        },
+        {
+          "zh": "台地试炼期间，击败精灵森林标记营地的全部指定敌人。",
+          "en": "During the Plateau trial, defeat all designated enemies in the forest camp.",
+          "ja": "台地の試練で精霊の森の指定拠点の敵を全て倒す。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "小心尖刺球，磁力抓住金属碗，将小试炼球从滚落坡道中捞起。",
+          "en": "Avoid spiked balls; use Magnesis on the bowl to catch the small trial orb.",
+          "ja": "トゲ球を避け、磁力で器を使って斜面の小さな試練の球をすくう。"
+        },
+        {
+          "zh": "把小球带回入口前凹槽，开启通往导师的栅门。",
+          "en": "Carry the small orb to the entrance socket to open the monk’s gate.",
+          "ja": "小さい球を入口前の穴へ運び、導師への柵を開く。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。",
+    "additionalSources": [
+      {
+        "id": "extra-Dungeon120-dlc",
+        "title": "Zelda Wiki: EX The Champions' Ballad",
+        "url": "https://www.zeldawiki.wiki/wiki/EX_The_Champions%27_Ballad",
+        "retrievedAt": "2026-10-11",
+        "locator": "Overview: four Divine Beasts; Resurrection terminal and One-Hit Obliterator; four Plateau shrines then Champion monuments"
+      }
+    ],
+    "evidenceOverrides": {
+      "safe": [
+        "extra-Dungeon120-dlc"
+      ],
+      "prerequisites": [
+        "extra-Dungeon120-dlc"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon121",
+    "sourceId": "wiki-Dungeon121",
+    "safe": {
+      "summary": {
+        "zh": "DLC神庙，位于格鲁德高地依盖队基地外。",
+        "en": "A DLC shrine outside the Yiga Hideout in Gerudo Highlands.",
+        "ja": "ゲルド高地のイーガ団アジト外にあるDLCの祠。"
+      },
+      "prerequisite": {
+        "zh": "需英杰之诗DLC及乌尔波扎相关阶段。",
+        "en": "Requires The Champions’ Ballad DLC and Urbosa’s phase.",
+        "ja": "英傑たちの詩DLCとウルボザの段階が必要。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "观察转动箱内的彩球数量，以数字凹槽回答。",
+        "en": "Count colored spheres in a rotating box and use numbered sockets.",
+        "ja": "回転する箱の色球を数え、数字の穴で答える。"
+      },
+      "prerequisites": [
+        {
+          "zh": "需英杰之诗DLC与四神兽解放；完成台地四座新增神庙，再调查对应英杰石碑。",
+          "en": "Requires the DLC and all four Divine Beasts. Complete the four new Plateau shrines, then investigate the relevant Champion monument.",
+          "ja": "英傑たちの詩DLCと四神獣の解放が必要。台地の追加4祠を終え、該当する英傑の石碑を調べる。"
+        },
+        {
+          "zh": "在乌尔波扎之诗阶段，潜入基地二层香蕉堆取球，带到可盖战斗场中央深坑扔下。",
+          "en": "During Urbosa’s Song, take the second-floor banana-pile orb and drop it into Kohga’s arena chasm.",
+          "ja": "ウルボザの詩で2階のバナナの山から球を取り、コーガ戦の中央の穴へ落とす。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "操作体感装置转动箱子，按各颜色统计球数。",
+          "en": "Rotate the box with the apparatus and count each color.",
+          "ja": "体感装置で箱を回し、色ごとの球の数を調べる。"
+        },
+        {
+          "zh": "红球放1、绿球放2、黄球放2、紫球放4对应凹槽，开门前往导师。",
+          "en": "Socket red at 1, green at 2, yellow at 2, and purple at 4 to open the gate.",
+          "ja": "赤は1、緑は2、黄は2、紫は4の穴に入れ、門を開く。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。",
+    "additionalSources": [
+      {
+        "id": "extra-Dungeon121-dlc",
+        "title": "Zelda Wiki: EX The Champions' Ballad",
+        "url": "https://www.zeldawiki.wiki/wiki/EX_The_Champions%27_Ballad",
+        "retrievedAt": "2026-10-11",
+        "locator": "Overview: four Divine Beasts; Resurrection terminal and One-Hit Obliterator; four Plateau shrines then Champion monuments"
+      }
+    ],
+    "evidenceOverrides": {
+      "safe": [
+        "extra-Dungeon121-dlc"
+      ],
+      "prerequisites": [
+        "extra-Dungeon121-dlc"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon122",
+    "sourceId": "wiki-Dungeon122",
+    "safe": {
+      "summary": {
+        "zh": "DLC神庙，位于初始台地的海利亚山。",
+        "en": "A DLC shrine on Mount Hylia, Great Plateau.",
+        "ja": "始まりの台地のハイリア山にあるDLCの祠。"
+      },
+      "prerequisite": {
+        "zh": "需英杰之诗DLC及其主线阶段。",
+        "en": "Requires The Champions’ Ballad DLC and its story phase.",
+        "ja": "英傑たちの詩DLCと該当のメイン進行が必要。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "黑暗中依靠亮光，穿过激光、转动尖刺和火焰。",
+        "en": "Follow light through lasers, rotating spikes, and flame jets in darkness.",
+        "ja": "暗闇の光を頼りに、レーザー、回るトゲ、炎を抜ける。"
+      },
+      "prerequisites": [
+        {
+          "zh": "需英杰之诗DLC并解放四神兽；在复苏神庙终端启动台地试炼，领取一击必杀之剑。持剑时自己也受击即败。",
+          "en": "Requires The Champions’ Ballad and all four Divine Beasts. Start the Plateau trial at the Resurrection terminal and take the One-Hit Obliterator; one hit also defeats you.",
+          "ja": "英傑たちの詩DLCと四神獣の解放が必要。回生の祠の端末で台地の試練を始め、一撃の剣を取る。自分も一撃で倒れる。"
+        },
+        {
+          "zh": "在台地一击试炼阶段，清除海利亚山标记营地的全部指定敌人。",
+          "en": "During the one-hit Plateau trial, clear all designated enemies on Mount Hylia.",
+          "ja": "台地の一撃試練でハイリア山の指定拠点の敵を全て倒す。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "沿发光墙和火把前进，避开竖直光束；蹲行通过眼睛高度的横向光束。",
+          "en": "Follow glowing walls and torches; avoid vertical beams and crouch below eye-level beams.",
+          "ja": "光る壁と松明を辿り、縦の光線を避け、目の高さの光線はしゃがむ。"
+        },
+        {
+          "zh": "等转动尖刺墙让路，再趁喷火口关闭穿过；清除三台守护者Ⅰ后上楼。",
+          "en": "Wait for rotating spikes and extinguished jets; defeat three Scout I units and ascend.",
+          "ja": "回るトゲが通るのを待ち、炎の停止時に抜ける。小型の敵3体を倒して階段を上る。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。",
+    "additionalSources": [
+      {
+        "id": "extra-Dungeon122-dlc",
+        "title": "Zelda Wiki: EX The Champions' Ballad",
+        "url": "https://www.zeldawiki.wiki/wiki/EX_The_Champions%27_Ballad",
+        "retrievedAt": "2026-10-11",
+        "locator": "Overview: four Divine Beasts; Resurrection terminal and One-Hit Obliterator; four Plateau shrines then Champion monuments"
+      }
+    ],
+    "evidenceOverrides": {
+      "safe": [
+        "extra-Dungeon122-dlc"
+      ],
+      "prerequisites": [
+        "extra-Dungeon122-dlc"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon123",
+    "sourceId": "wiki-Dungeon123",
+    "safe": {
+      "summary": {
+        "zh": "DLC神庙，位于初始之塔与东部神殿遗迹间。",
+        "en": "A DLC shrine between Great Plateau Tower and Eastern Abbey.",
+        "ja": "始まりの塔と東の神殿の間にあるDLCの祠。"
+      },
+      "prerequisite": {
+        "zh": "需英杰之诗DLC及其主线阶段。",
+        "en": "Requires The Champions’ Ballad DLC and its story phase.",
+        "ja": "英傑たちの詩DLCと該当のメイン進行が必要。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "一击状态下穿越地刺、传送带、摆球与追赶墙。",
+        "en": "Survive spikes, conveyors, swinging balls, and a pursuing wall with one-hit health.",
+        "ja": "一撃状態でトゲ、ベルト、振り子、迫る壁を抜ける。"
+      },
+      "prerequisites": [
+        {
+          "zh": "需英杰之诗DLC并解放四神兽；在复苏神庙终端启动台地试炼，领取一击必杀之剑。持剑时自己也受击即败。",
+          "en": "Requires The Champions’ Ballad and all four Divine Beasts. Start the Plateau trial at the Resurrection terminal and take the One-Hit Obliterator; one hit also defeats you.",
+          "ja": "英傑たちの詩DLCと四神獣の解放が必要。回生の祠の端末で台地の試練を始め、一撃の剣を取る。自分も一撃で倒れる。"
+        },
+        {
+          "zh": "清除东部神殿遗迹北侧标记营地的全部指定蜥蜴战士。",
+          "en": "Clear the designated Lizalfos camp north of Eastern Abbey.",
+          "ja": "東の神殿北の指定リザルフォス拠点を全て倒す。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "用磁力摆金属块与平台跨地刺，静止齿轮后通过。",
+          "en": "Arrange metal blocks and platforms over spikes; freeze the gears before crossing.",
+          "ja": "金属のブロックと足場をトゲ上へ並べ、歯車を止めて渡る。"
+        },
+        {
+          "zh": "静止第二条传送带后靠右走；割断第一摆球的绳，静止另一球并滑翔过深坑。",
+          "en": "Freeze the second conveyor and keep right; cut the first ball’s rope, freeze another, and glide across.",
+          "ja": "2本目のベルトを止めて右寄りに進む。最初の球の縄を切り、別の球を止めて滑空する。"
+        },
+        {
+          "zh": "踩开关后向前跑，用静止石块延缓追墙；末端攀上伸出平台，滑翔到导师区域。",
+          "en": "After the switch, run forward; freeze stone blocks to delay the wall, then climb the final projecting platform and glide onward.",
+          "ja": "スイッチ後は走り、石を止めて壁を遅らせる。最後のせり出す足場を登って導師側へ滑空する。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。",
+    "additionalSources": [
+      {
+        "id": "extra-Dungeon123-dlc",
+        "title": "Zelda Wiki: EX The Champions' Ballad",
+        "url": "https://www.zeldawiki.wiki/wiki/EX_The_Champions%27_Ballad",
+        "retrievedAt": "2026-10-11",
+        "locator": "Overview: four Divine Beasts; Resurrection terminal and One-Hit Obliterator; four Plateau shrines then Champion monuments"
+      }
+    ],
+    "evidenceOverrides": {
+      "safe": [
+        "extra-Dungeon123-dlc"
+      ],
+      "prerequisites": [
+        "extra-Dungeon123-dlc"
+      ],
+      "intro": [
+        "extra-Dungeon123-dlc"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon124",
+    "sourceId": "wiki-Dungeon124",
+    "safe": {
+      "summary": {
+        "zh": "DLC神庙，位于拉聂尔卓拉台地。",
+        "en": "A DLC shrine atop Upland Zorana, Lanayru.",
+        "ja": "ラネールのゾラ台地にあるDLCの祠。"
+      },
+      "prerequisite": {
+        "zh": "需英杰之诗DLC及米法相关阶段。",
+        "en": "Requires The Champions’ Ballad DLC and Mipha’s phase.",
+        "ja": "英傑たちの詩DLCとミファーの段階が必要。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "用制冰支撑滚落的大球，导向末端发射机关。",
+        "en": "Cryonis supports a rolling orb toward a final launcher.",
+        "ja": "氷柱で転がる大球を支え、最後の発射台へ導く。"
+      },
+      "prerequisites": [
+        {
+          "zh": "需英杰之诗DLC与四神兽解放；完成台地四座新增神庙，再调查对应英杰石碑。",
+          "en": "Requires the DLC and all four Divine Beasts. Complete the four new Plateau shrines, then investigate the relevant Champion monument.",
+          "ja": "英傑たちの詩DLCと四神獣の解放が必要。台地の追加4祠を終え、該当する英傑の石碑を調べる。"
+        },
+        {
+          "zh": "米法之诗阶段，击败卓拉台地三台飞行守护者与一台炮台守护者。",
+          "en": "During Mipha’s Song, defeat three Skywatchers and one Turret on Upland Zorana.",
+          "ja": "ミファーの詩でゾラ台地の飛行型3体と砲台型1体を倒す。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "在瀑布表面制冰补足滚球路径，防止球落入空处；可静止倾斜石板。",
+          "en": "Build ice supports along the waterfall route; use Stasis to hold tilting slabs.",
+          "ja": "滝の面に氷柱で道を補い、球の落下を防ぐ。傾く石板はビタロックで止められる。"
+        },
+        {
+          "zh": "把球导向下方会弹起的平台，让它将球送入终点凹槽开门。",
+          "en": "Guide the orb to the lower launcher so it throws the orb into the final socket.",
+          "ja": "球を下の跳ね上がる台へ導き、終点の穴へ飛ばして門を開く。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。",
+    "additionalSources": [
+      {
+        "id": "extra-Dungeon124-dlc",
+        "title": "Zelda Wiki: EX The Champions' Ballad",
+        "url": "https://www.zeldawiki.wiki/wiki/EX_The_Champions%27_Ballad",
+        "retrievedAt": "2026-10-11",
+        "locator": "Overview: four Divine Beasts; Resurrection terminal and One-Hit Obliterator; four Plateau shrines then Champion monuments"
+      }
+    ],
+    "evidenceOverrides": {
+      "safe": [
+        "extra-Dungeon124-dlc"
+      ],
+      "prerequisites": [
+        "extra-Dungeon124-dlc"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon125",
+    "sourceId": "wiki-Dungeon125",
+    "safe": {
+      "summary": {
+        "zh": "DLC神庙，位于拉聂尔海岛屿之间。",
+        "en": "A DLC shrine among the islands of Lanayru Sea.",
+        "ja": "ラネール海の島々の間にあるDLCの祠。"
+      },
+      "prerequisite": {
+        "zh": "需英杰之诗DLC及米法相关阶段。",
+        "en": "Requires The Champions’ Ballad DLC and Mipha’s phase.",
+        "ja": "英傑たちの詩DLCとミファーの段階が必要。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "逐步融小冰块，搭出可攀爬的台阶。",
+        "en": "Partially melt ice blocks into a climbable staircase.",
+        "ja": "氷を少しずつ溶かし、登れる階段を作る。"
+      },
+      "prerequisites": [
+        {
+          "zh": "需英杰之诗DLC与四神兽解放；完成台地四座新增神庙，再调查对应英杰石碑。",
+          "en": "Requires the DLC and all four Divine Beasts. Complete the four new Plateau shrines, then investigate the relevant Champion monument.",
+          "ja": "英傑たちの詩DLCと四神獣の解放が必要。台地の追加4祠を終え、該当する英傑の石碑を調べる。"
+        },
+        {
+          "zh": "日出时在阿克伦与奇克伦岛间，穿过被太阳倒影触及的发光环。",
+          "en": "At sunrise, pass the glowing ring between Ankel and Tingel while the sun’s reflection touches it.",
+          "ja": "日の出でアクルン島とチクルン島の間の光の輪を、太陽の反射が重なる間に通る。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "用入口火把点火，融掉挡路冰块；踏开关补冰，再把堆叠冰块融成台阶。",
+          "en": "Light the torch and melt the obstruction; use switches to replenish ice, then shape stacked blocks into steps.",
+          "ja": "たいまつで通路の氷を溶かす。スイッチで氷を補い、積んだ氷を階段に整える。"
+        },
+        {
+          "zh": "把顶部大冰块融小后搬到末端水池，配合制冰攀到导师处。",
+          "en": "Shrink the top block, carry it to the far pool, and combine it with Cryonis to climb.",
+          "ja": "頂上の氷を小さくして奥の水へ運び、氷柱と組み合わせて導師へ登る。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。",
+    "additionalSources": [
+      {
+        "id": "extra-Dungeon125-dlc",
+        "title": "Zelda Wiki: EX The Champions' Ballad",
+        "url": "https://www.zeldawiki.wiki/wiki/EX_The_Champions%27_Ballad",
+        "retrievedAt": "2026-10-11",
+        "locator": "Overview: four Divine Beasts; Resurrection terminal and One-Hit Obliterator; four Plateau shrines then Champion monuments"
+      }
+    ],
+    "evidenceOverrides": {
+      "safe": [
+        "extra-Dungeon125-dlc"
+      ],
+      "prerequisites": [
+        "extra-Dungeon125-dlc"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon126",
+    "sourceId": "wiki-Dungeon126",
+    "safe": {
+      "summary": {
+        "zh": "DLC神庙，位于拉聂尔的雷兽山。",
+        "en": "A DLC shrine on Ploymus Mountain, Lanayru.",
+        "ja": "ラネールの雷獣山にあるDLCの祠。"
+      },
+      "prerequisite": {
+        "zh": "需英杰之诗DLC及米法相关阶段。",
+        "en": "Requires The Champions’ Ballad DLC and Mipha’s phase.",
+        "ja": "英傑たちの詩DLCとミファーの段階が必要。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "制冰与磁力支撑导轨金属块，拼出上升路径。",
+        "en": "Cryonis and Magnesis support rail blocks into a rising route.",
+        "ja": "氷柱と磁力でレール上の金属を支え、上への道を作る。"
+      },
+      "prerequisites": [
+        {
+          "zh": "需英杰之诗DLC与四神兽解放；完成台地四座新增神庙，再调查对应英杰石碑。",
+          "en": "Requires the DLC and all four Divine Beasts. Complete the four new Plateau shrines, then investigate the relevant Champion monument.",
+          "ja": "英傑たちの詩DLCと四神獣の解放が必要。台地の追加4祠を終え、該当する英傑の石碑を調べる。"
+        },
+        {
+          "zh": "穿卓拉铠甲从米考湖瀑布穿过发光环，继续经露露湖瀑布攀向雷兽山。",
+          "en": "Wear Zora Armor and swim through waterfall rings from Mikau Lake via Lulu Lake toward Ploymus Mountain.",
+          "ja": "ゾーラの鎧でミカウ湖からルル湖の滝の光の輪を通り、雷獣山へ登る。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "在左导轨块下制冰爬上左高台，用磁力把自由金属块放到下方。",
+          "en": "Raise the left rail block with ice, climb the left ledge, and lower its loose cube with Magnesis.",
+          "ja": "左のレール下の氷で左高台へ登り、自由な金属を磁力で下ろす。"
+        },
+        {
+          "zh": "中央制冰同时抬高两块；把小金属块塞在右块下，再于小块下制冰，将右块抬至第三层。",
+          "en": "Raise both blocks with central ice. Support the right one with the cube, then ice beneath the cube.",
+          "ja": "中央の氷で両方を上げる。右の下に小さい金属を置き、その下の氷で右を3段目へ上げる。"
+        },
+        {
+          "zh": "打破中央冰柱让左块下降，把小块移向左，使其既搭在左块上又托住右块；重新在左块下制冰，再沿阶梯上行。",
+          "en": "Break central ice; shift the cube onto the lowered left block while supporting the right. Raise the left with ice and climb.",
+          "ja": "中央の氷を壊し、小さい金属を左へ移して左に載せつつ右を支える。左の下に氷を作り、登る。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。",
+    "additionalSources": [
+      {
+        "id": "extra-Dungeon126-1",
+        "title": "Zelda Dungeon：The Champions’ Ballad walkthrough",
+        "url": "https://www.zeldadungeon.net/breath-of-the-wild-walkthrough/the-champions-ballad/",
+        "retrievedAt": "2026-10-11",
+        "locator": "Mah Eliya Shrine：中央冰柱、右块三层支撑、小块移向左侧、抬左块"
+      },
+      {
+        "id": "extra-Dungeon126-dlc",
+        "title": "Zelda Wiki: EX The Champions' Ballad",
+        "url": "https://www.zeldawiki.wiki/wiki/EX_The_Champions%27_Ballad",
+        "retrievedAt": "2026-10-11",
+        "locator": "Overview: four Divine Beasts; Resurrection terminal and One-Hit Obliterator; four Plateau shrines then Champion monuments"
+      }
+    ],
+    "evidenceOverrides": {
+      "walkthrough": [
+        "extra-Dungeon126-1"
+      ],
+      "safe": [
+        "extra-Dungeon126-dlc"
+      ],
+      "prerequisites": [
+        "extra-Dungeon126-dlc"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon127",
+    "sourceId": "wiki-Dungeon127",
+    "safe": {
+      "summary": {
+        "zh": "DLC神庙，位于飞行训练场底部。",
+        "en": "A DLC shrine at the bottom of the Flight Range.",
+        "ja": "飛行訓練場の底にあるDLCの祠。"
+      },
+      "prerequisite": {
+        "zh": "需英杰之诗DLC及力巴尔相关阶段。",
+        "en": "Requires The Champions’ Ballad DLC and Revali’s phase.",
+        "ja": "英傑たちの詩DLCとリーバルの段階が必要。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "绕旋转柱打开四个风口，用连续上升气流升高。",
+        "en": "Activate four winds around a spinning pillar to ascend.",
+        "ja": "回転する柱の4つの風を起動して上へ進む。"
+      },
+      "prerequisites": [
+        {
+          "zh": "需英杰之诗DLC与四神兽解放；完成台地四座新增神庙，再调查对应英杰石碑。",
+          "en": "Requires the DLC and all four Divine Beasts. Complete the four new Plateau shrines, then investigate the relevant Champion monument.",
+          "ja": "英傑たちの詩DLCと四神獣の解放が必要。台地の追加4祠を終え、該当する英傑の石碑を調べる。"
+        },
+        {
+          "zh": "力巴尔之诗阶段，在飞行训练场短时间内接连射中四个靶子。",
+          "en": "During Revali’s Song, hit four Flight Range targets in quick succession.",
+          "ja": "リーバルの詩で飛行訓練場の的4つを短時間で続けて射る。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "射中入口开关启动风扇，升上平台；从转柱底部开口进入，乘内部风击中首个开关。",
+          "en": "Shoot the entrance switch and rise. Enter the pillar’s lower opening and ride its wind to the first switch.",
+          "ja": "入口のスイッチを射て上へ進む。柱下の開口から入り、内部の風で最初のスイッチへ。"
+        },
+        {
+          "zh": "炸开裂石击中内侧开关；从金属栅栏缝射中另一开关。",
+          "en": "Break the cracked wall to hit its switch; shoot another through the metal bars.",
+          "ja": "割れた壁を爆破して内側のスイッチを叩き、金属柵の隙間から別のスイッチを射る。"
+        },
+        {
+          "zh": "等风扇迎风开门，进入或从外侧射中开关；四处启动后乘风升顶，滑翔到导师处。",
+          "en": "Wait for the wind-operated door to open and hit its switch; ride the completed winds upward.",
+          "ja": "風で開く門を待って中のスイッチを叩く。4つ揃えた風で上へ進み、導師へ滑空する。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。",
+    "additionalSources": [
+      {
+        "id": "extra-Dungeon127-1",
+        "title": "Zelda Dungeon：Noe Rajee Shrine",
+        "url": "https://www.zeldadungeon.net/wiki/Noe_Rajee_Shrine",
+        "retrievedAt": "2026-10-11",
+        "locator": "The Four Winds：入口开关、柱底、裂石墙、金属栅栏、迎风开门四处开关"
+      },
+      {
+        "id": "extra-Dungeon127-dlc",
+        "title": "Zelda Wiki: EX The Champions' Ballad",
+        "url": "https://www.zeldawiki.wiki/wiki/EX_The_Champions%27_Ballad",
+        "retrievedAt": "2026-10-11",
+        "locator": "Overview: four Divine Beasts; Resurrection terminal and One-Hit Obliterator; four Plateau shrines then Champion monuments"
+      }
+    ],
+    "evidenceOverrides": {
+      "walkthrough": [
+        "extra-Dungeon127-1"
+      ],
+      "safe": [
+        "extra-Dungeon127-dlc"
+      ],
+      "prerequisites": [
+        "extra-Dungeon127-dlc"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon128",
+    "sourceId": "wiki-Dungeon128",
+    "safe": {
+      "summary": {
+        "zh": "DLC神庙，位于海布拉山脉茨茨齐齐雪原。",
+        "en": "A DLC shrine at Pikida Stonegrove, Hebra Mountains.",
+        "ja": "ヘブラ山脈のツツキキ雪原にあるDLCの祠。"
+      },
+      "prerequisite": {
+        "zh": "需英杰之诗DLC及力巴尔相关阶段。",
+        "en": "Requires The Champions’ Ballad DLC and Revali’s phase.",
+        "ja": "英傑たちの詩DLCとリーバルの段階が必要。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "调整金属轨道、冰柱与机关时机，完成长距离滚球路线。",
+        "en": "Align metal tracks, ice, and timed mechanisms for a long orb course.",
+        "ja": "金属レール、氷、仕掛けのタイミングで長い球の道を繋ぐ。"
+      },
+      "prerequisites": [
+        {
+          "zh": "需英杰之诗DLC与四神兽解放；完成台地四座新增神庙，再调查对应英杰石碑。",
+          "en": "Requires the DLC and all four Divine Beasts. Complete the four new Plateau shrines, then investigate the relevant Champion monument.",
+          "ja": "英傑たちの詩DLCと四神獣の解放が必要。台地の追加4祠を終え、該当する英傑の石碑を調べる。"
+        },
+        {
+          "zh": "从海布拉山山顶附近踩盾穿过连续光环，不能错过时限；断崖处可借上升气流滑翔。",
+          "en": "Shield-surf the timed rings from Hebra Peak; use the updraft to glide across the gap.",
+          "ja": "ヘブラ山頂付近から時限の輪を盾サーフィンで通り、谷間は上昇気流で滑空する。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "磁力将顶部挡块移到转角，引球转向；把横向金属块排成连续桥，在瀑布上制冰延长斜坡。",
+          "en": "Set the upper corner stops and metal bridge; extend the waterfall ramp with ice.",
+          "ja": "上の角の止めと金属の橋を整え、滝の斜面を氷で延ばす。"
+        },
+        {
+          "zh": "球经过时踩上方开关改轨，再静止跷跷板；最后踩下方开关，把球弹入凹槽。",
+          "en": "Time the upper switch, freeze the seesaw, then trigger the lower launcher into the socket.",
+          "ja": "球に合わせ上のスイッチ、シーソーの停止、下の発射スイッチを順に使い、穴へ入れる。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。",
+    "additionalSources": [
+      {
+        "id": "extra-Dungeon128-1",
+        "title": "Zelda Dungeon：The Champions’ Ballad walkthrough",
+        "url": "https://www.zeldadungeon.net/breath-of-the-wild-walkthrough/the-champions-ballad/",
+        "retrievedAt": "2026-10-11",
+        "locator": "Kiah Toza Shrine：盾滑光环断崖气流、金属轨道、冰柱、改轨开关、静止跷跷板、弹射开关"
+      },
+      {
+        "id": "extra-Dungeon128-dlc",
+        "title": "Zelda Wiki: EX The Champions' Ballad",
+        "url": "https://www.zeldawiki.wiki/wiki/EX_The_Champions%27_Ballad",
+        "retrievedAt": "2026-10-11",
+        "locator": "Overview: four Divine Beasts; Resurrection terminal and One-Hit Obliterator; four Plateau shrines then Champion monuments"
+      }
+    ],
+    "evidenceOverrides": {
+      "prerequisites": [
+        "extra-Dungeon128-1",
+        "extra-Dungeon128-dlc"
+      ],
+      "walkthrough": [
+        "extra-Dungeon128-1"
+      ],
+      "safe": [
+        "extra-Dungeon128-dlc"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon129",
+    "sourceId": "wiki-Dungeon129",
+    "safe": {
+      "summary": {
+        "zh": "DLC神庙，位于库库甲谷上方的高地。",
+        "en": "A DLC shrine above Tanagar Canyon on Upland Lindor.",
+        "ja": "ククジャ谷の上の高地にあるDLCの祠。"
+      },
+      "prerequisite": {
+        "zh": "需英杰之诗DLC及力巴尔相关阶段。",
+        "en": "Requires The Champions’ Ballad DLC and Revali’s phase.",
+        "ja": "英傑たちの詩DLCとリーバルの段階が必要。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "风扇运送炸弹并支撑滑翔，最后需控制闸门时机。",
+        "en": "Fans carry bombs and gliders; the final gate requires timing.",
+        "ja": "風でバクダンと滑空を運び、最後は門のタイミングを合わせる。"
+      },
+      "prerequisites": [
+        {
+          "zh": "需英杰之诗DLC与四神兽解放；完成台地四座新增神庙，再调查对应英杰石碑。",
+          "en": "Requires the DLC and all four Divine Beasts. Complete the four new Plateau shrines, then investigate the relevant Champion monument.",
+          "ja": "英傑たちの詩DLCと四神獣の解放が必要。台地の追加4祠を終え、該当する英傑の石碑を調べる。"
+        },
+        {
+          "zh": "夜晚在峡谷上方等奥尔龙经过，射中发蓝光的角。",
+          "en": "At night above the canyon, shoot Dinraal’s blue-glowing horn as it passes.",
+          "ja": "夜に峡谷の上でオルドラを待ち、青く光る角を射る。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "借气流跨平台，将炸弹送到可破墙边再引爆；漏斗处用圆形炸弹。",
+          "en": "Glide between platforms; blow up cracked walls using fan-carried bombs, with round bombs in funnels.",
+          "ja": "風で足場を渡り、壁へ飛ばしたバクダンで破壊する。漏斗には丸いバクダンを使う。"
+        },
+        {
+          "zh": "末段静止风力开关，让栅门保持开启，炸开墙并趁静止期间滑翔过去。",
+          "en": "Freeze the wind switch to keep the gate open; destroy the wall and glide through before Stasis ends.",
+          "ja": "最後は風のスイッチを止めて門を開けたままにし、壁を壊して停止中に滑空する。"
+        },
+        {
+          "zh": "沿最后几股气流升到导师处。",
+          "en": "Ride the final updrafts to the monk.",
+          "ja": "最後の気流を乗り継ぎ、導師へ向かう。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。",
+    "additionalSources": [
+      {
+        "id": "extra-Dungeon129-dlc",
+        "title": "Zelda Wiki: EX The Champions' Ballad",
+        "url": "https://www.zeldawiki.wiki/wiki/EX_The_Champions%27_Ballad",
+        "retrievedAt": "2026-10-11",
+        "locator": "Overview: four Divine Beasts; Resurrection terminal and One-Hit Obliterator; four Plateau shrines then Champion monuments"
+      }
+    ],
+    "evidenceOverrides": {
+      "safe": [
+        "extra-Dungeon129-dlc"
+      ],
+      "prerequisites": [
+        "extra-Dungeon129-dlc"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon130",
+    "sourceId": "wiki-Dungeon130",
+    "safe": {
+      "summary": {
+        "zh": "DLC神庙，位于奥尔汀达鲁马湖的北岸。",
+        "en": "A DLC shrine on Lake Darman’s northern shore, Eldin.",
+        "ja": "オルディンのダルマー湖北岸にあるDLCの祠。"
+      },
+      "prerequisite": {
+        "zh": "需英杰之诗DLC及达尔克尔相关阶段。",
+        "en": "Requires The Champions’ Ballad DLC and Daruk’s phase.",
+        "ja": "英傑たちの詩DLCとダルケルの段階が必要。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "用炮弹击中靶子，体感装置调整后段障碍。",
+        "en": "Cannon shots hit targets; motion controls align later obstacles.",
+        "ja": "大砲で的を射ち、後半は体感で障害物を動かす。"
+      },
+      "prerequisites": [
+        {
+          "zh": "需英杰之诗DLC与四神兽解放；完成台地四座新增神庙，再调查对应英杰石碑。",
+          "en": "Requires the DLC and all four Divine Beasts. Complete the four new Plateau shrines, then investigate the relevant Champion monument.",
+          "ja": "英傑たちの詩DLCと四神獣の解放が必要。台地の追加4祠を終え、該当する英傑の石碑を調べる。"
+        },
+        {
+          "zh": "在达尔克尔之诗阶段，击败湖中熔岩巨石怪。",
+          "en": "During Daruk’s Song, defeat the Igneo Talus Titan in the lake.",
+          "ja": "ダルケルの詩で湖の溶岩の巨岩を倒す。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "把炸弹装入大炮，击水晶使炮转向，瞄准静止靶和上下移动靶时引爆。",
+          "en": "Load a bomb, hit the crystal to turn the cannon, and detonate when aligned with each target.",
+          "ja": "大砲へバクダンを入れ、水晶で向きを変え、固定と上下する的に合う瞬間に起爆する。"
+        },
+        {
+          "zh": "用体感装置把悬挂靶转到射线上，命中后再次调整结构，击中露出的后方靶。",
+          "en": "Rotate the suspended target into range; after hitting it, realign the structure for the revealed rear target.",
+          "ja": "吊られた的を体感で射線へ向ける。命中後、奥の的への射線を空けて再び射つ。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。",
+    "additionalSources": [
+      {
+        "id": "extra-Dungeon130-dlc",
+        "title": "Zelda Wiki: EX The Champions' Ballad",
+        "url": "https://www.zeldawiki.wiki/wiki/EX_The_Champions%27_Ballad",
+        "retrievedAt": "2026-10-11",
+        "locator": "Overview: four Divine Beasts; Resurrection terminal and One-Hit Obliterator; four Plateau shrines then Champion monuments"
+      }
+    ],
+    "evidenceOverrides": {
+      "safe": [
+        "extra-Dungeon130-dlc"
+      ],
+      "prerequisites": [
+        "extra-Dungeon130-dlc"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon131",
+    "sourceId": "wiki-Dungeon131",
+    "safe": {
+      "summary": {
+        "zh": "DLC神庙，位于奥尔汀达鲁波池塘以南。",
+        "en": "A DLC shrine south of Darb Pond, Eldin.",
+        "ja": "オルディンのダルボ池南にあるDLCの祠。"
+      },
+      "prerequisite": {
+        "zh": "需英杰之诗DLC及达尔克尔相关阶段。",
+        "en": "Requires The Champions’ Ballad DLC and Daruk’s phase.",
+        "ja": "英傑たちの詩DLCとダルケルの段階が必要。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "金属块遮挡火焰，末端体感平台帮助越过火流。",
+        "en": "Metal blocks shield flames; the final motion platform crosses fire jets.",
+        "ja": "金属で炎を遮り、最後は体感の足場で火流を越える。"
+      },
+      "prerequisites": [
+        {
+          "zh": "需英杰之诗DLC与四神兽解放；完成台地四座新增神庙，再调查对应英杰石碑。",
+          "en": "Requires the DLC and all four Divine Beasts. Complete the four new Plateau shrines, then investigate the relevant Champion monument.",
+          "ja": "英傑たちの詩DLCと四神獣の解放が必要。台地の追加4祠を終え、該当する英傑の石碑を調べる。"
+        },
+        {
+          "zh": "把岸边金属箱放在熔岩光环中央，滑翔穿过光环并落到箱顶。",
+          "en": "Place a shore crate in the lava ring’s center; glide through and land on it.",
+          "ja": "岸の金属箱を溶岩の輪の中央に置き、輪を滑空して箱へ着地する。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "炸掉喷火柱下裂石，再拔走另一柱的金属支撑；用所得金属块挡前方火流。",
+          "en": "Bomb the cracked pillar base; remove another pillar’s metal support and use it to shield later flames.",
+          "ja": "柱下の割れ岩を爆破し、別の柱の金属を抜く。その金属で先の炎を遮る。"
+        },
+        {
+          "zh": "合用两块金属挡住下一道火流；把末端体感平台侧边抬高，借高度滑翔到导师侧。",
+          "en": "Combine two blocks against the next jets; tilt the final platform edge upward and glide onward.",
+          "ja": "2つの金属で次の炎を遮る。最後の体感足場の縁を上げ、導師側へ滑空する。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。",
+    "additionalSources": [
+      {
+        "id": "extra-Dungeon131-dlc",
+        "title": "Zelda Wiki: EX The Champions' Ballad",
+        "url": "https://www.zeldawiki.wiki/wiki/EX_The_Champions%27_Ballad",
+        "retrievedAt": "2026-10-11",
+        "locator": "Overview: four Divine Beasts; Resurrection terminal and One-Hit Obliterator; four Plateau shrines then Champion monuments"
+      }
+    ],
+    "evidenceOverrides": {
+      "safe": [
+        "extra-Dungeon131-dlc"
+      ],
+      "prerequisites": [
+        "extra-Dungeon131-dlc"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon132",
+    "sourceId": "wiki-Dungeon132",
+    "safe": {
+      "summary": {
+        "zh": "DLC神庙，位于死亡之山东南。",
+        "en": "A DLC shrine southeast of Death Mountain.",
+        "ja": "デスマウンテン南東にあるDLCの祠。"
+      },
+      "prerequisite": {
+        "zh": "需英杰之诗DLC及达尔克尔相关阶段。",
+        "en": "Requires The Champions’ Ballad DLC and Daruk’s phase.",
+        "ja": "英傑たちの詩DLCとダルケルの段階が必要。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "骑乘空中传送带悬挂块，利用侧面避开障碍。",
+        "en": "Ride overhead hanging blocks and cling to their sides to avoid obstacles.",
+        "ja": "天井の搬送ブロックに乗り、側面へ掴まって障害を避ける。"
+      },
+      "prerequisites": [
+        {
+          "zh": "需英杰之诗DLC与四神兽解放；完成台地四座新增神庙，再调查对应英杰石碑。",
+          "en": "Requires the DLC and all four Divine Beasts. Complete the four new Plateau shrines, then investigate the relevant Champion monument.",
+          "ja": "英傑たちの詩DLCと四神獣の解放が必要。台地の追加4祠を終え、該当する英傑の石碑を調べる。"
+        },
+        {
+          "zh": "从鲁达尼亚东侧山峰开始，在时限内依次触碰火山口周围光环。",
+          "en": "Start east of Rudania and pass the timed rings around Death Mountain’s crater.",
+          "ja": "ルーダニア東の峰から、火口周りの時限の輪を順に通る。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "攀住悬挂块的网面，绕到没有火焰或尖刺的一侧；下落前换乘下一段。",
+          "en": "Cling to mesh sides away from flames and spikes; transfer before each block drops.",
+          "ja": "網の側面に掴まり、炎やトゲのない側へ回る。落下前に次へ移る。"
+        },
+        {
+          "zh": "第二段避开小型守护者射击；第三段在瀑布上制冰，借冰块跨过火流。",
+          "en": "Avoid scouts on the second track; build waterfall ice on the third to bypass flames.",
+          "ja": "2本目の敵の射撃を避け、3本目は滝に氷を作って炎を越える。"
+        },
+        {
+          "zh": "在第二道瀑布继续制冰攀升，到达上方导师处。",
+          "en": "Build more ice on the second waterfall to reach the monk above.",
+          "ja": "2つ目の滝にも氷を作り、上の導師へ登る。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。",
+    "additionalSources": [
+      {
+        "id": "extra-Dungeon132-dlc",
+        "title": "Zelda Wiki: EX The Champions' Ballad",
+        "url": "https://www.zeldawiki.wiki/wiki/EX_The_Champions%27_Ballad",
+        "retrievedAt": "2026-10-11",
+        "locator": "Overview: four Divine Beasts; Resurrection terminal and One-Hit Obliterator; four Plateau shrines then Champion monuments"
+      }
+    ],
+    "evidenceOverrides": {
+      "safe": [
+        "extra-Dungeon132-dlc"
+      ],
+      "prerequisites": [
+        "extra-Dungeon132-dlc"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon133",
+    "sourceId": "wiki-Dungeon133",
+    "safe": {
+      "summary": {
+        "zh": "DLC神庙，位于格鲁德沙漠东部荒地。",
+        "en": "A DLC shrine in Gerudo Desert’s East Barrens.",
+        "ja": "ゲルド砂漠東の荒地にあるDLCの祠。"
+      },
+      "prerequisite": {
+        "zh": "需英杰之诗DLC及乌尔波扎相关阶段。",
+        "en": "Requires The Champions’ Ballad DLC and Urbosa’s phase.",
+        "ja": "英傑たちの詩DLCとウルボザの段階が必要。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "用大小金属块与悬挂球接通四段电路。",
+        "en": "Connect four circuit gaps using cubes and a hanging ball.",
+        "ja": "大小の金属と吊られた球で4つの断線を繋ぐ。"
+      },
+      "prerequisites": [
+        {
+          "zh": "需英杰之诗DLC与四神兽解放；完成台地四座新增神庙，再调查对应英杰石碑。",
+          "en": "Requires the DLC and all four Divine Beasts. Complete the four new Plateau shrines, then investigate the relevant Champion monument.",
+          "ja": "英傑たちの詩DLCと四神獣の解放が必要。台地の追加4祠を終え、該当する英傑の石碑を調べる。"
+        },
+        {
+          "zh": "乌尔波扎之诗阶段，击败东部荒地的莫尔德拉吉克王。",
+          "en": "During Urbosa’s Song, defeat the East Barrens Molduking.",
+          "ja": "ウルボザの詩で東の荒地のキングラジークを倒す。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "小金属块接通水中缺口；另一小块先供电升起平台，再放到平台顶续接电路。",
+          "en": "Bridge the water gap with a small cube. Use another to raise the platform, then move it atop the platform.",
+          "ja": "小さい金属で水の断線を繋ぐ。もう1つで足場を上げ、足場の上へ移す。"
+        },
+        {
+          "zh": "将悬挂金属球的链挂过墙上横杆；最后制冰抬高大金属块，连接两端开门。",
+          "en": "Hook the hanging ball’s chain over the bar. Raise the large cube on Cryonis to bridge the final gap.",
+          "ja": "吊られた球の鎖を横棒へ掛ける。最後は氷柱上の大きな金属で両端を繋ぐ。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。",
+    "additionalSources": [
+      {
+        "id": "extra-Dungeon133-1",
+        "title": "Zelda Dungeon：Keive Tala Shrine",
+        "url": "https://www.zeldadungeon.net/wiki/Keive_Tala_Shrine",
+        "retrievedAt": "2026-10-11",
+        "locator": "Shrine Guide：水中小块、供电平台、小块复用、链挂横杆、制冰托大块"
+      },
+      {
+        "id": "extra-Dungeon133-dlc",
+        "title": "Zelda Wiki: EX The Champions' Ballad",
+        "url": "https://www.zeldawiki.wiki/wiki/EX_The_Champions%27_Ballad",
+        "retrievedAt": "2026-10-11",
+        "locator": "Overview: four Divine Beasts; Resurrection terminal and One-Hit Obliterator; four Plateau shrines then Champion monuments"
+      }
+    ],
+    "evidenceOverrides": {
+      "walkthrough": [
+        "extra-Dungeon133-1"
+      ],
+      "safe": [
+        "extra-Dungeon133-dlc"
+      ],
+      "prerequisites": [
+        "extra-Dungeon133-dlc"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon134",
+    "sourceId": "wiki-Dungeon134",
+    "safe": {
+      "summary": {
+        "zh": "DLC神庙，位于格鲁德沙漠西部荒地。",
+        "en": "A DLC shrine in Gerudo Desert’s West Barrens.",
+        "ja": "ゲルド砂漠西の荒地にあるDLCの祠。"
+      },
+      "prerequisite": {
+        "zh": "需英杰之诗DLC及乌尔波扎相关阶段。",
+        "en": "Requires The Champions’ Ballad DLC and Urbosa’s phase.",
+        "ja": "英傑たちの詩DLCとウルボザの段階が必要。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "滑动导轨金属块，分别搭路与接通电路。",
+        "en": "Slide rail-mounted metal blocks to form routes and electrical connections.",
+        "ja": "レール上の金属を滑らせ、道と電気の接続を作る。"
+      },
+      "prerequisites": [
+        {
+          "zh": "需英杰之诗DLC与四神兽解放；完成台地四座新增神庙，再调查对应英杰石碑。",
+          "en": "Requires the DLC and all four Divine Beasts. Complete the four new Plateau shrines, then investigate the relevant Champion monument.",
+          "ja": "英傑たちの詩DLCと四神獣の解放が必要。台地の追加4祠を終え、該当する英傑の石碑を調べる。"
+        },
+        {
+          "zh": "乌尔波扎之诗阶段，骑沙海象在时限内依次穿过西部荒地光环。",
+          "en": "During Urbosa’s Song, ride a sand seal through the timed West Barrens rings.",
+          "ja": "ウルボザの詩でスナザラシに乗り、西の荒地の時限の輪を通る。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "用磁力移开金属块搭出可行走路线，先在尚未通电时移到房间另一端。",
+          "en": "Use Magnesis to form a route and cross before the blocks carry electricity.",
+          "ja": "磁力で道を作り、ブロックに通電する前に部屋の向こう側へ渡る。"
+        },
+        {
+          "zh": "从安全位置重新排列块，让电流到开门机关；三间房都按先通行、后接电推进。",
+          "en": "From safety, realign blocks to power each gate; cross first, connect second in all three rooms.",
+          "ja": "安全な場所から金属を並べ直して門へ送電する。3部屋とも先に渡り、後で繋ぐ。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。",
+    "additionalSources": [
+      {
+        "id": "extra-Dungeon134-dlc",
+        "title": "Zelda Wiki: EX The Champions' Ballad",
+        "url": "https://www.zeldawiki.wiki/wiki/EX_The_Champions%27_Ballad",
+        "retrievedAt": "2026-10-11",
+        "locator": "Overview: four Divine Beasts; Resurrection terminal and One-Hit Obliterator; four Plateau shrines then Champion monuments"
+      }
+    ],
+    "evidenceOverrides": {
+      "safe": [
+        "extra-Dungeon134-dlc"
+      ],
+      "prerequisites": [
+        "extra-Dungeon134-dlc"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon135",
+    "sourceId": "wiki-Dungeon135",
+    "safe": {
+      "summary": {
+        "zh": "DLC神庙，位于初始台地时光之神殿遗迹南方。",
+        "en": "A DLC shrine south of the Temple of Time, Great Plateau.",
+        "ja": "始まりの台地の時の神殿南にあるDLCの祠。"
+      },
+      "prerequisite": {
+        "zh": "需英杰之诗DLC及其主线阶段。",
+        "en": "Requires The Champions’ Ballad DLC and its story phase.",
+        "ja": "英傑たちの詩DLCと該当のメイン進行が必要。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "高阶战斗后还有地下通道、钥匙和最终混合战斗。",
+        "en": "A major fight continues into basement tunnels, a key, and a final mixed battle.",
+        "ja": "上位戦闘の後に地下通路、鍵、最後の混合戦闘が続く。"
+      },
+      "prerequisites": [
+        {
+          "zh": "需英杰之诗DLC并解放四神兽；在复苏神庙终端启动台地试炼，领取一击必杀之剑。持剑时自己也受击即败。",
+          "en": "Requires The Champions’ Ballad and all four Divine Beasts. Start the Plateau trial at the Resurrection terminal and take the One-Hit Obliterator; one hit also defeats you.",
+          "ja": "英傑たちの詩DLCと四神獣の解放が必要。回生の祠の端末で台地の試練を始め、一撃の剣を取る。自分も一撃で倒れる。"
+        },
+        {
+          "zh": "在台地一击试炼阶段，清除时光之神殿遗迹南方标记营地全部指定敌人。",
+          "en": "During the one-hit Plateau trial, clear all designated enemies south of the Temple of Time.",
+          "ja": "台地の一撃試練で時の神殿南の指定拠点の敵を全て倒す。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "击败浅水场地的守护者Ⅳ，踩后房开关让中央平台下降，再进入地下。",
+          "en": "Defeat Scout IV in the water arena, then press the rear switch to lower the central platform.",
+          "ja": "水の場の敵を倒し、奥のスイッチで中央の床を下げて地下へ入る。"
+        },
+        {
+          "zh": "清除通道守护者，到地下通道上层取小钥匙，打开锁门。",
+          "en": "Clear tunnel scouts, take the small key from the upper tunnel level, and unlock the door.",
+          "ja": "通路の敵を倒し、地下通路上段の小さな鍵を取り、扉を開く。"
+        },
+        {
+          "zh": "最终房间需全部击败四台不同守护者；全部清除才会停止重生并开门。",
+          "en": "Defeat all four final scouts; only a full clear stops respawns and opens the gate.",
+          "ja": "最後の異なる4体を全て倒す。全滅させると復活が止まり、門が開く。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Wiki入口与机关正文。",
+    "additionalSources": [
+      {
+        "id": "extra-Dungeon135-dlc",
+        "title": "Zelda Wiki: EX The Champions' Ballad",
+        "url": "https://www.zeldawiki.wiki/wiki/EX_The_Champions%27_Ballad",
+        "retrievedAt": "2026-10-11",
+        "locator": "Overview: four Divine Beasts; Resurrection terminal and One-Hit Obliterator; four Plateau shrines then Champion monuments"
+      }
+    ],
+    "evidenceOverrides": {
+      "safe": [
+        "extra-Dungeon135-dlc"
+      ],
+      "prerequisites": [
+        "extra-Dungeon135-dlc"
+      ]
+    }
+  }
+]

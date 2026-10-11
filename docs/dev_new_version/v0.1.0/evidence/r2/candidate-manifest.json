@@ -1,0 +1,188 @@
+{
+  "revision": "r2",
+  "origin": "http://127.0.0.1:5173/",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "node": "v24.18.0",
+  "playwright": "1.62.1",
+  "browser": "149.0.7827.55",
+  "git": "initialized; no commit; no remote",
+  "files": [
+    {
+      "path": "data/schema/shrines.schema.json",
+      "sha256": "7d5bce43c16c454ca4ae7781f287bedf4eefa1554b437cd2578efed3ad97f397",
+      "size": 8317
+    },
+    {
+      "path": "docs/dev_new_version/v0.1.0/01_需求文档.md",
+      "sha256": "27376690aa040074422990d4fd9d75f2a5dd936aca386402ff05533faa6333e5",
+      "size": 4808
+    },
+    {
+      "path": "docs/dev_new_version/v0.1.0/02_PRD.md",
+      "sha256": "ee6220de90c62fbee2669f6523e6cb8409a3ab099b9322f5a991eee546900801",
+      "size": 16901
+    },
+    {
+      "path": "docs/dev_new_version/v0.1.0/03_UIUX设计.md",
+      "sha256": "84c6d54d96fbc0807fefb0c3405b4bf625586db595de501c23548e38a5826bb8",
+      "size": 17775
+    },
+    {
+      "path": "docs/dev_new_version/v0.1.0/04_技术方案.md",
+      "sha256": "2818ff93912f382b8a396e78721dbfa190d38d9ef93641ae69042548b873bfe2",
+      "size": 15742
+    },
+    {
+      "path": "docs/dev_new_version/v0.1.0/05_测试方案.md",
+      "sha256": "f45919e8458ca7039707ad4c67b2033dc1b4e4ecfeaf24f0a1ff05418c264013",
+      "size": 16232
+    },
+    {
+      "path": "docs/dev_new_version/v0.1.0/06_开发记录.md",
+      "sha256": "c34931a64df5be5ac2aaa9daabe7c78c59d85ed69ff0f8a571afc8a2b4d42284",
+      "size": 3907
+    },
+    {
+      "path": "index.html",
+      "sha256": "ef43691065f6c983dbb013b169f444ac64038abdb75a8f7b00c6e785fdd8c913",
+      "size": 322
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "1e606f6da1714f5d5d08d889e82e79f3f75d5432a935e55f5457c47915f28f99",
+      "size": 62914
+    },
+    {
+      "path": "package.json",
+      "sha256": "4b997939fa498ab1a3ceb9f48415efe9d48fac35458efbd5b3f9d8bad66aeb7b",
+      "size": 549
+    },
+    {
+      "path": "public/THIRD_PARTY_NOTICES.txt",
+      "sha256": "5cd96ec0a64a180e02eb5f36c03a303218492418ee4533ea1293369a231aca33",
+      "size": 104551
+    },
+    {
+      "path": "public/assets/hyrule-base.webp",
+      "sha256": "5847a9e5f5d4ed44bc20b61d2b5c24999c33b796d8a42354946f42c631b4ec10",
+      "size": 1204518
+    },
+    {
+      "path": "public/data/shrines.json",
+      "sha256": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde",
+      "size": 740926
+    },
+    {
+      "path": "requirements-data.txt",
+      "sha256": "d88f28984e63d257df9a014d28feb8b9b41ce8496012f82a9c9bf84222847d92",
+      "size": 110
+    },
+    {
+      "path": "src/App.tsx",
+      "sha256": "c8c8b615e931c3193e4afb8b546fe8cfcb70137dbdf3ce143cbd1c394acb036b",
+      "size": 18924
+    },
+    {
+      "path": "src/components/Icon.tsx",
+      "sha256": "1fb277363d562df850dda3db1828a452a624654efff661aeddbc3bf8cd519eff",
+      "size": 1334
+    },
+    {
+      "path": "src/components/ImportDialog.tsx",
+      "sha256": "18b5db961f32de1504a0040fe7560222665cf537f194e383904b12e184376155",
+      "size": 3056
+    },
+    {
+      "path": "src/components/MapCanvas.tsx",
+      "sha256": "8654db637fc5fecd7c07b80d419dbe969cb69f8521779e93d2d0318185a58d09",
+      "size": 9568
+    },
+    {
+      "path": "src/components/SafePreview.tsx",
+      "sha256": "e7e8b7c37103d9356b611d1bfc9636fd4543ebf3f38bcdd6a05caec22ef049e4",
+      "size": 2213
+    },
+    {
+      "path": "src/components/Settings.tsx",
+      "sha256": "13f9ef1b13b51800d6b6b8204b6a47a2e6ae273219199ccca7b19c465ffaabeb",
+      "size": 2939
+    },
+    {
+      "path": "src/components/ShrineDetails.tsx",
+      "sha256": "604c0eb417a2046b17d127fdaa813342f73e99da476183161c56d6e0b711736c",
+      "size": 4613
+    },
+    {
+      "path": "src/components/Text.tsx",
+      "sha256": "4cc29b7e303754221fb100b70d407146617770427e24d7f314be87d3cd77e8b5",
+      "size": 673
+    },
+    {
+      "path": "src/i18n.ts",
+      "sha256": "9ddd7c2ac418a95c5598ab68d1bf27cb7fec9f39fd9e3bc0cc11e45f77d00ccb",
+      "size": 18574
+    },
+    {
+      "path": "src/lib/data.ts",
+      "sha256": "caa9d120c73c527adc930322cb11e96c3abd16cf01a23fb04b150092d90f0c66",
+      "size": 4139
+    },
+    {
+      "path": "src/lib/map.ts",
+      "sha256": "31942b26a812feb44e208fc0e2d00aab44b7a34abca40784c6d80cdb6926cabd",
+      "size": 170
+    },
+    {
+      "path": "src/lib/progress.ts",
+      "sha256": "d32cfa8cbc6c8de880aec80cb0c4a82a66fd4312ffaad04effe7f963dd42b9ee",
+      "size": 4418
+    },
+    {
+      "path": "src/main.tsx",
+      "sha256": "e7d86d0c7194d7ae7740747e6a63e00644c8abd58a30cb704c4eadc23025900c",
+      "size": 259
+    },
+    {
+      "path": "src/styles.css",
+      "sha256": "792a0ed6e8db5383fdc5c83f6d3752d922e9c1c7186e1048898c966d13104e45",
+      "size": 26396
+    },
+    {
+      "path": "src/types.ts",
+      "sha256": "d337085d9fa37ea15b6d804c0fb607153362182455518821a8d22cec40559eed",
+      "size": 1575
+    },
+    {
+      "path": "tests/r2/qa_browser.cjs",
+      "sha256": "10dbc79da32cea426d73a02b221fe196632a4104a2f79324160731b627dfc2db",
+      "size": 24360
+    },
+    {
+      "path": "tests/r2/qa_data.py",
+      "sha256": "d3d21e7049f51e213e3c6a7f63371741c5e6f87390f90c22bfed29fd55cc2105",
+      "size": 24625
+    },
+    {
+      "path": "tsconfig.app.json",
+      "sha256": "d75fd25ce4d5f5cb98c397c11952ccc4fc906f4cc4c97e81cdcbc95e4e7b0073",
+      "size": 492
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "67312658d22f72e4310e3c1410ea5862b1489055bbd9d70107f3f3cbbb86bdf8",
+      "size": 91
+    },
+    {
+      "path": "tsconfig.node.json",
+      "sha256": "6c9a407af0f21ccdf8a09b8a75e9f4785c6c13b9d6ef1a47d6c2076713232a7b",
+      "size": 358
+    },
+    {
+      "path": "vite.config.ts",
+      "sha256": "9ae325f72690814233532e1e15a8a7f3b1ae21814be2e04780b4c342c91a2981",
+      "size": 255
+    }
+  ],
+  "finalAfterTowerCallbackFix": true,
+  "uniqueBrowserGroups": 17
+}

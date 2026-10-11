@@ -1,0 +1,43 @@
+{
+  "version": "v0.1.0",
+  "revision": "r3",
+  "status": "accepted_local_archive",
+  "created_at": "2026-10-11T13:03:33+08:00",
+  "acceptance_fingerprint": "7500957122b6d533de64c165a18f26793455fb224956ec8bb3f06932caf946ee",
+  "archive": "hyrule-shrine-map-v0.1.0.zip",
+  "archive_sha256": "5dc493aeab407558f1a4b577c57bdaf2685dab22244c8fc2c61c7abb5a46a05a",
+  "archive_bytes": 1462965,
+  "files": [
+    {
+      "path": "THIRD_PARTY_NOTICES.txt",
+      "bytes": 104551,
+      "sha256": "5cd96ec0a64a180e02eb5f36c03a303218492418ee4533ea1293369a231aca33"
+    },
+    {
+      "path": "assets/hyrule-base.webp",
+      "bytes": 1204518,
+      "sha256": "5847a9e5f5d4ed44bc20b61d2b5c24999c33b796d8a42354946f42c631b4ec10"
+    },
+    {
+      "path": "assets/index-B7CQyL1l.css",
+      "bytes": 43007,
+      "sha256": "f0e26335b6d4302f4e22852fedd7f7243468ccbb262560716d3949952afaa7c0"
+    },
+    {
+      "path": "assets/index-BN0TqlsP.js",
+      "bytes": 396486,
+      "sha256": "db5af850044e51347b46fe59690e099aec8ad7fe2bdd602f9818f92ac6de6e0b"
+    },
+    {
+      "path": "data/shrines.json",
+      "bytes": 740926,
+      "sha256": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde"
+    },
+    {
+      "path": "index.html",
+      "bytes": 421,
+      "sha256": "8d601784ed415a9e0f6467ae01cd6aa7c26af885a52be54a52b19842e6134b92"
+    }
+  ],
+  "deployment": "本机预览；未公开发布"
+}

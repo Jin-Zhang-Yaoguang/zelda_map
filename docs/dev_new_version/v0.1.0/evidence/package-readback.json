@@ -1,0 +1,26 @@
+{
+  "sourceCacheHashes": {
+    "count": 277,
+    "errors": []
+  },
+  "packageReadback": [
+    {
+      "path": "data/shrines.json",
+      "public": "18eb8934cd4011798ebc9d9bb8e1a042073691ec189df7ca824ab1f34dbf7302",
+      "dist": "18eb8934cd4011798ebc9d9bb8e1a042073691ec189df7ca824ab1f34dbf7302",
+      "same": true
+    },
+    {
+      "path": "assets/hyrule-base.webp",
+      "public": "5847a9e5f5d4ed44bc20b61d2b5c24999c33b796d8a42354946f42c631b4ec10",
+      "dist": "5847a9e5f5d4ed44bc20b61d2b5c24999c33b796d8a42354946f42c631b4ec10",
+      "same": true
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.txt",
+      "public": "5cd96ec0a64a180e02eb5f36c03a303218492418ee4533ea1293369a231aca33",
+      "dist": "5cd96ec0a64a180e02eb5f36c03a303218492418ee4533ea1293369a231aca33",
+      "same": true
+    }
+  ]
+}

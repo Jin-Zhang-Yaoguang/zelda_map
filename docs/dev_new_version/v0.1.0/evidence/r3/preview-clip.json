@@ -1,0 +1,26 @@
+{
+  "viewport": {
+    "width": 1440,
+    "height": 960
+  },
+  "clip": {
+    "x": 663,
+    "y": 353,
+    "width": 450,
+    "height": 240
+  },
+  "tip": {
+    "x": 778,
+    "y": 408,
+    "width": 220,
+    "height": 93.296875
+  },
+  "marker": {
+    "x": 866,
+    "y": 494,
+    "width": 44,
+    "height": 44
+  },
+  "nativeScreenshot": true,
+  "note": "浏览器原生clip截图，未编辑用户上传图片"
+}

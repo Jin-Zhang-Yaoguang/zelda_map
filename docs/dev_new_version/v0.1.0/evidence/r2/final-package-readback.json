@@ -1,0 +1,28 @@
+{
+  "afterTowerCallbackFix": true,
+  "files": [
+    {
+      "path": "data/shrines.json",
+      "sameBytes": true,
+      "publicHash": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde",
+      "distHash": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde"
+    },
+    {
+      "path": "assets/hyrule-base.webp",
+      "sameBytes": true,
+      "publicHash": "5847a9e5f5d4ed44bc20b61d2b5c24999c33b796d8a42354946f42c631b4ec10",
+      "distHash": "5847a9e5f5d4ed44bc20b61d2b5c24999c33b796d8a42354946f42c631b4ec10"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.txt",
+      "sameBytes": true,
+      "publicHash": "5cd96ec0a64a180e02eb5f36c03a303218492418ee4533ea1293369a231aca33",
+      "distHash": "5cd96ec0a64a180e02eb5f36c03a303218492418ee4533ea1293369a231aca33"
+    }
+  ],
+  "distAssets": [
+    "hyrule-base.webp",
+    "index-Bu9DhXbY.css",
+    "index-CgfUQxcn.js"
+  ]
+}

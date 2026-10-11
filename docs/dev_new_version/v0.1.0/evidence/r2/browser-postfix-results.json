@@ -1,0 +1,192 @@
+{
+  "date": "2026-10-11T03:12:25.903Z",
+  "origin": "http://127.0.0.1:5173/",
+  "datasetHash": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde",
+  "dataVersion": "v0.1.0-20261011-r2",
+  "sourceHashes": {
+    "src/App.tsx": "c8c8b615e931c3193e4afb8b546fe8cfcb70137dbdf3ce143cbd1c394acb036b",
+    "src/components/MapCanvas.tsx": "8654db637fc5fecd7c07b80d419dbe969cb69f8521779e93d2d0318185a58d09",
+    "src/lib/map.ts": "31942b26a812feb44e208fc0e2d00aab44b7a34abca40784c6d80cdb6926cabd",
+    "src/lib/data.ts": "caa9d120c73c527adc930322cb11e96c3abd16cf01a23fb04b150092d90f0c66",
+    "src/styles.css": "792a0ed6e8db5383fdc5c83f6d3752d922e9c1c7186e1048898c966d13104e45"
+  },
+  "playwright": "1.62.1",
+  "browser": "149.0.7827.55",
+  "results": [
+    {
+      "name": "03-all-towers-location",
+      "status": "pass",
+      "detail": {
+        "towerProjection": [
+          {
+            "id": "Tower01",
+            "dx": 0.2725000000000364,
+            "dy": 0.3050000000000068
+          },
+          {
+            "id": "Tower02",
+            "dx": 0.13423400878900793,
+            "dy": 0.18859054565427869
+          },
+          {
+            "id": "Tower03",
+            "dx": 0.5550000000000637,
+            "dy": 0.35949798583988013
+          },
+          {
+            "id": "Tower04",
+            "dx": 0.31396484375,
+            "dy": 0.57892578124995
+          },
+          {
+            "id": "Tower05",
+            "dx": 0.07954711914067047,
+            "dy": 0.02890808105468068
+          },
+          {
+            "id": "Tower06",
+            "dx": 0.06320907592771619,
+            "dy": 0.03247726440429233
+          },
+          {
+            "id": "Tower07",
+            "dx": 0.2029003906250182,
+            "dy": 0.3262207031250455
+          },
+          {
+            "id": "Tower08",
+            "dx": 0.11586914062502274,
+            "dy": 0.08823242187497726
+          },
+          {
+            "id": "Tower09",
+            "dx": 0.37521697998045056,
+            "dy": 0.16793151855472388
+          },
+          {
+            "id": "Tower10",
+            "dx": 0.36748779296885914,
+            "dy": 0.06555694580077898
+          },
+          {
+            "id": "Tower11",
+            "dx": 0.09000000000014552,
+            "dy": 0.2582479858398301
+          },
+          {
+            "id": "Tower12",
+            "dx": 0.2849999999998545,
+            "dy": 0.5075025177001748
+          },
+          {
+            "id": "Tower13",
+            "dx": 0.6787500000000364,
+            "dy": 0.5137499999999591
+          },
+          {
+            "id": "Tower14",
+            "dx": 0.17574218749996362,
+            "dy": 0.5821191406249682
+          },
+          {
+            "id": "Tower15",
+            "dx": 0.18774597167976026,
+            "dy": 0.620245971679708
+          }
+        ],
+        "clicked": 15,
+        "completedIds": []
+      }
+    },
+    {
+      "name": "06-return-selection-keyboard",
+      "status": "pass",
+      "detail": {
+        "returnPixel": {
+          "before": {
+            "x": -580,
+            "y": -202,
+            "w": 2121,
+            "h": 1768
+          },
+          "after": {
+            "x": -580,
+            "y": -202,
+            "w": 2121,
+            "h": 1768
+          }
+        },
+        "farPreservesSelection": true,
+        "keyboardNoCluster": true
+      }
+    },
+    {
+      "name": "10-mobile-360",
+      "status": "pass",
+      "detail": {
+        "width": 360,
+        "far": {
+          "zoom": -3.3000000000000003,
+          "layer": "towers",
+          "towers": 15,
+          "shrines": 0
+        },
+        "selectedCenter": {
+          "x": 180,
+          "y": 214
+        },
+        "visibleCenterY": 213.6015625,
+        "panelTop": 371.203125
+      }
+    },
+    {
+      "name": "10-mobile-390",
+      "status": "pass",
+      "detail": {
+        "width": 390,
+        "far": {
+          "zoom": -3.2,
+          "layer": "towers",
+          "towers": 15,
+          "shrines": 0
+        },
+        "selectedCenter": {
+          "x": 195,
+          "y": 214
+        },
+        "visibleCenterY": 213.6015625,
+        "panelTop": 371.203125
+      }
+    },
+    {
+      "name": "10-mobile-768",
+      "status": "pass",
+      "detail": {
+        "width": 768,
+        "far": {
+          "zoom": -3.2,
+          "layer": "towers",
+          "towers": 15,
+          "shrines": 0
+        },
+        "selectedCenter": {
+          "x": 384,
+          "y": 214
+        },
+        "visibleCenterY": 213.6015625,
+        "panelTop": 371.203125
+      }
+    },
+    {
+      "name": "13-tower-clears-old-selection",
+      "status": "pass",
+      "detail": {
+        "farKeepsSelection": true,
+        "towerClearsOldSelection": true,
+        "nearZoom": -0.5,
+        "higherListZoom": 0
+      }
+    }
+  ],
+  "pageErrors": []
+}

@@ -1,0 +1,58 @@
+{
+  "datasetVersion": "v0.1.0-20261011",
+  "generatedAt": "2026-10-11T02:50:45.978568+00:00",
+  "sha256": "18eb8934cd4011798ebc9d9bb8e1a042073691ec189df7ca824ab1f34dbf7302",
+  "count": 136,
+  "base": 120,
+  "dlc": 16,
+  "chests": 205,
+  "sources": 307,
+  "regions": {
+    "eldin": 12,
+    "wasteland": 15,
+    "ridgeland": 8,
+    "lanayru": 12,
+    "faron": 8,
+    "dueling-peaks": 9,
+    "tabantha": 7,
+    "great-plateau": 8,
+    "woodland": 8,
+    "akkala": 8,
+    "hateno": 7,
+    "hebra": 14,
+    "central": 8,
+    "gerudo": 6,
+    "lake": 6
+  },
+  "errors": [],
+  "unverifiedFields": [],
+  "sourceConflicts": [
+    {
+      "id": "Dungeon017",
+      "field": "supplies",
+      "note": "宝箱来源有差异：游戏对象objid25353的drop=[1,Weapon_Lsword_041]，游戏三语文本为戒心长刀 / Eightfold Longblade / 残心の太刀；Wiki写静心大剑 / Edge of Duality / 無心の大剣（Weapon_Lsword_055）。展示保留游戏对象的基础物资。原对象sharp_weapon_judge_type=0、one_hit_mode=0、spawns_with_lotm=0；这些字段尚不能证明差异是版本、缩放或DLC变化，原因未确认。",
+      "displayNote": {
+        "zh": "此处展示游戏基础物资“戒心长刀”，Wiki却列为“静心大剑”。差异原因尚未确认，不能据此推断版本或缩放变化。",
+        "en": "The game’s base drop shown here is Eightfold Longblade, while the Wiki lists Edge of Duality. The cause is unconfirmed; version or scaling changes cannot be inferred.",
+        "ja": "ここではゲームの基本ドロップ「残心の太刀」を表示していますが、Wikiは「無心の大剣」と記載。差異の原因は未確認で、バージョンや補正の変化とは断定できません。"
+      },
+      "sourceIds": [
+        "chests-Dungeon017",
+        "actor-labels",
+        "wiki-Dungeon017"
+      ]
+    }
+  ],
+  "safeCandidates": [],
+  "uniqueIntroByLanguage": {
+    "zh": 136,
+    "en": 136,
+    "ja": 135
+  },
+  "uniqueWalkthroughByLanguage": {
+    "zh": 136,
+    "en": 136,
+    "ja": 136
+  },
+  "boundary": "结构、原始游戏文本/点位/分区和宝箱drop全量比对；verification仅列报，未作为事实通过依据。攻略语义另做人工源对照。已明示且保留来源的017物资差异单列，不伪装消除。"
+}

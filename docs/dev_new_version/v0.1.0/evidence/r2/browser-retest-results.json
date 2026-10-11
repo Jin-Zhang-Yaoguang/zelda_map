@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-11T03:09:44.153Z",
+  "origin": "http://127.0.0.1:5173/",
+  "datasetHash": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde",
+  "dataVersion": "v0.1.0-20261011-r2",
+  "playwright": "1.62.1",
+  "browser": "149.0.7827.55",
+  "results": [
+    {
+      "name": "04-filters-dlc-layer-invariance",
+      "status": "pass",
+      "detail": {
+        "dlcOff": 120,
+        "filtered": 9,
+        "towersIgnoreFilters": true
+      }
+    }
+  ],
+  "pageErrors": []
+}

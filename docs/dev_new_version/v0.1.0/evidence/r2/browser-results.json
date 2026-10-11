@@ -1,0 +1,325 @@
+{
+  "date": "2026-10-11T03:09:15.056Z",
+  "origin": "http://127.0.0.1:5173/",
+  "datasetHash": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde",
+  "dataVersion": "v0.1.0-20261011-r2",
+  "playwright": "1.62.1",
+  "browser": "149.0.7827.55",
+  "results": [
+    {
+      "name": "01-threshold-real-controls",
+      "status": "pass",
+      "detail": {
+        "samples": [
+          {
+            "zoom": -1.6,
+            "layer": "towers",
+            "towers": 15,
+            "shrines": 0
+          },
+          {
+            "zoom": -0.5,
+            "layer": "shrines",
+            "towers": 0,
+            "shrines": 136
+          },
+          {
+            "zoom": -1,
+            "layer": "shrines",
+            "towers": 0,
+            "shrines": 136
+          },
+          {
+            "zoom": -1.1,
+            "layer": "towers",
+            "towers": 15,
+            "shrines": 0
+          },
+          {
+            "zoom": -1,
+            "layer": "shrines",
+            "towers": 0,
+            "shrines": 136
+          },
+          {
+            "zoom": -0.9,
+            "layer": "shrines",
+            "towers": 0,
+            "shrines": 136
+          },
+          {
+            "zoom": 0,
+            "layer": "shrines",
+            "towers": 0,
+            "shrines": 136
+          }
+        ],
+        "controls": [
+          "button",
+          "wheel",
+          "keyboard",
+          "reset"
+        ]
+      }
+    },
+    {
+      "name": "02-independent-markers-size-projection",
+      "status": "pass",
+      "detail": {
+        "projectionCount": 136,
+        "maxDx": 0.7287499999999909,
+        "maxDy": 0.68380761718754,
+        "sizes": 136,
+        "dimensions": {
+          "symbol": [
+            18,
+            18
+          ],
+          "ring": [
+            "18px",
+            "18px"
+          ]
+        },
+        "removedSourcePaths": true
+      }
+    },
+    {
+      "name": "03-all-towers-location",
+      "status": "pass",
+      "detail": {
+        "towerProjection": [
+          {
+            "id": "Tower01",
+            "dx": 0.2725000000000364,
+            "dy": 0.3050000000000068
+          },
+          {
+            "id": "Tower02",
+            "dx": 0.13423400878900793,
+            "dy": 0.18859054565427869
+          },
+          {
+            "id": "Tower03",
+            "dx": 0.5550000000000637,
+            "dy": 0.35949798583988013
+          },
+          {
+            "id": "Tower04",
+            "dx": 0.31396484375,
+            "dy": 0.57892578124995
+          },
+          {
+            "id": "Tower05",
+            "dx": 0.07954711914067047,
+            "dy": 0.02890808105468068
+          },
+          {
+            "id": "Tower06",
+            "dx": 0.06320907592771619,
+            "dy": 0.03247726440429233
+          },
+          {
+            "id": "Tower07",
+            "dx": 0.2029003906250182,
+            "dy": 0.3262207031250455
+          },
+          {
+            "id": "Tower08",
+            "dx": 0.11586914062502274,
+            "dy": 0.08823242187497726
+          },
+          {
+            "id": "Tower09",
+            "dx": 0.37521697998045056,
+            "dy": 0.16793151855472388
+          },
+          {
+            "id": "Tower10",
+            "dx": 0.36748779296885914,
+            "dy": 0.06555694580077898
+          },
+          {
+            "id": "Tower11",
+            "dx": 0.09000000000014552,
+            "dy": 0.2582479858398301
+          },
+          {
+            "id": "Tower12",
+            "dx": 0.2849999999998545,
+            "dy": 0.5075025177001748
+          },
+          {
+            "id": "Tower13",
+            "dx": 0.6787500000000364,
+            "dy": 0.5137499999999591
+          },
+          {
+            "id": "Tower14",
+            "dx": 0.17574218749996362,
+            "dy": 0.5821191406249682
+          },
+          {
+            "id": "Tower15",
+            "dx": 0.18774597167976026,
+            "dy": 0.620245971679708
+          }
+        ],
+        "clicked": 15,
+        "completedIds": []
+      }
+    },
+    {
+      "name": "04-filters-dlc-layer-invariance",
+      "status": "fail",
+      "error": "locator.click: Error: strict mode violation: getByRole('button', { name: '清除筛选', exact: true }) resolved to 2 elements:\n    1) <button>清除筛选</button> aka getByRole('button', { name: '清除筛选' }).first()\n    2) <button class=\"button secondary\">清除筛选</button> aka locator('#shrine-list').getByRole('button', { name: '清除筛选' })\n\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: '清除筛选', exact: true })\u001b[22m\n\n    at /Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/r2/qa_browser.cjs:36:193\n    at async test (/Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/r2/qa_browser.cjs:23:405)\n    at async /Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/r2/qa_browser.cjs:35:2"
+    },
+    {
+      "name": "05-language-hud-tooltip-and-conflict",
+      "status": "pass",
+      "detail": {
+        "languages": 3,
+        "towerTooltip": true,
+        "safeConflictHidden": true
+      }
+    },
+    {
+      "name": "06-return-selection-keyboard",
+      "status": "pass",
+      "detail": {
+        "returnPixel": {
+          "before": {
+            "x": -580,
+            "y": -202,
+            "w": 2121,
+            "h": 1768
+          },
+          "after": {
+            "x": -580,
+            "y": -202,
+            "w": 2121,
+            "h": 1768
+          }
+        },
+        "farPreservesSelection": true,
+        "keyboardNoCluster": true
+      }
+    },
+    {
+      "name": "07-progress-backup-tower-rejection",
+      "status": "pass",
+      "detail": {
+        "exportIds": [
+          "Dungeon000",
+          "Dungeon120"
+        ],
+        "towerImportRejected": true,
+        "cancel": true,
+        "roundtrip": true,
+        "refreshCancel": true
+      }
+    },
+    {
+      "name": "08-invalid-towers-retry",
+      "status": "pass",
+      "detail": {
+        "invalid": [
+          "missing",
+          "count",
+          "duplicate",
+          "bad-coordinate",
+          "missing-language",
+          "bad-source"
+        ],
+        "allRecovered": true
+      }
+    },
+    {
+      "name": "09-nearest-overlapping-hit",
+      "status": "pass",
+      "detail": {
+        "overlapping": [
+          "Dungeon009",
+          "Dungeon135"
+        ],
+        "expected": "Dungeon009",
+        "point": {
+          "x": 869.6,
+          "y": 837.1500000000001
+        }
+      }
+    },
+    {
+      "name": "10-mobile-360",
+      "status": "pass",
+      "detail": {
+        "width": 360,
+        "far": {
+          "zoom": -3.3000000000000003,
+          "layer": "towers",
+          "towers": 15,
+          "shrines": 0
+        },
+        "selectedCenter": {
+          "x": 180,
+          "y": 214
+        },
+        "visibleCenterY": 213.6015625,
+        "panelTop": 371.203125
+      }
+    },
+    {
+      "name": "10-mobile-390",
+      "status": "pass",
+      "detail": {
+        "width": 390,
+        "far": {
+          "zoom": -3.2,
+          "layer": "towers",
+          "towers": 15,
+          "shrines": 0
+        },
+        "selectedCenter": {
+          "x": 195,
+          "y": 214
+        },
+        "visibleCenterY": 213.6015625,
+        "panelTop": 371.203125
+      }
+    },
+    {
+      "name": "10-mobile-768",
+      "status": "pass",
+      "detail": {
+        "width": 768,
+        "far": {
+          "zoom": -3.2,
+          "layer": "towers",
+          "towers": 15,
+          "shrines": 0
+        },
+        "selectedCenter": {
+          "x": 384,
+          "y": 214
+        },
+        "visibleCenterY": 213.6015625,
+        "panelTop": 371.203125
+      }
+    },
+    {
+      "name": "11-corrupt-stored-tower-id",
+      "status": "pass",
+      "detail": {
+        "originalUntouched": true,
+        "towerNotExported": true
+      }
+    },
+    {
+      "name": "12-safe-dom-retained",
+      "status": "pass",
+      "detail": {
+        "safeViews": 408
+      }
+    }
+  ],
+  "pageErrors": []
+}

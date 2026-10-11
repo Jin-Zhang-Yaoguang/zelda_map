@@ -1,0 +1,2586 @@
+[
+  {
+    "id": "Dungeon000",
+    "name": {
+      "zh": "塔·姆尔神庙",
+      "ja": "タ・ムールの祠",
+      "en": "Tah Muhl Shrine"
+    },
+    "trial": {
+      "zh": "传播火焰",
+      "ja": "炎を伝えて",
+      "en": "Passing the Flame"
+    },
+    "position": {
+      "X": 2301.46240234375,
+      "Y": 226.34815979003906,
+      "Z": -940.7257690429688
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon001",
+    "name": {
+      "zh": "吉诺·耀神庙",
+      "ja": "ジノ・ヨーの祠",
+      "en": "Jee Noh Shrine"
+    },
+    "trial": {
+      "zh": "动与静的选择",
+      "ja": "静と動の選択",
+      "en": "On the Move"
+    },
+    "position": {
+      "X": -1793.2548828125,
+      "Y": 125.85308074951172,
+      "Z": 2422.486328125
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon002",
+    "name": {
+      "zh": "萨·达究神庙",
+      "ja": "サ・ダージュの祠",
+      "en": "Sah Dahaj Shrine"
+    },
+    "trial": {
+      "zh": "火焰之力",
+      "ja": "炎のちから",
+      "en": "Power of Fire"
+    },
+    "position": {
+      "X": 2666.11962890625,
+      "Y": 260.9119567871094,
+      "Z": -1580.3284912109375
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon003",
+    "name": {
+      "zh": "哈瓦·卡伊神庙",
+      "ja": "ハワ・カイの祠",
+      "en": "Hawa Koth Shrine"
+    },
+    "trial": {
+      "zh": "电之传递",
+      "ja": "エレキの伝達",
+      "en": "The Current Solution"
+    },
+    "position": {
+      "X": -4847.43359375,
+      "Y": 136.74302673339844,
+      "Z": 3773.547607421875
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon004",
+    "name": {
+      "zh": "基瓦·扎塔斯神庙",
+      "ja": "キワ・ザタスの祠",
+      "en": "Zalta Wa Shrine"
+    },
+    "trial": {
+      "zh": "双球指引上天",
+      "ja": "２つの球は空への導き",
+      "en": "Two Orbs to Guide You"
+    },
+    "position": {
+      "X": -1432.615478515625,
+      "Y": 151.3189697265625,
+      "Z": -593.2459716796875
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon005",
+    "name": {
+      "zh": "奈兹·耀玛神庙",
+      "ja": "ネヅ・ヨマの祠",
+      "en": "Ne'ez Yohma Shrine"
+    },
+    "trial": {
+      "zh": "推出之力",
+      "ja": "押し出す力",
+      "en": "Pushing Power"
+    },
+    "position": {
+      "X": 3323.169189453125,
+      "Y": 252.2826690673828,
+      "Z": -517.9188232421875
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon006",
+    "name": {
+      "zh": "亚奥·玛耀神庙",
+      "ja": "ヤオ・マーヨの祠",
+      "en": "Yah Rin Shrine"
+    },
+    "trial": {
+      "zh": "铁箱做审判",
+      "ja": "審判を下すは鉄の箱",
+      "en": "A Weighty Decision"
+    },
+    "position": {
+      "X": 2833.532958984375,
+      "Y": 165.7545166015625,
+      "Z": 3311.9580078125
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon007",
+    "name": {
+      "zh": "瓦希·辽科神庙",
+      "ja": "ヴァシ・リャコの祠",
+      "en": "Bosh Kala Shrine"
+    },
+    "trial": {
+      "zh": "风的指引",
+      "ja": "風の導き",
+      "en": "The Wind Guides You"
+    },
+    "position": {
+      "X": 87.01651000976562,
+      "Y": 135.51492309570312,
+      "Z": 1657.70556640625
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon008",
+    "name": {
+      "zh": "沃力达·诺神庙",
+      "ja": "ヴォリダ・ノの祠",
+      "en": "Bareeda Naag Shrine"
+    },
+    "trial": {
+      "zh": "大炮",
+      "ja": "大砲",
+      "en": "Cannon"
+    },
+    "position": {
+      "X": -3608.985595703125,
+      "Y": 255.73739624023438,
+      "Z": -1516.377197265625
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon009",
+    "name": {
+      "zh": "瓦·摩达伊神庙",
+      "ja": "ワ・モダイの祠",
+      "en": "Owa Daim Shrine"
+    },
+    "trial": {
+      "zh": "时间停止吧",
+      "ja": "時よ止まれ",
+      "en": "Stasis Trial"
+    },
+    "position": {
+      "X": -925.0302734375,
+      "Y": 287.16851806640625,
+      "Z": 2320.229248046875
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon010",
+    "name": {
+      "zh": "克·诺伊神庙",
+      "ja": "ケー・ノイの祠",
+      "en": "Kay Noh Shrine"
+    },
+    "trial": {
+      "zh": "电之力",
+      "ja": "エレキのちから",
+      "en": "Power of Electricity"
+    },
+    "position": {
+      "X": -2809.968017578125,
+      "Y": 185.0082244873047,
+      "Z": 2300.1767578125
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon011",
+    "name": {
+      "zh": "蒙亚·托玛神庙",
+      "ja": "モンヤ・トマの祠",
+      "en": "Monya Toma Shrine"
+    },
+    "trial": {
+      "zh": "连接的抛物线",
+      "ja": "つながる放物線",
+      "en": "Drawing Parabolas"
+    },
+    "position": {
+      "X": -1489.2401123046875,
+      "Y": 288.22222900390625,
+      "Z": -1473.80322265625
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon012",
+    "name": {
+      "zh": "乌塔·多神庙",
+      "ja": "ウータ・ドの祠",
+      "en": "Voo Lota Shrine"
+    },
+    "trial": {
+      "zh": "风之路",
+      "ja": "風の道",
+      "en": "The Winding Route"
+    },
+    "position": {
+      "X": -4015.362060546875,
+      "Y": 284.202392578125,
+      "Z": -1722.4862060546875
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon013",
+    "name": {
+      "zh": "卡茨·托萨神庙",
+      "ja": "カツ・トサの祠",
+      "en": "Katosa Aug Shrine"
+    },
+    "trial": {
+      "zh": "卡茨·托萨的机关",
+      "ja": "カツ・トサのからくり",
+      "en": "Katosa Aug Apparatus"
+    },
+    "position": {
+      "X": 4294.9013671875,
+      "Y": 250.41909790039062,
+      "Z": -2729.875
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon014",
+    "name": {
+      "zh": "卡姆·尤奥神庙",
+      "ja": "カム・ユオの祠",
+      "en": "Kam Urog Shrine"
+    },
+    "trial": {
+      "zh": "铭刻时间的齿轮",
+      "ja": "時を刻む歯車",
+      "en": "Trial of Passage"
+    },
+    "position": {
+      "X": 2501.699951171875,
+      "Y": 128.1676025390625,
+      "Z": 1495.5816650390625
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon015",
+    "name": {
+      "zh": "托托·伊萨神庙",
+      "ja": "トト・イサの祠",
+      "en": "Toto Sah Shrine"
+    },
+    "trial": {
+      "zh": "托托·伊萨的机关",
+      "ja": "トト・イサのからくり",
+      "en": "Toto Sah Apparatus"
+    },
+    "position": {
+      "X": 1846.561279296875,
+      "Y": 144.50735473632812,
+      "Z": 2473.725830078125
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon016",
+    "name": {
+      "zh": "鲁克·玛神庙",
+      "ja": "ルッコ・マの祠",
+      "en": "Rucco Maag Shrine"
+    },
+    "trial": {
+      "zh": "五朵火焰",
+      "ja": "５つの炎",
+      "en": "Five Flames"
+    },
+    "position": {
+      "X": 3333.5,
+      "Y": 132.0,
+      "Z": 402.5
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon017",
+    "name": {
+      "zh": "希贝·尼罗神庙",
+      "ja": "シベ・ニーロの祠",
+      "en": "Shee Vaneer Shrine"
+    },
+    "trial": {
+      "zh": "双子的记忆",
+      "ja": "双子の記憶",
+      "en": "Twin Memories"
+    },
+    "position": {
+      "X": 1266.2686767578125,
+      "Y": 538.8690185546875,
+      "Z": 1938.69970703125
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon018",
+    "name": {
+      "zh": "拉·库阿神庙",
+      "ja": "ラー・クアの祠",
+      "en": "Rok Uwog Shrine"
+    },
+    "trial": {
+      "zh": "枪刺之力",
+      "ja": "突きのちから",
+      "en": "Power of Reach"
+    },
+    "position": {
+      "X": -2377.0166015625,
+      "Y": 498.9140625,
+      "Z": -3224.610107421875
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon019",
+    "name": {
+      "zh": "达乌·纳艾神庙",
+      "ja": "ダウ・ナエの祠",
+      "en": "Dow Na'eh Shrine"
+    },
+    "trial": {
+      "zh": "３个箱子",
+      "ja": "３つの箱",
+      "en": "Three Boxes"
+    },
+    "position": {
+      "X": 2696.76806640625,
+      "Y": 233.93955993652344,
+      "Z": 1333.0174560546875
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon020",
+    "name": {
+      "zh": "希·达哥兹神庙",
+      "ja": "シ・ダゴズの祠",
+      "en": "Sheem Dagoze Shrine"
+    },
+    "trial": {
+      "zh": "并列思考",
+      "ja": "並列思考",
+      "en": "Moving in Parallel"
+    },
+    "position": {
+      "X": -1892.4171142578125,
+      "Y": 221.40000915527344,
+      "Z": 91.030517578125
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon021",
+    "name": {
+      "zh": "托·雅萨神庙",
+      "ja": "トー・ヤッサの祠",
+      "en": "Toh Yahsa Shrine"
+    },
+    "trial": {
+      "zh": "埋藏的秘密",
+      "ja": "うずもれた秘密",
+      "en": "Buried Secrets"
+    },
+    "position": {
+      "X": -2269.10009765625,
+      "Y": 225.5794677734375,
+      "Z": -901.1000366210938
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon022",
+    "name": {
+      "zh": "基耀·乌神庙",
+      "ja": "キヨ・ウーの祠",
+      "en": "Keo Ruug Shrine"
+    },
+    "trial": {
+      "zh": "命运乃群星之数",
+      "ja": "命運は星の数",
+      "en": "Fateful Stars"
+    },
+    "position": {
+      "X": 470.9549255371094,
+      "Y": 263.1484375,
+      "Z": -2167.8173828125
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon023",
+    "name": {
+      "zh": "协莫·拉塔神庙",
+      "ja": "シェモ・ラタの祠",
+      "en": "Sheh Rata Shrine"
+    },
+    "trial": {
+      "zh": "光芒铭刻时间之际",
+      "ja": "光が時を刻む間に",
+      "en": "Speed of Light"
+    },
+    "position": {
+      "X": 1509.48046875,
+      "Y": 141.4054718017578,
+      "Z": -377.2189636230469
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon024",
+    "name": {
+      "zh": "米兹·耀神庙",
+      "ja": "ミーズー・ヨの祠",
+      "en": "Mezza Lo Shrine"
+    },
+    "trial": {
+      "zh": "３大智慧",
+      "ja": "３つの知恵",
+      "en": "Ancient Trifecta"
+    },
+    "position": {
+      "X": 2621.619873046875,
+      "Y": 258.38812255859375,
+      "Z": 379.23419189453125
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon025",
+    "name": {
+      "zh": "克哈·拉玛神庙",
+      "ja": "ケハ・ラマの祠",
+      "en": "Kayra Mah Shrine"
+    },
+    "trial": {
+      "zh": "欲望之坡",
+      "ja": "欲望の坂",
+      "en": "Greedy Hill"
+    },
+    "position": {
+      "X": 2075.823486328125,
+      "Y": 533.7685546875,
+      "Z": -2039.718017578125
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon026",
+    "name": {
+      "zh": "希摩·依托塞神庙",
+      "ja": "シモ・イトセの祠",
+      "en": "Shae Mo'sah Shrine"
+    },
+    "trial": {
+      "zh": "摇曳之火",
+      "ja": "揺れる炎",
+      "en": "Swinging Flames"
+    },
+    "position": {
+      "X": 1756.57080078125,
+      "Y": 548.3204345703125,
+      "Z": -2561.701171875
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon027",
+    "name": {
+      "zh": "鲁耀·塔乌神庙",
+      "ja": "ルヨ・タウの祠",
+      "en": "Rota Ooh Shrine"
+    },
+    "trial": {
+      "zh": "过门之人",
+      "ja": "門をくぐる者",
+      "en": "Passing of the Gates"
+    },
+    "position": {
+      "X": -1562.2928466796875,
+      "Y": 199.7283172607422,
+      "Z": 1309.782958984375
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon028",
+    "name": {
+      "zh": "晓拉·哈神庙",
+      "ja": "ショラ・ハの祠",
+      "en": "Shora Hah Shrine"
+    },
+    "trial": {
+      "zh": "蓝色火焰",
+      "ja": "青き炎",
+      "en": "Blue Flame"
+    },
+    "position": {
+      "X": 1536.2091064453125,
+      "Y": 520.3345947265625,
+      "Z": -3117.4677734375
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon029",
+    "name": {
+      "zh": "席罗·席拉神庙",
+      "ja": "ヒロ・ヒラの祠",
+      "en": "Hila Rao Shrine"
+    },
+    "trial": {
+      "zh": "顺流而行",
+      "ja": "流れに乗せて",
+      "en": "Drifting"
+    },
+    "position": {
+      "X": 854.0030517578125,
+      "Y": 129.93179321289062,
+      "Z": 838.7382202148438
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon030",
+    "name": {
+      "zh": "究尼·希神庙",
+      "ja": "ジュニ・シの祠",
+      "en": "Joloo Nah Shrine"
+    },
+    "trial": {
+      "zh": "究尼·希的机关",
+      "ja": "ジュニ・シのからくり",
+      "en": "Joloo Nah Apparatus"
+    },
+    "position": {
+      "X": -2004.00830078125,
+      "Y": 240.64720153808594,
+      "Z": 1675.2626953125
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon031",
+    "name": {
+      "zh": "摩阿·基希托神庙",
+      "ja": "モア・キシトの祠",
+      "en": "Mo'a Keet Shrine"
+    },
+    "trial": {
+      "zh": "铁球开道",
+      "ja": "道を切り開くは鉄の球",
+      "en": "Metal Makes a Path"
+    },
+    "position": {
+      "X": 2723.077880859375,
+      "Y": 298.4114074707031,
+      "Z": -1165.1676025390625
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon032",
+    "name": {
+      "zh": "达科·塔瓦神庙",
+      "ja": "ダコ・タワの祠",
+      "en": "Dako Tah Shrine"
+    },
+    "trial": {
+      "zh": "电之通道",
+      "ja": "エレキの通り道",
+      "en": "Electric Path"
+    },
+    "position": {
+      "X": -3316.80224609375,
+      "Y": 159.11378479003906,
+      "Z": 2162.678955078125
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon033",
+    "name": {
+      "zh": "达塔·库斯神庙",
+      "ja": "ダタ・クスの祠",
+      "en": "Daka Tuss Shrine"
+    },
+    "trial": {
+      "zh": "沉没的援手",
+      "ja": "沈んだ救い手",
+      "en": "Sunken Scoop"
+    },
+    "position": {
+      "X": 1601.8326416015625,
+      "Y": 130.70001220703125,
+      "Z": 462.75384521484375
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon034",
+    "name": {
+      "zh": "玛·卡亚神庙",
+      "ja": "マ・カヤの祠",
+      "en": "Kah Yah Shrine"
+    },
+    "trial": {
+      "zh": "讲求瞬间爆发力",
+      "ja": "求めるは瞬発力",
+      "en": "Quick Thinking"
+    },
+    "position": {
+      "X": 3437.28515625,
+      "Y": 129.6765594482422,
+      "Z": 3317.19580078125
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon035",
+    "name": {
+      "zh": "阿科·瓦塔神庙",
+      "ja": "アコ・ヴァータの祠",
+      "en": "Akh Va'quot Shrine"
+    },
+    "trial": {
+      "zh": "风车",
+      "ja": "風車",
+      "en": "Windmills"
+    },
+    "position": {
+      "X": -3656.03271484375,
+      "Y": 334.74481201171875,
+      "Z": -1757.7003173828125
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon036",
+    "name": {
+      "zh": "希·基托神庙",
+      "ja": "シ・ジトの祠",
+      "en": "Sho Dantu Shrine"
+    },
+    "trial": {
+      "zh": "２个炸弹",
+      "ja": "２つのバクダン",
+      "en": "Two Bombs"
+    },
+    "position": {
+      "X": -3910.61279296875,
+      "Y": 405.0010070800781,
+      "Z": 1653.031005859375
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon037",
+    "name": {
+      "zh": "夏奥·耀神庙",
+      "ja": "シャオ・ヨの祠",
+      "en": "Shae Loya Shrine"
+    },
+    "trial": {
+      "zh": "瞄准刹那",
+      "ja": "狙うは刹那",
+      "en": "Aim for the Moment"
+    },
+    "position": {
+      "X": -2930.760498046875,
+      "Y": 319.4459533691406,
+      "Z": -433.03851318359375
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon038",
+    "name": {
+      "zh": "玛·奥努神庙",
+      "ja": "マ・オーヌの祠",
+      "en": "Oman Au Shrine"
+    },
+    "trial": {
+      "zh": "磁力之力",
+      "ja": "磁力のちから",
+      "en": "Magnesis Trial"
+    },
+    "position": {
+      "X": -672.4623413085938,
+      "Y": 186.09091186523438,
+      "Z": 1513.63037109375
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon039",
+    "name": {
+      "zh": "米亚马·迦纳神庙",
+      "ja": "ミャマ・ガナの祠",
+      "en": "Myahm Agana Shrine"
+    },
+    "trial": {
+      "zh": "米亚马·迦纳的机关",
+      "ja": "ミャマ・ガナのからくり",
+      "en": "Myahm Agana Apparatus"
+    },
+    "position": {
+      "X": 3387.706787109375,
+      "Y": 255.59239196777344,
+      "Z": 2215.13037109375
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon040",
+    "name": {
+      "zh": "亚卡·玛塔神庙",
+      "ja": "ヤカー・マタの祠",
+      "en": "Kaam Ya'tak Shrine"
+    },
+    "trial": {
+      "zh": "巨大的力量",
+      "ja": "大きなちから",
+      "en": "Trial of Power"
+    },
+    "position": {
+      "X": -967.639404296875,
+      "Y": 140.66522216796875,
+      "Z": 716.8792724609375
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon041",
+    "name": {
+      "zh": "加·巴希夫神庙",
+      "ja": "ジャ・バシフの祠",
+      "en": "Ja Baij Shrine"
+    },
+    "trial": {
+      "zh": "破坏之力",
+      "ja": "破壊のちから",
+      "en": "Bomb Trial"
+    },
+    "position": {
+      "X": -447.69512939453125,
+      "Y": 193.01881408691406,
+      "Z": 1990.182373046875
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon042",
+    "name": {
+      "zh": "利·摩纳神庙",
+      "ja": "リ・モナの祠",
+      "en": "Rin Oyaa Shrine"
+    },
+    "trial": {
+      "zh": "挡风之物",
+      "ja": "風を遮るもの",
+      "en": "Directing the Wind"
+    },
+    "position": {
+      "X": -1720.388916015625,
+      "Y": 348.74114990234375,
+      "Z": -2554.625732421875
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon043",
+    "name": {
+      "zh": "库伊·塔卡神庙",
+      "ja": "クイ・タッカの祠",
+      "en": "Kuh Takkar Shrine"
+    },
+    "trial": {
+      "zh": "融化的冰",
+      "ja": "融けゆく氷",
+      "en": "Melting Ice Hazard"
+    },
+    "position": {
+      "X": -3083.613037109375,
+      "Y": 584.5511474609375,
+      "Z": 1221.7900390625
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon044",
+    "name": {
+      "zh": "希贝·尼亚斯神庙",
+      "ja": "シベ・ニャスの祠",
+      "en": "Shee Venath Shrine"
+    },
+    "trial": {
+      "zh": "双子的记忆",
+      "ja": "双子の記憶",
+      "en": "Twin Memories"
+    },
+    "position": {
+      "X": 1245.1182861328125,
+      "Y": 456.3691101074219,
+      "Z": 1850.44091796875
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon045",
+    "name": {
+      "zh": "哈尤·达玛神庙",
+      "ja": "ハユ・ダマの祠",
+      "en": "Ha Dahamar Shrine"
+    },
+    "trial": {
+      "zh": "指引自水而出",
+      "ja": "導きは水より現れる",
+      "en": "The Water Guides"
+    },
+    "position": {
+      "X": 1662.9674072265625,
+      "Y": 128.52410888671875,
+      "Z": 1922.3955078125
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon046",
+    "name": {
+      "zh": "夏达·阿达神庙",
+      "ja": "シャダ・アダの祠",
+      "en": "Shada Naw Shrine"
+    },
+    "trial": {
+      "zh": "隐藏的红色墙壁",
+      "ja": "隠された赤い壁",
+      "en": "Red Giveaway"
+    },
+    "position": {
+      "X": -2998.30517578125,
+      "Y": 680.7533569335938,
+      "Z": -3220.63525390625
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon047",
+    "name": {
+      "zh": "利·达席神庙",
+      "ja": "リ・ダヒの祠",
+      "en": "Ree Dahee Shrine"
+    },
+    "trial": {
+      "zh": "时不可失",
+      "ja": "見切りの極意",
+      "en": "Timing Is Critical"
+    },
+    "position": {
+      "X": 1272.9166259765625,
+      "Y": 150.6749725341797,
+      "Z": 1843.90966796875
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon048",
+    "name": {
+      "zh": "吉兹·卡夫伊神庙",
+      "ja": "ジズ・カフィの祠",
+      "en": "Ze Kasho Shrine"
+    },
+    "trial": {
+      "zh": "吉兹·卡夫伊的机关",
+      "ja": "ジズ・カフィのからくり",
+      "en": "Ze Kasho Apparatus"
+    },
+    "position": {
+      "X": 3028.297607421875,
+      "Y": 361.6464538574219,
+      "Z": -1668.014892578125
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon049",
+    "name": {
+      "zh": "卡亚·米瓦神庙",
+      "ja": "カヤ・ミワの祠",
+      "en": "Kaya Wan Shrine"
+    },
+    "trial": {
+      "zh": "盾从水中现",
+      "ja": "水より現れし盾",
+      "en": "Shields from Water"
+    },
+    "position": {
+      "X": 825.1654052734375,
+      "Y": 145.87744140625,
+      "Z": 187.50900268554688
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon050",
+    "name": {
+      "zh": "塞伊·乌托神庙",
+      "ja": "サイ・ウートの祠",
+      "en": "Shai Utoh Shrine"
+    },
+    "trial": {
+      "zh": "防倾之物",
+      "ja": "傾きを止めるもの",
+      "en": "Halt the Tilt"
+    },
+    "position": {
+      "X": 1586.375244140625,
+      "Y": 179.9945526123047,
+      "Z": 3613.991943359375
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon051",
+    "name": {
+      "zh": "卡玛·拉席神庙",
+      "ja": "カマ・ラヒの祠",
+      "en": "Maka Rah Shrine"
+    },
+    "trial": {
+      "zh": "心理准备",
+      "ja": "心の準備",
+      "en": "Steady Thy Heart"
+    },
+    "position": {
+      "X": -4058.83544921875,
+      "Y": 107.89071655273438,
+      "Z": -2508.257080078125
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon052",
+    "name": {
+      "zh": "诺基·米席神庙",
+      "ja": "ノッキ・ミヒの祠",
+      "en": "Gee Ha'rah Shrine"
+    },
+    "trial": {
+      "zh": "同时并举",
+      "ja": "同時に",
+      "en": "Tandem"
+    },
+    "position": {
+      "X": -2380.418701171875,
+      "Y": 291.1098937988281,
+      "Z": -2255.404296875
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon053",
+    "name": {
+      "zh": "夏·塔瓦神庙",
+      "ja": "シャ・タワの祠",
+      "en": "Sha Warvo Shrine"
+    },
+    "trial": {
+      "zh": "隐藏的风之路",
+      "ja": "隠されし風の道",
+      "en": "Path of Hidden Winds"
+    },
+    "position": {
+      "X": -3822.2373046875,
+      "Y": 278.1203918457031,
+      "Z": -2206.895751953125
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon054",
+    "name": {
+      "zh": "卡奥·玛卡神庙",
+      "ja": "カオ・マカの祠",
+      "en": "Ka'o Makagh Shrine"
+    },
+    "trial": {
+      "zh": "连接道路之物",
+      "ja": "道をつなぐもの",
+      "en": "Metal Doors Open the Way"
+    },
+    "position": {
+      "X": 522.9542236328125,
+      "Y": 191.9074249267578,
+      "Z": 3525.324462890625
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon055",
+    "name": {
+      "zh": "多恩巴·塔神庙",
+      "ja": "ドゥンバ・タの祠",
+      "en": "Dunba Taag Shrine"
+    },
+    "trial": {
+      "zh": "孜孜不倦",
+      "ja": "コツコツと",
+      "en": "Build and Release"
+    },
+    "position": {
+      "X": -2832.0634765625,
+      "Y": 92.875,
+      "Z": -1577.1309814453125
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon056",
+    "name": {
+      "zh": "米罗·茨席神庙",
+      "ja": "ミーロ・ツヒの祠",
+      "en": "Mirro Shaz Shrine"
+    },
+    "trial": {
+      "zh": "力量控制",
+      "ja": "力の加減",
+      "en": "Tempered Power"
+    },
+    "position": {
+      "X": 1230.99658203125,
+      "Y": 140.54844665527344,
+      "Z": -1212.7283935546875
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon057",
+    "name": {
+      "zh": "瓦哥·卡塔神庙",
+      "ja": "ワゴ・カタの祠",
+      "en": "Wahgo Katta Shrine"
+    },
+    "trial": {
+      "zh": "铁桥",
+      "ja": "鉄の橋",
+      "en": "Metal Connections"
+    },
+    "position": {
+      "X": 345.58740234375,
+      "Y": 136.07974243164062,
+      "Z": 1007.7691650390625
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon058",
+    "name": {
+      "zh": "摩·拉塔尼阿神庙",
+      "ja": "モ・ラタニアの祠",
+      "en": "Mogg Latan Shrine"
+    },
+    "trial": {
+      "zh": "配合摇晃",
+      "ja": "揺れに合わせて",
+      "en": "Synced Swing"
+    },
+    "position": {
+      "X": -2297.783935546875,
+      "Y": 452.568359375,
+      "Z": 461.6640930175781
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon059",
+    "name": {
+      "zh": "卡·奥裘神庙",
+      "ja": "カ・オキョの祠",
+      "en": "Kah Okeo Shrine"
+    },
+    "trial": {
+      "zh": "御风者",
+      "ja": "風の使い手",
+      "en": "Wind Guide"
+    },
+    "position": {
+      "X": -4121.39892578125,
+      "Y": 197.28811645507812,
+      "Z": -414.1998291015625
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon060",
+    "name": {
+      "zh": "古科·齐塞神庙",
+      "ja": "グコ・チセの祠",
+      "en": "Daqo Chisay Shrine"
+    },
+    "trial": {
+      "zh": "５个铁块",
+      "ja": "５つの鉄塊",
+      "en": "The Whole Picture"
+    },
+    "position": {
+      "X": -3816.313720703125,
+      "Y": 163.44683837890625,
+      "Z": 2819.1572265625
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon061",
+    "name": {
+      "zh": "晓达·萨神庙",
+      "ja": "ショダ・サーの祠",
+      "en": "Shoda Sah Shrine"
+    },
+    "trial": {
+      "zh": "成功的时机",
+      "ja": "成功のタイミング",
+      "en": "Impeccable Timing"
+    },
+    "position": {
+      "X": 1790.25732421875,
+      "Y": 202.79495239257812,
+      "Z": 2992.8642578125
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon062",
+    "name": {
+      "zh": "夏·格玛神庙",
+      "ja": "シャ・ゲマの祠",
+      "en": "Sha Gehma Shrine"
+    },
+    "trial": {
+      "zh": "移动和固定",
+      "ja": "移動と固定",
+      "en": "Shift and Lock"
+    },
+    "position": {
+      "X": -1672.3563232421875,
+      "Y": 359.5669250488281,
+      "Z": -3759.0283203125
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon063",
+    "name": {
+      "zh": "基玛·兹斯神庙",
+      "ja": "キマ・ズースの祠",
+      "en": "Kema Zoos Shrine"
+    },
+    "trial": {
+      "zh": "中断的抛物线",
+      "ja": "途切れる放物線",
+      "en": "A Delayed Puzzle"
+    },
+    "position": {
+      "X": -4673.52978515625,
+      "Y": 145.1199951171875,
+      "Z": 1968.7900390625
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon064",
+    "name": {
+      "zh": "达卡·卡神庙",
+      "ja": "ダカ・カの祠",
+      "en": "Daqa Koh Shrine"
+    },
+    "trial": {
+      "zh": "续航时间",
+      "ja": "滞空時間",
+      "en": "Stalled Flight"
+    },
+    "position": {
+      "X": 2064.97265625,
+      "Y": 611.0113525390625,
+      "Z": -2327.87353515625
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon065",
+    "name": {
+      "zh": "图米·恩科神庙",
+      "ja": "トゥミ・ンケの祠",
+      "en": "Keh Namut Shrine"
+    },
+    "trial": {
+      "zh": "冰柱之力",
+      "ja": "氷柱のちから",
+      "en": "Cryonis Trial"
+    },
+    "position": {
+      "X": -1435.3870849609375,
+      "Y": 350.57696533203125,
+      "Z": 1990.705810546875
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon066",
+    "name": {
+      "zh": "卡·姆神庙",
+      "ja": "カ・ムーの祠",
+      "en": "Kah Mael Shrine"
+    },
+    "trial": {
+      "zh": "上天下地",
+      "ja": "地に落ち天に昇る",
+      "en": "Drop and Rise"
+    },
+    "position": {
+      "X": 4708.56396484375,
+      "Y": 255.49844360351562,
+      "Z": -1309.51123046875
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon067",
+    "name": {
+      "zh": "丘·拉姆席神庙",
+      "ja": "キュ・ラムヒの祠",
+      "en": "Qua Raym Shrine"
+    },
+    "trial": {
+      "zh": "平衡之力",
+      "ja": "釣り合う力",
+      "en": "A Balanced Approach"
+    },
+    "position": {
+      "X": 1820.24072265625,
+      "Y": 401.28619384765625,
+      "Z": -1517.90283203125
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon068",
+    "name": {
+      "zh": "亚·纳迦神庙",
+      "ja": "ヤ・ナーガの祠",
+      "en": "Ya Naga Shrine"
+    },
+    "trial": {
+      "zh": "突破天际",
+      "ja": "天を破る",
+      "en": "Shatter the Heavens"
+    },
+    "position": {
+      "X": -329.16656494140625,
+      "Y": 81.02226257324219,
+      "Z": 2600.119384765625
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon069",
+    "name": {
+      "zh": "伊奥·索奥神庙",
+      "ja": "イオ・ソオの祠",
+      "en": "Ishto Soh Shrine"
+    },
+    "trial": {
+      "zh": "拿起的勇气",
+      "ja": "手に取る勇気",
+      "en": "Bravery's Grasp"
+    },
+    "position": {
+      "X": -985.7890625,
+      "Y": 334.21539306640625,
+      "Z": 3564.978271484375
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon070",
+    "name": {
+      "zh": "萨奥·科席神庙",
+      "ja": "サオ・コヒの祠",
+      "en": "Soh Kofi Shrine"
+    },
+    "trial": {
+      "zh": "力之试练 初阶",
+      "ja": "力の試練序位",
+      "en": "A Minor Test of Strength"
+    },
+    "position": {
+      "X": 2239.21337890625,
+      "Y": 161.47589111328125,
+      "Z": -292.42999267578125
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon071",
+    "name": {
+      "zh": "普玛·尼特神庙",
+      "ja": "プマ・ニットの祠",
+      "en": "Pumaag Nitae Shrine"
+    },
+    "trial": {
+      "zh": "力之试练 初阶",
+      "ja": "力の試練序位",
+      "en": "A Minor Test of Strength"
+    },
+    "position": {
+      "X": 559.364013671875,
+      "Y": 131.0377197265625,
+      "Z": 2991.17822265625
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon072",
+    "name": {
+      "zh": "达·卡索神庙",
+      "ja": "ダ・カソーの祠",
+      "en": "Dah Kaso Shrine"
+    },
+    "trial": {
+      "zh": "力之试练 初阶",
+      "ja": "力の試練序位",
+      "en": "A Minor Test of Strength"
+    },
+    "position": {
+      "X": -1695.713623046875,
+      "Y": 81.83724212646484,
+      "Z": 1701.0263671875
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon073",
+    "name": {
+      "zh": "卡塔·丘基神庙",
+      "ja": "カタ・チュキの祠",
+      "en": "Katah Chuki Shrine"
+    },
+    "trial": {
+      "zh": "力之试练 初阶",
+      "ja": "力の試練序位",
+      "en": "A Minor Test of Strength"
+    },
+    "position": {
+      "X": -636.0839233398438,
+      "Y": 141.86691284179688,
+      "Z": -344.1649169921875
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon074",
+    "name": {
+      "zh": "尼阿·奈阿神庙",
+      "ja": "ニア・ネアの祠",
+      "en": "Noya Neha Shrine"
+    },
+    "trial": {
+      "zh": "力之试练 初阶",
+      "ja": "力の試練序位",
+      "en": "A Minor Test of Strength"
+    },
+    "position": {
+      "X": -952.1732788085938,
+      "Y": 147.36257934570312,
+      "Z": -623.8845825195312
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon075",
+    "name": {
+      "zh": "达席·希诺神庙",
+      "ja": "ダヒ・シーノの祠",
+      "en": "Dah Hesho Shrine"
+    },
+    "trial": {
+      "zh": "力之试练 初阶",
+      "ja": "力の試練序位",
+      "en": "A Minor Test of Strength"
+    },
+    "position": {
+      "X": 3899.691162109375,
+      "Y": 367.7741394042969,
+      "Z": -1303.793701171875
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon076",
+    "name": {
+      "zh": "萨萨·卡伊神庙",
+      "ja": "ササ・カイの祠",
+      "en": "Sasa Kai Shrine"
+    },
+    "trial": {
+      "zh": "力之试练 高阶",
+      "ja": "力の試練中位",
+      "en": "A Modest Test of Strength"
+    },
+    "position": {
+      "X": -3560.287353515625,
+      "Y": 361.7767639160156,
+      "Z": 1953.873291015625
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon077",
+    "name": {
+      "zh": "科尼·希卡神庙",
+      "ja": "ケニィ・シカの祠",
+      "en": "Ke'nai Shakah Shrine"
+    },
+    "trial": {
+      "zh": "力之试练 高阶",
+      "ja": "力の試練中位",
+      "en": "A Modest Test of Strength"
+    },
+    "position": {
+      "X": 4194.7138671875,
+      "Y": 336.11444091796875,
+      "Z": -855.9080200195312
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon078",
+    "name": {
+      "zh": "米达·罗基神庙",
+      "ja": "ミッダ・ロキの祠",
+      "en": "Mijah Rokee Shrine"
+    },
+    "trial": {
+      "zh": "力之试练 高阶",
+      "ja": "力の試練中位",
+      "en": "A Modest Test of Strength"
+    },
+    "position": {
+      "X": -2743.991943359375,
+      "Y": 318.39349365234375,
+      "Z": 225.74667358398438
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon079",
+    "name": {
+      "zh": "纳米卡·奥兹神庙",
+      "ja": "ナミカ・オズの祠",
+      "en": "Namika Ozz Shrine"
+    },
+    "trial": {
+      "zh": "力之试练 高阶",
+      "ja": "力の試練中位",
+      "en": "A Modest Test of Strength"
+    },
+    "position": {
+      "X": 760.29052734375,
+      "Y": 201.72447204589844,
+      "Z": -821.3871459960938
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon080",
+    "name": {
+      "zh": "希·塔塔恩科神庙",
+      "ja": "シ・タタンケの祠",
+      "en": "Shoqa Tatone Shrine"
+    },
+    "trial": {
+      "zh": "力之试练 高阶",
+      "ja": "力の試練中位",
+      "en": "A Modest Test of Strength"
+    },
+    "position": {
+      "X": 94.99838256835938,
+      "Y": 119.671875,
+      "Z": 3840.94287109375
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon081",
+    "name": {
+      "zh": "姆奥·吉姆神庙",
+      "ja": "ムオ・ジームの祠",
+      "en": "Muwo Jeem Shrine"
+    },
+    "trial": {
+      "zh": "力之试练 高阶",
+      "ja": "力の試練中位",
+      "en": "A Modest Test of Strength"
+    },
+    "position": {
+      "X": 3657.1669921875,
+      "Y": 363.3363952636719,
+      "Z": 3307.99267578125
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon082",
+    "name": {
+      "zh": "洽斯·科塔神庙",
+      "ja": "チャス・ケタの祠",
+      "en": "Chaas Qeta Shrine"
+    },
+    "trial": {
+      "zh": "力之试练 终阶",
+      "ja": "力の試練極位",
+      "en": "A Major Test of Strength"
+    },
+    "position": {
+      "X": 4011.4833984375,
+      "Y": 120.18290710449219,
+      "Z": 2989.83056640625
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon083",
+    "name": {
+      "zh": "提纳·裘扎神庙",
+      "ja": "ティナ・キョザの祠",
+      "en": "Tena Ko'sah Shrine"
+    },
+    "trial": {
+      "zh": "力之试练 终阶",
+      "ja": "力の試練極位",
+      "en": "A Major Test of Strength"
+    },
+    "position": {
+      "X": -3466.356689453125,
+      "Y": 397.492431640625,
+      "Z": -447.4993591308594
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon084",
+    "name": {
+      "zh": "茨茨阿·尼玛神庙",
+      "ja": "ツツア・ニマの祠",
+      "en": "Tutsuwa Nima Shrine"
+    },
+    "trial": {
+      "zh": "力之试练 终阶",
+      "ja": "力の試練極位",
+      "en": "A Major Test of Strength"
+    },
+    "position": {
+      "X": 3777.255126953125,
+      "Y": 121.88737487792969,
+      "Z": -2704.0693359375
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon085",
+    "name": {
+      "zh": "基玛·科萨萨神庙",
+      "ja": "キマ・コササの祠",
+      "en": "Kema Kosassa Shrine"
+    },
+    "trial": {
+      "zh": "力之试练 终阶",
+      "ja": "力の試練極位",
+      "en": "A Major Test of Strength"
+    },
+    "position": {
+      "X": -4657.4931640625,
+      "Y": 632.4925537109375,
+      "Z": 904.9697265625
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon086",
+    "name": {
+      "zh": "迦奥玛·阿萨神庙",
+      "ja": "ガオマ・アサの祠",
+      "en": "Goma Asaagh Shrine"
+    },
+    "trial": {
+      "zh": "力之试练 终阶",
+      "ja": "力の試練極位",
+      "en": "A Major Test of Strength"
+    },
+    "position": {
+      "X": -2793.2744140625,
+      "Y": 684.0189208984375,
+      "Z": -2882.06298828125
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon087",
+    "name": {
+      "zh": "妙斯·希诺神庙",
+      "ja": "ミョス・シノの祠",
+      "en": "Mozo Shenno Shrine"
+    },
+    "trial": {
+      "zh": "力之试练 终阶",
+      "ja": "力の試練極位",
+      "en": "A Major Test of Strength"
+    },
+    "position": {
+      "X": -3626.7099609375,
+      "Y": 433.8231201171875,
+      "Z": -3038.258544921875
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon088",
+    "name": {
+      "zh": "席亚·米乌神庙",
+      "ja": "ヒャ・ミウの祠",
+      "en": "Hia Miu Shrine"
+    },
+    "trial": {
+      "zh": "力之试练 终阶",
+      "ja": "力の試練極位",
+      "en": "A Major Test of Strength"
+    },
+    "position": {
+      "X": -4446.01806640625,
+      "Y": 342.85357666015625,
+      "Z": -3802.418701171875
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon089",
+    "name": {
+      "zh": "萨斯·科萨神庙",
+      "ja": "サス・コサの祠",
+      "en": "Saas Ko'sah Shrine"
+    },
+    "trial": {
+      "zh": "力之试练 终阶",
+      "ja": "力の試練極位",
+      "en": "A Major Test of Strength"
+    },
+    "position": {
+      "X": -148.39523315429688,
+      "Y": 153.22174072265625,
+      "Z": -1159.346435546875
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon090",
+    "name": {
+      "zh": "斯玛·萨玛神庙",
+      "ja": "スマ・サマの祠",
+      "en": "Suma Sahma Shrine"
+    },
+    "trial": {
+      "zh": "斯玛·萨玛的祝福",
+      "ja": "スマ・サマの祝福",
+      "en": "Suma Sahma's Blessing"
+    },
+    "position": {
+      "X": -1417.77734375,
+      "Y": 554.4000244140625,
+      "Z": 3449.206298828125
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon091",
+    "name": {
+      "zh": "古·阿齐托神庙",
+      "ja": "グ・アチトーの祠",
+      "en": "Gorae Torr Shrine"
+    },
+    "trial": {
+      "zh": "古·阿齐托的祝福",
+      "ja": "グ・アチトーの祝福",
+      "en": "Gorae Torr's Blessing"
+    },
+    "position": {
+      "X": 2662.70703125,
+      "Y": 483.0,
+      "Z": -3457.20703125
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon092",
+    "name": {
+      "zh": "玛·诺拉神庙",
+      "ja": "マ・ノラの祠",
+      "en": "Maag No'rah Shrine"
+    },
+    "trial": {
+      "zh": "玛·诺拉的祝福",
+      "ja": "マ・ノラの祝福",
+      "en": "Maag No'rah's Blessing"
+    },
+    "position": {
+      "X": -1940.4736328125,
+      "Y": 262.8812561035156,
+      "Z": -1459.0191650390625
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon093",
+    "name": {
+      "zh": "拉丘·乌罗神庙",
+      "ja": "ラキュ・ウロの祠",
+      "en": "Raqa Zunzo Shrine"
+    },
+    "trial": {
+      "zh": "拉丘·乌罗的祝福",
+      "ja": "ラキュ・ウロの祝福",
+      "en": "Raqa Zunzo's Blessing"
+    },
+    "position": {
+      "X": -3809.560302734375,
+      "Y": 168.3000030517578,
+      "Z": 3126.85791015625
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon094",
+    "name": {
+      "zh": "托·卡尤神庙",
+      "ja": "ト・カユーの祠",
+      "en": "Tho Kayu Shrine"
+    },
+    "trial": {
+      "zh": "托·卡尤的祝福",
+      "ja": "ト・カユーの祝福",
+      "en": "Tho Kayu's Blessing"
+    },
+    "position": {
+      "X": -4798.14794921875,
+      "Y": 144.12725830078125,
+      "Z": 2800.031005859375
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon095",
+    "name": {
+      "zh": "库恩·希达吉神庙",
+      "ja": "クン・シダジの祠",
+      "en": "Kuhn Sidajj Shrine"
+    },
+    "trial": {
+      "zh": "库恩·希达吉的祝福",
+      "ja": "クン・シダジの祝福",
+      "en": "Kuhn Sidajj's Blessing"
+    },
+    "position": {
+      "X": 18.44451904296875,
+      "Y": 290.3999938964844,
+      "Z": -1943.7041015625
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon096",
+    "name": {
+      "zh": "丘卡·纳塔神庙",
+      "ja": "キュカ・ナタの祠",
+      "en": "Qukah Nata Shrine"
+    },
+    "trial": {
+      "zh": "丘卡·纳塔的祝福",
+      "ja": "キュカ・ナタの祝福",
+      "en": "Qukah Nata's Blessing"
+    },
+    "position": {
+      "X": 2007.9007568359375,
+      "Y": 314.49578857421875,
+      "Z": 3284.565673828125
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon097",
+    "name": {
+      "zh": "库古·齐德神庙",
+      "ja": "クグ・チデの祠",
+      "en": "Korgu Chideh Shrine"
+    },
+    "trial": {
+      "zh": "库古·齐德的祝福",
+      "ja": "クグ・チデの祝福",
+      "en": "Korgu Chideh's Blessing"
+    },
+    "position": {
+      "X": 4736.6181640625,
+      "Y": 227.00015258789062,
+      "Z": 3771.591796875
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon098",
+    "name": {
+      "zh": "达·乔卡席神庙",
+      "ja": "ダ・チョカヒの祠",
+      "en": "Daag Chokah Shrine"
+    },
+    "trial": {
+      "zh": "达·乔卡席的祝福",
+      "ja": "ダ・チョカヒの祝福",
+      "en": "Daag Chokah's Blessing"
+    },
+    "position": {
+      "X": -26.080352783203125,
+      "Y": 293.3416442871094,
+      "Z": -2457.68798828125
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon099",
+    "name": {
+      "zh": "塔罗·尼席神庙",
+      "ja": "タロ・ニヒの祠",
+      "en": "Ta'loh Naeg Shrine"
+    },
+    "trial": {
+      "zh": "塔罗·尼席的教导",
+      "ja": "タロ・ニヒの教え",
+      "en": "Ta'loh Naeg's Teaching"
+    },
+    "position": {
+      "X": 1841.2249755859375,
+      "Y": 273.09820556640625,
+      "Z": 891.112548828125
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon100",
+    "name": {
+      "zh": "基哈·乌神庙",
+      "ja": "キハ・ウの祠",
+      "en": "Keeha Yoog Shrine"
+    },
+    "trial": {
+      "zh": "基哈·乌的祝福",
+      "ja": "キハ・ウの祝福",
+      "en": "Keeha Yoog's Blessing"
+    },
+    "position": {
+      "X": -3852.460205078125,
+      "Y": 649.2999877929688,
+      "Z": 716.3579711914062
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon101",
+    "name": {
+      "zh": "达·基基神庙",
+      "ja": "ダ・キキーの祠",
+      "en": "Dagah Keek Shrine"
+    },
+    "trial": {
+      "zh": "达·基基的祝福",
+      "ja": "ダ・キキーの祝福",
+      "en": "Dagah Keek's Blessing"
+    },
+    "position": {
+      "X": 3148.85205078125,
+      "Y": 289.0,
+      "Z": -417.3299255371094
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon102",
+    "name": {
+      "zh": "兹纳·卡伊神庙",
+      "ja": "ヅナ・カイの祠",
+      "en": "Zuna Kai Shrine"
+    },
+    "trial": {
+      "zh": "兹纳·卡伊的祝福",
+      "ja": "ヅナ・カイの祝福",
+      "en": "Zuna Kai's Blessing"
+    },
+    "position": {
+      "X": 3324.085205078125,
+      "Y": 311.68603515625,
+      "Z": -3421.369140625
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon103",
+    "name": {
+      "zh": "迪拉·玛神庙",
+      "ja": "ディラ・マの祠",
+      "en": "Dila Maag Shrine"
+    },
+    "trial": {
+      "zh": "迪拉·玛的祝福",
+      "ja": "ディラ・マの祝福",
+      "en": "Dila Maag's Blessing"
+    },
+    "position": {
+      "X": -1795.0001220703125,
+      "Y": 177.1844482421875,
+      "Z": 3464.390625
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon104",
+    "name": {
+      "zh": "拉诺·库席神庙",
+      "ja": "ラノ・クヒーの祠",
+      "en": "Lanno Kooh Shrine"
+    },
+    "trial": {
+      "zh": "拉诺·库席的祝福",
+      "ja": "ラノ・クヒーの祝福",
+      "en": "Lanno Kooh's Blessing"
+    },
+    "position": {
+      "X": -2636.7451171875,
+      "Y": 459.03216552734375,
+      "Z": -2061.288330078125
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon105",
+    "name": {
+      "zh": "图·卡罗神庙",
+      "ja": "トゥ・カロの祠",
+      "en": "Tu Ka'loh Shrine"
+    },
+    "trial": {
+      "zh": "图·卡罗的祝福",
+      "ja": "トゥ・カロの祝福",
+      "en": "Tu Ka'loh's Blessing"
+    },
+    "position": {
+      "X": 4655.0,
+      "Y": 250.40000915527344,
+      "Z": -3709.0
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon106",
+    "name": {
+      "zh": "玛姆·拉诺神庙",
+      "ja": "マーム・ラノの祠",
+      "en": "Maag Halan Shrine"
+    },
+    "trial": {
+      "zh": "玛姆·拉诺的祝福",
+      "ja": "マーム・ラノの祝福",
+      "en": "Maag Halan's Blessing"
+    },
+    "position": {
+      "X": 836.6337890625,
+      "Y": 295.1953125,
+      "Z": -2418.811279296875
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon107",
+    "name": {
+      "zh": "密·苏神庙",
+      "ja": "ミィ・スゥの祠",
+      "en": "Misae Suma Shrine"
+    },
+    "trial": {
+      "zh": "密·苏的祝福",
+      "ja": "ミィ・スゥの祝福",
+      "en": "Misae Suma's Blessing"
+    },
+    "position": {
+      "X": -2969.800048828125,
+      "Y": 150.67344665527344,
+      "Z": 3780.634033203125
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon108",
+    "name": {
+      "zh": "基托·瓦瓦伊神庙",
+      "ja": "キト・ワワイの祠",
+      "en": "Ketoh Wawai Shrine"
+    },
+    "trial": {
+      "zh": "基托·瓦瓦伊的祝福",
+      "ja": "キト・ワワイの祝福",
+      "en": "Ketoh Wawai's Blessing"
+    },
+    "position": {
+      "X": 284.3999938964844,
+      "Y": 294.3000183105469,
+      "Z": -3119.60009765625
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon109",
+    "name": {
+      "zh": "利塔·兹摩神庙",
+      "ja": "リター・ズモの祠",
+      "en": "Ritaag Zumo Shrine"
+    },
+    "trial": {
+      "zh": "利塔·兹摩的祝福",
+      "ja": "リター・ズモの祝福",
+      "en": "Ritaag Zumo's Blessing"
+    },
+    "position": {
+      "X": 4525.0400390625,
+      "Y": 116.76589965820312,
+      "Z": -2128.392822265625
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon110",
+    "name": {
+      "zh": "裘希·奥神庙",
+      "ja": "キョシ・オーの祠",
+      "en": "Korsh O'hu Shrine"
+    },
+    "trial": {
+      "zh": "裘希·奥的祝福",
+      "ja": "キョシ・オーの祝福",
+      "en": "Korsh O'hu's Blessing"
+    },
+    "position": {
+      "X": -2689.30712890625,
+      "Y": 114.00540161132812,
+      "Z": 2811.9072265625
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon111",
+    "name": {
+      "zh": "塔瓦·吉努神庙",
+      "ja": "タワ・ジヌの祠",
+      "en": "Tawa Jinn Shrine"
+    },
+    "trial": {
+      "zh": "塔瓦·吉努的祝福",
+      "ja": "タワ・ジヌの祝福",
+      "en": "Tawa Jinn's Blessing"
+    },
+    "position": {
+      "X": 2636.69091796875,
+      "Y": 327.1673889160156,
+      "Z": 2833.853759765625
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon112",
+    "name": {
+      "zh": "拉纳·罗基神庙",
+      "ja": "ラーナ・ロキの祠",
+      "en": "Lakna Rokee Shrine"
+    },
+    "trial": {
+      "zh": "拉纳·罗基的祝福",
+      "ja": "ラーナ・ロキの祝福",
+      "en": "Lakna Rokee's Blessing"
+    },
+    "position": {
+      "X": 2039.6334228515625,
+      "Y": 295.0314025878906,
+      "Z": 971.7044067382812
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon113",
+    "name": {
+      "zh": "希·库乔夫神庙",
+      "ja": "シ・クチョフの祠",
+      "en": "Shae Katha Shrine"
+    },
+    "trial": {
+      "zh": "希·库乔夫的祝福",
+      "ja": "シ・クチョフの祝福",
+      "en": "Shae Katha's Blessing"
+    },
+    "position": {
+      "X": 870.4946899414062,
+      "Y": 135.99087524414062,
+      "Z": 2329.5283203125
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon114",
+    "name": {
+      "zh": "希·尤塔神庙",
+      "ja": "シ・ヨタの祠",
+      "en": "Shai Yota Shrine"
+    },
+    "trial": {
+      "zh": "希·尤塔的祝福",
+      "ja": "シ・ヨタの祝福",
+      "en": "Shai Yota's Blessing"
+    },
+    "position": {
+      "X": 4245.24560546875,
+      "Y": 119.921875,
+      "Z": 253.9075927734375
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon115",
+    "name": {
+      "zh": "罗纳·卡塔神庙",
+      "ja": "ロナ・カータの祠",
+      "en": "Rona Kachta Shrine"
+    },
+    "trial": {
+      "zh": "罗纳·卡塔的祝福",
+      "ja": "ロナ・カータの祝福",
+      "en": "Rona Kachta's Blessing"
+    },
+    "position": {
+      "X": -1088.799560546875,
+      "Y": 35.048065185546875,
+      "Z": -2660.744384765625
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon116",
+    "name": {
+      "zh": "卡扎·托基神庙",
+      "ja": "カザ・トッキの祠",
+      "en": "Qaza Tokki Shrine"
+    },
+    "trial": {
+      "zh": "卡扎·托基的祝福",
+      "ja": "カザ・トッキの祝福",
+      "en": "Qaza Tokki's Blessing"
+    },
+    "position": {
+      "X": -821.5,
+      "Y": 354.3000183105469,
+      "Z": -3535.0
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon117",
+    "name": {
+      "zh": "吉塔·萨米神庙",
+      "ja": "ジター・サミの祠",
+      "en": "Jitan Sa'mi Shrine"
+    },
+    "trial": {
+      "zh": "吉塔·萨米的祝福",
+      "ja": "ジター・サミの祝福",
+      "en": "Jitan Sa'mi's Blessing"
+    },
+    "position": {
+      "X": 3883.027587890625,
+      "Y": 585.8084716796875,
+      "Z": 1315.36083984375
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon118",
+    "name": {
+      "zh": "托·库摩神庙",
+      "ja": "ト・クモの祠",
+      "en": "To Quomo Shrine"
+    },
+    "trial": {
+      "zh": "托·库摩的祝福",
+      "ja": "ト・クモの祝福",
+      "en": "To Quomo's Blessing"
+    },
+    "position": {
+      "X": -4022.127197265625,
+      "Y": 301.09124755859375,
+      "Z": -3711.696533203125
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon119",
+    "name": {
+      "zh": "塔诺·阿神庙",
+      "ja": "ターノ・アの祠",
+      "en": "Tahno O'ah Shrine"
+    },
+    "trial": {
+      "zh": "塔诺·阿的祝福",
+      "ja": "ターノ・アの祝福",
+      "en": "Tahno O'ah's Blessing"
+    },
+    "position": {
+      "X": 4182.7646484375,
+      "Y": 301.1494445800781,
+      "Z": 1686.558349609375
+    },
+    "dlc": false
+  },
+  {
+    "id": "Dungeon120",
+    "name": {
+      "zh": "耀瓦卡·伊尔塔神庙",
+      "ja": "ヨーワカ・イルタの祠",
+      "en": "Yowaka Ita Shrine"
+    },
+    "trial": {
+      "zh": "平常心",
+      "ja": "平常のこころ",
+      "en": "Collected Soul"
+    },
+    "position": {
+      "X": -941.8468017578125,
+      "Y": 196.6999969482422,
+      "Z": 1671.74169921875
+    },
+    "dlc": true
+  },
+  {
+    "id": "Dungeon121",
+    "name": {
+      "zh": "基希罗特·摩神庙",
+      "ja": "キヒロテ・モーの祠",
+      "en": "Kihiro Moh Shrine"
+    },
+    "trial": {
+      "zh": "箱中之物",
+      "ja": "箱の中身",
+      "en": "Inside the Box"
+    },
+    "position": {
+      "X": -3392.15625,
+      "Y": 450.978515625,
+      "Z": 1347.4669189453125
+    },
+    "dlc": true
+  },
+  {
+    "id": "Dungeon122",
+    "name": {
+      "zh": "艾茨·科力玛神庙",
+      "ja": "エツィ・コリマの祠",
+      "en": "Etsu Korima Shrine"
+    },
+    "trial": {
+      "zh": "以光为指引",
+      "ja": "導きは光",
+      "en": "Path of Light"
+    },
+    "position": {
+      "X": -1215.9742431640625,
+      "Y": 349.5,
+      "Z": 2110.884521484375
+    },
+    "dlc": true
+  },
+  {
+    "id": "Dungeon123",
+    "name": {
+      "zh": "罗希塔·奇古神庙",
+      "ja": "ロヒッタ・チグの祠",
+      "en": "Rohta Chigah Shrine"
+    },
+    "trial": {
+      "zh": "以静制动才是上策",
+      "ja": "止めるが安全の策",
+      "en": "Stop to Start"
+    },
+    "position": {
+      "X": -517.9490356445312,
+      "Y": 182.8000030517578,
+      "Z": 1799.02392578125
+    },
+    "dlc": true
+  },
+  {
+    "id": "Dungeon124",
+    "name": {
+      "zh": "萨塔·卡达神庙",
+      "ja": "サタ・カダの祠",
+      "en": "Sato Koda Shrine"
+    },
+    "trial": {
+      "zh": "柱之支援",
+      "ja": "柱の支え",
+      "en": "Support and Guidance"
+    },
+    "position": {
+      "X": 3103.6083984375,
+      "Y": 551.9120483398438,
+      "Z": -833.9618530273438
+    },
+    "dlc": true
+  },
+  {
+    "id": "Dungeon125",
+    "name": {
+      "zh": "基奥·达夫纳神庙",
+      "ja": "キオ・ダフナの祠",
+      "en": "Kee Dafunia Shrine"
+    },
+    "trial": {
+      "zh": "融得恰到好处",
+      "ja": "融かしの加減",
+      "en": "The Melting Point"
+    },
+    "position": {
+      "X": 4934.23291015625,
+      "Y": 115.80000305175781,
+      "Z": -1002.050537109375
+    },
+    "dlc": true
+  },
+  {
+    "id": "Dungeon126",
+    "name": {
+      "zh": "玛乌·艾鲁亚神庙",
+      "ja": "マウ・エルーヤの祠",
+      "en": "Mah Eliya Shrine"
+    },
+    "trial": {
+      "zh": "铁与柱之阶梯",
+      "ja": "鉄と柱の階段",
+      "en": "Secret Stairway"
+    },
+    "position": {
+      "X": 3761.8720703125,
+      "Y": 556.78271484375,
+      "Z": -645.5045166015625
+    },
+    "dlc": true
+  },
+  {
+    "id": "Dungeon127",
+    "name": {
+      "zh": "诺伊艾·罗吉神庙",
+      "ja": "ノイエ・ロジーの祠",
+      "en": "Noe Rajee Shrine"
+    },
+    "trial": {
+      "zh": "以四道风为指引",
+      "ja": "導くは四本の風",
+      "en": "The Four Winds"
+    },
+    "position": {
+      "X": -3821.00244140625,
+      "Y": 98.7734375,
+      "Z": -2310.520751953125
+    },
+    "dlc": true
+  },
+  {
+    "id": "Dungeon128",
+    "name": {
+      "zh": "基哈·托乌萨神庙",
+      "ja": "キハ・トゥサの祠",
+      "en": "Kiah Toza Shrine"
+    },
+    "trial": {
+      "zh": "操珠在己",
+      "ja": "珠を導きしは己",
+      "en": "Master the Orb"
+    },
+    "position": {
+      "X": -2156.432373046875,
+      "Y": 459.3999938964844,
+      "Z": -3188.149658203125
+    },
+    "dlc": true
+  },
+  {
+    "id": "Dungeon129",
+    "name": {
+      "zh": "希利特·古奥玛神庙",
+      "ja": "シリト・ゲオマの祠",
+      "en": "Shira Gomar Shrine"
+    },
+    "trial": {
+      "zh": "瞄准静止之时",
+      "ja": "狙いを定めるは静止",
+      "en": "Aim for Stillness"
+    },
+    "position": {
+      "X": -2377.081298828125,
+      "Y": 273.9705810546875,
+      "Z": -1383.91943359375
+    },
+    "dlc": true
+  },
+  {
+    "id": "Dungeon130",
+    "name": {
+      "zh": "卡米拉·奥姆纳神庙",
+      "ja": "カミラ・オムナの祠",
+      "en": "Kamia Omuna Shrine"
+    },
+    "trial": {
+      "zh": "预测轨道",
+      "ja": "軌道予測",
+      "en": "Moving Targets"
+    },
+    "position": {
+      "X": 2129.3486328125,
+      "Y": 518.9150390625,
+      "Z": -3228.66064453125
+    },
+    "dlc": true
+  },
+  {
+    "id": "Dungeon131",
+    "name": {
+      "zh": "利诺·希米卡神庙",
+      "ja": "リノ・ヒミカの祠",
+      "en": "Rinu Honika Shrine"
+    },
+    "trial": {
+      "zh": "遮炎之物",
+      "ja": "炎を遮るもの",
+      "en": "Block the Blaze"
+    },
+    "position": {
+      "X": 2242.218505859375,
+      "Y": 550.82275390625,
+      "Z": -1996.1873779296875
+    },
+    "dlc": true
+  },
+  {
+    "id": "Dungeon132",
+    "name": {
+      "zh": "夏德·罗恩神庙",
+      "ja": "シャド・ロンの祠",
+      "en": "Sharo Lun Shrine"
+    },
+    "trial": {
+      "zh": "看清死角",
+      "ja": "死角の見極め",
+      "en": "Blind Spots"
+    },
+    "position": {
+      "X": 2931.935546875,
+      "Y": 639.5069580078125,
+      "Z": -2418.7333984375
+    },
+    "dlc": true
+  },
+  {
+    "id": "Dungeon133",
+    "name": {
+      "zh": "克贝·塔瓦神庙",
+      "ja": "ケーベ・タワの祠",
+      "en": "Keive Tala Shrine"
+    },
+    "trial": {
+      "zh": "选择大小",
+      "ja": "大小の選択",
+      "en": "Big or Small"
+    },
+    "position": {
+      "X": -2340.23095703125,
+      "Y": 138.5,
+      "Z": 3900.926513671875
+    },
+    "dlc": true
+  },
+  {
+    "id": "Dungeon134",
+    "name": {
+      "zh": "塔塔卡玛·希米利神庙",
+      "ja": "タタカマ・シミリの祠",
+      "en": "Takama Shiri Shrine"
+    },
+    "trial": {
+      "zh": "两种使用之道",
+      "ja": "２つの使い道",
+      "en": "Dual Purpose"
+    },
+    "position": {
+      "X": -4894.4912109375,
+      "Y": 150.984375,
+      "Z": 2155.50146484375
+    },
+    "dlc": true
+  },
+  {
+    "id": "Dungeon135",
+    "name": {
+      "zh": "露奈·科力巴神庙",
+      "ja": "ルネ・コリバーの祠",
+      "en": "Ruvo Korbah Shrine"
+    },
+    "trial": {
+      "zh": "力之试练 终阶＋",
+      "ja": "力の試練 極位＋",
+      "en": "A Major Test of Strength+"
+    },
+    "position": {
+      "X": -833.5947265625,
+      "Y": 198.8000030517578,
+      "Z": 2144.810546875
+    },
+    "dlc": true
+  }
+]

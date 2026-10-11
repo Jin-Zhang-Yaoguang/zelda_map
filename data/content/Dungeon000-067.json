@@ -1,0 +1,3514 @@
+[
+  {
+    "id": "Dungeon000",
+    "sourceId": "wiki-Dungeon000",
+    "safe": {
+      "summary": {
+        "zh": "位于贝莱谷的岩隙。",
+        "en": "In a crag in Trilby Valley.",
+        "ja": "ベーレ谷の岩間にある。"
+      },
+      "prerequisite": {
+        "zh": "常规探索入口。",
+        "en": "An exploration destination.",
+        "ja": "通常の探索で訪れる祠。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "以传火清除木质障碍。",
+        "en": "Fire clears wooden obstacles.",
+        "ja": "炎で木製の障害を取り除く。"
+      },
+      "prerequisites": [
+        {
+          "zh": "驿站画作任务只是线索，可直接进入。",
+          "en": "The stable painting quest is optional.",
+          "ja": "馬宿の絵のチャレンジは任意。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "借火把点燃藤蔓，进入后室。",
+          "en": "Ignite the vines from a torch; enter the next room.",
+          "ja": "たいまつの火でツタを燃やし、奥へ進む。"
+        },
+        {
+          "zh": "烧掉支撑斜坡的木箱，沿落下的斜坡前进。",
+          "en": "Burn the ramp supports, then climb the lowered ramp.",
+          "ja": "坂を支える木箱を燃やし、下がった坂を登る。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon001",
+    "sourceId": "wiki-Dungeon001",
+    "safe": {
+      "summary": {
+        "zh": "位于格鲁德峡谷的通道旁。",
+        "en": "Beside Gerudo Canyon Pass.",
+        "ja": "ゲルドキャニオンの通路沿い。"
+      },
+      "prerequisite": {
+        "zh": "常规探索入口。",
+        "en": "An exploration destination.",
+        "ja": "通常の探索で訪れる祠。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "传送带上的球与光束考验时机。",
+        "en": "Conveyors test timing with orbs and lasers.",
+        "ja": "ベルト上の球とレーザーでタイミングを試す。"
+      },
+      "prerequisites": [
+        {
+          "zh": "准备静止器、弓和箭。",
+          "en": "Use Stasis and a bow.",
+          "ja": "ビタロックと弓矢を使う。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "定住移动球，射箭将它推入凹槽；第二室避开守护者。",
+          "en": "Freeze each moving orb; shoot it into its socket, avoiding scouts.",
+          "ja": "動く球を止め、矢で受け皿へ押す。小型ガーディアンにも注意。"
+        },
+        {
+          "zh": "搬球穿过末室；利用方块挡光，并定住中间光束机关。",
+          "en": "Carry the final orb past lasers; use blocks and freeze the middle emitter.",
+          "ja": "最後は球を運び、箱で光を遮り、中央の発射装置を止める。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon002",
+    "sourceId": "wiki-Dungeon002",
+    "safe": {
+      "summary": {
+        "zh": "位于密兹达湖以北的峡谷。",
+        "en": "In a gorge north of Cephla Lake.",
+        "ja": "ミズーダ湖の北の谷間にある。"
+      },
+      "prerequisite": {
+        "zh": "常规探索入口。",
+        "en": "An exploration destination.",
+        "ja": "通常の探索で訪れる祠。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "落灯和燃烧藤蔓打开通道。",
+        "en": "Falling lamps ignite the route.",
+        "ja": "吊り灯とツタの燃焼で道を開く。"
+      },
+      "prerequisites": [
+        {
+          "zh": "内部有小型守护者。",
+          "en": "A Guardian Scout guards a chamber.",
+          "ja": "途中に小型ガーディアンがいる。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "将火把推向藤蔓；射断后室吊灯，烧开通路。",
+          "en": "Push the torch into vines; cut the next lamp loose.",
+          "ja": "たいまつをツタへ押し、次の吊り灯を落として道を開く。"
+        },
+        {
+          "zh": "烧掉支撑石板的木箱，让石板压住开关。",
+          "en": "Burn the slab supports to weigh down the floor switch.",
+          "ja": "石板を支える木箱を燃やし、石板でスイッチを押す。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon003",
+    "sourceId": "wiki-Dungeon003",
+    "safe": {
+      "summary": {
+        "zh": "位于格鲁德沙漠西南的大化石。",
+        "en": "At the Gerudo Great Skeleton.",
+        "ja": "ゲルド砂漠南西の大化石にある。"
+      },
+      "prerequisite": {
+        "zh": "常规探索入口。",
+        "en": "An exploration destination.",
+        "ja": "通常の探索で訪れる祠。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "以导电物体连接多个机关。",
+        "en": "Conductive objects power several mechanisms.",
+        "ja": "導電する物体で仕掛けを動かす。"
+      },
+      "prerequisites": [
+        {
+          "zh": "本试炼使用磁力抓取器。",
+          "en": "Use Magnesis throughout.",
+          "ja": "マグネキャッチを使う。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "用金属块接通电源；解开带电球的链条，启动升降台。",
+          "en": "Bridge power with cubes; unwind the chained orb and power the lift.",
+          "ja": "金属箱で通電し、球の鎖をほどいて昇降台を動かす。"
+        },
+        {
+          "zh": "持球避开沿路接点；对齐末室接点，取齿轮并装回门旁。",
+          "en": "Carry the orb clear of contacts; align the final circuit and replace the gear.",
+          "ja": "球を途中の接点から離して運び、最後の回路を揃えて歯車を戻す。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon004",
+    "sourceId": "wiki-Dungeon004",
+    "safe": {
+      "summary": {
+        "zh": "位于终焉之谷北侧道路旁。",
+        "en": "Beside the north-side road in Breach of Demise.",
+        "ja": "終焉の谷の北側の道沿い。"
+      },
+      "prerequisite": {
+        "zh": "常规探索入口。",
+        "en": "An exploration destination.",
+        "ja": "通常の探索で訪れる祠。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "两个球槽控制门与移动平台。",
+        "en": "Two sockets control a gate and platforms.",
+        "ja": "二つの球受けが門と足場を動かす。"
+      },
+      "prerequisites": [
+        {
+          "zh": "准备弓箭以击落高处的球。",
+          "en": "A bow can dislodge the raised orb.",
+          "ja": "高い球を落とすには弓矢を使う。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "射落右侧球进入球槽，取出门后的第二个球。",
+          "en": "Shoot the right orb into its socket; take the second orb.",
+          "ja": "右の球を矢で受け皿へ落とし、奥の球を取る。"
+        },
+        {
+          "zh": "站在地板开关上投球入左室，再击水晶乘弹射台上行。",
+          "en": "Throw the orb while on the switch; strike the crystal to launch upward.",
+          "ja": "床スイッチ上から左室へ球を投げ、水晶を叩いて上へ飛ぶ。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon005",
+    "sourceId": "wiki-Dungeon005",
+    "safe": {
+      "summary": {
+        "zh": "位于卓拉领地王座室下方。",
+        "en": "Below the throne room in Zora’s Domain.",
+        "ja": "ゾーラの里の王座の下にある。"
+      },
+      "prerequisite": {
+        "zh": "常规探索入口。",
+        "en": "An exploration destination.",
+        "ja": "通常の探索で訪れる祠。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "流水斜坡上的球需要重新引导。",
+        "en": "Redirect an orb down a watery slope.",
+        "ja": "水の坂で球の進路を変える。"
+      },
+      "prerequisites": [
+        {
+          "zh": "本试炼使用制冰器。",
+          "en": "Use Cryonis to guide the orb.",
+          "ja": "アイスメーカーで球を導く。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "避开滚石和光束，走到斜坡顶端。",
+          "en": "Dodge boulders and the laser; reach the top.",
+          "ja": "岩とレーザーを避けて坂の上へ進む。"
+        },
+        {
+          "zh": "用冰柱顶出大球，改变滚动路线使其落入门旁球槽。",
+          "en": "Lift the orb with ice; steer it toward the gate’s socket.",
+          "ja": "氷柱で大球を押し出し、門の横の受け皿へ導く。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon006",
+    "sourceId": "wiki-Dungeon006",
+    "safe": {
+      "summary": {
+        "zh": "位于沃托里村西北边缘。",
+        "en": "On Lurelin Village’s northwest outskirts.",
+        "ja": "ウオトリー村の北西の外れにある。"
+      },
+      "prerequisite": {
+        "zh": "常规探索入口。",
+        "en": "An exploration destination.",
+        "ja": "通常の探索で訪れる祠。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "通过金属重物调节天平高度。",
+        "en": "Metal weights change the scales’ height.",
+        "ja": "金属の重りで天秤の高さを変える。"
+      },
+      "prerequisites": [
+        {
+          "zh": "准备磁力抓取器，注意室内守护者。",
+          "en": "Use Magnesis; watch for the scout.",
+          "ja": "マグネキャッチを使い、小型ガーディアンに注意。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "搬金属物到另一侧天平，使所站平台上升。",
+          "en": "Move metal onto the opposite pan to rise.",
+          "ja": "反対側に金属を置き、自分の足場を上げる。"
+        },
+        {
+          "zh": "在双天平房间重复调重，依次登上高处出口。",
+          "en": "Rebalance the paired scales and climb toward the exit.",
+          "ja": "二組の天秤で重りを移し、順に高い出口へ進む。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon007",
+    "sourceId": "wiki-Dungeon007",
+    "safe": {
+      "summary": {
+        "zh": "位于东部的驿站村废墟与莫约里桥之间。",
+        "en": "Between East Post Ruins and Proxim Bridge.",
+        "ja": "東の宿場町跡とモヨリ橋の間にある。"
+      },
+      "prerequisite": {
+        "zh": "常规探索入口。",
+        "en": "An exploration destination.",
+        "ja": "通常の探索で訪れる祠。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "利用风扇气流跨越空隙。",
+        "en": "Fans carry you across gaps.",
+        "ja": "送風機の風で隙間を渡る。"
+      },
+      "prerequisites": [
+        {
+          "zh": "需要滑翔帆。",
+          "en": "Use the Paraglider.",
+          "ja": "パラセールを使う。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "站到气流前，跳起展开滑翔帆。",
+          "en": "Jump into a fan current and open the Paraglider.",
+          "ja": "風の前で跳び、パラセールを開く。"
+        },
+        {
+          "zh": "顺着后续气流移动，在尽头平台收帆落地。",
+          "en": "Follow the next currents and land on the far platform.",
+          "ja": "次の風に乗り、奥の足場で着地する。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon008",
+    "sourceId": "wiki-Dungeon008",
+    "safe": {
+      "summary": {
+        "zh": "位于利特村南方的湖岸。",
+        "en": "On the shore south of Rito Village.",
+        "ja": "リトの村の南の湖岸にある。"
+      },
+      "prerequisite": {
+        "zh": "入口有时机条件，相关歌谣任务可作线索。",
+        "en": "An entrance timing condition; a song quest offers clues.",
+        "ja": "入口には時機の条件があり、歌の依頼が手掛かりになる。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "以炸弹大炮把球射向目标。",
+        "en": "A bomb cannon launches orbs at targets.",
+        "ja": "爆弾の大砲で球を的へ飛ばす。"
+      },
+      "prerequisites": [
+        {
+          "zh": "歌谣任务在瓦·梅德后可接，但揭示神庙不必接任务；心形日影重合时点火。",
+          "en": "Medoh unlocks the song quest, but the shrine needs no quest: light fire when the heart shadow aligns.",
+          "ja": "歌の依頼はメドー後。祠は依頼前でも、ハートの影が台座に重なる時に火を灯せば出現。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "装入球形炸弹，先发一球打碎目标前的木箱。",
+          "en": "Load a round bomb; fire once to break the target’s crate.",
+          "ja": "丸い爆弾を装填し、まず一発で的の前の木箱を壊す。"
+        },
+        {
+          "zh": "再次装弹，等移动挡板让出路线时引爆，命中目标开门。",
+          "en": "Reload and detonate through a gap in the moving barriers to hit the target.",
+          "ja": "再装填し、動く壁の隙間で起爆して的に当てる。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。 Zelda Dungeon正文补证：歌谣任务是可选线索，梅德不是物理入口的硬前置；第一炮清箱。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels",
+        "extra-Dungeon008-1"
+      ],
+      "prerequisites": [
+        "game-labels",
+        "extra-Dungeon008-1"
+      ],
+      "walkthrough": [
+        "extra-Dungeon008-1"
+      ]
+    },
+    "additionalSources": [
+      {
+        "id": "extra-Dungeon008-1",
+        "title": "Zelda Dungeon · Bareeda Naag Shrine Guide",
+        "url": "https://www.zeldadungeon.net/breath-of-the-wild-walkthrough/shrine-locations/bareeda-naag-shrine-guide/",
+        "retrievedAt": "2026-10-11",
+        "locator": "Walkthrough首段：Medoh仅解锁歌谣任务，未接任务可揭示神庙；大炮第一发需清木箱。实际公开网页读取核对。"
+      }
+    ]
+  },
+  {
+    "id": "Dungeon009",
+    "sourceId": "wiki-Dungeon009",
+    "safe": {
+      "summary": {
+        "zh": "位于初始台地南侧的高崖。",
+        "en": "On the southern Great Plateau precipice.",
+        "ja": "始まりの台地の南の崖にある。"
+      },
+      "prerequisite": {
+        "zh": "常规探索入口。",
+        "en": "An exploration destination.",
+        "ja": "通常の探索で訪れる祠。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "在此取得静止器并学习蓄力。",
+        "en": "Acquire Stasis and learn stored force.",
+        "ja": "ビタロックを入手し、力を蓄える。"
+      },
+      "prerequisites": [
+        {
+          "zh": "爬上崖壁进入；符文在室内取得。",
+          "en": "Climb the cliff; obtain the rune inside.",
+          "ja": "崖を登って入る。ルーンは内部で入手。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "读取装置取得静止器；齿轮停在水平时跨过石板。",
+          "en": "Obtain Stasis; freeze the gear with its slab horizontal.",
+          "ja": "ビタロックを入手し、板が水平な時に歯車を止めて渡る。"
+        },
+        {
+          "zh": "定住滚石上坡；再定住挡路巨石，敲击蓄力将它击飞。",
+          "en": "Freeze rolling rocks; store strikes in the blocking boulder to launch it.",
+          "ja": "転がる岩を止めて坂を登り、道を塞ぐ岩を止めて叩き飛ばす。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon010",
+    "sourceId": "wiki-Dungeon010",
+    "safe": {
+      "summary": {
+        "zh": "位于格鲁德峡谷驿站旁的小崖。",
+        "en": "On a cliff beside Gerudo Canyon Stable.",
+        "ja": "ゲルドキャニオン馬宿の横の崖にある。"
+      },
+      "prerequisite": {
+        "zh": "常规探索入口。",
+        "en": "An exploration destination.",
+        "ja": "通常の探索で訪れる祠。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "球与水中金属块构成电路。",
+        "en": "Orbs and submerged cubes conduct power.",
+        "ja": "球と水中の金属箱で通電する。"
+      },
+      "prerequisites": [
+        {
+          "zh": "准备磁力抓取器；悬球链条可斩断。",
+          "en": "Use Magnesis; cut the hanging orb’s chain.",
+          "ja": "マグネキャッチを使う。吊り球の鎖は切れる。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "先放球通电，再切下悬球启动传送带，取钥匙开门。",
+          "en": "Power the first socket; release the hanging orb, then retrieve the key.",
+          "ja": "球で通電し、吊り球を落としてベルトを動かし、鍵を取る。"
+        },
+        {
+          "zh": "把水中的四个金属块排成导电路线，接通两侧接点。",
+          "en": "Arrange four metal cubes to power both contacts through water.",
+          "ja": "水中の四つの金属箱で、両側の接点に電気を流す。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon011",
+    "sourceId": "wiki-Dungeon011",
+    "safe": {
+      "summary": {
+        "zh": "位于玛丽塔山丘，道路以东。",
+        "en": "On Salari Hill, east of Hilltop High Road.",
+        "ja": "丘陵の道の東、マリッタの丘にある。"
+      },
+      "prerequisite": {
+        "zh": "常规探索入口。",
+        "en": "An exploration destination.",
+        "ja": "通常の探索で訪れる祠。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "弹射平台连成球的抛物线路线。",
+        "en": "Launchers form a chain for the orb.",
+        "ja": "発射台を繋いで球を送る。"
+      },
+      "prerequisites": [
+        {
+          "zh": "可以沿前两座弹射台到达控制水晶。",
+          "en": "Reach the control crystal via the first two launchers.",
+          "ja": "最初の二つの発射台で水晶へ進める。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "清除挡住球路的木箱，击水晶调整平台方向。",
+          "en": "Clear the boxes; strike the crystal to align launchers.",
+          "ja": "球の道の木箱を壊し、水晶で台の向きを変える。"
+        },
+        {
+          "zh": "将球放上首个平台，让连续弹射送球入槽。",
+          "en": "Place the orb on the first launcher to send it into its socket.",
+          "ja": "最初の台に球を置き、連続発射で受け皿へ送る。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon012",
+    "sourceId": "wiki-Dungeon012",
+    "safe": {
+      "summary": {
+        "zh": "位于利特村西侧的兄弟岩。",
+        "en": "At Warbler’s Nest west of Rito Village.",
+        "ja": "リトの村の西、兄弟岩にある。"
+      },
+      "prerequisite": {
+        "zh": "涉及神庙挑战。",
+        "en": "A shrine challenge is involved.",
+        "ja": "祠チャレンジに関連。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "沿风道滑翔并避开尖刺。",
+        "en": "Glide through a winding, spiked route.",
+        "ja": "トゲを避け、曲がる風路を飛ぶ。"
+      },
+      "prerequisites": [
+        {
+          "zh": "完成瓦·梅德后召集姐妹，做鲑鱼黄油煎；按歌声用克洛格团扇吹岩孔。",
+          "en": "After Medoh, gather the sisters, cook salmon meunière, and fan the rocks in song order.",
+          "ja": "メドー後に姉妹を集め、サーモンムニエルを作り、歌の順に岩穴へ風を送る。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "爬梯后击水晶，落下时立即开帆乘风。",
+          "en": "Climb and strike the crystal; glide immediately as the floor opens.",
+          "ja": "梯子を登って水晶を叩き、床が開いたらすぐ滑空する。"
+        },
+        {
+          "zh": "顺风绕过尖刺取得钥匙，再滑回上锁出口。",
+          "en": "Follow currents past spikes, take the key, and return to the locked gate.",
+          "ja": "風に乗ってトゲを避け、鍵を取って施錠された出口へ戻る。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon013",
+    "sourceId": "wiki-Dungeon013",
+    "safe": {
+      "summary": {
+        "zh": "位于东阿卡莱驿站对面。",
+        "en": "Opposite East Akkala Stable.",
+        "ja": "ヒガッカレ馬宿の向かいにある。"
+      },
+      "prerequisite": {
+        "zh": "常规探索入口。",
+        "en": "An exploration destination.",
+        "ja": "通常の探索で訪れる祠。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "以体感巨锤把球打入球槽。",
+        "en": "A motion-controlled hammer drives an orb.",
+        "ja": "ジャイロ操作の大槌で球を打つ。"
+      },
+      "prerequisites": [
+        {
+          "zh": "在台座操作体感机关。",
+          "en": "Interact with the apparatus pedestal.",
+          "ja": "台座でジャイロの仕掛けを操作する。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "调整巨锤角度，轻击球使其落入对面凹槽。",
+          "en": "Angle the hammer and strike the orb into the opposite socket.",
+          "ja": "槌の角度を合わせ、球を向こうの受け皿へ打つ。"
+        },
+        {
+          "zh": "命中后退出操控，乘移动平台到终点。",
+          "en": "Leave the controls after the hit; ride the activated platform.",
+          "ja": "成功したら操作をやめ、動き出した足場で奥へ進む。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon014",
+    "sourceId": "wiki-Dungeon014",
+    "safe": {
+      "summary": {
+        "zh": "位于哈特诺堡垒东北的石像谷。",
+        "en": "In the statue grove northeast of Fort Hateno.",
+        "ja": "ハテノ砦の北東の石像の谷にある。"
+      },
+      "prerequisite": {
+        "zh": "涉及神庙挑战。",
+        "en": "A shrine challenge is involved.",
+        "ja": "祠チャレンジに関連。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "旋转圆筒中的阶梯构成上行路线。",
+        "en": "Rotating stairs form an ascending route.",
+        "ja": "回る円筒の階段を繋いで登る。"
+      },
+      "prerequisites": [
+        {
+          "zh": "夜间射中紫光眼睛的石像；研究者的研究提供线索。",
+          "en": "Shoot the statue with purple eyes at night; Calip provides the clue.",
+          "ja": "夜に紫の目が光る石像を射る。カリーユの研究が手掛かり。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "乘旋转平台向上，避开带刺铁球。",
+          "en": "Ride the rotating platforms upward, avoiding spiked balls.",
+          "ja": "トゲの球を避け、回る足場に乗って上へ進む。"
+        },
+        {
+          "zh": "在顶部把移动阶梯接上固定阶梯；可用静止器稳住齿轮。",
+          "en": "Join moving stairs to the upper stairs; Stasis can steady gears.",
+          "ja": "上で動く階段を固定階段に繋ぐ。歯車はビタロックで止められる。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon015",
+    "sourceId": "wiki-Dungeon015",
+    "safe": {
+      "summary": {
+        "zh": "位于西哈特尔河岸的洞内。",
+        "en": "In a riverside cave in West Necluda.",
+        "ja": "西ハテールの川沿いの洞窟にある。"
+      },
+      "prerequisite": {
+        "zh": "入口有环境障碍。",
+        "en": "An environmental obstacle guards the entrance.",
+        "ja": "入口に環境上の障害がある。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "旋转体感平台连接断路。",
+        "en": "Rotate apparatus platforms to bridge gaps.",
+        "ja": "ジャイロで足場を回して道を繋ぐ。"
+      },
+      "prerequisites": [
+        {
+          "zh": "希克里森林南侧河岸岩壁需炸开。",
+          "en": "Bomb the riverside wall south of Hickaly Woods.",
+          "ja": "ヒッコリ森林南の川沿いの壁を爆破する。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "转动首座平台成桥，再将第二座滑动阶梯对齐。",
+          "en": "Make the first bridge; align the second sliding staircase.",
+          "ja": "最初の台を橋にし、次の動く階段を揃える。"
+        },
+        {
+          "zh": "转动最后结构取得钥匙，并连接通向上锁门的阶梯。",
+          "en": "Rotate the final structure for its key and the locked-door stairs.",
+          "ja": "最後の構造を回して鍵を取り、施錠された門への階段を繋ぐ。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon016",
+    "sourceId": "wiki-Dungeon016",
+    "safe": {
+      "summary": {
+        "zh": "位于萨玛莎平原。",
+        "en": "On Samasa Plain.",
+        "ja": "サマサ平原にある。"
+      },
+      "prerequisite": {
+        "zh": "常规探索入口。",
+        "en": "An exploration destination.",
+        "ja": "通常の探索で訪れる祠。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "旋转立方体，把火传到五处。",
+        "en": "Rotate a cube to spread fire.",
+        "ja": "立方体を回し、五か所へ火を移す。"
+      },
+      "prerequisites": [
+        {
+          "zh": "入口周围有尖刺与蜥蜴战士。",
+          "en": "Spikes and Lizalfos surround the entrance.",
+          "ja": "入口の周囲にトゲとリザルフォスがいる。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "击箭头水晶改变立方体方向，使火把互相接触。",
+          "en": "Strike arrow crystals to rotate torches into contact.",
+          "ja": "矢印の水晶を叩き、たいまつ同士を近づける。"
+        },
+        {
+          "zh": "避开喷水方向，让五支火把同时点亮。",
+          "en": "Keep lit torches clear of water until all five burn.",
+          "ja": "水で消えないように回し、五本すべてを灯す。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon017",
+    "sourceId": "wiki-Dungeon017",
+    "safe": {
+      "summary": {
+        "zh": "位于双子山南峰顶部。",
+        "en": "Atop the southern Dueling Peak.",
+        "ja": "双子山の南側の山頂にある。"
+      },
+      "prerequisite": {
+        "zh": "常规探索入口。",
+        "en": "An exploration destination.",
+        "ja": "通常の探索で訪れる祠。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "与北峰神庙互换球的初始排列。",
+        "en": "Exchange initial orb layouts with the northern shrine.",
+        "ja": "北側の祠と球の初期配置を交換する。"
+      },
+      "prerequisites": [
+        {
+          "zh": "需要观察希贝·尼亚斯神庙的初态。",
+          "en": "Observe Shee Venath’s initial layout.",
+          "ja": "シベ・ニャスの祠の初期配置を確認する。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "先从高台记录本座五行球的位置，再去北峰记录另一座。",
+          "en": "Record this layout from above, then record the northern shrine’s layout.",
+          "ja": "高台からこの祠の配置を記録し、北の祠の配置も記録する。"
+        },
+        {
+          "zh": "回来将五颗球摆成北峰神庙的初始图样。",
+          "en": "Return and arrange all five orbs as the northern shrine began.",
+          "ja": "戻って五つの球を北の祠の初期配置に合わせる。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon018",
+    "sourceId": "wiki-Dungeon018",
+    "safe": {
+      "summary": {
+        "zh": "位于海布拉山脉茨茨齐齐雪原西北。",
+        "en": "In northwest Pikida Stonegrove, Hebra.",
+        "ja": "ヘブラ山脈、ツツキキ雪原の北西にある。"
+      },
+      "prerequisite": {
+        "zh": "位于寒冷区域。",
+        "en": "Located in a cold area.",
+        "ja": "寒冷地にある。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "绕路取得钥匙后返回主室。",
+        "en": "Find a key and return to the main room.",
+        "ja": "回り道で鍵を取り、主室へ戻る。"
+      },
+      "prerequisites": [
+        {
+          "zh": "岩檐下入口；内部有守护者与可燃障碍。",
+          "en": "Enter beneath the rocky canopy; expect scouts and flammable barriers.",
+          "ja": "岩のひさしの下から入る。中に小型ガーディアンと可燃物がある。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "烧开藤蔓后的木箱通道，移开斜坡支撑物并前进。",
+          "en": "Burn through the vine-covered boxes and remove ramp supports.",
+          "ja": "ツタの裏の木箱を燃やし、坂の支えを外して進む。"
+        },
+        {
+          "zh": "清空地板开关上的木桶，取钥匙回主室开门。",
+          "en": "Remove barrels from the switch; take the key back to the main gate.",
+          "ja": "床スイッチの樽をどけ、鍵を取って主室の門を開く。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon019",
+    "sourceId": "wiki-Dungeon019",
+    "safe": {
+      "summary": {
+        "zh": "位于拉聂尔神道中央广场瀑布后的洞穴。",
+        "en": "Behind the Lanayru Promenade waterfall.",
+        "ja": "ラネール参道の滝の裏の洞窟にある。"
+      },
+      "prerequisite": {
+        "zh": "常规探索入口。",
+        "en": "An exploration destination.",
+        "ja": "通常の探索で訪れる祠。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "三个金属箱的重量开启后室。",
+        "en": "Three metal chests weigh down a switch.",
+        "ja": "三つの金属箱の重さで奥を開く。"
+      },
+      "prerequisites": [
+        {
+          "zh": "沿参道进入瀑布后；使用磁力和弓箭。",
+          "en": "Follow the promenade behind the falls; use Magnesis and arrows.",
+          "ja": "参道から滝の裏へ進む。マグネキャッチと弓矢を使う。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "收集水中、升降柱和悬挂的三个箱子，放上大开关。",
+          "en": "Collect the submerged, raised and suspended chests; stack them on the switch.",
+          "ja": "水中・昇降柱・吊り台の箱を集め、大きなスイッチに置く。"
+        },
+        {
+          "zh": "取出后室金属大箱，配合抬升平台登上终点。",
+          "en": "Use the released metal cube with the rising platform to reach the end.",
+          "ja": "奥の金属箱と上昇する台を使い、終点まで登る。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon020",
+    "sourceId": "wiki-Dungeon020",
+    "safe": {
+      "summary": {
+        "zh": "位于海拉鲁平原西部。",
+        "en": "In the West Hyrule Plains.",
+        "ja": "ハイラル平原の西にある。"
+      },
+      "prerequisite": {
+        "zh": "涉及神庙挑战。",
+        "en": "A shrine challenge is involved.",
+        "ja": "祠チャレンジに関連。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "两组倾斜平台分别引导两球。",
+        "en": "Paired tilting ramps guide two orbs.",
+        "ja": "二組の傾く坂で二つの球を導く。"
+      },
+      "prerequisites": [
+        {
+          "zh": "让同一支箭穿过两个石环；卡西瓦的歌可提供线索。",
+          "en": "Shoot one arrow through two stone rings; Kass supplies a clue.",
+          "ja": "一本の矢を二つの石の輪へ通す。カッシーワの歌が手掛かり。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "观察双球，踏左右开关改变相应平台倾斜方向。",
+          "en": "Watch both orbs; step on switches to tilt their ramps.",
+          "ja": "二つの球を見て、左右のスイッチで坂を傾ける。"
+        },
+        {
+          "zh": "把球分别送入不同球槽；同槽会导致重置。",
+          "en": "Guide each orb to a different socket; sharing one resets them.",
+          "ja": "球を別々の受け皿へ導く。同じ側に入るとやり直しになる。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon021",
+    "sourceId": "wiki-Dungeon021",
+    "safe": {
+      "summary": {
+        "zh": "位于雷之台地。",
+        "en": "On Thundra Plateau.",
+        "ja": "雷の台地にある。"
+      },
+      "prerequisite": {
+        "zh": "涉及神庙挑战。",
+        "en": "A shrine challenge is involved.",
+        "ja": "祠チャレンジに関連。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "炸开石块，发现隐藏的金属重物。",
+        "en": "Bomb rubble to expose a metal weight.",
+        "ja": "石を爆破して金属の重りを見つける。"
+      },
+      "prerequisites": [
+        {
+          "zh": "将台地四颗球放入对应位置；当地持续雷雨。",
+          "en": "Place the plateau’s four orbs correctly; expect thunderstorms.",
+          "ja": "台地の四つの球を対応する場所へ置く。雷雨に注意。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "炸开入口石块，取出金属箱作垫脚上梯。",
+          "en": "Bomb the entrance blocks; use the metal cube to reach the ladder.",
+          "ja": "入口の石を爆破し、金属箱を足場にして梯子へ進む。"
+        },
+        {
+          "zh": "清除后段梯子下的石块，用金属箱压住大开关。",
+          "en": "Clear rubble beneath the later ladder; weigh its switch with the cube.",
+          "ja": "奥の梯子の下の石を壊し、箱で大きなスイッチを押す。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon022",
+    "sourceId": "wiki-Dungeon022",
+    "safe": {
+      "summary": {
+        "zh": "位于克洛格森林德库树东侧。",
+        "en": "East of the Great Deku Tree in Korok Forest.",
+        "ja": "コログの森のデクの樹の東にある。"
+      },
+      "prerequisite": {
+        "zh": "常规探索入口。",
+        "en": "An exploration destination.",
+        "ja": "通常の探索で訪れる祠。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "数星座图案，决定球槽位置。",
+        "en": "Count constellations to choose sockets.",
+        "ja": "星座を数えて球の位置を決める。"
+      },
+      "prerequisites": [
+        {
+          "zh": "进入森林即可访问，不需取得大师之剑。",
+          "en": "Accessible upon entering the forest; the Master Sword is not required.",
+          "ja": "森へ入れば訪問できる。マスターソード取得は不要。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "分别数远处壁画中四种星座的出现次数。",
+          "en": "Count each of the four constellations on the far mural.",
+          "ja": "奥の壁画で四種類の星座が何個あるか数える。"
+        },
+        {
+          "zh": "按次数选对应蓝灯数量的球槽，每列放一球。",
+          "en": "Place one orb per column at the socket matching its count.",
+          "ja": "各列で個数と同じ青い灯の受け皿に球を置く。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon023",
+    "sourceId": "wiki-Dungeon023",
+    "safe": {
+      "summary": {
+        "zh": "位于海利亚河中的小岛。",
+        "en": "On a small Hylia River island.",
+        "ja": "ハイリア川の小島にある。"
+      },
+      "prerequisite": {
+        "zh": "常规探索入口。",
+        "en": "An exploration destination.",
+        "ja": "通常の探索で訪れる祠。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "旋转光束控制水位。",
+        "en": "A rotating beam controls water level.",
+        "ja": "回る光線で水位を変える。"
+      },
+      "prerequisites": [
+        {
+          "zh": "需越过或烧开入口山坡的荆棘。",
+          "en": "Cross or burn the entrance hill’s thorny branches.",
+          "ja": "入口の丘のトゲを越えるか燃やす。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "转动把手，让光束碰到水晶升水，前往高处门口。",
+          "en": "Turn the crank to raise water, then reach the upper doorway.",
+          "ja": "ハンドルを回し、光線で水位を上げて高い入口へ進む。"
+        },
+        {
+          "zh": "再次触发转动并赶在降水前进入；用金属桶压住开关。",
+          "en": "Trigger another sweep and enter before drainage; weigh the switch with the barrel.",
+          "ja": "再び光線を回して排水前に奥へ入り、金属樽でスイッチを押す。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon024",
+    "sourceId": "wiki-Dungeon024",
+    "safe": {
+      "summary": {
+        "zh": "位于阿拉布平原。",
+        "en": "On Rabia Plain.",
+        "ja": "アラブー平野にある。"
+      },
+      "prerequisite": {
+        "zh": "涉及神庙挑战。",
+        "en": "A shrine challenge is involved.",
+        "ja": "祠チャレンジに関連。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "金属重物与转动石柱配合通行。",
+        "en": "A rotating pillar works with metal weights.",
+        "ja": "回る柱と金属の重りで進む。"
+      },
+      "prerequisites": [
+        {
+          "zh": "悄悄骑上附近山鹿，再把鹿骑上祭坛。",
+          "en": "Sneak onto a nearby buck and ride it onto the pedestal.",
+          "ja": "近くの牡鹿に静かに乗り、台座へ連れて行く。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "把柱转到斜坡前，水晶旁留炸弹；定住光束后移开金属箱并上柱。",
+          "en": "Align the pillar; leave a bomb by the crystal, freeze the beam, and move its blocker.",
+          "ja": "柱を坂へ向け、水晶に爆弾を置く。光線を止めて金属箱をどけ、柱に乗る。"
+        },
+        {
+          "zh": "用箱压住后续开关，再远程触发水晶把柱转向终点。",
+          "en": "Weigh the later switch with metal, then remotely rotate the pillar to the exit.",
+          "ja": "先のスイッチを金属箱で押し、水晶を遠隔で作動させて柱を出口へ回す。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon025",
+    "sourceId": "wiki-Dungeon025",
+    "safe": {
+      "summary": {
+        "zh": "位于奥尔汀峡谷的马尔鼓坑道内。",
+        "en": "Inside Gorko Tunnel in Eldin Canyon.",
+        "ja": "オルディン峡谷のマルゴ坑道にある。"
+      },
+      "prerequisite": {
+        "zh": "涉及神庙挑战。",
+        "en": "A shrine challenge is involved.",
+        "ja": "祠チャレンジに関連。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "陡坡上连续落下铁球。",
+        "en": "Iron balls roll down a steep hill.",
+        "ja": "急坂を鉄球が転がり落ちる。"
+      },
+      "prerequisites": [
+        {
+          "zh": "为疲惫的鼓隆带回崖边岩石烤肉，帮助完成挖掘。",
+          "en": "Bring a Rock Roast from the cliff so Gonguron can finish digging.",
+          "ja": "崖からロース岩を運び、ゴロンの掘削を再開させる。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "沿坡道上行，在三条路径间换位避开铁球。",
+          "en": "Climb while switching between three lanes to avoid iron balls.",
+          "ja": "三本の道を移り、鉄球を避けて登る。"
+        },
+        {
+          "zh": "危险球可用静止器暂时停住；待滚动陷阱耗尽后继续登顶。",
+          "en": "Freeze dangerous balls, or wait until the rolling traps are spent.",
+          "ja": "危険な球はビタロックで止める。罠が尽きてから登ることもできる。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon026",
+    "sourceId": "wiki-Dungeon026",
+    "safe": {
+      "summary": {
+        "zh": "位于鼓隆城北侧、通往北部废矿的崖上。",
+        "en": "On Goron City’s northern mining road.",
+        "ja": "ゴロンシティ北、廃鉱への崖道にある。"
+      },
+      "prerequisite": {
+        "zh": "常规探索入口。",
+        "en": "An exploration destination.",
+        "ja": "通常の探索で訪れる祠。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "摆动火灯烧掉机关的木质支撑。",
+        "en": "Swinging lamps burn mechanism supports.",
+        "ja": "揺れる火の灯で木の支えを燃やす。"
+      },
+      "prerequisites": [
+        {
+          "zh": "沿老大住处旁上坡进入，途中有守护者。",
+          "en": "Take the uphill path by the boss’s house; scouts await inside.",
+          "ja": "組長の家から坂を登る。内部に小型ガーディアンがいる。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "射落灯烧开木架，用掉落石桶压住首个开关。",
+          "en": "Drop the lamp, burn its support, and weigh the switch with the stone barrel.",
+          "ja": "灯を落として木の台を燃やし、落ちた石樽でスイッチを押す。"
+        },
+        {
+          "zh": "摆灯烧出铁球，开门让球转动轮子，再取钥匙开锁。",
+          "en": "Swing fire to release the ball; open its gate, turn the wheel, and get the key.",
+          "ja": "灯を揺らして球を出し、門を開けて車輪を回し、鍵を取る。"
+        },
+        {
+          "zh": "末室降灯、摆动后割断链条，再用掉落石桶压住出口开关。",
+          "en": "Lower and swing the last lamp, cut it loose, and use the freed barrel.",
+          "ja": "最後の灯を下げて揺らし、鎖を切って石樽を落とし、出口を開く。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon027",
+    "sourceId": "wiki-Dungeon027",
+    "safe": {
+      "summary": {
+        "zh": "位于平原外围的驿站西侧山丘。",
+        "en": "On a hill west of Outskirt Stable.",
+        "ja": "平原外れの馬宿の西の丘にある。"
+      },
+      "prerequisite": {
+        "zh": "常规探索入口。",
+        "en": "An exploration destination.",
+        "ja": "通常の探索で訪れる祠。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "旋转栅栏墙运输球并搭成路线。",
+        "en": "A rotating gate transports the orb.",
+        "ja": "回転する門で球と道を動かす。"
+      },
+      "prerequisites": [
+        {
+          "zh": "制冰器可经水道到墙后。",
+          "en": "Cryonis provides access through the waterhole.",
+          "ja": "水路ではアイスメーカーで壁の裏へ進める。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "用墙上篮筐和水晶把球倒进球槽，取钥匙开门。",
+          "en": "Tip the basket’s orb into its socket; retrieve the key and unlock the door.",
+          "ja": "籠と水晶で球を受け皿へ落とし、鍵を取って門を開く。"
+        },
+        {
+          "zh": "乘弹射台飞起，在空中击中水晶复原墙体后落到顶部。",
+          "en": "Launch upward; reset the wall via its crystal before landing on top.",
+          "ja": "発射台で飛び、着地する前に水晶で壁を元へ戻す。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon028",
+    "sourceId": "wiki-Dungeon028",
+    "safe": {
+      "summary": {
+        "zh": "位于火山湖的蟹蟹岛内。",
+        "en": "Inside the Isle of Rabac’s crag.",
+        "ja": "ニカカ島の岩の内部にある。"
+      },
+      "prerequisite": {
+        "zh": "需要穿越灼热地形。",
+        "en": "Approach through volcanic terrain.",
+        "ja": "高温の地形を通って訪れる。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "蓝火沿长廊逐段开启道路。",
+        "en": "Carry blue flame through a long route.",
+        "ja": "青い炎を長い通路へ運ぶ。"
+      },
+      "prerequisites": [
+        {
+          "zh": "可乘炸弹驱动矿车，或从高处滑翔入岛；准备火把。",
+          "en": "Use a bomb-powered minecart or glide to the island; bring a torch.",
+          "ja": "爆弾でトロッコを動かすか高所から滑空する。たいまつを用意。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "抬高尖刺块取蓝火，避开水流依次点燃台座。",
+          "en": "Raise the spiked block, collect blue flame, and light pedestals clear of water.",
+          "ja": "トゲの箱を上げて青い炎を取り、水を避けて台座に灯す。"
+        },
+        {
+          "zh": "用静止器暂停喷水，射火箭同时点亮移动台座，并移动带火金属块。",
+          "en": "Freeze water jets; ignite moving pedestals together and move the burning metal block.",
+          "ja": "噴水を止め、動く台座を同時に灯し、炎の金属箱を動かす。"
+        },
+        {
+          "zh": "清除守护者，在末端用点燃武器的旋转攻击同时点亮七座火台。",
+          "en": "Defeat scouts; spin a burning weapon to light all seven final pedestals together.",
+          "ja": "敵を倒し、燃えた武器の回転斬りで最後の七本を同時に灯す。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon029",
+    "sourceId": "wiki-Dungeon029",
+    "safe": {
+      "summary": {
+        "zh": "位于河畔驿站东北的花之中州。",
+        "en": "On Floret Sandbar northeast of Riverside Stable.",
+        "ja": "リバーサイド馬宿の北東、花の中州にある。"
+      },
+      "prerequisite": {
+        "zh": "涉及神庙挑战。",
+        "en": "A shrine challenge is involved.",
+        "ja": "祠チャレンジに関連。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "乘漂流木板跨水并炸开终点墙。",
+        "en": "Cross drifting platforms and break the final wall.",
+        "ja": "流れる板で水を渡り、奥の壁を壊す。"
+      },
+      "prerequisites": [
+        {
+          "zh": "沿花间道路进入，避免踩踏花朵。",
+          "en": "Follow the paths between flowers without trampling them.",
+          "ja": "花を踏まず、花の間の道を通る。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "乘木板穿过前两池，或用冰柱作为落脚点。",
+          "en": "Cross the first two pools on rafts or Cryonis blocks.",
+          "ja": "最初の二つの池を板か氷柱で渡る。"
+        },
+        {
+          "zh": "在环形水流中把炸弹送到石墙旁，再引爆打通出口。",
+          "en": "Send a bomb around the circular current and detonate by the wall.",
+          "ja": "円形の流れで爆弾を石壁へ運び、爆破して出口を開く。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon030",
+    "sourceId": "wiki-Dungeon030",
+    "safe": {
+      "summary": {
+        "zh": "位于格鲁德高地娜波露山。",
+        "en": "On Mount Nabooru in Gerudo Highlands.",
+        "ja": "ゲルド高地のナボール山にある。"
+      },
+      "prerequisite": {
+        "zh": "涉及神庙挑战。",
+        "en": "A shrine challenge is involved.",
+        "ja": "祠チャレンジに関連。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "三个体感方块分别处理电、风与火。",
+        "en": "Three apparatus cubes use power, wind and fire.",
+        "ja": "三つのジャイロ立方体で電気・風・火を扱う。"
+      },
+      "prerequisites": [
+        {
+          "zh": "通过鼓隆兄弟的两轮耐热比赛。",
+          "en": "Pass both Goron brothers’ heat-endurance rounds.",
+          "ja": "ゴロン兄弟の二段階の耐熱勝負を突破する。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "旋转首个方块，让每一面的接点通电。",
+          "en": "Rotate the first cube to power every face.",
+          "ja": "最初の箱を回し、すべての面を通電させる。"
+        },
+        {
+          "zh": "对齐四股风；金属箱压一个升高开关，静止器暂留另一个。",
+          "en": "Align four winds; weigh one raised-fan switch and freeze the other.",
+          "ja": "四方向の風を合わせ、片方のスイッチは箱、もう片方はビタロックで保持。"
+        },
+        {
+          "zh": "末室用吊灯引火，旋转方块避开喷水并点亮全部火把。",
+          "en": "Use the hanging lamp; rotate all torches away from water and ignite them.",
+          "ja": "最後は吊り灯から火を移し、水を避けて全部のたいまつを灯す。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon031",
+    "sourceId": "wiki-Dungeon031",
+    "safe": {
+      "summary": {
+        "zh": "位于山麓驿站东侧崖顶。",
+        "en": "On a cliff east of Foothill Stable.",
+        "ja": "山麓の馬宿の東の崖上にある。"
+      },
+      "prerequisite": {
+        "zh": "常规探索入口。",
+        "en": "An exploration destination.",
+        "ja": "通常の探索で訪れる祠。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "利用铁球抵挡斜坡上的滚石。",
+        "en": "A metal ball shields you from boulders.",
+        "ja": "鉄球で坂の岩を押し返す。"
+      },
+      "prerequisites": [
+        {
+          "zh": "准备静止器与磁力抓取器。",
+          "en": "Use Stasis and Magnesis.",
+          "ja": "ビタロックとマグネキャッチを使う。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "定住第一条坡道的滚石，趁间隔跑到中层。",
+          "en": "Freeze the first boulder and run to the middle level.",
+          "ja": "最初の岩を止め、中段まで走る。"
+        },
+        {
+          "zh": "抓起右侧铁球，举在前方推开左坡的连续滚石。",
+          "en": "Carry the right-hand metal ball ahead to push back the left ramp’s boulders.",
+          "ja": "右の鉄球を前に持ち、左の坂の連続する岩を押し返す。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon032",
+    "sourceId": "wiki-Dungeon032",
+    "safe": {
+      "summary": {
+        "zh": "位于格鲁德沙漠北格鲁德巨石。",
+        "en": "At the Great Cliffs in Gerudo Desert.",
+        "ja": "ゲルド砂漠の大きな崖にある。"
+      },
+      "prerequisite": {
+        "zh": "常规探索入口。",
+        "en": "An exploration destination.",
+        "ja": "通常の探索で訪れる祠。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "搬运电源方块启动多段升降台。",
+        "en": "Carry a power cube between elevators.",
+        "ja": "電源の箱を運び、昇降台を動かす。"
+      },
+      "prerequisites": [
+        {
+          "zh": "沙尘暴夜间较弱；驿市传闻只是寻路线索。",
+          "en": "The sandstorm eases at night; the bazaar rumor is a navigation clue.",
+          "ja": "夜は砂嵐が弱まる。バザールの噂は道の手掛かり。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "乘通电平台渡过裂隙，用磁力带回电源方块启动升降台。",
+          "en": "Cross on the powered platform, then carry the cube to the elevator switch.",
+          "ja": "通電した台で渡り、磁力で電源箱を昇降台へ運ぶ。"
+        },
+        {
+          "zh": "推开巨型金属箱，继续搬电源到球座；清开移动平台路线。",
+          "en": "Push aside large cubes; carry power to the final socket and clear the platform’s path.",
+          "ja": "大きな箱をどけ、電源を最後の受け皿へ運び、台の道を空ける。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon033",
+    "sourceId": "wiki-Dungeon033",
+    "safe": {
+      "summary": {
+        "zh": "位于拉聂尔湿地的神庙岛。",
+        "en": "On Shrine Island in Lanayru Wetlands.",
+        "ja": "ラネール湿原の祠の島にある。"
+      },
+      "prerequisite": {
+        "zh": "常规探索入口。",
+        "en": "An exploration destination.",
+        "ja": "通常の探索で訪れる祠。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "用金属勺把浮球送过围栏。",
+        "en": "A metal scoop lifts floating orbs.",
+        "ja": "金属の器で浮く球を運ぶ。"
+      },
+      "prerequisites": [
+        {
+          "zh": "本试炼使用磁力抓取器。",
+          "en": "Use Magnesis to move the scoop.",
+          "ja": "マグネキャッチで器を動かす。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "抓起金属勺舀球，将球倒入第一间围栏后的球槽。",
+          "en": "Scoop an orb and tip it over the first grate into its socket.",
+          "ja": "器で球をすくい、最初の柵の向こうの受け皿へ落とす。"
+        },
+        {
+          "zh": "把另一球留在第二球槽盖上，再用勺压水底开关使球落下。",
+          "en": "Leave an orb on the next lid; weigh the submerged switch with the scoop.",
+          "ja": "次の蓋に球を置き、器で水底のスイッチを押して球を落とす。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon034",
+    "sourceId": "wiki-Dungeon034",
+    "safe": {
+      "summary": {
+        "zh": "位于雅西诺遗迹。",
+        "en": "At Palmorae Ruins.",
+        "ja": "ヤシノ遺跡にある。"
+      },
+      "prerequisite": {
+        "zh": "涉及神庙挑战。",
+        "en": "A shrine challenge is involved.",
+        "ja": "祠チャレンジに関連。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "两条移动平台通道通向机关。",
+        "en": "Moving platforms lead down two corridors.",
+        "ja": "二本の通路を動く足場で進む。"
+      },
+      "prerequisites": [
+        {
+          "zh": "拍下所有石碑碎片交给研究者，再与他在双祭坛上蹲下。",
+          "en": "Photograph all monument fragments for Garini, then kneel on the two pedestals together.",
+          "ja": "石碑の破片をすべて撮影してガリーニに見せ、二つの台座で一緒にしゃがむ。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "带木桶乘左侧平台到尽头，用桶压住开关。",
+          "en": "Carry a barrel along the left platform route and weigh its end switch.",
+          "ja": "左の動く台で樽を奥へ運び、床スイッチに置く。"
+        },
+        {
+          "zh": "回到打开的侧室取得钥匙，再打开终点的门。",
+          "en": "Retrieve the key from the opened room and unlock the final door.",
+          "ja": "開いた部屋で鍵を取り、最後の門を開く。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon035",
+    "sourceId": "wiki-Dungeon035",
+    "safe": {
+      "summary": {
+        "zh": "位于利特村旅馆西南。",
+        "en": "Southwest of Rito Village’s inn.",
+        "ja": "リトの村の宿屋の南西にある。"
+      },
+      "prerequisite": {
+        "zh": "常规探索入口。",
+        "en": "An exploration destination.",
+        "ja": "通常の探索で訪れる祠。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "调整六个风扇，让十四个风车转动。",
+        "en": "Aim six fans at fourteen wind switches.",
+        "ja": "六つの送風機で十四の風車を回す。"
+      },
+      "prerequisites": [
+        {
+          "zh": "进入村庄即可前往。",
+          "en": "Visit directly from the village.",
+          "ja": "村からそのまま訪問できる。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "击打各风扇旁开关，改变送风方向。",
+          "en": "Strike each fan’s control to change wind direction.",
+          "ja": "送風機の横のスイッチを叩き、風向きを変える。"
+        },
+        {
+          "zh": "让所有风车同时转动，沿打开的门到终点。",
+          "en": "Keep every wind switch spinning at once, then enter the opened gate.",
+          "ja": "すべての風車を同時に回し、開いた門へ進む。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon036",
+    "sourceId": "wiki-Dungeon036",
+    "safe": {
+      "summary": {
+        "zh": "位于格鲁德高地卡尔萨谷道旁。",
+        "en": "Beside the Karusa Valley route.",
+        "ja": "ゲルド高地、カルサー谷の道沿い。"
+      },
+      "prerequisite": {
+        "zh": "入口有解锁条件。",
+        "en": "An entrance condition must be met.",
+        "ja": "入口の解放条件がある。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "用两种炸弹分次触发水晶。",
+        "en": "Two bomb shapes trigger timed rotations.",
+        "ja": "二種類の爆弾で水晶を順に作動させる。"
+      },
+      "prerequisites": [
+        {
+          "zh": "将夜光石放在石碑旁的祭坛上。",
+          "en": "Place a Luminous Stone on the pedestal.",
+          "ja": "石碑の横の台座に夜光石を置く。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "把炸弹放在前两室弹射台上，在接近顶端水晶时引爆。",
+          "en": "Launch bombs in the first two rooms; detonate near their crystals.",
+          "ja": "最初の二室で爆弾を飛ばし、上の水晶に近づいたら起爆する。"
+        },
+        {
+          "zh": "末室同时留方炸弹于笼内、球炸弹于弹射间；站上平台分次引爆以升高并开门。",
+          "en": "Leave square and round bombs in motion; detonate separately to rise, then reopen the gate.",
+          "ja": "最後は角型を檻、丸型を発射台に置き、台に乗って順に起爆し、上昇後に門を開く。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon037",
+    "sourceId": "wiki-Dungeon037",
+    "safe": {
+      "summary": {
+        "zh": "位于塔邦挞大桥驿站南侧山脊。",
+        "en": "On the ridge south of Tabantha Bridge Stable.",
+        "ja": "タバンタ大橋馬宿の南の尾根にある。"
+      },
+      "prerequisite": {
+        "zh": "常规探索入口。",
+        "en": "An exploration destination.",
+        "ja": "通常の探索で訪れる祠。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "在弹射高点射击机关。",
+        "en": "Shoot mechanisms from a launcher’s apex.",
+        "ja": "発射台の頂点から仕掛けを射る。"
+      },
+      "prerequisites": [
+        {
+          "zh": "使用静止器、弓箭与滑翔帆。",
+          "en": "Use Stasis, a bow and the Paraglider.",
+          "ja": "ビタロック、弓矢、パラセールを使う。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "定住弹起的球，用箭把球推离弹射轨迹并落入球槽。",
+          "en": "Freeze the airborne orb and shoot it off-course into its socket.",
+          "ja": "跳ねた球を止め、矢で軌道から外して受け皿へ落とす。"
+        },
+        {
+          "zh": "乘启动的弹射台，在空中射中凹室水晶打开终点门。",
+          "en": "Use the activated launcher; shoot the alcove’s crystal while airborne.",
+          "ja": "動き出した台で飛び、空中からくぼみの水晶を射る。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon038",
+    "sourceId": "wiki-Dungeon038",
+    "safe": {
+      "summary": {
+        "zh": "位于初始台地的小湖旁。",
+        "en": "Beside a small lake on the Great Plateau.",
+        "ja": "始まりの台地の小さな湖の近く。"
+      },
+      "prerequisite": {
+        "zh": "常规探索入口。",
+        "en": "An exploration destination.",
+        "ja": "通常の探索で訪れる祠。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "在此取得磁力并移动金属机关。",
+        "en": "Acquire Magnesis to manipulate metal.",
+        "ja": "マグネキャッチを入手し、金属を動かす。"
+      },
+      "prerequisites": [
+        {
+          "zh": "可作为台地四座神庙中的任意一座先探索。",
+          "en": "Its order among the four plateau shrines is flexible.",
+          "ja": "台地の四祠の攻略順は自由。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "读取装置取得磁力，移开地板金属板；抽出墙中金属块打通路。",
+          "en": "Obtain Magnesis, lift floor slabs, and remove the wall’s metal cube.",
+          "ja": "磁力を入手し、床板を上げ、壁の金属箱を外して進む。"
+        },
+        {
+          "zh": "避开守护者，搬金属板连接后两平台，再拉开金属门。",
+          "en": "Pass the scout, reposition the bridge slab, and pull open the metal doors.",
+          "ja": "小型ガーディアンを越え、板を次の橋へ移し、金属の門を開く。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon039",
+    "sourceId": "wiki-Dungeon039",
+    "safe": {
+      "summary": {
+        "zh": "位于哈特诺村内。",
+        "en": "Inside Hateno Village.",
+        "ja": "ハテノ村の中にある。"
+      },
+      "prerequisite": {
+        "zh": "常规探索入口。",
+        "en": "An exploration destination.",
+        "ja": "通常の探索で訪れる祠。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "倾斜体感迷宫，引球滚到终点。",
+        "en": "Tilt an apparatus maze to guide an orb.",
+        "ja": "ジャイロの迷路を傾けて球を導く。"
+      },
+      "prerequisites": [
+        {
+          "zh": "在体感台座操控悬浮迷宫。",
+          "en": "Use the apparatus pedestal to control the maze.",
+          "ja": "台座で浮く迷路を操作する。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "缓慢倾斜平台，让球沿迷宫抵达边缘出口。",
+          "en": "Tilt carefully to lead the orb through the maze to its exit.",
+          "ja": "ゆっくり傾け、球を迷路の出口へ導く。"
+        },
+        {
+          "zh": "将球送到外侧轨道并滚入球槽；也可翻转迷宫使用平面底部。",
+          "en": "Send it down the outer track; flipping the maze exposes a flat alternative.",
+          "ja": "外の坂へ球を送り受け皿へ入れる。裏返すと平面も使える。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon040",
+    "sourceId": "wiki-Dungeon040",
+    "safe": {
+      "summary": {
+        "zh": "位于海拉鲁平原达夫奈斯山南麓。",
+        "en": "At Mount Daphnes’ southern base.",
+        "ja": "ハイラル平原、ダフネス山の南麓。"
+      },
+      "prerequisite": {
+        "zh": "常规探索入口。",
+        "en": "An exploration destination.",
+        "ja": "通常の探索で訪れる祠。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "多段巨石与重锤突破石门。",
+        "en": "Boulders and hammers force open gates.",
+        "ja": "大岩と槌で石の門を開く。"
+      },
+      "prerequisites": [
+        {
+          "zh": "使用磁力、静止器和体感装置。",
+          "en": "Use Magnesis, Stasis and apparatus controls.",
+          "ja": "磁力、ビタロック、ジャイロ装置を使う。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "摆动悬球撞开门，停住滚刺球；落灯烧木台使巨石破门。",
+          "en": "Swing the hanging ball; stop spiked balls, then burn the boulder’s support.",
+          "ja": "吊り球で門を開き、トゲ球を止め、灯で木の台を燃やす。"
+        },
+        {
+          "zh": "定住翻板过桥；体感巨锤推动铁球撞击巨石。",
+          "en": "Freeze the tipping bridge; use the apparatus hammer to drive the boulder.",
+          "ja": "傾く橋を止め、ジャイロの槌で鉄球から岩へ力を伝える。"
+        },
+        {
+          "zh": "烧台释放下一块巨石，定住翻板并适时踩开关弹射巨石。",
+          "en": "Release the next boulder; freeze the tilting slab and time its launch switch.",
+          "ja": "次の岩を燃やして落とし、板を止めてスイッチで岩を飛ばす。"
+        },
+        {
+          "zh": "给末端轨道重锤蓄力破门，站弹射台击水晶上升。",
+          "en": "Store force in the last hammer; then launch yourself using the crystal.",
+          "ja": "最後の槌に力を蓄えて門を開き、水晶で台を作動させて飛ぶ。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon041",
+    "sourceId": "wiki-Dungeon041",
+    "safe": {
+      "summary": {
+        "zh": "位于初始台地东部神殿遗迹。",
+        "en": "In Eastern Abbey on the Great Plateau.",
+        "ja": "始まりの台地の東の神殿跡。"
+      },
+      "prerequisite": {
+        "zh": "常规探索入口。",
+        "en": "An exploration destination.",
+        "ja": "通常の探索で訪れる祠。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "在此取得两种遥控炸弹。",
+        "en": "Acquire both Remote Bomb shapes here.",
+        "ja": "二種類のリモコンバクダンを入手する。"
+      },
+      "prerequisites": [
+        {
+          "zh": "可爬墙入内，注意入口外的损坏守护者。",
+          "en": "Climb the outer wall; beware the Decayed Guardian.",
+          "ja": "外壁を登って入れる。朽ちたガーディアンに注意。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "读取装置后炸开裂石，将方炸弹送上移动台清开对岸。",
+          "en": "Obtain bombs, break cracked blocks, and ferry a square bomb across.",
+          "ja": "爆弾を入手して岩を壊し、動く台で角型を対岸へ送る。"
+        },
+        {
+          "zh": "把球形炸弹装入右侧发射台，在石墙旁引爆并登梯。",
+          "en": "Load a round bomb into the right launcher; detonate by the wall and climb.",
+          "ja": "右の発射台に丸型を入れ、壁の近くで起爆して梯子を登る。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon042",
+    "sourceId": "wiki-Dungeon042",
+    "safe": {
+      "summary": {
+        "zh": "位于雪原驿站旁。",
+        "en": "Beside Snowfield Stable.",
+        "ja": "雪原の馬宿のそばにある。"
+      },
+      "prerequisite": {
+        "zh": "位于寒冷区域。",
+        "en": "Located in a cold area.",
+        "ja": "寒冷地にある。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "风吹球入槽，抬起所站平台。",
+        "en": "Wind drives an orb to raise your platform.",
+        "ja": "風で球を運び、自分の足場を上げる。"
+      },
+      "prerequisites": [
+        {
+          "zh": "本试炼使用磁力抓取器。",
+          "en": "Use Magnesis on the metal blocks.",
+          "ja": "マグネキャッチで金属箱を動かす。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "用两个金属块挡住把球吹向死路的风扇。",
+          "en": "Block the two fans that send the orb into dead ends.",
+          "ja": "球を行き止まりへ吹く二つの送風機を箱で塞ぐ。"
+        },
+        {
+          "zh": "让球沿余下气流入槽，并及时站到升高的平台上。",
+          "en": "Send the orb along the remaining currents and stand on the rising platform in time.",
+          "ja": "残る風で球を受け皿へ送り、間に合うように上がる台に乗る。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon043",
+    "sourceId": "wiki-Dungeon043",
+    "safe": {
+      "summary": {
+        "zh": "位于格鲁德高地的查波雪原。",
+        "en": "On Vatorsa Snowfield in Gerudo Highlands.",
+        "ja": "ゲルド高地のツァボ雪原にある。"
+      },
+      "prerequisite": {
+        "zh": "入口有环境障碍。",
+        "en": "An environmental obstacle guards the entrance.",
+        "ja": "入口に環境上の障害がある。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "护送冰块穿过火焰。",
+        "en": "Carry ice safely through flames.",
+        "ja": "氷を炎から守って運ぶ。"
+      },
+      "prerequisites": [
+        {
+          "zh": "先融化覆盖神庙的冰。",
+          "en": "Melt the ice surrounding the shrine.",
+          "ja": "祠を覆う氷を先に溶かす。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "拾起入口冰块，绕过火柱，避免长时间受热。",
+          "en": "Carry the entrance ice around fire columns without lingering.",
+          "ja": "入口の氷を持ち、炎の柱を避けて進む。"
+        },
+        {
+          "zh": "用磁力取熔岩中的金属块挡火，将仍未融化的冰送到终点。",
+          "en": "Use the lava’s metal cube as a fire shield; deliver the surviving ice.",
+          "ja": "溶岩の金属箱で炎を遮り、残った氷を奥へ届ける。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon044",
+    "sourceId": "wiki-Dungeon044",
+    "safe": {
+      "summary": {
+        "zh": "位于双子山北峰下方的平台。",
+        "en": "On a ledge below the northern Dueling Peak.",
+        "ja": "双子山の北峰の下の足場にある。"
+      },
+      "prerequisite": {
+        "zh": "常规探索入口。",
+        "en": "An exploration destination.",
+        "ja": "通常の探索で訪れる祠。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "与南峰神庙互换球的初始排列。",
+        "en": "Exchange initial layouts with the southern shrine.",
+        "ja": "南側の祠と球の初期配置を交換する。"
+      },
+      "prerequisites": [
+        {
+          "zh": "需要观察希贝·尼罗神庙的初态。",
+          "en": "Observe Shee Vaneer’s initial layout.",
+          "ja": "シベ・ニーロの祠の初期配置を確認する。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "从高台记录本座球位，再到南峰记录另一座初态。",
+          "en": "Record this layout from above, then record the southern shrine.",
+          "ja": "高台から球を記録し、南の祠の初期配置も記録する。"
+        },
+        {
+          "zh": "返回后把五球排成南峰初态，球槽全对便开门。",
+          "en": "Return and match all five orbs to the southern initial layout.",
+          "ja": "戻って五つの球を南の初期配置に合わせ、門を開く。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon045",
+    "sourceId": "wiki-Dungeon045",
+    "safe": {
+      "summary": {
+        "zh": "位于双子驿站旁的浅水池。",
+        "en": "In a shallow pool beside Dueling Peaks Stable.",
+        "ja": "双子馬宿の横の浅い池にある。"
+      },
+      "prerequisite": {
+        "zh": "入口有环境障碍。",
+        "en": "An environmental obstacle guards the entrance.",
+        "ja": "入口に環境上の障害がある。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "瀑布冰柱形成通路与球的挡板。",
+        "en": "Waterfall ice forms paths and orb guides.",
+        "ja": "滝の氷で道と球の壁を作る。"
+      },
+      "prerequisites": [
+        {
+          "zh": "可用冰柱或从山上滑翔越过入口尖刺。",
+          "en": "Use ice or glide from the mountain across entrance spikes.",
+          "ja": "氷柱か山からの滑空で入口のトゲを越える。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "在瀑布上造冰柱，沿冰柱跳过前段断路。",
+          "en": "Build ice on waterfalls and cross the initial gaps.",
+          "ja": "滝に氷柱を作り、最初の切れた道を渡る。"
+        },
+        {
+          "zh": "在末端瀑布造冰块作挡板，把滚动球引入右下球槽。",
+          "en": "Place waterfall ice as barriers to direct the rolling orb into its socket.",
+          "ja": "最後の滝に氷の壁を作り、転がる球を受け皿へ導く。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon046",
+    "sourceId": "wiki-Dungeon046",
+    "safe": {
+      "summary": {
+        "zh": "位于海布拉山脉丝莱米小屋北方。",
+        "en": "North of Selmie’s Spot in Hebra.",
+        "ja": "ヘブラ山脈、スレミーの小屋の北にある。"
+      },
+      "prerequisite": {
+        "zh": "位于寒冷区域。",
+        "en": "Located in a cold area.",
+        "ja": "寒冷地にある。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "风与移动平台共同传送球。",
+        "en": "Fans and a moving platform carry the orb.",
+        "ja": "風と動く足場で球を運ぶ。"
+      },
+      "prerequisites": [
+        {
+          "zh": "本试炼使用磁力抓取器。",
+          "en": "Use Magnesis to position metal blocks.",
+          "ja": "マグネキャッチで金属箱を動かす。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "拉出斜坡下的墙内金属块，用活动金属块防止球吹过斜坡。",
+          "en": "Pull out the wall block; use the movable block to prevent the orb overshooting.",
+          "ja": "坂の下の箱を引き出し、動かせる箱で球が坂を通り過ぎるのを防ぐ。"
+        },
+        {
+          "zh": "等移动平台接到墙边再放球，迅速站到升高台上。",
+          "en": "Release the orb as the platform meets the wall, then reach the rising platform.",
+          "ja": "動く台が壁へ来た時に球を送り、すぐ上昇する台へ乗る。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon047",
+    "sourceId": "wiki-Dungeon047",
+    "safe": {
+      "summary": {
+        "zh": "位于双子山谷北侧低处岩台。",
+        "en": "On a low northern ledge in Dueling Peaks valley.",
+        "ja": "双子山の谷の北側の低い岩棚にある。"
+      },
+      "prerequisite": {
+        "zh": "常规探索入口。",
+        "en": "An exploration destination.",
+        "ja": "通常の探索で訪れる祠。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "踩放开关控制球的滚动时机。",
+        "en": "Switch timing controls rolling orbs.",
+        "ja": "スイッチの踏み離しで球を導く。"
+      },
+      "prerequisites": [
+        {
+          "zh": "从山谷河边进入。",
+          "en": "Approach from the valley’s river.",
+          "ja": "谷の川辺から訪れる。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "踩开关使平台倾斜，把第一球送入凹槽后乘移动台。",
+          "en": "Tilt the first platform, slot its orb, and ride the activated platform.",
+          "ja": "床スイッチで台を傾け、球を入れて動く足場へ乗る。"
+        },
+        {
+          "zh": "后续双平台需及时松开开关恢复角度，依次把球滚到球槽。",
+          "en": "Release switches at the right moment on paired platforms to guide later orbs.",
+          "ja": "次の二枚の台は適時にスイッチを離し、順に球を受け皿へ送る。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon048",
+    "sourceId": "wiki-Dungeon048",
+    "safe": {
+      "summary": {
+        "zh": "位于南阿卡莱驿站上方山脊。",
+        "en": "On the ridge above South Akkala Stable.",
+        "ja": "ミナッカレ馬宿の上の尾根にある。"
+      },
+      "prerequisite": {
+        "zh": "常规探索入口。",
+        "en": "An exploration destination.",
+        "ja": "通常の探索で訪れる祠。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "体感移动尖刺并调节三颗球。",
+        "en": "Apparatus tilting moves spikes and three orbs.",
+        "ja": "傾きでトゲと三つの球を動かす。"
+      },
+      "prerequisites": [
+        {
+          "zh": "需要体感操作与远程攻击手段。",
+          "en": "Use apparatus controls and ranged attacks.",
+          "ja": "ジャイロ操作と遠距離攻撃を使う。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "倾斜首个平台清出尖刺通路；击水晶翻板挡光，途中再次射击续时。",
+          "en": "Tilt spikes aside; trigger laser shields and hit the crystal again midway.",
+          "ja": "傾けてトゲをどけ、水晶で光を遮る。途中でもう一度射る。"
+        },
+        {
+          "zh": "末室缓慢倾斜平台，让三颗球同时压住三个开关。",
+          "en": "Tilt the final platform until all three orbs hold their switches together.",
+          "ja": "最後の台を慎重に傾け、三球で同時に三つのスイッチを押す。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon049",
+    "sourceId": "wiki-Dungeon049",
+    "safe": {
+      "summary": {
+        "zh": "位于湿地驿站西侧。",
+        "en": "Directly west of Wetland Stable.",
+        "ja": "湿原の馬宿のすぐ西にある。"
+      },
+      "prerequisite": {
+        "zh": "常规探索入口。",
+        "en": "An exploration destination.",
+        "ja": "通常の探索で訪れる祠。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "水上冰柱可通行也可挡攻击。",
+        "en": "Ice provides paths and cover on water.",
+        "ja": "氷柱で水を渡り、攻撃を防ぐ。"
+      },
+      "prerequisites": [
+        {
+          "zh": "使用制冰器与滑翔帆。",
+          "en": "Use Cryonis and the Paraglider.",
+          "ja": "アイスメーカーとパラセールを使う。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "在首段瀑布造侧向冰柱上行，越过守护者。",
+          "en": "Build sideways ice on the waterfall and pass its scout.",
+          "ja": "最初の滝に横向きの氷を作り、敵を越える。"
+        },
+        {
+          "zh": "乘无帆木筏顺流，借冰块掩护；在末端瀑布前跳起滑翔。",
+          "en": "Ride the raft under ice cover, then glide before the final waterfall.",
+          "ja": "筏で流れに乗り、氷で身を守る。最後の滝の手前で滑空する。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon050",
+    "sourceId": "wiki-Dungeon050",
+    "safe": {
+      "summary": {
+        "zh": "位于湖畔驿站背后的洞穴。",
+        "en": "In the cave behind Lakeside Stable.",
+        "ja": "レイクサイド馬宿の裏の洞窟にある。"
+      },
+      "prerequisite": {
+        "zh": "入口有环境障碍。",
+        "en": "An environmental obstacle guards the entrance.",
+        "ja": "入口に環境上の障害がある。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "固定倾斜平台形成上行通路。",
+        "en": "Freeze tilting platforms to climb.",
+        "ja": "傾く台を止めて登る。"
+      },
+      "prerequisites": [
+        {
+          "zh": "炸开洞口堵塞的岩石。",
+          "en": "Bomb the rocks blocking the cave.",
+          "ja": "洞窟を塞ぐ岩を爆破する。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "在合适倾角定住前两座翻板，迅速爬到上层。",
+          "en": "Freeze the early platforms at useful angles and climb quickly.",
+          "ja": "前の台を登れる角度で止め、素早く上へ進む。"
+        },
+        {
+          "zh": "末段用金属箱稳住一块翻板，再定住另一块跨到出口。",
+          "en": "Steady one final platform with the metal chest and freeze the other.",
+          "ja": "最後は金属箱で片方を固定し、もう片方を止めて出口へ渡る。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon051",
+    "sourceId": "wiki-Dungeon051",
+    "safe": {
+      "summary": {
+        "zh": "位于海布拉乌克池塘西侧山洞。",
+        "en": "In a cave west of Lake Kilsie.",
+        "ja": "ヘブラのウッコ池の西の洞窟にある。"
+      },
+      "prerequisite": {
+        "zh": "位于寒冷区域。",
+        "en": "Located in a cold area.",
+        "ja": "寒冷地にある。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "滚动机关、熔岩和铁球组成长路线。",
+        "en": "Rolling hazards guard a lava-lined route.",
+        "ja": "回転床と鉄球の先に進む。"
+      },
+      "prerequisites": [
+        {
+          "zh": "入口在湖西码头东北更远的崖壁，不是可见的窄裂缝。",
+          "en": "Use the cliff entrance northeast of the western dock, beyond the viewing crack.",
+          "ja": "西の桟橋から北東の崖の入口へ。見える裂け目からは入れない。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "点亮两支火把，越过带刺转柱，踩开关进入水池战斗室。",
+          "en": "Light both torches, cross the spiked cylinder, and enter the scout chamber.",
+          "ja": "二本のたいまつを灯し、トゲの回転柱を渡って戦闘室へ進む。"
+        },
+        {
+          "zh": "开门时退避滚来的铁球；末坡暂停铁球，利用间隙上行。",
+          "en": "Retreat from released iron balls; freeze the last one to climb the ramp.",
+          "ja": "門から出る鉄球を避け、最後の坂では球を止めて登る。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon052",
+    "sourceId": "wiki-Dungeon052",
+    "safe": {
+      "summary": {
+        "zh": "位于塔邦挞柯库皮雪原谷底洞穴。",
+        "en": "In Kopeeki Drifts Cave, Tabantha.",
+        "ja": "タバンタのコクッピ雪原の洞窟にある。"
+      },
+      "prerequisite": {
+        "zh": "位于寒冷区域。",
+        "en": "Located in a cold area.",
+        "ja": "寒冷地にある。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "切断吊绳让巨石落向开关。",
+        "en": "Cut ropes to drop boulders onto switches.",
+        "ja": "ロープを切り、岩をスイッチへ落とす。"
+      },
+      "prerequisites": [
+        {
+          "zh": "从东北棚屋方向滚大雪球砸开石门。",
+          "en": "Roll a large snowball from the northeast shelter into the stone door.",
+          "ja": "北東の小屋から大きな雪玉を転がし、石の門へ当てる。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "射断第一颗悬石的绳子，让巨石落下压开关。",
+          "en": "Cut the first rope so its boulder falls onto the stake.",
+          "ja": "最初の岩のロープを射切り、下のスイッチへ落とす。"
+        },
+        {
+          "zh": "右室先定住双绳巨石，射断两绳后等它垂直落下。",
+          "en": "Freeze the right room’s boulder, cut both ropes, and let it drop straight.",
+          "ja": "右室の岩を止めて二本とも切り、解除後に真下へ落とす。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon053",
+    "sourceId": "wiki-Dungeon053",
+    "safe": {
+      "summary": {
+        "zh": "位于飞行训练场南方的山道。",
+        "en": "On the pass south of the Flight Range.",
+        "ja": "飛行訓練場の南の峠道にある。"
+      },
+      "prerequisite": {
+        "zh": "常规探索入口。",
+        "en": "An exploration destination.",
+        "ja": "通常の探索で訪れる祠。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "寻找围墙内隐藏的上升气流。",
+        "en": "Find an updraft hidden inside walls.",
+        "ja": "壁の中の隠れた上昇気流を探す。"
+      },
+      "prerequisites": [
+        {
+          "zh": "使用滑翔帆。",
+          "en": "Use the Paraglider.",
+          "ja": "パラセールを使う。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "依次乘风上升，越过小型守护者并乘移动台到梯子。",
+          "en": "Ride successive updrafts, pass the scout, and reach the ladder via the moving platform.",
+          "ja": "順に風で上がり、敵を越えて動く台から梯子へ進む。"
+        },
+        {
+          "zh": "绕到高墙背面的小孔，进入乘第五股风滑向终点。",
+          "en": "Circle to the tall wall’s rear opening and ride its hidden fan.",
+          "ja": "高い壁の裏の穴へ回り込み、隠れた風で奥へ飛ぶ。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon054",
+    "sourceId": "wiki-Dungeon054",
+    "safe": {
+      "summary": {
+        "zh": "位于高原驿站上方的岩台。",
+        "en": "On a ledge above Highland Stable.",
+        "ja": "高原の馬宿の上の岩棚にある。"
+      },
+      "prerequisite": {
+        "zh": "常规探索入口。",
+        "en": "An exploration destination.",
+        "ja": "通常の探索で訪れる祠。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "拆下金属门作为可搬动的桥。",
+        "en": "A detached metal door becomes a bridge.",
+        "ja": "外した金属の門を橋にする。"
+      },
+      "prerequisites": [
+        {
+          "zh": "使用磁力与爆炸物。",
+          "en": "Use Magnesis and explosives.",
+          "ja": "マグネキャッチと爆発物を使う。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "推开首道门，炸掉下一道左门的裂石支撑并取下门板。",
+          "en": "Open the first doors; bomb the left door’s cracked supports.",
+          "ja": "最初の門を開き、次の左門の支えの岩を壊す。"
+        },
+        {
+          "zh": "以门板连接高台，推开顶部石块后再搭桥到终点。",
+          "en": "Bridge raised platforms with the door; clear blocks and bridge to the end.",
+          "ja": "門板で高い台を繋ぎ、上の石をどけて奥への橋を作る。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon055",
+    "sourceId": "wiki-Dungeon055",
+    "safe": {
+      "summary": {
+        "zh": "位于塔邦挞边界的库库甲谷。",
+        "en": "In Tanagar Canyon near Tabantha.",
+        "ja": "タバンタ境界のククジャ谷にある。"
+      },
+      "prerequisite": {
+        "zh": "常规探索入口。",
+        "en": "An exploration destination.",
+        "ja": "通常の探索で訪れる祠。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "冻结机关与重物，释放蓄积的力量。",
+        "en": "Freeze mechanisms and release stored force.",
+        "ja": "仕掛けを止め、蓄えた力を放つ。"
+      },
+      "prerequisites": [
+        {
+          "zh": "本试炼使用静止器。",
+          "en": "Use Stasis throughout the trial.",
+          "ja": "ビタロックを使う試練。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "齿轮使平台转到水平时定住，让滚石撞击对岸开关。",
+          "en": "Freeze the gear when its platform is level to carry the boulder across.",
+          "ja": "台が水平な時に歯車を止め、岩を向こうのスイッチへ送る。"
+        },
+        {
+          "zh": "第二室把石桶对准竖板，定住敲击后把竖板撞倒在开关上。",
+          "en": "Launch a stone barrel with Stasis to knock the raised slab onto its switch.",
+          "ja": "次の部屋で石樽に力を蓄え、立った板をスイッチへ倒す。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon056",
+    "sourceId": "wiki-Dungeon056",
+    "safe": {
+      "summary": {
+        "zh": "位于奥尔汀鲁皮湖北侧。",
+        "en": "North of Pico Pond in Eldin Canyon.",
+        "ja": "オルディン峡谷のルピ湖の北にある。"
+      },
+      "prerequisite": {
+        "zh": "常规探索入口。",
+        "en": "An exploration destination.",
+        "ja": "通常の探索で訪れる祠。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "控制蓄力次数，把球准确击入水中球槽。",
+        "en": "Control stored force to land an orb.",
+        "ja": "力の回数を調整し、球を受け皿へ飛ばす。"
+      },
+      "prerequisites": [
+        {
+          "zh": "室内提供铁锤；使用静止器。",
+          "en": "A sledgehammer is supplied; use Stasis.",
+          "ja": "内部でハンマーを得て、ビタロックを使う。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "正对球槽站到球后，定住球后用铁锤敲五次；失误击水晶重置。",
+          "en": "Stand behind the orb, freeze it, and strike five times with the hammer.",
+          "ja": "球の後ろから受け皿へ向き、止めてハンマーで五回叩く。"
+        },
+        {
+          "zh": "定住下一段轨道石块，向石板方向蓄力，把石板击成斜坡。",
+          "en": "Launch the next rail block into its slab to create a ramp.",
+          "ja": "次のレールの石に力を蓄え、板を坂に変える。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon057",
+    "sourceId": "wiki-Dungeon057",
+    "safe": {
+      "summary": {
+        "zh": "位于河畔驿站西北的海利亚河岸。",
+        "en": "Northwest of Riverside Stable on Hylia River.",
+        "ja": "リバーサイド馬宿の北西の川岸にある。"
+      },
+      "prerequisite": {
+        "zh": "常规探索入口。",
+        "en": "An exploration destination.",
+        "ja": "通常の探索で訪れる祠。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "金属块堆叠成可攀爬的支架。",
+        "en": "Stack metal cubes into climbable supports.",
+        "ja": "金属箱を積み、登れる足場を作る。"
+      },
+      "prerequisites": [
+        {
+          "zh": "本试炼使用磁力抓取器。",
+          "en": "Use Magnesis to build the route.",
+          "ja": "マグネキャッチで道を作る。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "把三个金属块堆在金属板所在高台下，爬上取得金属板。",
+          "en": "Stack three cubes beneath the slab platform and retrieve its metal slab.",
+          "ja": "金属板の台の下に三箱を積み、登って板を取る。"
+        },
+        {
+          "zh": "把箱塔移到终点高台下，斜放金属板接成桥后攀爬。",
+          "en": "Move the stack beneath the final ledge and incline the slab into a bridge.",
+          "ja": "箱の塔を最後の台へ移し、板を斜めの橋にして登る。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon058",
+    "sourceId": "wiki-Dungeon058",
+    "safe": {
+      "summary": {
+        "zh": "位于萨托利山峰附近。",
+        "en": "Near Satori Mountain’s summit.",
+        "ja": "サトリ山の山頂近くにある。"
+      },
+      "prerequisite": {
+        "zh": "常规探索入口。",
+        "en": "An exploration destination.",
+        "ja": "通常の探索で訪れる祠。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "同步摆台并移动轨道金属平台。",
+        "en": "Synchronize swings and move rail platforms.",
+        "ja": "揺れる台とレールの足場を操る。"
+      },
+      "prerequisites": [
+        {
+          "zh": "使用磁力、弓箭与火源。",
+          "en": "Use Magnesis, arrows and fire.",
+          "ja": "磁力、弓矢、火を使う。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "摆动金属台跨越深坑，射断桥绳，再移开带刺铁球。",
+          "en": "Swing platforms across gaps, cut bridge ropes, and move spiked balls.",
+          "ja": "金属の台を揺らして渡り、橋のロープを切り、トゲ球をどける。"
+        },
+        {
+          "zh": "把轨道平台排成阶梯；烧掉门上木板与树叶，再推开金属门。",
+          "en": "Arrange rail platforms as stairs; burn the doors’ wooden blockage and push them open.",
+          "ja": "レールの台を階段にし、門の木と葉を燃やして金属門を開く。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon059",
+    "sourceId": "wiki-Dungeon059",
+    "safe": {
+      "summary": {
+        "zh": "位于塔邦挞路茨平原西侧洞内。",
+        "en": "In a cave west of Rayne Highlands.",
+        "ja": "タバンタのルツ平原西側の洞内にある。"
+      },
+      "prerequisite": {
+        "zh": "入口有环境障碍。",
+        "en": "An environmental obstacle guards the entrance.",
+        "ja": "入口に環境上の障害がある。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "以扇风推动浮空平台与爆炸桶。",
+        "en": "Wind moves floating platforms and bomb barrels.",
+        "ja": "風で浮く台と爆弾樽を動かす。"
+      },
+      "prerequisites": [
+        {
+          "zh": "用静止器或八爪气球移开洞口石板；室内可取得团扇。",
+          "en": "Move the entrance slab with Stasis or Octo Balloons; a leaf is supplied inside.",
+          "ja": "入口の板をビタロックかオクタ風船でどける。中で葉を得る。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "用团扇启动风开关并操纵气球平台，移到对岸继续前进。",
+          "en": "Fan the switches and steer the balloon platform across to the next route.",
+          "ja": "葉で風スイッチを動かし、風船の台を対岸へ運んで進む。"
+        },
+        {
+          "zh": "炸开中央结构下层裂壁，乘上升气流，再操纵平台越过尖刺迷宫。",
+          "en": "Bomb the shaft’s lower wall; ride its updraft and cross the spike maze.",
+          "ja": "中央の下の壁を爆破し、上昇気流からトゲの迷路へ進む。"
+        },
+        {
+          "zh": "吹爆炸桶炸开顶层壁，让气流贯通；到顶取钥匙，滑回锁门。",
+          "en": "Blow a bomb barrel into the upper wall; ride upward for the key and glide back.",
+          "ja": "爆弾樽で上の壁を壊し、風で鍵を取って施錠門へ滑空する。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon060",
+    "sourceId": "wiki-Dungeon060",
+    "safe": {
+      "summary": {
+        "zh": "位于格鲁德小镇外。",
+        "en": "Immediately outside Gerudo Town.",
+        "ja": "ゲルドの街の外にある。"
+      },
+      "prerequisite": {
+        "zh": "常规探索入口。",
+        "en": "An exploration destination.",
+        "ja": "通常の探索で訪れる祠。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "用多个金属物补齐地面电路。",
+        "en": "Metal objects bridge floor circuits.",
+        "ja": "金属で床の回路を繋ぐ。"
+      },
+      "prerequisites": [
+        {
+          "zh": "位于城外，不需入城服装；使用磁力。",
+          "en": "Outside town; no entry disguise is needed. Use Magnesis.",
+          "ja": "街の外なので入街用の服は不要。磁力を使う。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "依次接通左下、左上电路，取得第二个金属桶与金属宝箱。",
+          "en": "Complete the lower-left and upper-left circuits to obtain more metal objects.",
+          "ja": "左下、左上の順に繋ぎ、追加の樽と金属箱を取る。"
+        },
+        {
+          "zh": "用四物接通右下取得第二金属大箱，最后在终点平台两侧各放一箱。",
+          "en": "Power the lower-right circuit, then put the two large cubes beside the final platform.",
+          "ja": "四つの金属で右下を繋ぎ、最後に大箱を出口の両側へ置く。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon061",
+    "sourceId": "wiki-Dungeon061",
+    "safe": {
+      "summary": {
+        "zh": "位于花柔莉亚大瀑布最高一段的后方。",
+        "en": "Behind Floria Falls’ highest waterfall.",
+        "ja": "フロリア大滝の最上段の裏にある。"
+      },
+      "prerequisite": {
+        "zh": "常规探索入口。",
+        "en": "An exploration destination.",
+        "ja": "通常の探索で訪れる祠。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "弹射球时需避开移动挡板。",
+        "en": "Time orb launches around moving barriers.",
+        "ja": "動く障害を避けて球を飛ばす。"
+      },
+      "prerequisites": [
+        {
+          "zh": "从乌拉伊特湖流出的瀑布旁小路进入。",
+          "en": "Follow the side path beside the falls from Riola Spring.",
+          "ja": "源流からの滝の横道で裏へ入る。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "将球放在弹射台上，先观察对应球槽与挡板运动。",
+          "en": "Place an orb on a launcher; watch the socket and barriers.",
+          "ja": "発射台に球を置き、受け皿と障害の動きを見る。"
+        },
+        {
+          "zh": "在左侧路线畅通时发射，取回射来的钥匙宝箱并开终点门。",
+          "en": "Launch through the clear left path; retrieve its key chest and unlock the door.",
+          "ja": "左の道が空く時に発射し、飛んでくる鍵の箱で最後の門を開く。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon062",
+    "sourceId": "wiki-Dungeon062",
+    "safe": {
+      "summary": {
+        "zh": "位于北塔邦挞雪原北缘。",
+        "en": "Near North Tabantha Snowfield’s northern edge.",
+        "ja": "北タバンタ雪原の北端近くにある。"
+      },
+      "prerequisite": {
+        "zh": "位于寒冷区域。",
+        "en": "Located in a cold area.",
+        "ja": "寒冷地にある。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "升起并暂停金属块，取出下方钥匙。",
+        "en": "Lift and lock a block to uncover a key.",
+        "ja": "金属箱を上げて止め、下の鍵を取る。"
+      },
+      "prerequisites": [
+        {
+          "zh": "使用磁力抓取器与静止器。",
+          "en": "Use Magnesis and Stasis.",
+          "ja": "マグネキャッチとビタロックを使う。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "沿螺旋走道上行，把压住宝箱的金属块抬高。",
+          "en": "Climb the spiral path and lift the block off the chest.",
+          "ja": "螺旋の道を登り、箱を宝箱から持ち上げる。"
+        },
+        {
+          "zh": "定住金属块或让移动台承托，迅速回到下方取钥匙开门。",
+          "en": "Freeze the block or rest it on moving platforms; collect the key below.",
+          "ja": "箱を止めるか動く台で支え、下で鍵を取って門を開く。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon063",
+    "sourceId": "wiki-Dungeon063",
+    "safe": {
+      "summary": {
+        "zh": "位于格鲁德沙漠西部沙尘区。",
+        "en": "In Gerudo Desert’s western sandstorm.",
+        "ja": "ゲルド砂漠西の砂嵐の中にある。"
+      },
+      "prerequisite": {
+        "zh": "常规探索入口。",
+        "en": "An exploration destination.",
+        "ja": "通常の探索で訪れる祠。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "使弹跳电球停下，再搬去通电。",
+        "en": "Stop a bouncing power orb and relocate it.",
+        "ja": "跳ねる電球を止めて運ぶ。"
+      },
+      "prerequisites": [
+        {
+          "zh": "循剑士石像指向穿过沙暴；士兵传闻提供线索。",
+          "en": "Follow swordswomen statues through the storm; the soldier offers a clue.",
+          "ja": "剣士像の指す方へ砂嵐を進む。兵士の話が手掛かり。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "电球飞到空中时定住，射箭改变轨迹让它落地。",
+          "en": "Freeze the airborne orb; shoot it off-course to the floor.",
+          "ja": "電球を空中で止め、矢で軌道を変えて床へ落とす。"
+        },
+        {
+          "zh": "用磁力把电球移到终点门右侧接点，保持通电后前进。",
+          "en": "Move the orb to the contact right of the final gate with Magnesis.",
+          "ja": "磁力で最後の門の右の接点へ球を運び、通電させる。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon064",
+    "sourceId": "wiki-Dungeon064",
+    "safe": {
+      "summary": {
+        "zh": "位于奥尔汀大桥前的死亡之山道路旁。",
+        "en": "Before the Bridge of Eldin on Death Mountain’s road.",
+        "ja": "デスマウンテン道、オルディン橋の手前にある。"
+      },
+      "prerequisite": {
+        "zh": "常规探索入口。",
+        "en": "An exploration destination.",
+        "ja": "通常の探索で訪れる祠。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "暂停弹起的石块，保持顶部电路接通。",
+        "en": "Freeze a launched block to sustain power.",
+        "ja": "跳ねる石を止め、天井へ通電する。"
+      },
+      "prerequisites": [
+        {
+          "zh": "使用静止器和滑翔帆。",
+          "en": "Use Stasis and the Paraglider.",
+          "ja": "ビタロックとパラセールを使う。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "乘中央巨石上升，观察电源与天花板接点的接触时机。",
+          "en": "Ride the central block and watch when its generator touches the ceiling.",
+          "ja": "中央の石に乗り、電源が天井に触れる時を見る。"
+        },
+        {
+          "zh": "接触时定住巨石，趁门保持开启滑翔到高处终点。",
+          "en": "Freeze it on contact and glide into the raised, powered gate.",
+          "ja": "接触時に石を止め、開いた高い門へ滑空する。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon065",
+    "sourceId": "wiki-Dungeon065",
+    "safe": {
+      "summary": {
+        "zh": "位于初始台地海利亚山上。",
+        "en": "On Mount Hylia, Great Plateau.",
+        "ja": "始まりの台地のハイリア山にある。"
+      },
+      "prerequisite": {
+        "zh": "位于寒冷区域。",
+        "en": "Located in a cold area.",
+        "ja": "寒冷地にある。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "在此取得制冰器，学习抬门与造斜坡。",
+        "en": "Acquire Cryonis to lift gates and ramps.",
+        "ja": "氷で門や坂を作るルーンを得る。"
+      },
+      "prerequisites": [
+        {
+          "zh": "先准备防寒服或耐寒料理。",
+          "en": "Prepare cold protection or warming food.",
+          "ja": "防寒着か寒さ対策の料理を用意する。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "读取装置取得制冰器，在水池造冰柱登上平台并抬起铁门。",
+          "en": "Obtain Cryonis; climb ice pillars and raise the gate with ice.",
+          "ja": "氷柱を作るルーンを得て、台へ登り、門を氷で上げる。"
+        },
+        {
+          "zh": "经过守护者后在石板一端下方造冰柱，将石板顶成斜坡。",
+          "en": "Pass the scout and raise one end of the final slab into a ramp.",
+          "ja": "敵を越え、最後の板の片側を氷で上げて坂にする。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon066",
+    "sourceId": "wiki-Dungeon066",
+    "safe": {
+      "summary": {
+        "zh": "位于阿卡莱的奇克伦岛洞穴。",
+        "en": "In Tingel Island’s cave, Akkala.",
+        "ja": "アッカレのチクルン島の洞窟にある。"
+      },
+      "prerequisite": {
+        "zh": "入口有环境障碍。",
+        "en": "An environmental obstacle guards the entrance.",
+        "ja": "入口に環境上の障害がある。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "把重物落到天平一侧，弹起另一侧。",
+        "en": "Drop a weight onto a scale to launch yourself.",
+        "ja": "天秤の片側に重りを落として飛ぶ。"
+      },
+      "prerequisites": [
+        {
+          "zh": "以静止器或八爪气球移开洞口大石板。",
+          "en": "Remove the cave slab with Stasis or Octo Balloons.",
+          "ja": "入口の石板をビタロックかオクタ風船でどける。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "移动金属桶使自己升高，取下右侧吊台上的金属箱。",
+          "en": "Move the barrel to rise, then retrieve the hanging metal cube.",
+          "ja": "樽を移して上がり、右の吊り台の金属箱を取る。"
+        },
+        {
+          "zh": "站在低侧，将金属箱从高处落到对侧；被弹起后滑翔到终点。",
+          "en": "Stand on the lower pan; drop the cube opposite and glide after launch.",
+          "ja": "低い側に立ち、反対側へ箱を落として飛び、奥へ滑空する。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  },
+  {
+    "id": "Dungeon067",
+    "sourceId": "wiki-Dungeon067",
+    "safe": {
+      "summary": {
+        "zh": "位于奥尔汀鼓大湖的小岛。",
+        "en": "On an islet in Goronbi Lake, Eldin.",
+        "ja": "オルディンのゴダイ湖の小島にある。"
+      },
+      "prerequisite": {
+        "zh": "需要穿越灼热地形。",
+        "en": "Approach through volcanic terrain.",
+        "ja": "高温の地形を通って訪れる。"
+      }
+    },
+    "detail": {
+      "intro": {
+        "zh": "按重量调节天平并避开顶部尖刺。",
+        "en": "Balance scales without hitting ceiling spikes.",
+        "ja": "天秤を調整し、天井のトゲを避ける。"
+      },
+      "prerequisites": [
+        {
+          "zh": "可移动湖边铁箱搭路，或从高处滑翔登岛。",
+          "en": "Bridge lava with nearby iron crates or glide from above.",
+          "ja": "鉄箱を溶岩の橋にするか、高所から島へ滑空する。"
+        }
+      ],
+      "walkthrough": [
+        {
+          "zh": "烧掉左侧木箱，取下降天平上的钥匙，开门取三金属箱。",
+          "en": "Burn the wooden crate; retrieve the lowered key and unlock three metal cubes.",
+          "ja": "木箱を燃やし、下がった天秤で鍵を取って三箱を出す。"
+        },
+        {
+          "zh": "把炸弹升到裂石旁清路；终点侧放一箱、对侧两箱，控制高度避开尖刺。",
+          "en": "Raise a bomb to clear blocks; balance one cube against two below the spikes.",
+          "ja": "爆弾を上げて石を壊し、出口側に一箱、反対側に二箱で高さを調整する。"
+        }
+      ]
+    },
+    "note": "本站原创整理及三语译述；逐座核对Zelda Wiki入口与机关正文，非官方攻略文案。 地名按StaticMsg中的对应英语条目核对中日文本。",
+    "evidenceOverrides": {
+      "safe": [
+        "game-labels"
+      ],
+      "prerequisites": [
+        "game-labels"
+      ]
+    }
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-11T03:10:36.170Z",
+  "origin": "http://127.0.0.1:5173/",
+  "datasetHash": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde",
+  "dataVersion": "v0.1.0-20261011-r2",
+  "playwright": "1.62.1",
+  "browser": "149.0.7827.55",
+  "results": [
+    {
+      "name": "13-tower-clears-old-selection",
+      "status": "fail",
+      "error": "AssertionError [ERR_ASSERTION]: Tower navigation must clear old safe preview\n\n1 !== 0\n\n    at /Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/r2/qa_browser.cjs:63:388\n    at async test (/Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/r2/qa_browser.cjs:23:405)\n    at async /Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/r2/qa_browser.cjs:62:2"
+    }
+  ],
+  "pageErrors": []
+}

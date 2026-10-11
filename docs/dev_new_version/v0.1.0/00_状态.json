@@ -1,0 +1,1014 @@
+{
+  "schema": 1,
+  "version": "v0.1.0",
+  "stage": "inspection_release",
+  "status": "accepted",
+  "docs": {
+    "01_需求文档.md": "complete",
+    "02_PRD.md": "complete",
+    "03_UIUX设计.md": "complete",
+    "04_技术方案.md": "complete",
+    "05_测试方案.md": "complete",
+    "06_开发记录.md": "complete",
+    "07_测试报告.md": "complete",
+    "08_用户验收.md": "accepted",
+    "09_仓库巡检报告.md": "complete_post_acceptance",
+    "10_上线记录.md": "local_delivery_complete_not_public",
+    "11_版本开发总结.md": "complete"
+  },
+  "approval": [
+    {
+      "recorded_at": "2026-10-11T05:03:03.354509+00:00",
+      "evidence": {
+        "authorized_actions": [
+          "记录 v0.1.0 验收并完成本机版本收尾"
+        ],
+        "decision": "accepted",
+        "message": "这个 hover 效果可以了，v0.1.0 验收通过，继续收尾。",
+        "received_at": "2026-10-11T13:02:01+08:00",
+        "source": "user",
+        "target": "v0.1.0 r3 本机预览 http://127.0.0.1:5173/",
+        "confirmation_context": "来源为当前会话真人用户消息。主代理已核对原话；未提供可导出的消息ID。received_at为主代理读取并记录本次确认的时间。范围为本机验收与收尾。"
+      },
+      "binding": {
+        "sha256": "7500957122b6d533de64c165a18f26793455fb224956ec8bb3f06932caf946ee",
+        "documents": {
+          "01_需求文档.md": "fe1a96d7bbc6702fc0ad6ee9422410b50e0484b01f341d8268d3e1d31489d000",
+          "02_PRD.md": "3d7c561a11ce7e9c61c8ff340cc9a2fc420b84bd24cb22fad0002b79ba97dfc8",
+          "03_UIUX设计.md": "7a94276e2ee2b1b98cca8c75123099cc13a04b9df01f42f7576168f543f0627a",
+          "04_技术方案.md": "f98f8e2f3076765a17db01fddc18623a46a929ab913ac5580f871dd2ad0c7612",
+          "05_测试方案.md": "31e1429da5e0c5a16f00967c7b8daf27f611ce447b4dea446ed20ad88a7c8fac",
+          "06_开发记录.md": "a4b3e69fe4a535748cc4a76e362d40b06f9b4bb35ec42e335f75459a003efe60",
+          "07_测试报告.md": "4a28d77a1ab89929253b680755f1beaca74bb9789ce0edaf8ab180b94b736b9b"
+        },
+        "code": {
+          ".gitignore": {
+            "kind": "file",
+            "sha256": "aa158c8528b1740df96a9b6c649885475446be395113af8e4da79b2143b9e09a",
+            "executable": false
+          },
+          "AGENTS.md": {
+            "kind": "file",
+            "sha256": "4855052a65cf769a5d360db8713a2babb09f9b15e84ec6b02ee7dfd2aaa4131b",
+            "executable": false
+          },
+          "README.md": {
+            "kind": "file",
+            "sha256": "27272f7802ad286ebba352caf8c606e51f5fea6e314df1f7fc7cd0eae182be6a",
+            "executable": false
+          },
+          "data/content/Dungeon000-067.json": {
+            "kind": "file",
+            "sha256": "63f321df9c4f7b8e9761b682ce94e7a9dca7efe52ba590353bf4d584fc09d9c5",
+            "executable": false
+          },
+          "data/content/Dungeon068-135.json": {
+            "kind": "file",
+            "sha256": "0daa9b280cb2d72cb9e948250745b29ee24a025f9a2f4f8b885b0ce6e8a3db73",
+            "executable": false
+          },
+          "data/schema/shrines.schema.json": {
+            "kind": "file",
+            "sha256": "7d5bce43c16c454ca4ae7781f287bedf4eefa1554b437cd2578efed3ad97f397",
+            "executable": false
+          },
+          "data/sources/actor-localizations.json": {
+            "kind": "file",
+            "sha256": "d502797242d4982612b529e999f9dd281c6eee97a228c9feb4770703c765c163",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon000.json": {
+            "kind": "file",
+            "sha256": "ec8334fb818cc7e4ca9de773666c3ddcf696a4a0bd76ee37870dcefbd984bec4",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon001.json": {
+            "kind": "file",
+            "sha256": "9f63b0b8d9ac23bd91d83e6a5bd223e76e0446bd7a8ffd444ca4a17f65b84167",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon002.json": {
+            "kind": "file",
+            "sha256": "456022a8d3efbb33247529b7b243585ba24fde975b69f6198da729c92c026518",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon003.json": {
+            "kind": "file",
+            "sha256": "7bc14a3f0157c91918e70f1b87910f9e06a673ae18ffe70f50732f37e1a49f2e",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon004.json": {
+            "kind": "file",
+            "sha256": "94be91e48611985b031c1e8014b820263280b44cdb424ba02010898c6a8717fe",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon005.json": {
+            "kind": "file",
+            "sha256": "598415e09ded90f95cea2389a683d1f2fe47811ca0c80b491a623a304a57a6c7",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon006.json": {
+            "kind": "file",
+            "sha256": "55a1f5eb8deafb5b8b0260c1dfaa33f86b3a99b4cbb2147b208d4eb1de2828a7",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon007.json": {
+            "kind": "file",
+            "sha256": "2ec8639739060dfe66f4bbdd41d18c6be5c00aa5f434991121244e1337665abc",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon008.json": {
+            "kind": "file",
+            "sha256": "ebad96981e8a3327e0080f293d5e234f5340d483c219d73a5fd314b2b3bb5a58",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon009.json": {
+            "kind": "file",
+            "sha256": "1717f4dbf3176a87c5947917ae52f837cf90d5de0a73d14e0e19edacc41c183f",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon010.json": {
+            "kind": "file",
+            "sha256": "1c231679c3e312ed87844e96ac338e857df8c2a9265ed21a202b1d43f98866f7",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon011.json": {
+            "kind": "file",
+            "sha256": "12052e16ce97e26c5e5abfa7eb7a9cce6aff5abb79023f38de4b978456257cba",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon012.json": {
+            "kind": "file",
+            "sha256": "4e0381dc114621131fd1930a3dd9812a04e485f7ee277817cd10c1d47159e1e8",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon013.json": {
+            "kind": "file",
+            "sha256": "b2469877afdc4834596e118d5d02aef7c7c7611d506dba7a84c17db630f66782",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon014.json": {
+            "kind": "file",
+            "sha256": "b7ae63be606a6954ab11a0c7887edf454a7b6d2095e33537da055d000d17e4d4",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon015.json": {
+            "kind": "file",
+            "sha256": "55007f6591f96914710750205c0cd117c05930188d2f38e659c425ad92e5b47a",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon016.json": {
+            "kind": "file",
+            "sha256": "15c37ba4a955965d981f09df4657d78470c7f55e6a908e305740e46a487f35e6",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon017.json": {
+            "kind": "file",
+            "sha256": "10c48b0d81edb5a7156296b24382d9efdf98cab8db76a1ba2fd9bd7f114168af",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon018.json": {
+            "kind": "file",
+            "sha256": "ff59cbc2087d5530b874660965f5f57c9e78028bbb8afc9aa9fb28a2dd7331d3",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon019.json": {
+            "kind": "file",
+            "sha256": "f72ebdc8b86647926670b16883bbb5aaed761310195de7dff4b7c07446225760",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon020.json": {
+            "kind": "file",
+            "sha256": "1a427218e699de29fa3fb795169aca5a51ade4238d1f16c298ef6ce8f56c5758",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon021.json": {
+            "kind": "file",
+            "sha256": "992b08cc89b871c2a67617e1c4c5b7da117db002c9d223f3dd037091962ba466",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon022.json": {
+            "kind": "file",
+            "sha256": "6a0e15315987dda51c1c3a59d43af4c07b5ce50e5ef72d82a1f2a30590fcaaee",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon023.json": {
+            "kind": "file",
+            "sha256": "b710e6277085194e585df28853bba50f779a8de811571694b3b4ea4fccfdf3e4",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon024.json": {
+            "kind": "file",
+            "sha256": "2f744c04b35d2fb04218deeca0c49f40635bd2643f810b43484615ba9b995b3e",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon025.json": {
+            "kind": "file",
+            "sha256": "a54b669f28bc6226916634b6c59800167eb3f8601e31c8fa0def6b89fc0fb919",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon026.json": {
+            "kind": "file",
+            "sha256": "948bbe01a27adc788f0644e8015fd17e796ffca7daa4a8eb5cef2e53790c5ad4",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon027.json": {
+            "kind": "file",
+            "sha256": "ae236ef2ac5649702a5830262a62802f08aa4c14ae4fa7dd29b424591397f8e6",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon028.json": {
+            "kind": "file",
+            "sha256": "4a262479fc31d3afa49550a8a9c4c385dccfbae1a7cc219eb45a55054828ebc8",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon029.json": {
+            "kind": "file",
+            "sha256": "b4d18faee2c710932338932f3bac93d726702faa76770d8e9718449525fbc309",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon030.json": {
+            "kind": "file",
+            "sha256": "6e8e91bb2c212ec0a5108d2ff18467b5ef3be745bcd76d58582e7e6f55bebaf1",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon031.json": {
+            "kind": "file",
+            "sha256": "d9f5e0b60ef8aac5a9314d61fa603115953149125f782c2efd247ab478410a7e",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon032.json": {
+            "kind": "file",
+            "sha256": "020c9574723fed1b935a3e741a7ba67666dfbb372a67c913a09f0e27bbf6bb92",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon033.json": {
+            "kind": "file",
+            "sha256": "3d8b1c1236f41fe1767ad882934ff4e126a7bd26f4ab9abff3ce67dec99de539",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon034.json": {
+            "kind": "file",
+            "sha256": "420e4f6d1051edb76c171d5635ff6a4914583530d4f9e3cbebf5ec83a8621c94",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon035.json": {
+            "kind": "file",
+            "sha256": "d13f316be5ccd96537b5c8d1df0eb6027cb21dca8204609b75da5cc15fe3d809",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon036.json": {
+            "kind": "file",
+            "sha256": "3a3cb5d4bcf42197e839b7f8fbf203034e988dac2d7394dc87b1768b92da3df2",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon037.json": {
+            "kind": "file",
+            "sha256": "d38d2c5472d790c8a10d44d7c8cfe199a7da787711595fe5322ad3cbf2267813",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon038.json": {
+            "kind": "file",
+            "sha256": "cd57b7d2c88895cab20fa082fda1e88d39d65135c2b5378ca3342f9187c1b7c4",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon039.json": {
+            "kind": "file",
+            "sha256": "c1ae7dc75afc15941c0fdb7677bbca968bf25521c8d65782a55c57a49595becd",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon040.json": {
+            "kind": "file",
+            "sha256": "7ea4a6449013bb44ba607d984d1258f0a312c2a802ba99b43ab4d18e8a6904b6",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon041.json": {
+            "kind": "file",
+            "sha256": "c6d60445a427d92d841e88de9f696de5897c9991c53e4af5d60bca7e59d1e2bd",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon042.json": {
+            "kind": "file",
+            "sha256": "b64804006563198e48df4c19a833cce7fcc8aaf1a6d41b0f1677a037f02840b4",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon043.json": {
+            "kind": "file",
+            "sha256": "5cef5546cdeccddae26a6145f4b47fe1341525fe46678942bde05024a24d9dcd",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon044.json": {
+            "kind": "file",
+            "sha256": "e2a681e9bd73cc50a516d1a0a40f3e9965b6ac3d1c1321d6e7d4824e5f477b19",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon045.json": {
+            "kind": "file",
+            "sha256": "b45c0b6925951837b7d1fc4656cc3aaab390c61738ce270fb36b5f4ae06eaf67",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon046.json": {
+            "kind": "file",
+            "sha256": "7a4ec20c364e0ad64f5b8e02d59ccc5f297fecb91c0bc0c10912e112e84975a7",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon047.json": {
+            "kind": "file",
+            "sha256": "1323c117a2c73b14c9155977b585e325c5a641773c7d2a526bb4c36fe7b9aa63",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon048.json": {
+            "kind": "file",
+            "sha256": "8705ff7e2e4c90178ec208024a9cc07926cc5df9667da590e149e1cd8b6182c1",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon049.json": {
+            "kind": "file",
+            "sha256": "80a5fa58e2ab4c6d1fb56a745a1e37c352f036055dd06ec2bc095267cd9cc5e4",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon050.json": {
+            "kind": "file",
+            "sha256": "438d46acc388d16791fdc1d262919d888f43e031c03f5e5d8729bcdcb68184a9",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon051.json": {
+            "kind": "file",
+            "sha256": "593a24813602c925ad658df161d5bab230cab87236df13b3b299fe07c6b1a1be",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon052.json": {
+            "kind": "file",
+            "sha256": "882a876cdb9642df4db2e09ebb1945bf7e3c36f15b7252d59c8ded043518f8c1",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon053.json": {
+            "kind": "file",
+            "sha256": "99a9df562b0f0119eca89e7011c3f2ed2c397c8532a7a9b5979f3ca0c702b41b",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon054.json": {
+            "kind": "file",
+            "sha256": "03cc96dc7822572a305f0a82de4c0bc26807e6e5dd170b1e8c3f8c1f9bba4f7f",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon055.json": {
+            "kind": "file",
+            "sha256": "5c3dcfcf06f3efb4aa06ffae2b16aace5909a8c2a2be899e7e83e0a9d493a76c",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon056.json": {
+            "kind": "file",
+            "sha256": "55f62f48c1c6c6147bfe7c984d90b521166bc1f2069c399696cf6a088c954364",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon057.json": {
+            "kind": "file",
+            "sha256": "5880a5dc4c8e876e2cd015f2ed3c907f1f527a984da7362024866e8a4019e489",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon058.json": {
+            "kind": "file",
+            "sha256": "31310f52d80ea8d1ac58b269d1a46aa985780e529705d58138d8c8552dd923c8",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon059.json": {
+            "kind": "file",
+            "sha256": "3016312b876f3a990bfbdd0036bec83a28c81ec2b9380d23c05ebd21f469d4d7",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon060.json": {
+            "kind": "file",
+            "sha256": "58f98953683cf4281a0adaaf6353d228b2cb373633ddb4e17ceb480ecd320441",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon061.json": {
+            "kind": "file",
+            "sha256": "6d9a14ce278df6da7aa81e94faecb642dd026f547ba0742f93bc6c444e93534a",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon062.json": {
+            "kind": "file",
+            "sha256": "8bb307b601e857e78bb29f72eed9d751f2d65d83c28518e643d72499b0f2d96f",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon063.json": {
+            "kind": "file",
+            "sha256": "0beb2bc7c26147bb4fe3c06d097a9ed2b9384f87879771ea469c0982072b4ef5",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon064.json": {
+            "kind": "file",
+            "sha256": "366aeb46523c12ef54e71644cf64d41b5e24aad7c9415fc0a4291dab60e0d9c4",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon065.json": {
+            "kind": "file",
+            "sha256": "56d6e23c18ccad68d80826d578019d54886aac1327d59044ea9d872a0169ca5a",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon066.json": {
+            "kind": "file",
+            "sha256": "47e67d16f0a3ab574da9e07eb25951672e473c17405d5693ce97d76ce8bd4a7a",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon067.json": {
+            "kind": "file",
+            "sha256": "57978acc60475d83910536492efb07091c3099898095f69766ff904ac7715b7e",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon068.json": {
+            "kind": "file",
+            "sha256": "59a33528c05ba48fa27fee894f591d5b85606d995b41b62f433e1459a041d39d",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon069.json": {
+            "kind": "file",
+            "sha256": "a669f2f3174353aba0f289ae28f0ec14b391b4224d06f4943a484006fc22e232",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon070.json": {
+            "kind": "file",
+            "sha256": "ae31d5e634543b447a8c8367785dc48734210310647b5225e266541d5779c46f",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon071.json": {
+            "kind": "file",
+            "sha256": "052a2a86e770772e00a6e7d88e194bf29988cdd4659d4f5c7fb65734ff180181",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon072.json": {
+            "kind": "file",
+            "sha256": "566e3653a91d80e5e7e9f12e36b7e5b2685f88172afca4dd8a297b129b14cd60",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon073.json": {
+            "kind": "file",
+            "sha256": "e1d967d9be78ad852b4e2963741b9ba6587a558ed1d05f19479ded3703adcb70",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon074.json": {
+            "kind": "file",
+            "sha256": "962c39795cefb082ec047e1d0cba3d998f480525de3f5c063e4cd3859fc8eabf",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon075.json": {
+            "kind": "file",
+            "sha256": "c979c7eedb3dbfd2b38cd21c3116e73a58fc02cc402b90f1c221422c527f34c8",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon076.json": {
+            "kind": "file",
+            "sha256": "835a99f83c89e94816c678fc64626381dd9ec029b9fa8632159b64b9248593e3",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon077.json": {
+            "kind": "file",
+            "sha256": "9e3580932a50b52c45d0f4e6f2a2f1be5adacddc3644558d0179a974b233abf1",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon078.json": {
+            "kind": "file",
+            "sha256": "96ca5520edf2cc07c9a9b1a24eb68d0e26231dd94d940cc35f5f832afc5d3190",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon079.json": {
+            "kind": "file",
+            "sha256": "53181bd4de558a495cd64b28d5d7a47ef27b94a1dfc9ccd54e8c26884de44fb2",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon080.json": {
+            "kind": "file",
+            "sha256": "7de73e7281e5185efe36543d3ae39eb14037ad8dd7521444f0b855f49219a77e",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon081.json": {
+            "kind": "file",
+            "sha256": "8db091776cda28cf3d2096ab6390f56058e7d45004bbdc828850020d371d0c16",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon082.json": {
+            "kind": "file",
+            "sha256": "db77051ac1cae4a9cec01b495292356279325c7deac5e1499a9f5df6ea02879d",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon083.json": {
+            "kind": "file",
+            "sha256": "7466d17ff024dc8d387b01b6583b26c63e7c68e5eff6269c57241c41d0960a44",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon084.json": {
+            "kind": "file",
+            "sha256": "cd9a81f10dc17601e54bdab01cda4a77ac5b390d1078e21ca063c7424867b6b7",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon085.json": {
+            "kind": "file",
+            "sha256": "2800f9b8b3ab49a6d0822309c51deb4ba4d7c63c85b01949e7f17663b9bb785d",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon086.json": {
+            "kind": "file",
+            "sha256": "7c2918b0ef95ad64a793f4d405cce7444991de2010cf0aa6ebb38bf7337c8c85",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon087.json": {
+            "kind": "file",
+            "sha256": "25c34475fa4cf8f5db09d951d07ce81463ca9f514f93c21a05fb43e20fbd9ac8",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon088.json": {
+            "kind": "file",
+            "sha256": "9ed3caa9910df32623c851f6343c2b3d7b188ff6db2676e15655832096310ef4",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon089.json": {
+            "kind": "file",
+            "sha256": "a632c9c9c3a53f0e17e12f5a387d87324b9a6d27b624400fc322aeeb0ea2d363",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon090.json": {
+            "kind": "file",
+            "sha256": "c9e3ac984812e51c586827a1692926f120c25a5b9f09c480cc84e3aa9da1331b",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon091.json": {
+            "kind": "file",
+            "sha256": "68c95c95c5ae057cd0c73b2ba70eba19e213e8f04a8839d74b9fd82e00339942",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon092.json": {
+            "kind": "file",
+            "sha256": "00f2b6cdc95da97825f8acbf93acfc76671842428791a2f2ab827ccaac7aef3c",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon093.json": {
+            "kind": "file",
+            "sha256": "fe26cc6a3c1676c606a2715b1b0451fd6ad5dcd3ff6a8fdaf8a010d33aeff289",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon094.json": {
+            "kind": "file",
+            "sha256": "5e7ab937f940d448d41bfae9a1b92aede78590e151bbbaf338b1420826148aa1",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon095.json": {
+            "kind": "file",
+            "sha256": "2a0640466e467d1f78e49d43febf7e5b42dbb3c82ea0b958f0eb750349a58361",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon096.json": {
+            "kind": "file",
+            "sha256": "7642fbcbbbb7d28aaf225c5af77f8a1b4194b6dde06a8650f1592a6ae88bfab2",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon097.json": {
+            "kind": "file",
+            "sha256": "3382d45d5ed9b209c40871a1fdcf7cfee8cdf908b4a882cc70b51b5c579cdcbc",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon098.json": {
+            "kind": "file",
+            "sha256": "2b189ba5edb0de5e1692d69d071a47f6a873b6ec41bffb449966a37c408bb8ee",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon099.json": {
+            "kind": "file",
+            "sha256": "37eac2866340e3aa76d0006405075369066c69f2a54552dba04f48f0c3635000",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon100.json": {
+            "kind": "file",
+            "sha256": "3453bed51cd377a688483d023b67ca6da74eeff18865e1af27244ff8c0571e4e",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon101.json": {
+            "kind": "file",
+            "sha256": "8370d0d29335f9479c0ad724037f83699e73a5f8ee89cc5a6720247b1d4fe194",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon102.json": {
+            "kind": "file",
+            "sha256": "c75ef0fc7ebb6975692ab6259286155dd299c805d3fb4b05327fb289f76a92c8",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon103.json": {
+            "kind": "file",
+            "sha256": "95ef3f6f3fb6ff108a99261934c24638a79c48b486f422c65d3497eda01ce786",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon104.json": {
+            "kind": "file",
+            "sha256": "653209c32d5e99c7548e058ccbfc9943fcd058222575d0bdd33f41587c65ec46",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon105.json": {
+            "kind": "file",
+            "sha256": "187643a819d50dbd2d0f22bb6577347c951601941a574253277895b4f0851b8d",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon106.json": {
+            "kind": "file",
+            "sha256": "4032c9f0387d3d97f2d3093d531c3cf6ace7e3b2741056f36347f9e6f13cae1c",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon107.json": {
+            "kind": "file",
+            "sha256": "6093e94d97b89104be6e14f41dad1096d32e23a0dead665bc2a680181c7a1774",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon108.json": {
+            "kind": "file",
+            "sha256": "4ba8350a7f316d2a0ce59d1c6aa67486c776fadeae53c0d73536bb56600d5f77",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon109.json": {
+            "kind": "file",
+            "sha256": "72c5f2df7555a9282d8e506f1263bbef4661a961e000e3bf08a0e946a83684d5",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon110.json": {
+            "kind": "file",
+            "sha256": "84e4c6381e137fa7ebeef4e5af878c8464d61ac5d38685a04407666dac8eeb8d",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon111.json": {
+            "kind": "file",
+            "sha256": "fbfef7275403fcc592a18a1fd0d743a04bf5b6e99cbe8a6c7f54110c46b94bd9",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon112.json": {
+            "kind": "file",
+            "sha256": "0ee555cb68bbfbc799f423701c89ba3d2330ecacd05ba82e5cb869b8def667e8",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon113.json": {
+            "kind": "file",
+            "sha256": "f88e72cee91b916556024d4d173dc266b3fa6acaba8af480668b090ab6417a2c",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon114.json": {
+            "kind": "file",
+            "sha256": "e6a2740f63c01e516d478315d5a44a3439cb561c9026b7cb8e4e7b8ce551602b",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon115.json": {
+            "kind": "file",
+            "sha256": "e8a8b5c23131c634fa19d28911dcd7811051ab98fbd6008af3a50a551794228b",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon116.json": {
+            "kind": "file",
+            "sha256": "254858e078d6476824c7927e2b652fa920f5fb5a00fd156d6319df16a63ce38f",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon117.json": {
+            "kind": "file",
+            "sha256": "2cc8de9bff46c09cda2a28ea098fb31ca2f9ceaa347c95afd293b81682298c44",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon118.json": {
+            "kind": "file",
+            "sha256": "49533b8d9089610431c09b58283d6f0492401a0862ca297ac741f6424cc060b8",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon119.json": {
+            "kind": "file",
+            "sha256": "ef24d18372c4ce36a845bed4a9367c7bf95e0b4762e73f95e0d5b742500774b1",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon120.json": {
+            "kind": "file",
+            "sha256": "bac374fd263a9775cdfde96e7a86eb803b5e0d98b4e41b963a62af7845188e89",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon121.json": {
+            "kind": "file",
+            "sha256": "a7aced8539bed63a0905f015aa1f9dae0377e50e023eb92aa98da683daac26fc",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon122.json": {
+            "kind": "file",
+            "sha256": "32a94dda90cd53e229fc7bff2cc75df6194f313ea2406cbf5cafd7bd4b84cee3",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon123.json": {
+            "kind": "file",
+            "sha256": "fae2ef3fe18a7a9ef6bde183b77dd3a0c2bc7239690262d5fe42716e35dffcba",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon124.json": {
+            "kind": "file",
+            "sha256": "d6735a571c591eae95f67afdacfa2777f3be04c37fc5421eec9c4f8b7649124a",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon125.json": {
+            "kind": "file",
+            "sha256": "f95df164fd02e4d8ed214e5422a50b88b9549a1611e33d677bff43057e8ef62a",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon126.json": {
+            "kind": "file",
+            "sha256": "e048df0dc86b6ddd1b5db18dcf0d05434a7e0ed913d1f2ba25422b23004e16e9",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon127.json": {
+            "kind": "file",
+            "sha256": "d670cad3658822372a7c2694cb2e7a92cc6cd2abecb52e3a130374bbeb9df0f9",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon128.json": {
+            "kind": "file",
+            "sha256": "bf7bdf8c379d74b74742ec7572f171f127d3ac960eee5c91acf6fd7155a55a09",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon129.json": {
+            "kind": "file",
+            "sha256": "b2b5f559ff27b7d83009426f193a0c878e8d928e92084c7553399818e5f76c72",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon130.json": {
+            "kind": "file",
+            "sha256": "6a635fc5b3d7d8de3f24d48c0806a834086ab49da50597e627aa19f544c14bd6",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon131.json": {
+            "kind": "file",
+            "sha256": "b0d761e3523da06255a84622ba16cc4fdbc7b1b076d70129f7da5dc8bc75dde1",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon132.json": {
+            "kind": "file",
+            "sha256": "8f1ce08dc44fff2b851445882d8da01c2144fb55e6509a2e0e3d1c886139dac6",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon133.json": {
+            "kind": "file",
+            "sha256": "7b71e8f99a3b3d1cc73b86622655d28cca8230559ebc39d8ddd6bb251be88360",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon134.json": {
+            "kind": "file",
+            "sha256": "318e44c2e7cdeab26f928febd5fb1935a08790653b49cdde3966f9ab62794c5a",
+            "executable": false
+          },
+          "data/sources/chests/Dungeon135.json": {
+            "kind": "file",
+            "sha256": "c5ed16398cee9bc5e48634003f1e9b2aa19a6c2c9a1631dfb73846aded8a3856",
+            "executable": false
+          },
+          "data/sources/enemies-Dungeon078.json": {
+            "kind": "file",
+            "sha256": "07e43448048bc3fc6921238f2742a45ba1de79a55e4cbd452ec333880d835e53",
+            "executable": false
+          },
+          "data/sources/localizations.json": {
+            "kind": "file",
+            "sha256": "859c6f763361a3f499346c6817348ad1ede0e97c07b290c107add9c04faa57eb",
+            "executable": false
+          },
+          "data/sources/manifest.json": {
+            "kind": "file",
+            "sha256": "05a67f532795449eebdb86db13a91912a486a7c0f0141fa742f4d950dd95fbf8",
+            "executable": false
+          },
+          "data/sources/shrines-seed.json": {
+            "kind": "file",
+            "sha256": "e642f3242483ae8ef3398b1930c64b6ed310e0931791f45d6b677f4b86fab011",
+            "executable": false
+          },
+          "data/sources/static.json": {
+            "kind": "file",
+            "sha256": "db50e3f1b36f7b6ad701f666c8266dd1d9a30f4dc1a5d66f1c4ca766cc12be02",
+            "executable": false
+          },
+          "data/sources/tower-regions.json": {
+            "kind": "file",
+            "sha256": "b507294568f7f26af9e1b380dd909bad8683dc3c0051f118aa4114cb650118c3",
+            "executable": false
+          },
+          "index.html": {
+            "kind": "file",
+            "sha256": "ef43691065f6c983dbb013b169f444ac64038abdb75a8f7b00c6e785fdd8c913",
+            "executable": false
+          },
+          "package-lock.json": {
+            "kind": "file",
+            "sha256": "1e606f6da1714f5d5d08d889e82e79f3f75d5432a935e55f5457c47915f28f99",
+            "executable": false
+          },
+          "package.json": {
+            "kind": "file",
+            "sha256": "4b997939fa498ab1a3ceb9f48415efe9d48fac35458efbd5b3f9d8bad66aeb7b",
+            "executable": false
+          },
+          "public/THIRD_PARTY_NOTICES.txt": {
+            "kind": "file",
+            "sha256": "5cd96ec0a64a180e02eb5f36c03a303218492418ee4533ea1293369a231aca33",
+            "executable": false
+          },
+          "public/assets/hyrule-base.webp": {
+            "kind": "file",
+            "sha256": "5847a9e5f5d4ed44bc20b61d2b5c24999c33b796d8a42354946f42c631b4ec10",
+            "executable": false
+          },
+          "public/data/shrines.json": {
+            "kind": "file",
+            "sha256": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde",
+            "executable": false
+          },
+          "requirements-data.txt": {
+            "kind": "file",
+            "sha256": "d88f28984e63d257df9a014d28feb8b9b41ce8496012f82a9c9bf84222847d92",
+            "executable": false
+          },
+          "scripts/build_data.py": {
+            "kind": "file",
+            "sha256": "86f5d709b085ba3c56e909f3048d8618361ae65d799b7f012219bb7082ccc30f",
+            "executable": false
+          },
+          "scripts/collect_chests.py": {
+            "kind": "file",
+            "sha256": "b3c9633e5f5b580161b862a3880f67e8ea1035192981a138377a2de6b364cc91",
+            "executable": false
+          },
+          "scripts/collect_sources.py": {
+            "kind": "file",
+            "sha256": "8643e914ac0b3a4add9e87a923216bb76b1308bbc01ade25a74306c18a97cc80",
+            "executable": false
+          },
+          "src/App.tsx": {
+            "kind": "file",
+            "sha256": "c8c8b615e931c3193e4afb8b546fe8cfcb70137dbdf3ce143cbd1c394acb036b",
+            "executable": false
+          },
+          "src/components/Icon.tsx": {
+            "kind": "file",
+            "sha256": "1fb277363d562df850dda3db1828a452a624654efff661aeddbc3bf8cd519eff",
+            "executable": false
+          },
+          "src/components/ImportDialog.tsx": {
+            "kind": "file",
+            "sha256": "18b5db961f32de1504a0040fe7560222665cf537f194e383904b12e184376155",
+            "executable": false
+          },
+          "src/components/MapCanvas.tsx": {
+            "kind": "file",
+            "sha256": "08eab4eb95e88c7ca8f3c600736b59de38196deb7d0e9f6f6b4c22e437ccdb75",
+            "executable": false
+          },
+          "src/components/SafePreview.tsx": {
+            "kind": "file",
+            "sha256": "e7e8b7c37103d9356b611d1bfc9636fd4543ebf3f38bcdd6a05caec22ef049e4",
+            "executable": false
+          },
+          "src/components/Settings.tsx": {
+            "kind": "file",
+            "sha256": "13f9ef1b13b51800d6b6b8204b6a47a2e6ae273219199ccca7b19c465ffaabeb",
+            "executable": false
+          },
+          "src/components/ShrineDetails.tsx": {
+            "kind": "file",
+            "sha256": "604c0eb417a2046b17d127fdaa813342f73e99da476183161c56d6e0b711736c",
+            "executable": false
+          },
+          "src/components/Text.tsx": {
+            "kind": "file",
+            "sha256": "4cc29b7e303754221fb100b70d407146617770427e24d7f314be87d3cd77e8b5",
+            "executable": false
+          },
+          "src/i18n.ts": {
+            "kind": "file",
+            "sha256": "9ddd7c2ac418a95c5598ab68d1bf27cb7fec9f39fd9e3bc0cc11e45f77d00ccb",
+            "executable": false
+          },
+          "src/lib/data.ts": {
+            "kind": "file",
+            "sha256": "caa9d120c73c527adc930322cb11e96c3abd16cf01a23fb04b150092d90f0c66",
+            "executable": false
+          },
+          "src/lib/map.ts": {
+            "kind": "file",
+            "sha256": "31942b26a812feb44e208fc0e2d00aab44b7a34abca40784c6d80cdb6926cabd",
+            "executable": false
+          },
+          "src/lib/progress.ts": {
+            "kind": "file",
+            "sha256": "d32cfa8cbc6c8de880aec80cb0c4a82a66fd4312ffaad04effe7f963dd42b9ee",
+            "executable": false
+          },
+          "src/main.tsx": {
+            "kind": "file",
+            "sha256": "e7d86d0c7194d7ae7740747e6a63e00644c8abd58a30cb704c4eadc23025900c",
+            "executable": false
+          },
+          "src/styles.css": {
+            "kind": "file",
+            "sha256": "9e6548f35ae07e1096a6c736d82ded79fe1a7b2edb43a180156d6572711508ea",
+            "executable": false
+          },
+          "src/types.ts": {
+            "kind": "file",
+            "sha256": "d337085d9fa37ea15b6d804c0fb607153362182455518821a8d22cec40559eed",
+            "executable": false
+          },
+          "tests/qa_browser.cjs": {
+            "kind": "file",
+            "sha256": "37354b8715771d4bd40a77a29562c4b99a63190a56247da578467701a09d85ec",
+            "executable": false
+          },
+          "tests/qa_data.py": {
+            "kind": "file",
+            "sha256": "ea185fc3964ed8f380cc66da3edeaf4e70abe2baf7120125bb7d8b9ff73db5e4",
+            "executable": false
+          },
+          "tests/r2/qa_browser.cjs": {
+            "kind": "file",
+            "sha256": "10dbc79da32cea426d73a02b221fe196632a4104a2f79324160731b627dfc2db",
+            "executable": false
+          },
+          "tests/r2/qa_data.py": {
+            "kind": "file",
+            "sha256": "d3d21e7049f51e213e3c6a7f63371741c5e6f87390f90c22bfed29fd55cc2105",
+            "executable": false
+          },
+          "tests/r3/baseline_probe.cjs": {
+            "kind": "file",
+            "sha256": "c365a42bbd9b6caef4d807bc913b8e03569665c7ef4eb5aed8b90680e836f3ef",
+            "executable": false
+          },
+          "tests/r3/preview_capture.cjs": {
+            "kind": "file",
+            "sha256": "1310e7eab32761c5dd61b7a423c39b76361a20867775e824f04cec1a39dd4a33",
+            "executable": false
+          },
+          "tests/r3/qa_browser.cjs": {
+            "kind": "file",
+            "sha256": "f1e586fee96ab81e88ced3662e284c2136f869d7556c266b3a52efbb54f56cf0",
+            "executable": false
+          },
+          "tests/r3/qa_static.py": {
+            "kind": "file",
+            "sha256": "8340f5a3886517b3c99274a9e3ba247d8c275645096c4a955dcec4af96307a04",
+            "executable": false
+          },
+          "tsconfig.app.json": {
+            "kind": "file",
+            "sha256": "d75fd25ce4d5f5cb98c397c11952ccc4fc906f4cc4c97e81cdcbc95e4e7b0073",
+            "executable": false
+          },
+          "tsconfig.json": {
+            "kind": "file",
+            "sha256": "67312658d22f72e4310e3c1410ea5862b1489055bbd9d70107f3f3cbbb86bdf8",
+            "executable": false
+          },
+          "tsconfig.node.json": {
+            "kind": "file",
+            "sha256": "6c9a407af0f21ccdf8a09b8a75e9f4785c6c13b9d6ef1a47d6c2076713232a7b",
+            "executable": false
+          },
+          "vite.config.ts": {
+            "kind": "file",
+            "sha256": "9ae325f72690814233532e1e15a8a7f3b1ae21814be2e04780b4c342c91a2981",
+            "executable": false
+          }
+        }
+      },
+      "base_commit": null,
+      "dirty": true,
+      "human_source_verified": false,
+      "verification_scope": "fields_and_content_binding_only"
+    }
+  ],
+  "base_commit": null,
+  "created_at": "2026-10-11T02:21:39.592804+00:00",
+  "baseline_note": "初始化前空目录，无既有Git提交或WIP",
+  "revision": "r3",
+  "user_feedback": "这个 hover 效果可以了，v0.1.0 验收通过，继续收尾。",
+  "candidate_data_sha256": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde",
+  "unresolved_engineering_blockers": [],
+  "known_limits": [
+    "Dungeon017物资来源差异已明示，原因未确认",
+    "未逐座实机通关、未母语逐句校审",
+    "未覆盖320px/手机横屏/实机Safari"
+  ],
+  "candidate_manifest": "evidence/r3/candidate-manifest.json",
+  "candidate_ui_source_sha256": {
+    "src/components/MapCanvas.tsx": "08eab4eb95e88c7ca8f3c600736b59de38196deb7d0e9f6f6b4c22e437ccdb75",
+    "src/styles.css": "9e6548f35ae07e1096a6c736d82ded79fe1a7b2edb43a180156d6572711508ea"
+  },
+  "closure_status": "local_delivery_complete",
+  "delivery_target": "local_preview",
+  "deployment_status": "not_published",
+  "acceptance_fingerprint": "7500957122b6d533de64c165a18f26793455fb224956ec8bb3f06932caf946ee",
+  "release_archive": "release/hyrule-shrine-map-v0.1.0.zip",
+  "release_archive_sha256": "5dc493aeab407558f1a4b577c57bdaf2685dab22244c8fc2c61c7abb5a46a05a",
+  "repository_publication": {
+    "target": "https://github.com/Jin-Zhang-Yaoguang/zelda_map",
+    "visibility": "public",
+    "status": "repository_created_pending_push",
+    "branch": "main",
+    "excluded_local_progress_files": 10,
+    "website_deployment": "local_preview"
+  }
+}

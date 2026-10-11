@@ -1,0 +1,28 @@
+{
+  "at": "2026-10-11T03:46:27.064Z",
+  "dataHash": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde",
+  "sourceHashes": {
+    "src/components/MapCanvas.tsx": "edf0b518ca6cae98a3ab81f80a9b7662d85f157236df1c3fcbdad609d72985bd",
+    "src/styles.css": "9e6548f35ae07e1096a6c736d82ded79fe1a7b2edb43a180156d6572711508ea"
+  },
+  "browser": "149.0.7827.55",
+  "playwright": "1.62.1",
+  "results": [
+    {
+      "name": "01-open-tooltip-offscreen-keyboard",
+      "status": "fail",
+      "error": "AssertionError [ERR_ASSERTION]: tooltip must close when anchor leaves visible map\n\n1 !== 0\n\n    at /Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/r3/qa_browser.cjs:29:513\n    at async test (/Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/r3/qa_browser.cjs:25:366)\n    at async /Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/r3/qa_browser.cjs:28:2"
+    },
+    {
+      "name": "02-open-tooltip-panel-toggle",
+      "status": "pass",
+      "detail": {
+        "markerCenterY": 650,
+        "panelTop": 371.203125,
+        "tooltipCount": 0,
+        "input": "real keyboard toggle, pointer unchanged"
+      }
+    }
+  ],
+  "pageErrors": []
+}

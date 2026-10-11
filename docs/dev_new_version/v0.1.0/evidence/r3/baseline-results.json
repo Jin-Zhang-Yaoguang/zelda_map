@@ -1,0 +1,42 @@
+{
+  "type": "old-behavior-baseline-only",
+  "viewport": {
+    "width": 1440,
+    "height": 960
+  },
+  "id": "Dungeon052",
+  "browser": "149.0.7827.55",
+  "hashes": {
+    "src/components/MapCanvas.tsx": "8654db637fc5fecd7c07b80d419dbe969cb69f8521779e93d2d0318185a58d09",
+    "src/styles.css": "792a0ed6e8db5383fdc5c83f6d3752d922e9c1c7186e1048898c966d13104e45"
+  },
+  "text": "诺基·米席神庙 · 海布拉之塔分区 · 本体 · 未完成",
+  "rect": {
+    "x": 871,
+    "y": 86,
+    "width": 34,
+    "height": 414
+  },
+  "style": {
+    "width": "34px",
+    "maxWidth": "240px",
+    "minWidth": "0px",
+    "font": "12px / 18px Inter, -apple-system, \"system-ui\", \"Segoe UI\", \"PingFang SC\", \"Hiragino Sans GB\", \"Noto Sans CJK SC\", \"Microsoft YaHei\", sans-serif",
+    "fontSize": "12px",
+    "lineHeight": "18px",
+    "fontFamily": "Inter, -apple-system, \"system-ui\", \"Segoe UI\", \"PingFang SC\", \"Hiragino Sans GB\", \"Noto Sans CJK SC\", \"Microsoft YaHei\", sans-serif",
+    "whiteSpace": "normal"
+  },
+  "parentRect": {
+    "width": 0,
+    "height": 0
+  },
+  "mapRect": {
+    "x": 336,
+    "y": 72,
+    "width": 1104,
+    "height": 888
+  },
+  "fontShorthandAccepted": false,
+  "note": "明确1440视口实测，不把用户裁切截图宽度当实际viewport。不是r3修后通过证据。"
+}

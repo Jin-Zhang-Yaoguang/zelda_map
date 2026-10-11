@@ -1,0 +1,145 @@
+{
+  "time": "2026-10-11T02:46:09.017Z",
+  "datasetVersion": "v0.1.0-20261011",
+  "browser": "149.0.7827.55",
+  "results": [
+    {
+      "name": "01-language-context",
+      "status": "fail",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n0 !== 3\n\n    at /Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/qa_browser.cjs:28:116\n    at async run (/Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/qa_browser.cjs:20:90)\n    at async /Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/qa_browser.cjs:25:2"
+    },
+    {
+      "name": "02-safe-dom-all",
+      "status": "pass",
+      "detail": {
+        "previews": 408
+      }
+    },
+    {
+      "name": "03-progress-refresh-cancel",
+      "status": "pass",
+      "detail": {
+        "cancelPersists": true,
+        "undo": true
+      }
+    },
+    {
+      "name": "04-dlc-settings-backup",
+      "status": "pass",
+      "detail": {
+        "dlcId": "Dungeon120",
+        "hiddenRetained": true
+      }
+    },
+    {
+      "name": "05-import-valid-cancel-dedup",
+      "status": "pass",
+      "detail": {
+        "preImport": [
+          "Dungeon000"
+        ],
+        "roundtrip": [
+          "Dungeon005",
+          "Dungeon120"
+        ]
+      }
+    },
+    {
+      "name": "06-import-rejections",
+      "status": "fail",
+      "error": "locator.click: Timeout 6500ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.settings-import-error summary')\u001b[22m\n\u001b[2m    - locator resolved to <summary>未知神庙 ID (1)</summary>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"toast\" role=\"status\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <div class=\"toast\" role=\"status\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    13 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <div class=\"toast\" role=\"status\">…</div> intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n    at /Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/qa_browser.cjs:44:662\n    at async run (/Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/qa_browser.cjs:20:90)\n    at async /Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/qa_browser.cjs:43:2"
+    },
+    {
+      "name": "07-map-return-focus-drift",
+      "status": "pass",
+      "detail": {
+        "before": {
+          "x": 188,
+          "y": -67,
+          "w": 1400,
+          "h": 1166,
+          "transform": "translate3d(-148px, -139px, 0px)"
+        },
+        "after": {
+          "x": 188,
+          "y": -67,
+          "w": 1400,
+          "h": 1166,
+          "transform": "translate3d(-148px, -139px, 0px)"
+        },
+        "second": {
+          "x": 188,
+          "y": -67,
+          "w": 1400,
+          "h": 1166,
+          "transform": "translate3d(-148px, -139px, 0px)"
+        }
+      }
+    },
+    {
+      "name": "08-keyboard-clusters",
+      "status": "fail",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n+ actual - expected\n\n+ 'settings-nav'\n- 'import-trigger'\n\n    at /Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/qa_browser.cjs:50:1055\n    at async run (/Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/qa_browser.cjs:20:90)\n    at async /Users/a1-6/Desktop/PycharmProjects/zelda_map/tests/qa_browser.cjs:49:2"
+    },
+    {
+      "name": "09-mobile-360",
+      "status": "pass",
+      "detail": {
+        "width": 360,
+        "panelHeight": 472.796875,
+        "collapsedHeight": 56
+      }
+    },
+    {
+      "name": "09-mobile-390",
+      "status": "pass",
+      "detail": {
+        "width": 390,
+        "panelHeight": 472.796875,
+        "collapsedHeight": 56
+      }
+    },
+    {
+      "name": "09-mobile-768",
+      "status": "pass",
+      "detail": {
+        "width": 768,
+        "panelHeight": 472.796875,
+        "collapsedHeight": 56
+      }
+    },
+    {
+      "name": "10-image-failure-retry",
+      "status": "pass",
+      "detail": {
+        "listAvailable": true,
+        "recovered": true
+      }
+    },
+    {
+      "name": "11-data-failure-retry",
+      "status": "pass",
+      "detail": {
+        "exportAvailable": true,
+        "recovered": true
+      }
+    },
+    {
+      "name": "12-storage-corrupt",
+      "status": "pass"
+    },
+    {
+      "name": "12-storage-disabled",
+      "status": "pass"
+    },
+    {
+      "name": "12-storage-write",
+      "status": "pass"
+    },
+    {
+      "name": "12-storage-preimport",
+      "status": "pass"
+    }
+  ],
+  "pageErrors": []
+}

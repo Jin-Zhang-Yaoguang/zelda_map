@@ -1,0 +1,27 @@
+{
+  "retrieved": "2026-10-11",
+  "sources": [
+    {
+      "url": "https://objmap.zeldamods.org/game_files/map_summary/MainField/static.json",
+      "file": "static.json",
+      "sha256": "db50e3f1b36f7b6ad701f666c8266dd1d9a30f4dc1a5d66f1c4ca766cc12be02"
+    },
+    {
+      "url": "https://sh0wer1ee.github.io/BotwText/page/StaticMsg.html",
+      "file": "localization-static.html",
+      "sha256": "1c8e0285f4abf6ef27fd9504f898a2eec57948bb7739259716adb865f2622ca0"
+    },
+    {
+      "url": "https://sh0wer1ee.github.io/BotwText/page/ActorType.html",
+      "file": "localization-actors.html",
+      "sha256": "be093fc7b0c6d16e802749d201ff66faf0326a2d7d8f775bcd2484c4896acb2f"
+    },
+    {
+      "url": "https://objmap.zeldamods.org/game_files/ecosystem/MapTower.json",
+      "file": "tower-regions.json",
+      "sha256": "b507294568f7f26af9e1b380dd909bad8683dc3c0051f118aa4114cb650118c3"
+    }
+  ],
+  "wikiOk": 136,
+  "wikiTotal": 136
+}

@@ -2,7 +2,7 @@
   "schema": 1,
   "version": "v0.1.0",
   "stage": "inspection_release",
-  "status": "running",
+  "status": "completed",
   "docs": {
     "01_需求文档.md": "complete",
     "02_PRD.md": "complete",
@@ -13,7 +13,7 @@
     "07_测试报告.md": "complete",
     "08_用户验收.md": "accepted",
     "09_仓库巡检报告.md": "complete_post_acceptance",
-    "10_上线记录.md": "github_pages_prepared",
+    "10_上线记录.md": "published_github_pages",
     "11_版本开发总结.md": "complete"
   },
   "approval": [
@@ -999,9 +999,9 @@
     "src/i18n.ts": "807d1fbd4e6c3b44ec703df2a7baddc867a424f2d66a99ab67961f6121e965a3",
     "src/styles.css": "9e6548f35ae07e1096a6c736d82ded79fe1a7b2edb43a180156d6572711508ea"
   },
-  "closure_status": "local_delivery_complete",
-  "delivery_target": "local_preview",
-  "deployment_status": "not_published",
+  "closure_status": "github_pages_delivery_complete",
+  "delivery_target": "github_pages",
+  "deployment_status": "published_github_pages",
   "acceptance_fingerprint": "7500957122b6d533de64c165a18f26793455fb224956ec8bb3f06932caf946ee",
   "release_archive": "release/hyrule-shrine-map-v0.1.0.zip",
   "release_archive_sha256": "5dc493aeab407558f1a4b577c57bdaf2685dab22244c8fc2c61c7abb5a46a05a",
@@ -1026,13 +1026,20 @@
   },
   "historical_ui_acceptance_fingerprint": "7500957122b6d533de64c165a18f26793455fb224956ec8bb3f06932caf946ee",
   "pages_deployment": {
-    "status": "ready_for_deployment",
+    "status": "deployed",
     "url": "https://jin-zhang-yaoguang.github.io/zelda_map/",
     "authorization": "evidence/pages/deployment-authorization.json",
     "manifest_sha256": "3d42df108764a393245532bb9fdda63d661538fada206174135dd2fe63fdba19",
     "workflow": ".github/workflows/pages.yml",
     "historical_ui_acceptance": "preserved; deployment adaptation separately authorized",
     "local_subpath_qa": "passed",
-    "online_qa": "pending"
-  }
+    "online_qa": "passed",
+    "workflow_run_id": 38115435077,
+    "workflow_run_url": "https://github.com/Jin-Zhang-Yaoguang/zelda_map/actions/runs/38115435077",
+    "deployed_commit": "b80b24a0407484896e0b2aa92d0cb64359e20b9c",
+    "https_enforced": true,
+    "public_file_readback": "six_files_200_and_hash_match",
+    "authorization_basis": "current user deployment request; historical UI acceptance preserved"
+  },
+  "current_binding_scope": "historical_r3_UI_acceptance_and_separate_Pages_deployment_authorization"
 }

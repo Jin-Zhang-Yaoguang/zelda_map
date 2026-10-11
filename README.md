@@ -2,6 +2,14 @@
 
 《塞尔达传说：旷野之息》个人神庙地图，首版 v0.1.0。
 
+## 在线访问
+
+[打开海拉鲁神庙地图](https://jin-zhang-yaoguang.github.io/zelda_map/)
+
+完成记录保存在当前浏览器。迁移本机预览的进度时，先在设置页导出备份，再在在线网页的设置页导入。
+
+GitHub Pages由Actions自动构建和部署；main中的产品文件更新会触发发布，也可手动运行Deploy map to GitHub Pages。网站子路径由Pages元数据传给Vite，资料和底图跟随BASE_URL加载。
+
 ## 本机运行
 
 需要 Node.js 20.19+ 或 22.12+。
@@ -43,4 +51,4 @@ npm run preview
 
 这是非官方个人工具。游戏图像与游戏文本属于各自权利人；来源说明见 [数据说明](docs/data_sources.md)。
 
-第三方运行依赖的许可文本随产物保存在 [THIRD_PARTY_NOTICES.txt](public/THIRD_PARTY_NOTICES.txt)。公开发布尚未执行，需按具体发布资产另核对归属与授权。
+第三方运行依赖的许可文本随产物保存在 [THIRD_PARTY_NOTICES.txt](public/THIRD_PARTY_NOTICES.txt)，在线页面也保留该文件与资料来源。非官方归属与素材使用边界见 [数据说明](docs/data_sources.md)。

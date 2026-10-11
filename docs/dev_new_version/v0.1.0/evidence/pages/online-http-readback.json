@@ -1,0 +1,55 @@
+{
+  "at": "2026-10-11T13:40:56+08:00",
+  "url": "https://jin-zhang-yaoguang.github.io/zelda_map/",
+  "site_status": null,
+  "build_type": "workflow",
+  "https_enforced": true,
+  "run_id": 38115435077,
+  "run_url": "https://github.com/Jin-Zhang-Yaoguang/zelda_map/actions/runs/38115435077",
+  "run_conclusion": "success",
+  "deployed_commit": "b80b24a0407484896e0b2aa92d0cb64359e20b9c",
+  "checks": [
+    {
+      "path": "THIRD_PARTY_NOTICES.txt",
+      "http": 200,
+      "bytes": 104551,
+      "sha256": "5cd96ec0a64a180e02eb5f36c03a303218492418ee4533ea1293369a231aca33",
+      "matches_local_pages_build": true
+    },
+    {
+      "path": "assets/hyrule-base.webp",
+      "http": 200,
+      "bytes": 1204518,
+      "sha256": "5847a9e5f5d4ed44bc20b61d2b5c24999c33b796d8a42354946f42c631b4ec10",
+      "matches_local_pages_build": true
+    },
+    {
+      "path": "assets/index-B7CQyL1l.css",
+      "http": 200,
+      "bytes": 43007,
+      "sha256": "f0e26335b6d4302f4e22852fedd7f7243468ccbb262560716d3949952afaa7c0",
+      "matches_local_pages_build": true
+    },
+    {
+      "path": "assets/index-DXrBoT9O.js",
+      "http": 200,
+      "bytes": 396547,
+      "sha256": "66a52de739fd044d267229550b4e7290e6d451521ea3d8651a3dd921348ed5f6",
+      "matches_local_pages_build": true
+    },
+    {
+      "path": "data/shrines.json",
+      "http": 200,
+      "bytes": 740926,
+      "sha256": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde",
+      "matches_local_pages_build": true
+    },
+    {
+      "path": "index.html",
+      "http": 200,
+      "bytes": 441,
+      "sha256": "57f8e16d35860887f6d759326f494287b36bd0b770f9c060e9768248d9b240fb",
+      "matches_local_pages_build": true
+    }
+  ]
+}

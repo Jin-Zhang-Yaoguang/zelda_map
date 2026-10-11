@@ -1,0 +1,67 @@
+{
+  "target": "GitHub Pages project /zelda_map/",
+  "sourceAndLocalBuild": [
+    {
+      "path": ".runtime/pages-dist/THIRD_PARTY_NOTICES.txt",
+      "sha256": "5cd96ec0a64a180e02eb5f36c03a303218492418ee4533ea1293369a231aca33",
+      "size": 104551
+    },
+    {
+      "path": ".runtime/pages-dist/assets/hyrule-base.webp",
+      "sha256": "5847a9e5f5d4ed44bc20b61d2b5c24999c33b796d8a42354946f42c631b4ec10",
+      "size": 1204518
+    },
+    {
+      "path": ".runtime/pages-dist/assets/index-B7CQyL1l.css",
+      "sha256": "f0e26335b6d4302f4e22852fedd7f7243468ccbb262560716d3949952afaa7c0",
+      "size": 43007
+    },
+    {
+      "path": ".runtime/pages-dist/assets/index-DXrBoT9O.js",
+      "sha256": "66a52de739fd044d267229550b4e7290e6d451521ea3d8651a3dd921348ed5f6",
+      "size": 396547
+    },
+    {
+      "path": ".runtime/pages-dist/data/shrines.json",
+      "sha256": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde",
+      "size": 740926
+    },
+    {
+      "path": ".runtime/pages-dist/index.html",
+      "sha256": "57f8e16d35860887f6d759326f494287b36bd0b770f9c060e9768248d9b240fb",
+      "size": 441
+    },
+    {
+      "path": "src/App.tsx",
+      "sha256": "74774e625ce97d2bc800020d75aa32bc915038ac2dc462e5eeb3cebb1eedc491",
+      "size": 18950
+    },
+    {
+      "path": "src/components/MapCanvas.tsx",
+      "sha256": "16437fe5ad2dd1f0bffa670c4dd2dd5243749b7c0160278700fc0e13436afe29",
+      "size": 14441
+    },
+    {
+      "path": "src/i18n.ts",
+      "sha256": "807d1fbd4e6c3b44ec703df2a7baddc867a424f2d66a99ab67961f6121e965a3",
+      "size": 18615
+    },
+    {
+      "path": "src/vite-env.d.ts",
+      "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5",
+      "size": 38
+    }
+  ],
+  "expectedPagesUrl": "https://jin-zhang-yaoguang.github.io/zelda_map/",
+  "onlineStatus": "pass",
+  "onlineChecks": 9,
+  "onlineUrl": "https://jin-zhang-yaoguang.github.io/zelda_map/",
+  "deploymentCommit": "b80b24a0407484896e0b2aa92d0cb64359e20b9c",
+  "actionsRun": "https://github.com/Jin-Zhang-Yaoguang/zelda_map/actions/runs/38115435077",
+  "actualOnlineJs": {
+    "url": "https://jin-zhang-yaoguang.github.io/zelda_map/assets/index-DXrBoT9O.js",
+    "sha256": "66a52de739fd044d267229550b4e7290e6d451521ea3d8651a3dd921348ed5f6"
+  },
+  "onlineDatasetHash": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde",
+  "commitSourceReadback": "commit-source-readback.json"
+}

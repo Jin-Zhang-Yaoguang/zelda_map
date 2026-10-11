@@ -1,0 +1,29 @@
+{
+  "commit": "b80b24a0407484896e0b2aa92d0cb64359e20b9c",
+  "files": [
+    {
+      "path": "src/App.tsx",
+      "deployedCommit": "74774e625ce97d2bc800020d75aa32bc915038ac2dc462e5eeb3cebb1eedc491",
+      "worktree": "74774e625ce97d2bc800020d75aa32bc915038ac2dc462e5eeb3cebb1eedc491",
+      "same": true
+    },
+    {
+      "path": "src/components/MapCanvas.tsx",
+      "deployedCommit": "16437fe5ad2dd1f0bffa670c4dd2dd5243749b7c0160278700fc0e13436afe29",
+      "worktree": "16437fe5ad2dd1f0bffa670c4dd2dd5243749b7c0160278700fc0e13436afe29",
+      "same": true
+    },
+    {
+      "path": "src/vite-env.d.ts",
+      "deployedCommit": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5",
+      "worktree": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5",
+      "same": true
+    },
+    {
+      "path": "src/i18n.ts",
+      "deployedCommit": "807d1fbd4e6c3b44ec703df2a7baddc867a424f2d66a99ab67961f6121e965a3",
+      "worktree": "807d1fbd4e6c3b44ec703df2a7baddc867a424f2d66a99ab67961f6121e965a3",
+      "same": true
+    }
+  ]
+}

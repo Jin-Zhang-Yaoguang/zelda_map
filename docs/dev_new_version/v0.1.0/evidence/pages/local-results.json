@@ -1,0 +1,175 @@
+{
+  "mode": "local",
+  "base": "http://127.0.0.1:5174/zelda_map/",
+  "startedAt": "2026-10-11T05:33:56.028Z",
+  "sourceHashes": {
+    "src/App.tsx": "74774e625ce97d2bc800020d75aa32bc915038ac2dc462e5eeb3cebb1eedc491",
+    "src/components/MapCanvas.tsx": "16437fe5ad2dd1f0bffa670c4dd2dd5243749b7c0160278700fc0e13436afe29",
+    "src/vite-env.d.ts": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5"
+  },
+  "checks": [
+    {
+      "name": "subpath-assets-map-list-towers",
+      "status": "pass",
+      "detail": {
+        "list": 136,
+        "towers": 15,
+        "image": {
+          "src": "http://127.0.0.1:5174/zelda_map/assets/hyrule-base.webp",
+          "complete": true,
+          "width": 3000,
+          "height": 2500
+        },
+        "dataVersion": "v0.1.0-20261011-r2"
+      }
+    },
+    {
+      "name": "near-052-horizontal-tooltip",
+      "status": "pass",
+      "detail": {
+        "width": 220,
+        "height": 93.296875,
+        "title": "诺基·米席神庙"
+      }
+    },
+    {
+      "name": "hash-detail-direct-refresh",
+      "status": "pass",
+      "detail": {
+        "url": "http://127.0.0.1:5174/zelda_map/#/shrine/Dungeon052",
+        "id": "Dungeon052"
+      }
+    },
+    {
+      "name": "three-languages-same-id",
+      "status": "pass",
+      "detail": {
+        "id": "Dungeon052",
+        "languages": [
+          "zh",
+          "en",
+          "ja"
+        ]
+      }
+    },
+    {
+      "name": "completion-persists-refresh",
+      "status": "pass",
+      "detail": {
+        "ids": [
+          "Dungeon052"
+        ],
+        "origin": "http://127.0.0.1:5174"
+      }
+    },
+    {
+      "name": "dlc120-setting-persists",
+      "status": "pass",
+      "detail": {
+        "list": 120,
+        "nearShrines": 120,
+        "completionKept": true
+      }
+    },
+    {
+      "name": "resources-use-project-base-no-errors",
+      "status": "pass",
+      "detail": {
+        "basePath": "/zelda_map/",
+        "badResponses": [],
+        "pageErrors": [],
+        "requestFailures": []
+      }
+    }
+  ],
+  "responses": [
+    {
+      "url": "http://127.0.0.1:5174/zelda_map/",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:5174/zelda_map/assets/index-B7CQyL1l.css",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:5174/zelda_map/assets/index-BFv0OzPl.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:5174/zelda_map/data/shrines.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:5174/zelda_map/assets/hyrule-base.webp",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:5174/zelda_map/",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:5174/zelda_map/assets/index-B7CQyL1l.css",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:5174/zelda_map/assets/index-BFv0OzPl.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:5174/zelda_map/data/shrines.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:5174/zelda_map/assets/hyrule-base.webp",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:5174/zelda_map/",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:5174/zelda_map/assets/index-B7CQyL1l.css",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:5174/zelda_map/assets/index-BFv0OzPl.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:5174/zelda_map/data/shrines.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:5174/zelda_map/assets/hyrule-base.webp",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:5174/zelda_map/",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:5174/zelda_map/assets/index-B7CQyL1l.css",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:5174/zelda_map/assets/index-BFv0OzPl.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:5174/zelda_map/data/shrines.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:5174/zelda_map/assets/hyrule-base.webp",
+      "status": 200
+    }
+  ],
+  "pageErrors": [],
+  "consoleErrors": [],
+  "requestFailures": [],
+  "browser": "149.0.7827.55",
+  "datasetHash": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde",
+  "finalUrl": "http://127.0.0.1:5174/zelda_map/#/",
+  "completedAt": "2026-10-11T05:33:57.767Z",
+  "status": "pass"
+}

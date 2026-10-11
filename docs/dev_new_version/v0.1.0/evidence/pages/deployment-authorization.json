@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "source": "user",
+  "message": "把这个地图网页部署到 GitHub Pages，给我一个可以直接访问的链接。",
+  "recorded_at": "2026-10-11T13:33:16+08:00",
+  "target": "https://jin-zhang-yaoguang.github.io/zelda_map/",
+  "authorized_scope": "GitHub Pages deployment and necessary base-path adaptation",
+  "prior_ui_acceptance_fingerprint": "7500957122b6d533de64c165a18f26793455fb224956ec8bb3f06932caf946ee",
+  "scope_note": "这是本次真人部署授权，不伪造对新源码的重新验收；原UI验收证据保留。",
+  "changes": [
+    "BASE_URL for shrine data and map image",
+    "Vite client type declaration",
+    "official GitHub Pages workflow",
+    "deployment verification and documentation"
+  ],
+  "publication_includes_browser_backups": false
+}

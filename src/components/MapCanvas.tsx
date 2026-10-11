@@ -206,7 +206,7 @@ export default function MapCanvas(props: Props) {
     const instance = map.current;
     if (!instance) return;
     setImageState('loading');
-    const image = L.imageOverlay(`/assets/hyrule-base.webp${imageRetry ? '?retry=' + imageRetry : ''}`, bounds, { interactive: false }).addTo(instance);
+    const image = L.imageOverlay(`${import.meta.env.BASE_URL}assets/hyrule-base.webp${imageRetry ? '?retry=' + imageRetry : ''}`, bounds, { interactive: false }).addTo(instance);
     image.on('load', () => setImageState('ready'));
     image.on('error', () => setImageState('error'));
     return () => { image.remove(); };

@@ -1,0 +1,147 @@
+{
+  "authorization": "deployment-authorization.json",
+  "base_path": "/zelda_map/",
+  "files": [
+    {
+      "path": ".github/workflows/pages.yml",
+      "sha256": "7b7f6371b34fa7cf5f500894e4fa5602903ceaa79539f85d5b53f3f30263c363"
+    },
+    {
+      "path": "index.html",
+      "sha256": "ef43691065f6c983dbb013b169f444ac64038abdb75a8f7b00c6e785fdd8c913"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "1e606f6da1714f5d5d08d889e82e79f3f75d5432a935e55f5457c47915f28f99"
+    },
+    {
+      "path": "package.json",
+      "sha256": "4b997939fa498ab1a3ceb9f48415efe9d48fac35458efbd5b3f9d8bad66aeb7b"
+    },
+    {
+      "path": "public/THIRD_PARTY_NOTICES.txt",
+      "sha256": "5cd96ec0a64a180e02eb5f36c03a303218492418ee4533ea1293369a231aca33"
+    },
+    {
+      "path": "public/assets/hyrule-base.webp",
+      "sha256": "5847a9e5f5d4ed44bc20b61d2b5c24999c33b796d8a42354946f42c631b4ec10"
+    },
+    {
+      "path": "public/data/shrines.json",
+      "sha256": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde"
+    },
+    {
+      "path": "src/App.tsx",
+      "sha256": "74774e625ce97d2bc800020d75aa32bc915038ac2dc462e5eeb3cebb1eedc491"
+    },
+    {
+      "path": "src/components/Icon.tsx",
+      "sha256": "1fb277363d562df850dda3db1828a452a624654efff661aeddbc3bf8cd519eff"
+    },
+    {
+      "path": "src/components/ImportDialog.tsx",
+      "sha256": "18b5db961f32de1504a0040fe7560222665cf537f194e383904b12e184376155"
+    },
+    {
+      "path": "src/components/MapCanvas.tsx",
+      "sha256": "16437fe5ad2dd1f0bffa670c4dd2dd5243749b7c0160278700fc0e13436afe29"
+    },
+    {
+      "path": "src/components/SafePreview.tsx",
+      "sha256": "e7e8b7c37103d9356b611d1bfc9636fd4543ebf3f38bcdd6a05caec22ef049e4"
+    },
+    {
+      "path": "src/components/Settings.tsx",
+      "sha256": "13f9ef1b13b51800d6b6b8204b6a47a2e6ae273219199ccca7b19c465ffaabeb"
+    },
+    {
+      "path": "src/components/ShrineDetails.tsx",
+      "sha256": "604c0eb417a2046b17d127fdaa813342f73e99da476183161c56d6e0b711736c"
+    },
+    {
+      "path": "src/components/Text.tsx",
+      "sha256": "4cc29b7e303754221fb100b70d407146617770427e24d7f314be87d3cd77e8b5"
+    },
+    {
+      "path": "src/i18n.ts",
+      "sha256": "807d1fbd4e6c3b44ec703df2a7baddc867a424f2d66a99ab67961f6121e965a3"
+    },
+    {
+      "path": "src/lib/data.ts",
+      "sha256": "caa9d120c73c527adc930322cb11e96c3abd16cf01a23fb04b150092d90f0c66"
+    },
+    {
+      "path": "src/lib/map.ts",
+      "sha256": "31942b26a812feb44e208fc0e2d00aab44b7a34abca40784c6d80cdb6926cabd"
+    },
+    {
+      "path": "src/lib/progress.ts",
+      "sha256": "d32cfa8cbc6c8de880aec80cb0c4a82a66fd4312ffaad04effe7f963dd42b9ee"
+    },
+    {
+      "path": "src/main.tsx",
+      "sha256": "e7d86d0c7194d7ae7740747e6a63e00644c8abd58a30cb704c4eadc23025900c"
+    },
+    {
+      "path": "src/styles.css",
+      "sha256": "9e6548f35ae07e1096a6c736d82ded79fe1a7b2edb43a180156d6572711508ea"
+    },
+    {
+      "path": "src/types.ts",
+      "sha256": "d337085d9fa37ea15b6d804c0fb607153362182455518821a8d22cec40559eed"
+    },
+    {
+      "path": "src/vite-env.d.ts",
+      "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5"
+    },
+    {
+      "path": "tsconfig.app.json",
+      "sha256": "d75fd25ce4d5f5cb98c397c11952ccc4fc906f4cc4c97e81cdcbc95e4e7b0073"
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "67312658d22f72e4310e3c1410ea5862b1489055bbd9d70107f3f3cbbb86bdf8"
+    },
+    {
+      "path": "tsconfig.node.json",
+      "sha256": "6c9a407af0f21ccdf8a09b8a75e9f4785c6c13b9d6ef1a47d6c2076713232a7b"
+    },
+    {
+      "path": "vite.config.ts",
+      "sha256": "9ae325f72690814233532e1e15a8a7f3b1ae21814be2e04780b4c342c91a2981"
+    }
+  ],
+  "artifact_files": [
+    {
+      "path": "THIRD_PARTY_NOTICES.txt",
+      "sha256": "5cd96ec0a64a180e02eb5f36c03a303218492418ee4533ea1293369a231aca33",
+      "bytes": 104551
+    },
+    {
+      "path": "assets/hyrule-base.webp",
+      "sha256": "5847a9e5f5d4ed44bc20b61d2b5c24999c33b796d8a42354946f42c631b4ec10",
+      "bytes": 1204518
+    },
+    {
+      "path": "assets/index-B7CQyL1l.css",
+      "sha256": "f0e26335b6d4302f4e22852fedd7f7243468ccbb262560716d3949952afaa7c0",
+      "bytes": 43007
+    },
+    {
+      "path": "assets/index-DXrBoT9O.js",
+      "sha256": "66a52de739fd044d267229550b4e7290e6d451521ea3d8651a3dd921348ed5f6",
+      "bytes": 396547
+    },
+    {
+      "path": "data/shrines.json",
+      "sha256": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde",
+      "bytes": 740926
+    },
+    {
+      "path": "index.html",
+      "sha256": "57f8e16d35860887f6d759326f494287b36bd0b770f9c060e9768248d9b240fb",
+      "bytes": 441
+    }
+  ],
+  "manifest_sha256": "3d42df108764a393245532bb9fdda63d661538fada206174135dd2fe63fdba19"
+}

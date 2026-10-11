@@ -1,0 +1,96 @@
+{
+  "scope": "线上真实bytes与成功部署artifact比对；仅HTTP读取，无用户/云写",
+  "site": "https://jin-zhang-yaoguang.github.io/zelda_map/",
+  "commit": "0673e7cb9ad12dc9771feefb89c81395958894c8",
+  "actionsRunId": "38145129220",
+  "artifactDirectory": "/Users/a1-6/Desktop/PycharmProjects/zelda_map/.runtime/v020-deployed-site",
+  "startedAt": "2026-10-11T14:03:22.029Z",
+  "scriptHash": "6b7fabcd600f79fb80637599fd18d14e71ef43244f5bf5eb1b2f64513c29f5a8",
+  "checks": [
+    {
+      "relative": "index.html",
+      "kind": "html",
+      "status": "pass",
+      "http": 200,
+      "bytes": 441,
+      "expectedHash": "e024ddd3ed813179dc62a416fc586fa2a1ce9dfae087bb675f258642d2ef217a",
+      "actualHash": "e024ddd3ed813179dc62a416fc586fa2a1ce9dfae087bb675f258642d2ef217a",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "relative": "assets/index-BV4XmBHR.js",
+      "kind": "js",
+      "status": "pass",
+      "http": 200,
+      "bytes": 699914,
+      "expectedHash": "96b89539da3d07399f4ce50d8748a282cd67920817a873b8e5863225acfa8002",
+      "actualHash": "96b89539da3d07399f4ce50d8748a282cd67920817a873b8e5863225acfa8002",
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "relative": "assets/index-D7t4FtHP.css",
+      "kind": "css",
+      "status": "pass",
+      "http": 200,
+      "bytes": 49615,
+      "expectedHash": "0e60f6508d9b7c0469b7e40659cf5f0b8222638f0a557a17d80529c51ccaf686",
+      "actualHash": "0e60f6508d9b7c0469b7e40659cf5f0b8222638f0a557a17d80529c51ccaf686",
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "relative": "data/shrines.json",
+      "kind": "data",
+      "status": "pass",
+      "http": 200,
+      "bytes": 740926,
+      "expectedHash": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde",
+      "actualHash": "4938b62b72cbeed84e85b4d7ae7e37a60e6bd729de17debd2f6f8892c37b3fde",
+      "contentType": "application/json; charset=utf-8"
+    },
+    {
+      "relative": "THIRD_PARTY_NOTICES.txt",
+      "kind": "notice",
+      "status": "pass",
+      "http": 200,
+      "bytes": 115016,
+      "expectedHash": "07d159df62ecbb782790fa41059b3864424d3d8016c7c5da8f551c51af74f25d",
+      "actualHash": "07d159df62ecbb782790fa41059b3864424d3d8016c7c5da8f551c51af74f25d",
+      "contentType": "text/plain; charset=utf-8"
+    },
+    {
+      "relative": "assets/map-tiles/7/0/0.png",
+      "kind": "native7",
+      "sourceHash": "004c0da60be05efebf543eb7ed2a51aba399a57d19c58d74290344ce5c54a1f3",
+      "status": "pass",
+      "http": 200,
+      "bytes": 854,
+      "expectedHash": "004c0da60be05efebf543eb7ed2a51aba399a57d19c58d74290344ce5c54a1f3",
+      "actualHash": "004c0da60be05efebf543eb7ed2a51aba399a57d19c58d74290344ce5c54a1f3",
+      "contentType": "image/png"
+    },
+    {
+      "relative": "assets/map-tiles/7/46/39.png",
+      "kind": "native7",
+      "sourceHash": "f8abb3b9516095cdbbae916a098fc4807dc1760a9b587e41dd63326247eab951",
+      "status": "pass",
+      "http": 200,
+      "bytes": 8678,
+      "expectedHash": "f8abb3b9516095cdbbae916a098fc4807dc1760a9b587e41dd63326247eab951",
+      "actualHash": "f8abb3b9516095cdbbae916a098fc4807dc1760a9b587e41dd63326247eab951",
+      "contentType": "image/png"
+    },
+    {
+      "relative": "assets/map-tiles/7/93/78.png",
+      "kind": "native7",
+      "sourceHash": "3802f1d1f7d3fec887542ff7f7a4c65a3ab06ee788ca1d3873a3806c22cba179",
+      "status": "pass",
+      "http": 200,
+      "bytes": 408,
+      "expectedHash": "3802f1d1f7d3fec887542ff7f7a4c65a3ab06ee788ca1d3873a3806c22cba179",
+      "actualHash": "3802f1d1f7d3fec887542ff7f7a4c65a3ab06ee788ca1d3873a3806c22cba179",
+      "contentType": "image/png"
+    }
+  ],
+  "status": "pass",
+  "completedAt": "2026-10-11T14:03:26.264Z"
+}

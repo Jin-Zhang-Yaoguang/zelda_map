@@ -1,0 +1,9 @@
+{
+  "scope": "Read-only public Auth settings after Pages deployment; no session/signup/cloud-write verification",
+  "verified_at": "2026-10-11T14:03:59.077992+00:00",
+  "http": 200,
+  "email_enabled": true,
+  "github_enabled": false,
+  "mailer_autoconfirm": true,
+  "disable_signup": false
+}

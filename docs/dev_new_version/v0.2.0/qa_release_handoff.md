@@ -12,3 +12,9 @@ release_browser.cjs在assets-results通过后启动：实际线上新版、独�
 
 - tests/v020/release_assets.mjs: 6b7fabcd600f79fb80637599fd18d14e71ef43244f5bf5eb1b2f64513c29f5a8
 - tests/v020/release_browser.cjs: 639acc6dd96e39927b2a19bb109b818742f618566b233c7f30fb82d6a12678d5
+
+## 正式上线实际结果（已完成，文件冻结）
+
+成功run38145129220、产品commit0673e7cb9ad12dc9771feefb89c81395958894c8真实artifact已提供。8资源SHA全部匹配线上；4唯一界面组均有通过证据（首轮3+native7定向1），实际DPR2/zoom2/Pages7层PNG decoded256 CSS128，无pageerror/资源4xx/云请求。正式脚本冻结未改；首轮loadedTile等待失败保留、根因未完全确认，仅.runtime诊断副本验证，不写产品修复。
+
+online_test_report.md与evidence/release/verification-manifest.json已绑定实际版本、证据与工具hash。native screenshot是渐进加载的代表瓦片证据，不冒整viewport高清/全部9945线上逐片/FPS。未提交线上认证或云写、未注册新账号，不碰Edge/5173/用户原数据。01..07未改；源码36哈希仍与r4验收包一致。两Chrome context已close。主代理可最后纯docs提交，不需再部署产品。

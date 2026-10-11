@@ -1,0 +1,14 @@
+{
+  "recorded_at": "2026-10-11T13:56:46.899362+00:00",
+  "repo": "Jin-Zhang-Yaoguang/zelda_map",
+  "source_commit": "0673e7cb9ad12dc9771feefb89c81395958894c8",
+  "base_commit": "2686aa1c026bd046ba703381ee246fdd0f3bf628",
+  "push": "git -c http.version=HTTP/1.1 push --atomic origin dev/v0.2.0:refs/heads/dev/v0.2.0 dev/v0.2.0:refs/heads/main",
+  "exit_code": 0,
+  "remote_refs": [
+    "refs/heads/main",
+    "refs/heads/dev/v0.2.0"
+  ],
+  "scope": "Ordinary atomic FF, no force, no PR merge, no branch deletion",
+  "pages_deployment_verified": false
+}

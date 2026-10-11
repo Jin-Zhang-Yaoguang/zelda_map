@@ -1,0 +1,9 @@
+{
+  "scope": "Public HTML readback only; final artifact comparison pending",
+  "http": 200,
+  "url": "https://jin-zhang-yaoguang.github.io/zelda_map/?v020=0673e7c",
+  "sha256": "e024ddd3ed813179dc62a416fc586fa2a1ce9dfae087bb675f258642d2ef217a",
+  "scripts": [
+    "/zelda_map/assets/index-BV4XmBHR.js"
+  ]
+}

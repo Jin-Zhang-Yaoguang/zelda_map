@@ -1,0 +1,62 @@
+{
+  "createdAt": "2026-10-11T14:14:42.820884+00:00",
+  "site": "https://jin-zhang-yaoguang.github.io/zelda_map/",
+  "productCommit": "0673e7cb9ad12dc9771feefb89c81395958894c8",
+  "actionsRunId": "38145129220",
+  "scope": "独立线上资源/隔离guest UI；无Auth提交/云写",
+  "results": {
+    "assetsMatched": 8,
+    "browserUniqueGroupsWithPass": 4,
+    "firstNativeTimeoutPreserved": true,
+    "nativeTimeoutRootCause": "未完全确认；无源码修复",
+    "pageErrors": 0,
+    "resourceErrors": 0,
+    "cloudRequests": 0
+  },
+  "frozenScripts": {
+    "tests/v020/release_assets.mjs": "6b7fabcd600f79fb80637599fd18d14e71ef43244f5bf5eb1b2f64513c29f5a8",
+    "tests/v020/release_browser.cjs": "639acc6dd96e39927b2a19bb109b818742f618566b233c7f30fb82d6a12678d5"
+  },
+  "temporaryVerificationTool": {
+    "path": ".runtime/release_browser_native_diagnose.cjs",
+    "sha256": "abab0cef3716f4ba367864fa5793a5fbc5df243c170e26fe93e12e5ebd9596cb",
+    "change": "纯验证根路径适配及DPR/zoom/tile诊断/截图，不改src/正式tests"
+  },
+  "acceptedSourceStillMatchesR4": true,
+  "reportHashes": {
+    "docs/dev_new_version/v0.2.0/online_test_report.md": "b4f98965542542efe008a7ea4e577b54e3ce94aa257f0fd80198a8f06aa7b342",
+    "docs/dev_new_version/v0.2.0/qa_release_handoff.md": "636caf7ed6bcea2f1ad60c3aefd7f7e40fabc71d271c9e2a658b45b4d5070147"
+  },
+  "evidenceHashes": {
+    "docs/dev_new_version/v0.2.0/evidence/release/actions-artifacts.json": "3a187ac90a9318a79d9ab04ef26c1b8ba7c0879303bd65d5e58c67d97c7ed81a",
+    "docs/dev_new_version/v0.2.0/evidence/release/actions-success.json": "520896555c1170152b8a3fe4513d4345d26192e8b967e797c02cb824418d8a24",
+    "docs/dev_new_version/v0.2.0/evidence/release/assets-results.json": "2b2871e08b2324f11d78e8efd48b743f8340ae7c1da3863baa8f28fe126e3992",
+    "docs/dev_new_version/v0.2.0/evidence/release/assets.log": "48d3b63875dace85ce13c7595306683930d33faee38adfdac746a021490fea35",
+    "docs/dev_new_version/v0.2.0/evidence/release/auth-public-readback.json": "6837a37de7071ed7e73671fa0153dd21f6dad0c08452d21fc7a7074eabede566",
+    "docs/dev_new_version/v0.2.0/evidence/release/browser-first/online-detail-ja.png": "85341ab8fa0129e18f19860f4d30cb1dc3cfe2ac8a0d8b4fbc6a17f9a3aed1b7",
+    "docs/dev_new_version/v0.2.0/evidence/release/browser-first/online-email-only-register.png": "f7294d67cb6180bd75cfc4988e17bafea8e50ba9a4f52adcc1e6b378012aa3d3",
+    "docs/dev_new_version/v0.2.0/evidence/release/browser-first/results.json": "e76aeadc8cc80a6a40f3fc934f8623e3796d77a49e9231cffdfa265d923dc5a7",
+    "docs/dev_new_version/v0.2.0/evidence/release/browser-first.log": "50e626b8f7fada9fd80bad66654e1f4b86db4347f0d37ebebb96d4eae46ff75f",
+    "docs/dev_new_version/v0.2.0/evidence/release/browser-native-diagnosis/native-diagnosis.png": "59078ddfaf366e2888d33ac536d230fb68047fb208e7261e5c77bc6ebb592c3a",
+    "docs/dev_new_version/v0.2.0/evidence/release/browser-native-diagnosis/online-native7.png": "cb7e5d3cd5db74ee896a2cf87a4c844b81b1d762b60ea3207a54075fb4371a84",
+    "docs/dev_new_version/v0.2.0/evidence/release/browser-native-diagnosis/results.json": "5d4b0b2683c835da66d3b55e8d6e829a11db0c39e8bbbcfd1ff3376a735e0959",
+    "docs/dev_new_version/v0.2.0/evidence/release/browser-native-diagnosis.log": "82533d4c9e3d6ceb49852bcf515d8fffd0f919354199cd8f372bb93ef44816d4",
+    "docs/dev_new_version/v0.2.0/evidence/release/deployed-artifact-context.json": "709b0bb46eba72dcdbe8a25f8afd9386e696ac2f92c5aa57ad9da894e3f472cf",
+    "docs/dev_new_version/v0.2.0/evidence/release/deployment-receipt.json": "7549abdcb42ce3a111a215e82ef1678206b9c3a25e92cf3673a729338da7446a",
+    "docs/dev_new_version/v0.2.0/evidence/release/initial-online-html.json": "7c177c2f480f02a3873035245c9eb65cf2d7e254364496205ff8e0ebb82c3f0a",
+    "docs/dev_new_version/v0.2.0/evidence/release/legacy-bundle-archive.json": "e23742657f8df0cc160e87d64138b4b9c3f0cbdd5241d4ba88dca73549e42771",
+    "docs/dev_new_version/v0.2.0/evidence/release/pages-variables-readback.json": "b9604d7c2caeee6cdd80710b2bade6f4ad08b357fe6d11faa8af3c247a0ee6ce",
+    "docs/dev_new_version/v0.2.0/evidence/release/push-receipt.json": "b6234b2099ff623a426fc6f2f63c54d9d9b9009370698ac7ee395669a1635102",
+    "docs/dev_new_version/v0.2.0/evidence/release/user-acceptance.json": "de169961f6e3d02ee81313192247f418a6b3b2a48764ae9313bd27b9e568fd3c",
+    "docs/dev_new_version/v0.2.0/evidence/release/watchdog-pre-release-drift.json": "50973a34113dfba0aff8f7c5b5750496ec8e0b562456f0bc5452529c937d3896",
+    "docs/dev_new_version/v0.2.0/evidence/release/watchdog-stage-review.json": "0ee2b3eef2e27df8d1df18e5c16677f06b62db126fca4e96796953de768d31f0",
+    "docs/dev_new_version/v0.2.0/evidence/release/watchdog_pre_release.mjs": "ac2ce1482046a2b1e1bc0b0fe550d5829de4eaaa3a98e137169ed7cc9ef682c1",
+    "docs/dev_new_version/v0.2.0/evidence/release/watchdog_stage_review.mjs": "cd288d691f3e2e73441bdb46e4b8fa59120566e1bc3e4327aed3f9bbc8bac9cc"
+  },
+  "notCovered": [
+    "线上真实Auth/云写/跨设备",
+    "整个viewport高清加载完成/全部9945线上逐片",
+    "用户真实GPU/物理设备/FPS"
+  ],
+  "cleanup": "隔离context/Chromium关闭；5173/Edge/用户原guest未操作"
+}

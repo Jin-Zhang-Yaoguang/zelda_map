@@ -1,0 +1,1770 @@
+{
+  "scope": "线上隔离context/合成guest本机storage；不提交Auth或云进度",
+  "site": "https://jin-zhang-yaoguang.github.io/zelda_map/",
+  "commit": "0673e7cb9ad12dc9771feefb89c81395958894c8",
+  "actionsRunId": "38145129220",
+  "startedAt": "2026-10-11T14:07:49.702Z",
+  "scriptHash": "abab0cef3716f4ba367864fa5793a5fbc5df243c170e26fe93e12e5ebd9596cb",
+  "checks": [
+    {
+      "id": "LIVE-native7-pages-and-small-wheel",
+      "status": "pass",
+      "detail": {
+        "smallWheelChangesZoom": true,
+        "noFpsClaim": true,
+        "tile": {
+          "path": "/zelda_map/assets/map-tiles/7/28/21.png",
+          "natural": [
+            256,
+            256
+          ],
+          "cssWidth": 128
+        }
+      }
+    }
+  ],
+  "pageErrors": [],
+  "resourceErrors": [],
+  "blockedCloudRequests": [],
+  "nativeDebug": {
+    "dpr": 2,
+    "zoom": "2",
+    "tiles": [
+      {
+        "path": "/zelda_map/assets/map-tiles/7/28/21.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          768,
+          424,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/29/21.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          896,
+          424,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/28/20.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          768,
+          296,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/29/20.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          896,
+          296,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/28/22.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          768,
+          552,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/29/22.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          896,
+          552,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/27/21.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          640,
+          424,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/30/21.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1024,
+          424,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/27/20.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          640,
+          296,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/30/20.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1024,
+          296,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/27/22.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          640,
+          552,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/30/22.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1024,
+          552,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/28/19.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          768,
+          168,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/29/19.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          896,
+          168,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/28/23.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          768,
+          680,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/29/23.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          896,
+          680,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/27/19.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          640,
+          168,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/30/19.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1024,
+          168,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/26/21.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          512,
+          424,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/31/21.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1152,
+          424,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/27/23.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          640,
+          680,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/30/23.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1024,
+          680,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/26/20.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          512,
+          296,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/31/20.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1152,
+          296,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/26/22.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          512,
+          552,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/31/22.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1152,
+          552,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/28/18.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          768,
+          40,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/29/18.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          896,
+          40,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/28/24.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          768,
+          808,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/29/24.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          896,
+          808,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/26/19.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          512,
+          168,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/31/19.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1152,
+          168,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/26/23.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          512,
+          680,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/31/23.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1152,
+          680,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/27/18.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          640,
+          40,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/30/18.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1024,
+          40,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/27/24.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          640,
+          808,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/30/24.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1024,
+          808,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/25/21.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          384,
+          424,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/32/21.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1280,
+          424,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/25/20.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          384,
+          296,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/32/20.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1280,
+          296,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/25/22.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          384,
+          552,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/32/22.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1280,
+          552,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/26/18.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          512,
+          40,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/31/18.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1152,
+          40,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/26/24.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          512,
+          808,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/31/24.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1152,
+          808,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/28/17.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          768,
+          -88,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/29/17.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          896,
+          -88,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/25/19.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          384,
+          168,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/32/19.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1280,
+          168,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/25/23.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          384,
+          680,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/32/23.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1280,
+          680,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/28/25.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          768,
+          936,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/29/25.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          896,
+          936,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/27/17.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          640,
+          -88,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/30/17.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1024,
+          -88,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/27/25.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          640,
+          936,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/30/25.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1024,
+          936,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/24/21.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          256,
+          424,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/33/21.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1408,
+          424,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/25/18.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          384,
+          40,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/32/18.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1280,
+          40,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/24/20.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          256,
+          296,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/33/20.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1408,
+          296,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/24/22.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          256,
+          552,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/33/22.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1408,
+          552,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/25/24.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          384,
+          808,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/32/24.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1280,
+          808,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/26/17.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          512,
+          -88,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/31/17.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1152,
+          -88,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/26/25.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          512,
+          936,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/31/25.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1152,
+          936,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/24/19.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          256,
+          168,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/33/19.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1408,
+          168,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/24/23.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          256,
+          680,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/33/23.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1408,
+          680,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/25/17.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          384,
+          -88,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/32/17.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1280,
+          -88,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/25/25.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          384,
+          936,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/32/25.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1280,
+          936,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/24/18.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          256,
+          40,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/33/18.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1408,
+          40,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/24/24.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          256,
+          808,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/33/24.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1408,
+          808,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/23/21.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          128,
+          424,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/34/21.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1536,
+          424,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/23/20.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          128,
+          296,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/34/20.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1536,
+          296,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/23/22.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          128,
+          552,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/34/22.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1536,
+          552,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/23/19.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          128,
+          168,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/34/19.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1536,
+          168,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/23/23.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          128,
+          680,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/34/23.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1536,
+          680,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/24/17.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          256,
+          -88,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/33/17.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1408,
+          -88,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/24/25.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          256,
+          936,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/33/25.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1408,
+          936,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/23/18.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          128,
+          40,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/34/18.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1536,
+          40,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/23/24.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          128,
+          808,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/34/24.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1536,
+          808,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/23/17.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          128,
+          -88,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/34/17.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1536,
+          -88,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/23/25.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          128,
+          936,
+          128,
+          128
+        ]
+      },
+      {
+        "path": "/zelda_map/assets/map-tiles/7/34/25.png",
+        "loaded": false,
+        "complete": false,
+        "natural": [
+          0,
+          0
+        ],
+        "visibility": "",
+        "box": [
+          1536,
+          936,
+          128,
+          128
+        ]
+      }
+    ]
+  },
+  "status": "pass",
+  "cleanup": {
+    "isolatedContextClosed": true,
+    "browserClosed": true,
+    "userBrowserAnd5173Untouched": true
+  },
+  "completedAt": "2026-10-11T14:07:54.898Z"
+}

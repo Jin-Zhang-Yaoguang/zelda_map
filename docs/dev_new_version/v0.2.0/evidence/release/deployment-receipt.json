@@ -1,0 +1,13 @@
+{
+  "verified_at": "2026-10-11T14:11:49.556721+00:00",
+  "source_commit": "0673e7cb9ad12dc9771feefb89c81395958894c8",
+  "actions_run": 38145129220,
+  "actions_url": "https://github.com/Jin-Zhang-Yaoguang/zelda_map/actions/runs/38145129220",
+  "site_url": "https://jin-zhang-yaoguang.github.io/zelda_map/",
+  "artifact_tar_sha256": "230888697607b5195aea6dac22b226a7593b750aa855354b982157e0c049af96",
+  "http_artifact_checks_passed": 8,
+  "unique_browser_groups_with_pass_evidence": 4,
+  "first_browser_groups_passed": 3,
+  "targeted_native_group_passed": 1,
+  "notes": "Initial native locator wait timed out; retained first evidence. Targeted actual DPR2/zoom2/native7 loading passed, root cause not fully confirmed, no source/test-file modifications. Online tests use isolated synthetic guest and do not submit Auth or cloud progress."
+}

@@ -1,0 +1,54 @@
+{
+  "scope": "线上隔离context/合成guest本机storage；不提交Auth或云进度",
+  "site": "https://jin-zhang-yaoguang.github.io/zelda_map/",
+  "commit": "0673e7cb9ad12dc9771feefb89c81395958894c8",
+  "actionsRunId": "38145129220",
+  "startedAt": "2026-10-11T14:04:03.192Z",
+  "scriptHash": "639acc6dd96e39927b2a19bb109b818742f618566b233c7f30fb82d6a12678d5",
+  "checks": [
+    {
+      "id": "LIVE-map-anyzoom-symbols-switch-persist",
+      "status": "pass",
+      "detail": {
+        "far151Near136": true,
+        "symbol36Hit44": true,
+        "mapOnlyPersisted": true,
+        "ownGuestRawPreserved": true
+      }
+    },
+    {
+      "id": "LIVE-native7-pages-and-small-wheel",
+      "status": "fail",
+      "error": "locator.waitFor: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.map-detail-tile .leaflet-tile-loaded[src*=\"/map-tiles/7/\"]').first() to be visible\u001b[22m\n"
+    },
+    {
+      "id": "LIVE-three-languages-hover-detail-refresh",
+      "status": "pass",
+      "detail": {
+        "threeLocalizedHoverTitles": true,
+        "detailPagesRefresh": true,
+        "sensitiveCollapsed": true
+      }
+    },
+    {
+      "id": "LIVE-account-email-only-no-auth-submit",
+      "status": "pass",
+      "detail": {
+        "configuredEmailLoginRegisterVisible": true,
+        "noGithub": true,
+        "noAuthSubmitted": true,
+        "ownGuestRawPreserved": true
+      }
+    }
+  ],
+  "pageErrors": [],
+  "resourceErrors": [],
+  "blockedCloudRequests": [],
+  "status": "fail",
+  "cleanup": {
+    "isolatedContextClosed": true,
+    "browserClosed": true,
+    "userBrowserAnd5173Untouched": true
+  },
+  "completedAt": "2026-10-11T14:04:31.376Z"
+}

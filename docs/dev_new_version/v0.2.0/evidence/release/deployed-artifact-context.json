@@ -1,0 +1,9 @@
+{
+  "scope": "Extract verified successful run actual Pages tar for independent read-only online test",
+  "run_id": "38145129220",
+  "source_commit": "0673e7cb9ad12dc9771feefb89c81395958894c8",
+  "tar_sha256": "230888697607b5195aea6dac22b226a7593b750aa855354b982157e0c049af96",
+  "file_count": 9951,
+  "site_root": "/Users/a1-6/Desktop/PycharmProjects/zelda_map/.runtime/v020-deployed-site",
+  "native_png_count": 9945
+}

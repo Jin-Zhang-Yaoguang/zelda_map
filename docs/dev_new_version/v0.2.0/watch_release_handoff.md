@@ -8,6 +8,8 @@
 
 实际开发分支dev/v0.2.0，HEAD2686aa1；origin配置github.com/Jin-Zhang-Yaoguang/zelda_map.git，无URL内嵌凭据；本机cached origin/main仍2686aa1。cached ref不代表最新远端查询，主代理发布前须fresh核对并普通FF到main，不force、不绕过保护。不要用任务包中dev/v020简写替代实际ref。
 
-待主代理指定实际暂存范围后，本角色仅增量核对index/收尾文档与秘密：env/runtime/用户真实进度不入库；全量瓦片不再次读取；测试和历史来源按已有用途保留；QA-only map-harness不作为产品发布包。新源/资产如实际变动则对应已验收绑定失效，不能沿用本交接。
+主代理指定的实际index已核对通过，evidence/release/watchdog-stage-review.json：10311文件与声明范围一致，44工作区/index候选和36源index SHA匹配，7验收文档及10182个接受code条目匹配。9945片复用完整链/CRC+本次metadata，未逐image gitshow；366非瓦片stage及历史gzip解压内容精确密码匹配0，env/runtime/node_modules/dist均未暂存。两个通用secret模式均是既有合成拒绝测试。QA-only map-harness不作为产品发布包。
 
-当前没有由本角色发现的源码阻断；最终index与文档核验尚未完成，不提前给出提交/上线批准。新原瓦片的署名/来源与Nintendo衍生边界保留，本站和用户发布授权都不宣称新的官方游戏素材许可。
+无损gzip已实际核验：stage168621B/hash符合声明，gunzip900326B/hash与本机原始mjs逐字一致，原文件保留且ignored、不indexed。未删除或改写payload，公共历史证据有恢复指令。验收绑定21d6d43d…与同一原真人quote/actions/receipt相符，新增两只读发布验证脚本的重绑注明没有新的真人决定。workflow的human_source_verified=false仅表示工具不认证作者，真实来源由Root基于当前直接消息核实，本角色未代生成approval。
+
+正式上线前增量巡检通过，无已确认仓库阻断。Root最后只需重stage本报告/09/巡检证据的纯文本增补，再执行已授权普通commit/FF推送与Pages发布；这些增补不改01—07、44候选或已验收产品代码。本角色没有执行提交/发布，也不将授权当上线成功，真实回执和线上验证由Root/独立QA完成。新原瓦片署名/来源与Nintendo衍生边界保留，不宣称新增官方游戏素材许可。

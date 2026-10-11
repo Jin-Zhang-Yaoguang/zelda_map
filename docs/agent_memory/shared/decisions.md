@@ -29,3 +29,5 @@
 - BOTW-D12，confirmed为本人需求，v0.2.0 r4：新增所有zoom神庙显示、左侧开关在DLC上、符号翻倍，覆盖D05/D06的神庙远景隐藏部分。showShrines默认true/旧偏好兼容，仅map；神庙36/命中44，高塔远景阈值保持。原生24k×20k瓦片按旧3000×2500逻辑投影，来源与hash在map-tiles-manifest，绝不把上采样当新增细节。依据01/04/06/07及本人追加反馈；等待复验，未发布。
 
 - BOTW-D13，confirmed为当前本人授权：用户「v0.2.0 验收通过，继续收尾，推送到 GitHub 并更新 GitHub Pages。」r4整版已通过，允许现有公开仓库及Pages发布，替代D12待复验状态；没有force/删除数据或账号/Release授权。验收指纹与原话见版本08/00、evidence/release/user-acceptance.json；发布结果另见10，验收不证明尚在运行的部署已成功。
+
+- BOTW-D14，confirmed为实际发布结果，v0.2.0 r4：产品0673e7c/main+dev普通FF，Pages run38145129220成功；独立8资源与4类线上验证，不等于新真实Auth/跨设备云写实测。最新生产为v0.2.0，替代D13部署进行中；旧SVG/PNG/JSON隐私边界与用户授权范围不变。来源10与evidence/release/deployment-receipt.json。

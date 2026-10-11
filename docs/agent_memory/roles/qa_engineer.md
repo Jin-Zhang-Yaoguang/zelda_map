@@ -25,3 +25,5 @@ r2独立Auth7/browser19通过，另编辑清Auth提示2组通过只重建root；
 - BOTW-r3-EMAILONLY，confirmed为2026-10-11最新本人范围：仅邮箱注册/密码登录+访客，取消GitHub/OAuth接入；旧角色r1/r2 GitHub/SMTP待条件已被替代。Confirm OFF与最低8已核验，有限实云10组保留原范围。当前六源码删除、测试及巡检见版本04/07/09和email_only_report；该记录不宣称本角色参与新的设计或代签本人验收，未发布。
 
 - BOTW-r4-MAP，2026-10-11，本人当前范围：所有zoom神庙开关（DLC上方）、36px/44命中，原生24k×20k分级PNG和滚轮响应修复，旧far-only-shrine规则被替代。原Auth/云/数据不变；实际实现、源hash、验证与未覆盖见04/06/07/09及map_fix_report。专业记录不代签本人复验，不宣称本角色额外参与实施。
+
+- BOTW-v020-PUBLISHED，2026-10-11：本人r4通过并授权现有repo/Pages发布，产品0673e7c/run38145129220成功；独立8资源/4类页面验证完成，最新生产v0.2.0。首native超时保留，定向加载通过但未定位全部时序原因；不扩为新真人Auth/GPU/云写证据。正式状态以00/10/online_test_report为准，本角色记忆不新增或代签授权。

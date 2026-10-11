@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "version": "v0.2.0",
-  "stage": "release",
-  "status": "running",
+  "stage": "completed",
+  "status": "completed",
   "docs": {
     "01_需求文档.md": "r4_complete",
     "02_PRD.md": "r4_complete",
@@ -11,10 +11,10 @@
     "05_测试方案.md": "r4_complete",
     "06_开发记录.md": "r4_complete_for_current_stage",
     "07_测试报告.md": "r4_14_browser_groups_and_builds_pass",
-    "08_用户验收.md": "accepted_with_current_human_evidence",
-    "09_仓库巡检报告.md": "r4_preinspection_complete",
-    "10_上线记录.md": "release_in_progress",
-    "11_版本开发总结.md": "r4_pre_acceptance_summary"
+    "08_用户验收.md": "accepted_by_current_human",
+    "09_仓库巡检报告.md": "formal_pre_release_pass",
+    "10_上线记录.md": "production_deployment_and_online_verification_complete",
+    "11_版本开发总结.md": "final"
   },
   "approval": [
     {
@@ -101913,11 +101913,9 @@
     "auth_redirects": "Site URL and three exact roots saved; no wildcards",
     "github_provider": "disabled; user canceled integration"
   },
-  "external_requirements": [
-    "Authorized GitHub push and Pages deployment/online verification"
-  ],
+  "external_requirements": [],
   "unresolved_engineering_blockers": [],
-  "public_build_variables": "configured and API-readback matched; no deployment",
+  "public_build_variables": "configured, API-readback matched and used by successful production build",
   "local_candidate_inputs": "evidence/r4/candidate-manifest.json",
   "test_scope": "r4 typecheck, root/Pages full tile hashes/CRC/grid and 14 unique browser groups pass; response microbenchmark with differing gain/trajectory/load; human version acceptance received; no claim of separately instrumented human GPU benchmark",
   "qa_candidate_manifest": "evidence/r4/candidate-manifest.json",
@@ -101961,5 +101959,20 @@
     ],
     "source_manifest": "data/sources/map-tiles-manifest.json"
   },
-  "candidate_fingerprint": "f6a793a00a8af277b61c7199eb69aeb7b1afdfbd7b836a0c9de2a8f73cb9e971"
+  "candidate_fingerprint": "f6a793a00a8af277b61c7199eb69aeb7b1afdfbd7b836a0c9de2a8f73cb9e971",
+  "deployment": {
+    "verified_at": "2026-10-11T14:11:49.556721+00:00",
+    "source_commit": "0673e7cb9ad12dc9771feefb89c81395958894c8",
+    "actions_run": 38145129220,
+    "actions_url": "https://github.com/Jin-Zhang-Yaoguang/zelda_map/actions/runs/38145129220",
+    "site_url": "https://jin-zhang-yaoguang.github.io/zelda_map/",
+    "artifact_tar_sha256": "230888697607b5195aea6dac22b226a7593b750aa855354b982157e0c049af96",
+    "http_artifact_checks_passed": 8,
+    "unique_browser_groups_with_pass_evidence": 4,
+    "first_browser_groups_passed": 3,
+    "targeted_native_group_passed": 1,
+    "notes": "Initial native locator wait timed out; retained first evidence. Targeted actual DPR2/zoom2/native7 loading passed, root cause not fully confirmed, no source/test-file modifications. Online tests use isolated synthetic guest and do not submit Auth or cloud progress."
+  },
+  "source_commit": "0673e7cb9ad12dc9771feefb89c81395958894c8",
+  "completed_at": "2026-10-11T14:11:49.556721+00:00"
 }
